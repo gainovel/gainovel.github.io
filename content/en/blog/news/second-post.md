@@ -44,6 +44,20 @@ Dixi ad aestum.
 ```
 This is a code block following a header.
 ```
+```mermaid
+info
+```
+
+```mermaid
+sequenceDiagram
+    participant a1
+    participant a2
+    participant a3
+    a1->>+a2:sdlkf
+    a2->>-a1:SDFVC
+    a1->>+a3:sdlkjfaksl
+    a3->>-a1:sdlksdfsaksl
+```
 
 #### Header 4
 
