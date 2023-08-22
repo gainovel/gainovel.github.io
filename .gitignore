@@ -29,3 +29,10 @@ go.work.sum
 # vim auto backup file
 *~
 !OWNERS
+
+# nodejs,hugo
+/public
+resources/
+node_modules/
+package-lock.json
+.hugo_build.lock
