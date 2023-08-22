@@ -4,6 +4,7 @@
 
 分支blog对应个人博客网站
 
+
 ## [小说网站novel](https://novel.xiandao.com)
 
 分支novel对应小说网站
@@ -21,7 +22,4 @@ sequenceDiagram
 
 ```
 
-
-
-
-<p style="text-align:center">2023/8/22 17:26</p>
+<center>2023/8/22 17:26</center>
