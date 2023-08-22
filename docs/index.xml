@@ -97,7 +97,16 @@ Dixi ad aestum.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;header-3&#34;&gt;Header 3&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This is a code block following a header.
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;header-4&#34;&gt;Header 4&lt;/h4&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;pre class=&#34;mermaid&#34;&gt;info&lt;/pre&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;sequenceDiagram
+    participant a1
+    participant a2
+    participant a3
+    a1-&amp;gt;&amp;gt;&amp;#43;a2:sdlkf
+    a2-&amp;gt;&amp;gt;-a1:SDFVC
+    a1-&amp;gt;&amp;gt;&amp;#43;a3:sdlkjfaksl
+    a3-&amp;gt;&amp;gt;-a1:sdlksdfsaksl&lt;/pre&gt;
+&lt;h4 id=&#34;header-4&#34;&gt;Header 4&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
 &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
