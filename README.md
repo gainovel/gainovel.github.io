@@ -22,4 +22,4 @@ sequenceDiagram
 
 ```
 
-<center>2023/8/22 17:26</center>
+<p align="center">2023/8/22 17:26</p>
