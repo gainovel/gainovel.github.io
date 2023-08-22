@@ -22,4 +22,4 @@ sequenceDiagram
 
 ```
 
-<p align="center">2023/8/22 17:26</p>
+<p align="center">Copyright © [2023/8/22 17:26] [gainovel]. All rights reserved.</p>
