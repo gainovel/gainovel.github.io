@@ -11,5 +11,5 @@ hugo --ignoreCache
 cp -r public docs
 
 git add .
-git commit -m "modify blog"
+git commit -m "update blog"
 git push origin blog
