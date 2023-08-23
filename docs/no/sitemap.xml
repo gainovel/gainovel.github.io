@@ -204,6 +204,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh"
+                href="https://gainovel.github.io/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="no"
                 href="https://gainovel.github.io/no/categories/"
                 />
@@ -239,6 +244,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh"
+                href="https://gainovel.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="no"
                 href="https://gainovel.github.io/no/tags/"
                 />
@@ -249,6 +259,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://gainovel.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://gainovel.github.io/zh/"
                 />
     <xhtml:link
                 rel="alternate"

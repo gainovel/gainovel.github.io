@@ -72,6 +72,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh"
+                href="https://gainovel.github.io/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fa"
                 href="https://gainovel.github.io/fa/categories/"
                 />
@@ -89,6 +94,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh"
+                href="https://gainovel.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fa"
                 href="https://gainovel.github.io/fa/tags/"
                 />
@@ -99,6 +109,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://gainovel.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://gainovel.github.io/zh/"
                 />
     <xhtml:link
                 rel="alternate"

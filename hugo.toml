@@ -1,5 +1,5 @@
 baseURL = "https://gainovel.github.io/"
-title = "Goldydocs"
+title = "Gainovel"
 
 # Language settings
 contentDir = "content/en"
@@ -60,18 +60,18 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-languageName ="English"
+languageName ="中文"
 # Weight used for sorting.
 weight = 1
-[languages.en.params]
-title = "Goldydocs"
-description = "A Docsy example site"
+[languages.zh.params]
+title = "Gainovel"
+description = "tiandao blog"
 
 [languages.no]
 languageName ="Norsk"
 contentDir = "content/no"
 [languages.no.params]
-title = "Goldydocs"
+title = "Gainovel"
 description = "Docsy er operativsystem for skyen"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
@@ -104,8 +104,8 @@ time_format_blog = "2006.01.02"
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "The Docsy Authors"
-privacy_policy = "https://policies.google.com/privacy"
+copyright = "The Gainovel Authors"
+privacy_policy = "blog.tiandao.com"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]

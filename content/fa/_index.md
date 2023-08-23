@@ -53,7 +53,7 @@ title: "اسناد گلدی"
 
 {{< blocks/section type="row" >}}
 {{% blocks/feature icon="fab fa-app-store-ios" title="از **فروشگاه اپ استور** دانلود کنید" %}}
-Get the Goldydocs app!
+Get the Gainovel app!
 {{% /blocks/feature %}}
 
 

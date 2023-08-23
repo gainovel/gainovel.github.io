@@ -144,7 +144,7 @@ This error occurs if you have not installed the `go` programming language on you
 See this [section](https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/#install-go-language) of the user guide for instructions on how to install `go`.
 
 
-[alternate dashboard]: https://app.netlify.com/sites/goldydocs/deploys
+[alternate dashboard]: https://app.netlify.com/sites/Gainovel/deploys
 [deploys]: https://app.netlify.com/sites/docsy-example/deploys
 [Docsy user guide]: https://docsy.dev/docs
 [Docsy]: https://github.com/google/docsy
