@@ -154,6 +154,47 @@ This is the multi-page printable view of this section.
     
 	
 
+    <li><a href="#pg-dab315c357b662cfb6579928147c649b">Linux</a></li>
+
+
+
+    
+    <ul>
+        
+  
+  
+  
+  
+
+  
+    
+    
+	
+
+    <li><a href="#pg-73c364472793c965d56dba250a5fe5fc">Shell脚本</a></li>
+
+
+
+    
+  
+    
+    
+	
+
+    <li><a href="#pg-21cf764086e3ced5f402b24f91bc0d26">Linux系统问题定位与性能调优</a></li>
+
+
+
+    
+  
+
+    </ul>
+    
+  
+    
+    
+	
+
     <li><a href="#pg-8a5bac97a351e5b088b9a06451f482c0">操作系统</a></li>
 
 
@@ -192,7 +233,7 @@ This is the multi-page printable view of this section.
     
 	
 
-    <li><a href="#pg-aaeb3ad909de9c3f156daaa9cdc738e1">TCP相关面试题</a></li>
+    <li><a href="#pg-050c240270df7a06017751693acb69cc">HTTP相关面试题</a></li>
 
 
 
@@ -202,7 +243,7 @@ This is the multi-page printable view of this section.
     
 	
 
-    <li><a href="#pg-050c240270df7a06017751693acb69cc">HTTP相关面试题</a></li>
+    <li><a href="#pg-aaeb3ad909de9c3f156daaa9cdc738e1">TCP相关面试题</a></li>
 
 
 
@@ -433,6 +474,189 @@ This is the multi-page printable view of this section.
   
 
 <div class="td-content" style="page-break-before: always">
+    <h1 id="pg-dab315c357b662cfb6579928147c649b">Linux</h1>
+	
+	<div class="td-byline mb-4">
+		
+        
+	</div>
+	
+</div>
+
+
+
+
+
+    
+      
+  
+  
+  
+  
+
+  
+  
+
+  
+    
+    
+	
+    
+
+
+  
+
+<div class="td-content" style="">
+    <h1 id="pg-73c364472793c965d56dba250a5fe5fc">Shell脚本</h1>
+	<div class="lead">整理Shell脚本相关面试题，准备2023面试&hellip; <br> 经济危机，普通人的出路在哪里</div>
+	<div class="td-byline mb-4">
+		By <b>Gainovel (<a href="https://gainovel.github.io/">@gainovel</a>)</b> |
+        
+		<time datetime="2023-08-23" class="text-muted">Wednesday, August 23, 2023</time>
+        
+	</div>
+	<h2 id="1-什么是http">1. 什么是HTTP？</h2>
+<ol>
+<li>超文本传输协议(HyperText Transfer Protocol)</li>
+<li>HTTP传输的内容是超文本。它是文字、图片、视频等的混合体</li>
+<li>传输就是把数据从计算机网络的某个节点传递到另一个节点</li>
+<li>协议就是一种约定和行为规范</li>
+</ol>
+<h2 id="2-http常见的状态码有哪些">2. HTTP常见的状态码有哪些？</h2>
+<ol>
+<li>1xx类表示信息性状态码；是协议处理中的一种中间状态，实际用到的比较少</li>
+<li>2xx类表示成功状态码；服务器成功处理了客户端的请求
+<ol>
+<li>[200 OK] 成功</li>
+<li>[204 No Content] 与[200 OK]基本相同，只是相应头中没有body数据</li>
+<li>[206 Partial Content]用于HTTTP分块下载或断点续传，表示想用返回的body数据只是一部分</li>
+</ol>
+</li>
+<li>3xx类表示重定向状态码；客户端请求的资源发生了变动，需要重定向
+<ol>
+<li>[301 Moved Permanently]表示永久重定向，说明请求的资源已经不存在了，需改用新的URL再次访问</li>
+<li>[302 Found]表示临时重定向，说明请求的资源还在，但暂时需要用另一个URL来访问</li>
+<li>301和302都会在响应头里使用字段Location，指明后续要跳转的URL，浏览器会自动重定向新的URL</li>
+<li>[304 Not Modified] 缓存重定向</li>
+</ol>
+</li>
+<li>4xx类表示客户端错误状态码；客户端发送的报文有误，服务器无法处理
+<ol>
+<li>[400 Bad Request]比较笼统的错误</li>
+<li>[403 Forbiddden]表示服务器禁止访问资源，一般是由于没有权限</li>
+<li>[404 Not Found] 表示请求的资源在服务器上不存在或未找到</li>
+</ol>
+</li>
+<li>5xx类状态码表示服务器错误状态码；服务器处理时内部发生了错误
+<ol>
+<li>[500 Internal Server Error]比较笼统</li>
+<li>[501 Not Implemented]表示客户端请求的功能还不支持</li>
+<li>[502 Bad Gateway] 服务器以代理服务器或网关的形式工作时，收到从上游服务器到达的执行请求的非法响应</li>
+<li>[503 Service Unavailable]表示服务器当前很忙，暂时无法响应客户端</li>
+</ol>
+</li>
+</ol>
+<pre class="mermaid">sequenceDiagram
+    actor me as 我
+    participant blog as 个人博客
+    participant novel as 小说网站
+
+    me -&gt;&gt;&#43; blog: 写博客发布到个人博客网站上
+    blog -&gt;&gt;- me: 成功
+    me -&gt;&gt;&#43; novel: 写小说发布到小说网站上
+    novel -&gt;&gt;- me: 成功</pre>
+<p align="center">Copyright © [2023/8/23 17:46] [gainovel]. All rights reserved.</p>
+</div>
+
+
+
+
+
+    
+	
+  
+    
+    
+	
+    
+
+
+  
+
+<div class="td-content" style="page-break-before: always">
+    <h1 id="pg-21cf764086e3ced5f402b24f91bc0d26">Linux系统问题定位与性能调优</h1>
+	<div class="lead">整理Linux系统相关面试题，准备2023面试&hellip;<br> 经济危机，普通人的出路在哪里</div>
+	<div class="td-byline mb-4">
+		By <b>Gainovel (<a href="https://gainovel.github.io/">@gainovel</a>)</b> |
+        
+		<time datetime="2023-08-23" class="text-muted">Wednesday, August 23, 2023</time>
+        
+	</div>
+	<h2 id="1-什么是http">1. 什么是HTTP？</h2>
+<ol>
+<li>超文本传输协议(HyperText Transfer Protocol)</li>
+<li>HTTP传输的内容是超文本。它是文字、图片、视频等的混合体</li>
+<li>传输就是把数据从计算机网络的某个节点传递到另一个节点</li>
+<li>协议就是一种约定和行为规范</li>
+</ol>
+<h2 id="2-http常见的状态码有哪些">2. HTTP常见的状态码有哪些？</h2>
+<ol>
+<li>1xx类表示信息性状态码；是协议处理中的一种中间状态，实际用到的比较少</li>
+<li>2xx类表示成功状态码；服务器成功处理了客户端的请求
+<ol>
+<li>[200 OK] 成功</li>
+<li>[204 No Content] 与[200 OK]基本相同，只是相应头中没有body数据</li>
+<li>[206 Partial Content]用于HTTTP分块下载或断点续传，表示想用返回的body数据只是一部分</li>
+</ol>
+</li>
+<li>3xx类表示重定向状态码；客户端请求的资源发生了变动，需要重定向
+<ol>
+<li>[301 Moved Permanently]表示永久重定向，说明请求的资源已经不存在了，需改用新的URL再次访问</li>
+<li>[302 Found]表示临时重定向，说明请求的资源还在，但暂时需要用另一个URL来访问</li>
+<li>301和302都会在响应头里使用字段Location，指明后续要跳转的URL，浏览器会自动重定向新的URL</li>
+<li>[304 Not Modified] 缓存重定向</li>
+</ol>
+</li>
+<li>4xx类表示客户端错误状态码；客户端发送的报文有误，服务器无法处理
+<ol>
+<li>[400 Bad Request]比较笼统的错误</li>
+<li>[403 Forbiddden]表示服务器禁止访问资源，一般是由于没有权限</li>
+<li>[404 Not Found] 表示请求的资源在服务器上不存在或未找到</li>
+</ol>
+</li>
+<li>5xx类状态码表示服务器错误状态码；服务器处理时内部发生了错误
+<ol>
+<li>[500 Internal Server Error]比较笼统</li>
+<li>[501 Not Implemented]表示客户端请求的功能还不支持</li>
+<li>[502 Bad Gateway] 服务器以代理服务器或网关的形式工作时，收到从上游服务器到达的执行请求的非法响应</li>
+<li>[503 Service Unavailable]表示服务器当前很忙，暂时无法响应客户端</li>
+</ol>
+</li>
+</ol>
+<pre class="mermaid">info</pre>
+
+</div>
+
+
+
+
+
+    
+	
+  
+
+    
+	
+  
+    
+    
+	
+    
+
+
+  
+
+<div class="td-content" style="page-break-before: always">
     <h1 id="pg-8a5bac97a351e5b088b9a06451f482c0">操作系统</h1>
 	
 	<div class="td-byline mb-4">
@@ -475,8 +699,6 @@ This is the multi-page printable view of this section.
 	<div class="td-byline mb-4">
 		
         
-		<time datetime="2023-08-23" class="text-muted">Wednesday, August 23, 2023</time>
-        
 	</div>
 	
 </div>
@@ -505,6 +727,122 @@ This is the multi-page printable view of this section.
   
 
 <div class="td-content" style="">
+    <h1 id="pg-050c240270df7a06017751693acb69cc">HTTP相关面试题</h1>
+	<div class="lead">整理HTTP相关面试题，准备2023面试&hellip;<br> 经济危机，普通人的出路在哪里</div>
+	<div class="td-byline mb-4">
+		By <b>Gainovel (<a href="https://gainovel.github.io/">@gainovel</a>)</b> |
+        
+		<time datetime="2023-08-23" class="text-muted">Wednesday, August 23, 2023</time>
+        
+	</div>
+	<h2 id="1-什么是http">1. 什么是HTTP？</h2>
+<ol>
+<li>超文本传输协议(HyperText Transfer Protocol)</li>
+<li>HTTP传输的内容是超文本。它是文字、图片、视频等的混合体</li>
+<li>传输就是把数据从计算机网络的某个节点传递到另一个节点</li>
+<li>协议就是一种约定和行为规范</li>
+</ol>
+<h2 id="2-http常见的状态码有哪些">2. HTTP常见的状态码有哪些？</h2>
+<ol>
+<li>1xx类表示信息性状态码；是协议处理中的一种中间状态，实际用到的比较少</li>
+<li>2xx类表示成功状态码；服务器成功处理了客户端的请求
+<ol>
+<li>[200 OK] 成功</li>
+<li>[204 No Content] 与[200 OK]基本相同，只是相应头中没有body数据</li>
+<li>[206 Partial Content]用于HTTTP分块下载或断点续传，表示想用返回的body数据只是一部分</li>
+</ol>
+</li>
+<li>3xx类表示重定向状态码；客户端请求的资源发生了变动，需要重定向
+<ol>
+<li>[301 Moved Permanently]表示永久重定向，说明请求的资源已经不存在了，需改用新的URL再次访问</li>
+<li>[302 Found]表示临时重定向，说明请求的资源还在，但暂时需要用另一个URL来访问</li>
+<li>301和302都会在响应头里使用字段Location，指明后续要跳转的URL，浏览器会自动重定向新的URL</li>
+<li>[304 Not Modified] 缓存重定向</li>
+</ol>
+</li>
+<li>4xx类表示客户端错误状态码；客户端发送的报文有误，服务器无法处理
+<ol>
+<li>[400 Bad Request]比较笼统的错误</li>
+<li>[403 Forbiddden]表示服务器禁止访问资源，一般是由于没有权限</li>
+<li>[404 Not Found] 表示请求的资源在服务器上不存在或未找到</li>
+</ol>
+</li>
+<li>5xx类状态码表示服务器错误状态码；服务器处理时内部发生了错误
+<ol>
+<li>[500 Internal Server Error]比较笼统</li>
+<li>[501 Not Implemented]表示客户端请求的功能还不支持</li>
+<li>[502 Bad Gateway] 服务器以代理服务器或网关的形式工作时，收到从上游服务器到达的执行请求的非法响应</li>
+<li>[503 Service Unavailable]表示服务器当前很忙，暂时无法响应客户端</li>
+</ol>
+</li>
+</ol>
+<h2 id="bash-test">Bash Test</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">#!/usr/bin/env sh
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">if</span> <span style="color:#ce5c00;font-weight:bold">[</span> -d public <span style="color:#ce5c00;font-weight:bold">]</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#204a87;font-weight:bold">then</span>
+</span></span><span style="display:flex;"><span>   rm -rf public
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">fi</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">if</span> <span style="color:#ce5c00;font-weight:bold">[</span> -d docs <span style="color:#ce5c00;font-weight:bold">]</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#204a87;font-weight:bold">then</span>
+</span></span><span style="display:flex;"><span>   rm -rf docs
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">fi</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">if</span> <span style="color:#ce5c00;font-weight:bold">[</span> -d resources <span style="color:#ce5c00;font-weight:bold">]</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#204a87;font-weight:bold">then</span>
+</span></span><span style="display:flex;"><span>   rm -rf resources
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>hugo --ignoreCache
+</span></span><span style="display:flex;"><span>cp -r public docs
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#4e9a06">&#34;update blog: </span><span style="color:#000">$1</span><span style="color:#4e9a06">&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin blog
+</span></span></code></pre></div><h2 id="including-images">Including images</h2>
+<p>Here&rsquo;s an image (<code>featured-sunset-get.png</code>) that includes a byline and a caption.</p>
+<figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 810px">
+<img class="card-img-top" src="/blog/2023/08/23/http%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/pic/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_800x400_fill_catmullrom_smart1_3.png" width="800" height="400">
+<figcaption class="card-body px-0 pt-2 pb-0">
+<p class="card-text">
+
+
+Fetch and scale an image in the upcoming Hugo 0.43.
+<small class="text-muted"><br/>Photo: Gainovel / tiandao</small>
+</p>
+</figcaption>
+</figure>
+
+<p>The front matter of this post specifies properties to be assigned to all image resources:</p>
+<p>To include the image in a page, specify its details like this:</p>
+<pre tabindex="0"><code><figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
+<img class="card-img-top" src="/blog/2023/08/23/http%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/pic/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_3.png" width="600" height="300">
+<figcaption class="card-body px-0 pt-2 pb-0">
+<p class="card-text">
+
+
+Fetch and scale an image in the upcoming Hugo 0.43.
+<small class="text-muted"><br/>Photo: Gainovel / tiandao</small>
+</p>
+</figcaption>
+</figure>
+
+</code></pre><p>The image will be rendered at the size and byline specified in the front matter.</p>
+
+</div>
+
+
+
+
+
+    
+	
+  
+    
+    
+	
+    
+
+
+  
+
+<div class="td-content" style="page-break-before: always">
     <h1 id="pg-aaeb3ad909de9c3f156daaa9cdc738e1">TCP相关面试题</h1>
 	<div class="lead">整理HTTP相关面试题，准备2023面试&hellip;<br> 经济危机，普通人的出路在哪里</div>
 	<div class="td-byline mb-4">
@@ -573,103 +911,6 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 <p>To include the image in a page, specify its details like this:</p>
 <pre tabindex="0"><code><figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
 <img class="card-img-top" src="/blog/2023/08/23/tcp%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/pic/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_3.png" width="600" height="300">
-<figcaption class="card-body px-0 pt-2 pb-0">
-<p class="card-text">
-
-
-Fetch and scale an image in the upcoming Hugo 0.43.
-<small class="text-muted"><br/>Photo: Gainovel / tiandao</small>
-</p>
-</figcaption>
-</figure>
-
-</code></pre><p>The image will be rendered at the size and byline specified in the front matter.</p>
-
-</div>
-
-
-
-
-
-    
-	
-  
-    
-    
-	
-    
-
-
-  
-
-<div class="td-content" style="page-break-before: always">
-    <h1 id="pg-050c240270df7a06017751693acb69cc">HTTP相关面试题</h1>
-	<div class="lead">整理HTTP相关面试题，准备2023面试&hellip;<br> 经济危机，普通人的出路在哪里</div>
-	<div class="td-byline mb-4">
-		By <b>Gainovel (<a href="https://gainovel.github.io/">@gainovel</a>)</b> |
-        
-		<time datetime="2023-08-23" class="text-muted">Wednesday, August 23, 2023</time>
-        
-	</div>
-	<h2 id="1-什么是http">1. 什么是HTTP？</h2>
-<ol>
-<li>超文本传输协议(HyperText Transfer Protocol)</li>
-<li>HTTP传输的内容是超文本。它是文字、图片、视频等的混合体</li>
-<li>传输就是把数据从计算机网络的某个节点传递到另一个节点</li>
-<li>协议就是一种约定和行为规范</li>
-</ol>
-<h2 id="2-http常见的状态码有哪些">2. HTTP常见的状态码有哪些？</h2>
-<ol>
-<li>1xx类表示信息性状态码；是协议处理中的一种中间状态，实际用到的比较少</li>
-<li>2xx类表示成功状态码；服务器成功处理了客户端的请求
-<ol>
-<li>[200 OK] 成功</li>
-<li>[204 No Content] 与[200 OK]基本相同，只是相应头中没有body数据</li>
-<li>[206 Partial Content]用于HTTTP分块下载或断点续传，表示想用返回的body数据只是一部分</li>
-</ol>
-</li>
-<li>3xx类表示重定向状态码；客户端请求的资源发生了变动，需要重定向
-<ol>
-<li>[301 Moved Permanently]表示永久重定向，说明请求的资源已经不存在了，需改用新的URL再次访问</li>
-<li>[302 Found]表示临时重定向，说明请求的资源还在，但暂时需要用另一个URL来访问</li>
-<li>301和302都会在响应头里使用字段Location，指明后续要跳转的URL，浏览器会自动重定向新的URL</li>
-<li>[304 Not Modified] 缓存重定向</li>
-</ol>
-</li>
-<li>4xx类表示客户端错误状态码；客户端发送的报文有误，服务器无法处理
-<ol>
-<li>[400 Bad Request]比较笼统的错误</li>
-<li>[403 Forbiddden]表示服务器禁止访问资源，一般是由于没有权限</li>
-<li>[404 Not Found] 表示请求的资源在服务器上不存在或未找到</li>
-</ol>
-</li>
-<li>5xx类状态码表示服务器错误状态码；服务器处理时内部发生了错误
-<ol>
-<li>[500 Internal Server Error]比较笼统</li>
-<li>[501 Not Implemented]表示客户端请求的功能还不支持</li>
-<li>[502 Bad Gateway] 服务器以代理服务器或网关的形式工作时，收到从上游服务器到达的执行请求的非法响应</li>
-<li>[503 Service Unavailable]表示服务器当前很忙，暂时无法响应客户端</li>
-</ol>
-</li>
-</ol>
-<h2 id="including-images">Including images</h2>
-<p>Here&rsquo;s an image (<code>featured-sunset-get.png</code>) that includes a byline and a caption.</p>
-<figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 810px">
-<img class="card-img-top" src="/blog/2023/08/23/http%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/pic/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_800x400_fill_catmullrom_smart1_3.png" width="800" height="400">
-<figcaption class="card-body px-0 pt-2 pb-0">
-<p class="card-text">
-
-
-Fetch and scale an image in the upcoming Hugo 0.43.
-<small class="text-muted"><br/>Photo: Gainovel / tiandao</small>
-</p>
-</figcaption>
-</figure>
-
-<p>The front matter of this post specifies properties to be assigned to all image resources:</p>
-<p>To include the image in a page, specify its details like this:</p>
-<pre tabindex="0"><code><figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
-<img class="card-img-top" src="/blog/2023/08/23/http%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/pic/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_3.png" width="600" height="300">
 <figcaption class="card-body px-0 pt-2 pb-0">
 <p class="card-text">
 
@@ -782,8 +1023,6 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 	
 	<div class="td-byline mb-4">
 		
-        
-		<time datetime="2023-08-23" class="text-muted">Wednesday, August 23, 2023</time>
         
 	</div>
 	
@@ -1823,7 +2062,7 @@ bar := &#34;foo&#34;;
 <ul class="td-footer__links-list">
   
   <li class="td-footer__links-item" data-bs-toggle="tooltip" title="GitHub" aria-label="GitHub">
-    <a target="_blank" rel="noopener" href="https://github.com/google/docsy" aria-label="GitHub">
+    <a target="_blank" rel="noopener" href="https://github.com/gainovel/gainovel.github.io" aria-label="GitHub">
       <i class="fab fa-github"></i>
     </a>
   </li>

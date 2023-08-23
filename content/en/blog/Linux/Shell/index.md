@@ -40,5 +40,16 @@ author: Gainovel ([@gainovel](https://gainovel.github.io/))
 
 
 ```mermaid
-info
+sequenceDiagram
+    actor me as 我
+    participant blog as 个人博客
+    participant novel as 小说网站
+
+    me ->>+ blog: 写博客发布到个人博客网站上
+    blog ->>- me: 成功
+    me ->>+ novel: 写小说发布到小说网站上
+    novel ->>- me: 成功
+
 ```
+
+<p align="center">Copyright © [2023/8/23 17:46] [gainovel]. All rights reserved.</p>
