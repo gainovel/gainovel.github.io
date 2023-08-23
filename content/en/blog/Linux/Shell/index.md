@@ -1,17 +1,12 @@
 ---
 date: 2023-08-23
-title: HTTP相关面试题
-linkTitle: HTTP
+title: Shell脚本
+linkTitle: Shell
 weight: 1
 description: >
-  整理HTTP相关面试题，准备2023面试...<br>
+  整理Shell脚本相关面试题，准备2023面试... <br>
   经济危机，普通人的出路在哪里
 author: Gainovel ([@gainovel](https://gainovel.github.io/))
-resources:
-  - src: "**.{png,jpg}"
-    title: "Image #:counter"
-    params:
-      byline: "Photo: Gainovel / tiandao"
 ---
 
 ## 1. 什么是HTTP？
@@ -44,46 +39,6 @@ resources:
     4. [503 Service Unavailable]表示服务器当前很忙，暂时无法响应客户端
 
 
-## Bash Test
-```bash
-#!/usr/bin/env sh
-
-if [ -d public ]; then
-   rm -rf public
-fi
-if [ -d docs ]; then
-   rm -rf docs
-fi
-if [ -d resources ]; then
-   rm -rf resources
-fi
-
-hugo --ignoreCache
-cp -r public docs
-
-git add .
-git commit -m "update blog: $1"
-git push origin blog
+```mermaid
+info
 ```
-
-## Including images
-
-Here's an image (`featured-sunset-get.png`) that includes a byline and a caption.
-
-{{< imgproc sunset Fill "800x400" >}}
-Fetch and scale an image in the upcoming Hugo 0.43.
-{{< /imgproc >}}
-
-The front matter of this post specifies properties to be assigned to all image resources:
-
-To include the image in a page, specify its details like this:
-
-```
-{{< imgproc sunset Fill "600x300" >}}
-Fetch and scale an image in the upcoming Hugo 0.43.
-{{< /imgproc >}}
-```
-
-The image will be rendered at the size and byline specified in the front matter.
-
-
