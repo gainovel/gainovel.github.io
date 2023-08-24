@@ -15,6 +15,214 @@
     
     
     <item>
+      <title>Blog: Shell脚本</title>
+      <link>https://gainovel.github.io/blog/2023/08/24/shell%E8%84%9A%E6%9C%AC/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gainovel.github.io/blog/2023/08/24/shell%E8%84%9A%E6%9C%AC/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;center一-linux系统组成简介&#34;&gt;&lt;center&gt;一、 Linux系统组成简介?&lt;/h1&gt;
+&lt;p&gt;  各部分彼此写作，构成整个Linux系统&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;pic/Linux%E7%B3%BB%E7%BB%9F%E7%BB%84%E6%88%90.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;11-linux内核简介&#34;&gt;1.1 Linux内核简介？&lt;/h2&gt;
+&lt;p&gt;概览图&lt;/p&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;flowchart TB
+    l0(Linux内核) --&amp;gt; l1_1(简介) --&amp;gt; l2_1(作用)
+    l2_1 --&amp;gt; l3_1(系统内存管理)
+    l2_1 --&amp;gt; l3_2(软件程序管理)
+    l2_1 --&amp;gt; l3_3(硬件设备管理)
+    l2_1 --&amp;gt; l3_4(文件系统管理)&lt;/pre&gt;
+&lt;p&gt;思维风暴&lt;/p&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;flowchart TB
+    l0(Linux系统组成简介?) --&amp;gt; l1_1(Linux内核)
+    l1_1 --&amp;gt; l2_1(系统内存管理)
+    l1_1 --&amp;gt; l2_2(软件程序管理)
+    l1_1 --&amp;gt; l2_3(硬件设备管理)
+    l1_1 --&amp;gt; l2_4(文件系统管理)
+    l2_1 --&amp;gt; l3_1(物理内存)
+    l2_1 --&amp;gt; l3_2(虚拟内存)
+    l3_1 --&amp;gt; l4_1(寻址方式)
+    l3_2 --&amp;gt; l4_3(实现方式)
+    l3_2 --&amp;gt; l4_2(页表项)
+    l4_2 --&amp;gt;|单页表映射内存大小| l5_1(4KB)
+    l4_2 --&amp;gt;|存储位置| l5_2(内存,交换空间)
+    l4_3 --&amp;gt; l5_3(分段)
+    l4_3 --&amp;gt; l5_4(分页)
+    l4_3 --&amp;gt; l5_5(映射规则)
+    l5_1 --&amp;gt;|计算| l6_1(4GB需要多少页表项?)
+    l2_2 --&amp;gt;|管理| l3_3(所有的进程)
+    l2_2 --&amp;gt;|内核创建第一个&amp;lt;br&amp;gt;用户态进程| l3_4(init进程)
+    l3_4 --&amp;gt;|init进程实现方式1| l4_4(SysVinit)
+    l3_4 --&amp;gt;|init进程实现方式2| l4_4(systemd)
+    l2_3 --&amp;gt; l3_5(硬件驱动是什么?)
+    l2_3 --&amp;gt; l3_6(内核添加硬件设备的两种方式)
+    l3_6 --&amp;gt; l4_5(将硬件驱动编译入内核)
+    l3_6 --&amp;gt; l4_6(将设备驱动模块加入内核)
+    l4_5 --&amp;gt; l5_6(两种方式对比:&amp;lt;br&amp;gt;1.每次添加新设备&amp;lt;br&amp;gt;重新编译内核代码&amp;lt;br&amp;gt;2.提出了内核模块的概念,&amp;lt;br&amp;gt;允许在无须重新编译内核的情况下&amp;lt;br&amp;gt;将驱动程序插入运行中的内核)
+    l4_6 --&amp;gt; l5_6
+    l2_3 --&amp;gt;|Linux 系统将硬件设备&amp;lt;br&amp;gt;视为一种特殊文件| l3_7(设备文件&amp;lt;br&amp;gt;)
+    l3_7 --&amp;gt; l4_7(字符设备文件)
+    l3_7 --&amp;gt; l4_8(块设备文件)
+    l3_7 --&amp;gt; l4_9(网络设备文件)
+    l4_7 --&amp;gt; l5_7(每次只能处理一个字符的设备,&amp;lt;br&amp;gt;比如终端)
+    l4_8 --&amp;gt; l5_8(每次以块形式处理数据的设备,&amp;lt;br&amp;gt;比如硬盘驱动器)
+    l4_9 --&amp;gt; l5_9(采用数据包发送和接收数据的设备,&amp;lt;br&amp;gt;比如网卡)
+    l2_4 --&amp;gt;|是什么?| l3_8(读写硬盘数据)
+    l2_4 --&amp;gt; l3_9(Linux内核支持&amp;lt;br&amp;gt;通过不同类型的文件系统&amp;lt;br&amp;gt;读写硬盘数据)
+    l2_4 --&amp;gt; l3_10(硬盘驱动器&amp;lt;br&amp;gt;必须采用&amp;lt;br&amp;gt;Linux支持的&amp;lt;br&amp;gt;文件系统格式&amp;lt;br&amp;gt;进行格式化)
+    l2_4 --&amp;gt; l3_11(Linux内核采用&amp;lt;br&amp;gt;虚拟文件系统&amp;lt;br&amp;gt;virtual file system,VFS&amp;lt;br&amp;gt;作为和各种文件系统交互的接口&amp;lt;br&amp;gt;VFS为Linux内核&amp;lt;br&amp;gt;与其他类型文件系统&amp;lt;br&amp;gt;之间的通信&amp;lt;br&amp;gt;提供了一个标准接口)&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;简介：Linux系统的核心是内核。内核控制着计算机系统的所有硬件和软件，在必要时分配硬件，
+并根据需要执行软件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;作用&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;系统内存管理&lt;/li&gt;
+&lt;li&gt;软件程序管理&lt;/li&gt;
+&lt;li&gt;硬件设备管理&lt;/li&gt;
+&lt;li&gt;文件系统管理&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;111-linux系统内存管理&#34;&gt;1.1.1 Linux系统内存管理&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;内核不仅管理服务器上的可用物理内存，还可以创建并管理虚拟内存&lt;/li&gt;
+&lt;li&gt;内核为了隔离不同的进程，为每个进程分配了一套虚拟内存，虚拟内存用页表项的方式来实现，页表项存储在内存或者交换空间中&lt;/li&gt;
+&lt;li&gt;内核负责虚拟内存到物理内存的映射&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;114-32位系统采用一级页表方式需要多少个&#34;&gt;1.1.4. 32位系统采用一级页表方式需要多少个？&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;32位系统一个页表项可寻址内存大小为4KB，如果要覆盖4GB内存，则需要4GB/4KB=2^20个页表项&lt;/li&gt;
+&lt;li&gt;4KB指的是4096B，也就是4096个字节，4GB指的是4&lt;em&gt;1024&lt;/em&gt;1024*1024B&lt;/li&gt;
+&lt;li&gt;操作系统是按字节寻址，不是按位寻址&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;115-linux软件程序管理&#34;&gt;1.1.5. Linux软件程序管理&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Linux操作系统称运行中的程序为进程。进程可以在前台运行，也可以在后台运行&lt;/li&gt;
+&lt;li&gt;内核创建第一个进程是init进程用于启动系统中所有其他进程，内核控制着运行在系统中的所有进程。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;116-什么是init进程&#34;&gt;1.1.6. 什么是init进程？&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;init进程是内核创建的第一个用户态进程，用于启动系统中所有其他进程&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;117-什么是sysvinit和systemd&#34;&gt;1.1.7. 什么是SysVinit和Systemd?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;init进程的一种实现&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;118-linux硬件设备管理&#34;&gt;1.1.8. Linux硬件设备管理&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;将硬件通过驱动加入内核的两种方法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;flowchart TB
+    l0(Linux内核) --&amp;gt;|将硬件驱动编译入内核| l1_1(硬件驱动1) --&amp;gt; l2_1(硬件设备1)
+    l0 --&amp;gt;| 将设备驱动模块加入内核| l1_2(硬件驱动2) --&amp;gt; l2_2(硬件设备2)&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Linux 系统将硬件设备视为一种特殊文件，称为设备文件
+&lt;ol&gt;
+&lt;li&gt;字符设备文件&lt;/li&gt;
+&lt;li&gt;块设备文件&lt;/li&gt;
+&lt;li&gt;网络设备文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;119-什么是字符设备文件&#34;&gt;1.1.9. 什么是字符设备文件？&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;字符设备文件对应于每次只能处理一个字符的设备&lt;/li&gt;
+&lt;li&gt;比如终端&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;1110-什么是块设备文件&#34;&gt;1.1.10. 什么是块设备文件？&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;块设备文件对应于每次以块形式处理数据的设备&lt;/li&gt;
+&lt;li&gt;比如硬盘驱动器&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&#34;center&#34;&gt;Copyright © [2023/8/23 17:46] [gainovel]. All rights reserved.&lt;/p&gt;
+&lt;h2 id=&#34;12-gun实用工具&#34;&gt;1.2 GUN实用工具&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;GNU 代表 GNU’s Not Unix，一个开发开源软件的组织&lt;/li&gt;
+&lt;li&gt;开发出了一套完整的 Unix 实用工具&lt;/li&gt;
+&lt;li&gt;Linux 内核和 GNU 实用工具的结合体称为 Linux&lt;/li&gt;
+&lt;li&gt;GNU 项目旨在为 Unix 系统管理员打造出一套可用的类 Unix 环境。这个目标促使该项目移植了很多常见的 Unix 系统命令行工具&lt;/li&gt;
+&lt;li&gt;供 Linux 系统使用的这组核心工具被称为 coreutils（core utilities）软件包&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;121-什么是开源软件&#34;&gt;1.2.1 什么是开源软件？&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;开源软件理念允许程序员开发软件并将其免费发布。&lt;/li&gt;
+&lt;li&gt;所有人都可以使用、修改该软件，或将其集成进自己的系统，无须支付任何授权费用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;122-gnu-coreutils-软件包组成&#34;&gt;1.2.2 GNU coreutils 软件包组成？&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;文件实用工具&lt;/li&gt;
+&lt;li&gt;文本实用工具&lt;/li&gt;
+&lt;li&gt;进程实用工具&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;123-什么是shell&#34;&gt;1.2.3 什么是shell?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;shell 是一种特殊的交互式工具，为用户提供了启动程序、管理文件系统中的文件以及运行在 Linux 系统中的进程的途径&lt;/li&gt;
+&lt;li&gt;shell 包含一组内部命令，可用于完成复制文件、移动文件、重命名文件、显示和终止系统中正在运行的程序这类操作&lt;/li&gt;
+&lt;li&gt;将多个 shell 命令放入文件中作为程序执行。这些文件称作shell脚本&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;13-linux发行版&#34;&gt;1.3 Linux发行版&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;完整的核心Linux发行版&lt;/strong&gt;含有内核、一个或多个图形化桌面环境以及预编译好的大部分可用的Linux应用程序。它提供了一站式的完整
+Linux安装。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特定用途的Linux发行版&lt;/strong&gt;通常基于某个主流发行版，但仅包含其中一部分用于某种特定用途的应用程序&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;flowchart TB
+    l0(Linux发行版) --&amp;gt; l1_1(完整的核心 Linux 发行版)
+    l1_1 --&amp;gt; l2_1(Red Hat Enterprise)
+    l1_1 --&amp;gt; l2_2(Debian)
+    l1_1 --&amp;gt; l2_3(openSUSE)
+    l2_1 --&amp;gt;|衍生| l3_1(特定用途的 Linux 发行版)
+    l2_2 --&amp;gt;|衍生| l3_1
+    l2_3 --&amp;gt;|衍生| l3_1
+    l3_1 --&amp;gt;|源自Red Hat Enterprise| l4_1(Centos)
+    l3_1 --&amp;gt;|源自Debian| l4_2(Ubuntu)&lt;/pre&gt;
+&lt;h2 id=&#34;14-linux命令&#34;&gt;1.4 Linux命令&lt;/h2&gt;
+&lt;p&gt;Linux目录结构&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;pic/%E5%B8%B8%E8%A7%81%E7%9A%84Linux%E7%9B%AE%E5%BD%95%E5%90%8D.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;141-目录和文件相关命令&#34;&gt;1.4.1 目录和文件相关命令&lt;/h3&gt;
+&lt;h4 id=&#34;1411-ls&#34;&gt;1.4.1.1 ls&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;alias&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;lf&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ls -AlthF --time-style &amp;#39;+%Y/%m/%d %H:%M:%S&amp;#39; --color=auto&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;options:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-A  列出所有文件，包含隐藏文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-l  列出文件详细信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-t  按照文件修改时间进行排序
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-h  文件大小方便查看
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--time-style 时间现实的格式，一般年月日时分秒都加上
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-R  递归显示文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-F  帮助分辨文件类型，目录后面有/，文件后面没有/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-i  打印inode
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tips:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ls 命令支持正则匹配，eg. ls my* 会列出当前文件夹下以my开头的目录或文件
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;1412-ln&#34;&gt;1.4.1.2 ln&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/455508513&#34;&gt;https://zhuanlan.zhihu.com/p/455508513&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/hejinjing_tom_com/article/details/78809662&#34;&gt;https://blog.csdn.net/hejinjing_tom_com/article/details/78809662&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ln -s TARGET LINK_NAME //软连接，相当于创建快捷方式
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ln TARGET LINK_NAME //硬链接，其实是同一个文件
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;1413-file&#34;&gt;1.4.1.3 file&lt;/h4&gt;
+&lt;p&gt;探测文件的内部并判断文件类型&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ file test.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;test.txt: ASCII text
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ file /bin
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/bin: directory
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000&#34;&gt;$file&lt;/span&gt; /bin/ls
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/bin/ls: ELF 64-bit LSB shared object, x86-64, version &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;SYSV&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;, dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; GNU/Linux 3.2.0, BuildID&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;sha1&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]=&lt;/span&gt;9567f9a28e66f4d7ec4baf31cfbf68d0410f0ae6, stripped
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;1414-morelesstailhead&#34;&gt;1.4.1.4 more,less,tail,head&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tail -n &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;10&lt;/span&gt; test.txt 查看test.txt尾部10行
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;head -n &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;10&lt;/span&gt; test.txt 查看test.txt头部10行
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tail -f test.txt 实时查看test.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;142-进程相关命令&#34;&gt;1.4.2 进程相关命令&lt;/h3&gt;
+&lt;h4 id=&#34;1421-ps&#34;&gt;1.4.2.1 ps&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ps -auxf &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; grep 进程名
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: HTTP相关面试题</title>
       <link>https://gainovel.github.io/blog/2023/08/23/http%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
       <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
@@ -113,69 +321,6 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The image will be rendered at the size and byline specified in the front matter.&lt;/p&gt;
 
-      </description>
-    </item>
-    
-    <item>
-      <title>Blog: Shell脚本</title>
-      <link>https://gainovel.github.io/blog/2023/08/23/shell%E8%84%9A%E6%9C%AC/</link>
-      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://gainovel.github.io/blog/2023/08/23/shell%E8%84%9A%E6%9C%AC/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;1-什么是http&#34;&gt;1. 什么是HTTP？&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;超文本传输协议(HyperText Transfer Protocol)&lt;/li&gt;
-&lt;li&gt;HTTP传输的内容是超文本。它是文字、图片、视频等的混合体&lt;/li&gt;
-&lt;li&gt;传输就是把数据从计算机网络的某个节点传递到另一个节点&lt;/li&gt;
-&lt;li&gt;协议就是一种约定和行为规范&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;2-http常见的状态码有哪些&#34;&gt;2. HTTP常见的状态码有哪些？&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;1xx类表示信息性状态码；是协议处理中的一种中间状态，实际用到的比较少&lt;/li&gt;
-&lt;li&gt;2xx类表示成功状态码；服务器成功处理了客户端的请求
-&lt;ol&gt;
-&lt;li&gt;[200 OK] 成功&lt;/li&gt;
-&lt;li&gt;[204 No Content] 与[200 OK]基本相同，只是相应头中没有body数据&lt;/li&gt;
-&lt;li&gt;[206 Partial Content]用于HTTTP分块下载或断点续传，表示想用返回的body数据只是一部分&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;3xx类表示重定向状态码；客户端请求的资源发生了变动，需要重定向
-&lt;ol&gt;
-&lt;li&gt;[301 Moved Permanently]表示永久重定向，说明请求的资源已经不存在了，需改用新的URL再次访问&lt;/li&gt;
-&lt;li&gt;[302 Found]表示临时重定向，说明请求的资源还在，但暂时需要用另一个URL来访问&lt;/li&gt;
-&lt;li&gt;301和302都会在响应头里使用字段Location，指明后续要跳转的URL，浏览器会自动重定向新的URL&lt;/li&gt;
-&lt;li&gt;[304 Not Modified] 缓存重定向&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;4xx类表示客户端错误状态码；客户端发送的报文有误，服务器无法处理
-&lt;ol&gt;
-&lt;li&gt;[400 Bad Request]比较笼统的错误&lt;/li&gt;
-&lt;li&gt;[403 Forbiddden]表示服务器禁止访问资源，一般是由于没有权限&lt;/li&gt;
-&lt;li&gt;[404 Not Found] 表示请求的资源在服务器上不存在或未找到&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;5xx类状态码表示服务器错误状态码；服务器处理时内部发生了错误
-&lt;ol&gt;
-&lt;li&gt;[500 Internal Server Error]比较笼统&lt;/li&gt;
-&lt;li&gt;[501 Not Implemented]表示客户端请求的功能还不支持&lt;/li&gt;
-&lt;li&gt;[502 Bad Gateway] 服务器以代理服务器或网关的形式工作时，收到从上游服务器到达的执行请求的非法响应&lt;/li&gt;
-&lt;li&gt;[503 Service Unavailable]表示服务器当前很忙，暂时无法响应客户端&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre class=&#34;mermaid&#34;&gt;sequenceDiagram
-    actor me as 我
-    participant blog as 个人博客
-    participant novel as 小说网站
-
-    me -&amp;gt;&amp;gt;&amp;#43; blog: 写博客发布到个人博客网站上
-    blog -&amp;gt;&amp;gt;- me: 成功
-    me -&amp;gt;&amp;gt;&amp;#43; novel: 写小说发布到小说网站上
-    novel -&amp;gt;&amp;gt;- me: 成功&lt;/pre&gt;
-&lt;p align=&#34;center&#34;&gt;Copyright © [2023/8/23 17:46] [gainovel]. All rights reserved.&lt;/p&gt;
       </description>
     </item>
     

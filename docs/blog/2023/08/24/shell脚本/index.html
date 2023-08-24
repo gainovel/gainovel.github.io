@@ -24,14 +24,14 @@
 <meta property="og:description" content="整理Shell脚本相关面试题，准备2023面试... &lt;br&gt; 经济危机，普通人的出路在哪里
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://gainovel.github.io/blog/2023/08/23/shell%E8%84%9A%E6%9C%AC/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2023-08-23T00:00:00+00:00" />
+<meta property="og:url" content="https://gainovel.github.io/blog/2023/08/24/shell%E8%84%9A%E6%9C%AC/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-08-24T00:00:00+00:00" />
 <meta property="article:modified_time" content="2023-08-23T17:47:52+08:00" />
 <meta itemprop="name" content="Shell脚本">
 <meta itemprop="description" content="整理Shell脚本相关面试题，准备2023面试... &lt;br&gt; 经济危机，普通人的出路在哪里
-"><meta itemprop="datePublished" content="2023-08-23T00:00:00+00:00" />
+"><meta itemprop="datePublished" content="2023-08-24T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-08-23T17:47:52+08:00" />
-<meta itemprop="wordCount" content="96">
+<meta itemprop="wordCount" content="408">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Shell脚本"/>
 <meta name="twitter:description" content="整理Shell脚本相关面试题，准备2023面试... &lt;br&gt; 经济危机，普通人的出路在哪里
@@ -132,8 +132,8 @@ if (!doNotTrack) {
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-bloglinux-li">
   <a href="/blog/linux/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-bloglinux"><span class="">Linux</span></a>
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-blog20230823shelle8849ae69cac-li">
-  <a href="/blog/2023/08/23/shell%E8%84%9A%E6%9C%AC/" title="Shell脚本" class="align-left ps-0 active td-sidebar-link td-sidebar-link__page" id="m-blog20230823shelle8849ae69cac"><span class="td-sidebar-nav-active-item">Shell</span></a>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-blog20230824shelle8849ae69cac-li">
+  <a href="/blog/2023/08/24/shell%E8%84%9A%E6%9C%AC/" title="Shell脚本" class="align-left ps-0 active td-sidebar-link td-sidebar-link__page" id="m-blog20230824shelle8849ae69cac"><span class="td-sidebar-nav-active-item">Shell</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-blog20230823linuxe7b3bbe7bb9fe997aee9a298e5ae9ae4bd8de4b88ee680a7e883bde8b083e4bc98-li">
   <a href="/blog/2023/08/23/linux%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98%E5%AE%9A%E4%BD%8D%E4%B8%8E%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/" title="Linux系统问题定位与性能调优" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-blog20230823linuxe7b3bbe7bb9fe997aee9a298e5ae9ae4bd8de4b88ee680a7e883bde8b083e4bc98"><span class="">Linux系统性能调优</span></a>
 </li>
@@ -201,8 +201,32 @@ if (!doNotTrack) {
             <div class="td-toc">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#1-什么是http">1. 什么是HTTP？</a></li>
-    <li><a href="#2-http常见的状态码有哪些">2. HTTP常见的状态码有哪些？</a></li>
+    <li><a href="#11-linux内核简介">1.1 Linux内核简介？</a>
+      <ul>
+        <li><a href="#111-linux系统内存管理">1.1.1 Linux系统内存管理</a></li>
+        <li><a href="#114-32位系统采用一级页表方式需要多少个">1.1.4. 32位系统采用一级页表方式需要多少个？</a></li>
+        <li><a href="#115-linux软件程序管理">1.1.5. Linux软件程序管理</a></li>
+        <li><a href="#116-什么是init进程">1.1.6. 什么是init进程？</a></li>
+        <li><a href="#117-什么是sysvinit和systemd">1.1.7. 什么是SysVinit和Systemd?</a></li>
+        <li><a href="#118-linux硬件设备管理">1.1.8. Linux硬件设备管理</a></li>
+        <li><a href="#119-什么是字符设备文件">1.1.9. 什么是字符设备文件？</a></li>
+        <li><a href="#1110-什么是块设备文件">1.1.10. 什么是块设备文件？</a></li>
+      </ul>
+    </li>
+    <li><a href="#12-gun实用工具">1.2 GUN实用工具</a>
+      <ul>
+        <li><a href="#121-什么是开源软件">1.2.1 什么是开源软件？</a></li>
+        <li><a href="#122-gnu-coreutils-软件包组成">1.2.2 GNU coreutils 软件包组成？</a></li>
+        <li><a href="#123-什么是shell">1.2.3 什么是shell?</a></li>
+      </ul>
+    </li>
+    <li><a href="#13-linux发行版">1.3 Linux发行版</a></li>
+    <li><a href="#14-linux命令">1.4 Linux命令</a>
+      <ul>
+        <li><a href="#141-目录和文件相关命令">1.4.1 目录和文件相关命令</a></li>
+        <li><a href="#142-进程相关命令">1.4.2 进程相关命令</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
       </div>
@@ -234,63 +258,208 @@ if (!doNotTrack) {
 	<h1>Shell脚本</h1>
 	<div class="lead">整理Shell脚本相关面试题，准备2023面试&hellip; <br> 经济危机，普通人的出路在哪里</div>
 	<div class="td-byline mb-4">
-		By <b>Gainovel (<a href="https://gainovel.github.io/">@gainovel</a>)</b> |
-		<time datetime="2023-08-23" class="text-muted">Wednesday, August 23, 2023</time>
+		By <b>Gainovel (<a href="https://gainovel.github.io/blog/">@gainovel</a>)</b> |
+		<time datetime="2023-08-24" class="text-muted">Thursday, August 24, 2023</time>
 	</div>
 	<header class="article-meta">
 		
   </header>
-	<h2 id="1-什么是http">1. 什么是HTTP？</h2>
+	<h1 id="center一-linux系统组成简介"><center>一、 Linux系统组成简介?</h1>
+<p>  各部分彼此写作，构成整个Linux系统</p>
+<p><img src="pic/Linux%E7%B3%BB%E7%BB%9F%E7%BB%84%E6%88%90.png" alt=""></p>
+<h2 id="11-linux内核简介">1.1 Linux内核简介？</h2>
+<p>概览图</p>
+<pre class="mermaid">flowchart TB
+    l0(Linux内核) --&gt; l1_1(简介) --&gt; l2_1(作用)
+    l2_1 --&gt; l3_1(系统内存管理)
+    l2_1 --&gt; l3_2(软件程序管理)
+    l2_1 --&gt; l3_3(硬件设备管理)
+    l2_1 --&gt; l3_4(文件系统管理)</pre>
+<p>思维风暴</p>
+<pre class="mermaid">flowchart TB
+    l0(Linux系统组成简介?) --&gt; l1_1(Linux内核)
+    l1_1 --&gt; l2_1(系统内存管理)
+    l1_1 --&gt; l2_2(软件程序管理)
+    l1_1 --&gt; l2_3(硬件设备管理)
+    l1_1 --&gt; l2_4(文件系统管理)
+    l2_1 --&gt; l3_1(物理内存)
+    l2_1 --&gt; l3_2(虚拟内存)
+    l3_1 --&gt; l4_1(寻址方式)
+    l3_2 --&gt; l4_3(实现方式)
+    l3_2 --&gt; l4_2(页表项)
+    l4_2 --&gt;|单页表映射内存大小| l5_1(4KB)
+    l4_2 --&gt;|存储位置| l5_2(内存,交换空间)
+    l4_3 --&gt; l5_3(分段)
+    l4_3 --&gt; l5_4(分页)
+    l4_3 --&gt; l5_5(映射规则)
+    l5_1 --&gt;|计算| l6_1(4GB需要多少页表项?)
+    l2_2 --&gt;|管理| l3_3(所有的进程)
+    l2_2 --&gt;|内核创建第一个&lt;br&gt;用户态进程| l3_4(init进程)
+    l3_4 --&gt;|init进程实现方式1| l4_4(SysVinit)
+    l3_4 --&gt;|init进程实现方式2| l4_4(systemd)
+    l2_3 --&gt; l3_5(硬件驱动是什么?)
+    l2_3 --&gt; l3_6(内核添加硬件设备的两种方式)
+    l3_6 --&gt; l4_5(将硬件驱动编译入内核)
+    l3_6 --&gt; l4_6(将设备驱动模块加入内核)
+    l4_5 --&gt; l5_6(两种方式对比:&lt;br&gt;1.每次添加新设备&lt;br&gt;重新编译内核代码&lt;br&gt;2.提出了内核模块的概念,&lt;br&gt;允许在无须重新编译内核的情况下&lt;br&gt;将驱动程序插入运行中的内核)
+    l4_6 --&gt; l5_6
+    l2_3 --&gt;|Linux 系统将硬件设备&lt;br&gt;视为一种特殊文件| l3_7(设备文件&lt;br&gt;)
+    l3_7 --&gt; l4_7(字符设备文件)
+    l3_7 --&gt; l4_8(块设备文件)
+    l3_7 --&gt; l4_9(网络设备文件)
+    l4_7 --&gt; l5_7(每次只能处理一个字符的设备,&lt;br&gt;比如终端)
+    l4_8 --&gt; l5_8(每次以块形式处理数据的设备,&lt;br&gt;比如硬盘驱动器)
+    l4_9 --&gt; l5_9(采用数据包发送和接收数据的设备,&lt;br&gt;比如网卡)
+    l2_4 --&gt;|是什么?| l3_8(读写硬盘数据)
+    l2_4 --&gt; l3_9(Linux内核支持&lt;br&gt;通过不同类型的文件系统&lt;br&gt;读写硬盘数据)
+    l2_4 --&gt; l3_10(硬盘驱动器&lt;br&gt;必须采用&lt;br&gt;Linux支持的&lt;br&gt;文件系统格式&lt;br&gt;进行格式化)
+    l2_4 --&gt; l3_11(Linux内核采用&lt;br&gt;虚拟文件系统&lt;br&gt;virtual file system,VFS&lt;br&gt;作为和各种文件系统交互的接口&lt;br&gt;VFS为Linux内核&lt;br&gt;与其他类型文件系统&lt;br&gt;之间的通信&lt;br&gt;提供了一个标准接口)</pre>
 <ol>
-<li>超文本传输协议(HyperText Transfer Protocol)</li>
-<li>HTTP传输的内容是超文本。它是文字、图片、视频等的混合体</li>
-<li>传输就是把数据从计算机网络的某个节点传递到另一个节点</li>
-<li>协议就是一种约定和行为规范</li>
-</ol>
-<h2 id="2-http常见的状态码有哪些">2. HTTP常见的状态码有哪些？</h2>
+<li>
+<p>简介：Linux系统的核心是内核。内核控制着计算机系统的所有硬件和软件，在必要时分配硬件，
+并根据需要执行软件</p>
+</li>
+<li>
+<p>作用</p>
 <ol>
-<li>1xx类表示信息性状态码；是协议处理中的一种中间状态，实际用到的比较少</li>
-<li>2xx类表示成功状态码；服务器成功处理了客户端的请求
-<ol>
-<li>[200 OK] 成功</li>
-<li>[204 No Content] 与[200 OK]基本相同，只是相应头中没有body数据</li>
-<li>[206 Partial Content]用于HTTTP分块下载或断点续传，表示想用返回的body数据只是一部分</li>
+<li>系统内存管理</li>
+<li>软件程序管理</li>
+<li>硬件设备管理</li>
+<li>文件系统管理</li>
 </ol>
 </li>
-<li>3xx类表示重定向状态码；客户端请求的资源发生了变动，需要重定向
+</ol>
+<h3 id="111-linux系统内存管理">1.1.1 Linux系统内存管理</h3>
 <ol>
-<li>[301 Moved Permanently]表示永久重定向，说明请求的资源已经不存在了，需改用新的URL再次访问</li>
-<li>[302 Found]表示临时重定向，说明请求的资源还在，但暂时需要用另一个URL来访问</li>
-<li>301和302都会在响应头里使用字段Location，指明后续要跳转的URL，浏览器会自动重定向新的URL</li>
-<li>[304 Not Modified] 缓存重定向</li>
+<li>内核不仅管理服务器上的可用物理内存，还可以创建并管理虚拟内存</li>
+<li>内核为了隔离不同的进程，为每个进程分配了一套虚拟内存，虚拟内存用页表项的方式来实现，页表项存储在内存或者交换空间中</li>
+<li>内核负责虚拟内存到物理内存的映射</li>
+</ol>
+<h3 id="114-32位系统采用一级页表方式需要多少个">1.1.4. 32位系统采用一级页表方式需要多少个？</h3>
+<ol>
+<li>32位系统一个页表项可寻址内存大小为4KB，如果要覆盖4GB内存，则需要4GB/4KB=2^20个页表项</li>
+<li>4KB指的是4096B，也就是4096个字节，4GB指的是4<em>1024</em>1024*1024B</li>
+<li>操作系统是按字节寻址，不是按位寻址</li>
+</ol>
+<h3 id="115-linux软件程序管理">1.1.5. Linux软件程序管理</h3>
+<ol>
+<li>Linux操作系统称运行中的程序为进程。进程可以在前台运行，也可以在后台运行</li>
+<li>内核创建第一个进程是init进程用于启动系统中所有其他进程，内核控制着运行在系统中的所有进程。</li>
+</ol>
+<h3 id="116-什么是init进程">1.1.6. 什么是init进程？</h3>
+<ol>
+<li>init进程是内核创建的第一个用户态进程，用于启动系统中所有其他进程</li>
+</ol>
+<h3 id="117-什么是sysvinit和systemd">1.1.7. 什么是SysVinit和Systemd?</h3>
+<ol>
+<li>init进程的一种实现</li>
+</ol>
+<h3 id="118-linux硬件设备管理">1.1.8. Linux硬件设备管理</h3>
+<ol>
+<li>将硬件通过驱动加入内核的两种方法</li>
+</ol>
+<pre class="mermaid">flowchart TB
+    l0(Linux内核) --&gt;|将硬件驱动编译入内核| l1_1(硬件驱动1) --&gt; l2_1(硬件设备1)
+    l0 --&gt;| 将设备驱动模块加入内核| l1_2(硬件驱动2) --&gt; l2_2(硬件设备2)</pre>
+<ol start="2">
+<li>Linux 系统将硬件设备视为一种特殊文件，称为设备文件
+<ol>
+<li>字符设备文件</li>
+<li>块设备文件</li>
+<li>网络设备文件</li>
 </ol>
 </li>
-<li>4xx类表示客户端错误状态码；客户端发送的报文有误，服务器无法处理
+</ol>
+<h3 id="119-什么是字符设备文件">1.1.9. 什么是字符设备文件？</h3>
 <ol>
-<li>[400 Bad Request]比较笼统的错误</li>
-<li>[403 Forbiddden]表示服务器禁止访问资源，一般是由于没有权限</li>
-<li>[404 Not Found] 表示请求的资源在服务器上不存在或未找到</li>
+<li>字符设备文件对应于每次只能处理一个字符的设备</li>
+<li>比如终端</li>
 </ol>
-</li>
-<li>5xx类状态码表示服务器错误状态码；服务器处理时内部发生了错误
+<h3 id="1110-什么是块设备文件">1.1.10. 什么是块设备文件？</h3>
 <ol>
-<li>[500 Internal Server Error]比较笼统</li>
-<li>[501 Not Implemented]表示客户端请求的功能还不支持</li>
-<li>[502 Bad Gateway] 服务器以代理服务器或网关的形式工作时，收到从上游服务器到达的执行请求的非法响应</li>
-<li>[503 Service Unavailable]表示服务器当前很忙，暂时无法响应客户端</li>
+<li>块设备文件对应于每次以块形式处理数据的设备</li>
+<li>比如硬盘驱动器</li>
 </ol>
-</li>
-</ol>
-<pre class="mermaid">sequenceDiagram
-    actor me as 我
-    participant blog as 个人博客
-    participant novel as 小说网站
-
-    me -&gt;&gt;&#43; blog: 写博客发布到个人博客网站上
-    blog -&gt;&gt;- me: 成功
-    me -&gt;&gt;&#43; novel: 写小说发布到小说网站上
-    novel -&gt;&gt;- me: 成功</pre>
 <p align="center">Copyright © [2023/8/23 17:46] [gainovel]. All rights reserved.</p>
+<h2 id="12-gun实用工具">1.2 GUN实用工具</h2>
+<ol>
+<li>GNU 代表 GNU’s Not Unix，一个开发开源软件的组织</li>
+<li>开发出了一套完整的 Unix 实用工具</li>
+<li>Linux 内核和 GNU 实用工具的结合体称为 Linux</li>
+<li>GNU 项目旨在为 Unix 系统管理员打造出一套可用的类 Unix 环境。这个目标促使该项目移植了很多常见的 Unix 系统命令行工具</li>
+<li>供 Linux 系统使用的这组核心工具被称为 coreutils（core utilities）软件包</li>
+</ol>
+<h3 id="121-什么是开源软件">1.2.1 什么是开源软件？</h3>
+<ol>
+<li>开源软件理念允许程序员开发软件并将其免费发布。</li>
+<li>所有人都可以使用、修改该软件，或将其集成进自己的系统，无须支付任何授权费用。</li>
+</ol>
+<h3 id="122-gnu-coreutils-软件包组成">1.2.2 GNU coreutils 软件包组成？</h3>
+<ol>
+<li>文件实用工具</li>
+<li>文本实用工具</li>
+<li>进程实用工具</li>
+</ol>
+<h3 id="123-什么是shell">1.2.3 什么是shell?</h3>
+<ol>
+<li>shell 是一种特殊的交互式工具，为用户提供了启动程序、管理文件系统中的文件以及运行在 Linux 系统中的进程的途径</li>
+<li>shell 包含一组内部命令，可用于完成复制文件、移动文件、重命名文件、显示和终止系统中正在运行的程序这类操作</li>
+<li>将多个 shell 命令放入文件中作为程序执行。这些文件称作shell脚本</li>
+</ol>
+<h2 id="13-linux发行版">1.3 Linux发行版</h2>
+<ol>
+<li><strong>完整的核心Linux发行版</strong>含有内核、一个或多个图形化桌面环境以及预编译好的大部分可用的Linux应用程序。它提供了一站式的完整
+Linux安装。</li>
+<li><strong>特定用途的Linux发行版</strong>通常基于某个主流发行版，但仅包含其中一部分用于某种特定用途的应用程序</li>
+</ol>
+<pre class="mermaid">flowchart TB
+    l0(Linux发行版) --&gt; l1_1(完整的核心 Linux 发行版)
+    l1_1 --&gt; l2_1(Red Hat Enterprise)
+    l1_1 --&gt; l2_2(Debian)
+    l1_1 --&gt; l2_3(openSUSE)
+    l2_1 --&gt;|衍生| l3_1(特定用途的 Linux 发行版)
+    l2_2 --&gt;|衍生| l3_1
+    l2_3 --&gt;|衍生| l3_1
+    l3_1 --&gt;|源自Red Hat Enterprise| l4_1(Centos)
+    l3_1 --&gt;|源自Debian| l4_2(Ubuntu)</pre>
+<h2 id="14-linux命令">1.4 Linux命令</h2>
+<p>Linux目录结构</p>
+<p><img src="pic/%E5%B8%B8%E8%A7%81%E7%9A%84Linux%E7%9B%AE%E5%BD%95%E5%90%8D.png" alt=""></p>
+<h3 id="141-目录和文件相关命令">1.4.1 目录和文件相关命令</h3>
+<h4 id="1411-ls">1.4.1.1 ls</h4>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#204a87">alias</span> <span style="color:#000">lf</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;ls -AlthF --time-style &#39;+%Y/%m/%d %H:%M:%S&#39; --color=auto&#34;</span>
+</span></span><span style="display:flex;"><span>options:
+</span></span><span style="display:flex;"><span>-A  列出所有文件，包含隐藏文件
+</span></span><span style="display:flex;"><span>-l  列出文件详细信息
+</span></span><span style="display:flex;"><span>-t  按照文件修改时间进行排序
+</span></span><span style="display:flex;"><span>-h  文件大小方便查看
+</span></span><span style="display:flex;"><span>--time-style 时间现实的格式，一般年月日时分秒都加上
+</span></span><span style="display:flex;"><span>-R  递归显示文件
+</span></span><span style="display:flex;"><span>-F  帮助分辨文件类型，目录后面有/，文件后面没有/
+</span></span><span style="display:flex;"><span>-i  打印inode
+</span></span><span style="display:flex;"><span>tips:
+</span></span><span style="display:flex;"><span>ls 命令支持正则匹配，eg. ls my* 会列出当前文件夹下以my开头的目录或文件
+</span></span></code></pre></div><h4 id="1412-ln">1.4.1.2 ln</h4>
+<p><a href="https://zhuanlan.zhihu.com/p/455508513">https://zhuanlan.zhihu.com/p/455508513</a></p>
+<p><a href="https://blog.csdn.net/hejinjing_tom_com/article/details/78809662">https://blog.csdn.net/hejinjing_tom_com/article/details/78809662</a></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ln -s TARGET LINK_NAME //软连接，相当于创建快捷方式
+</span></span><span style="display:flex;"><span>ln TARGET LINK_NAME //硬链接，其实是同一个文件
+</span></span></code></pre></div><h4 id="1413-file">1.4.1.3 file</h4>
+<p>探测文件的内部并判断文件类型</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ file test.txt
+</span></span><span style="display:flex;"><span>test.txt: ASCII text
+</span></span><span style="display:flex;"><span>$ file /bin
+</span></span><span style="display:flex;"><span>/bin: directory
+</span></span><span style="display:flex;"><span><span style="color:#000">$file</span> /bin/ls
+</span></span><span style="display:flex;"><span>/bin/ls: ELF 64-bit LSB shared object, x86-64, version <span style="color:#0000cf;font-weight:bold">1</span> <span style="color:#ce5c00;font-weight:bold">(</span>SYSV<span style="color:#ce5c00;font-weight:bold">)</span>, dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, <span style="color:#204a87;font-weight:bold">for</span> GNU/Linux 3.2.0, BuildID<span style="color:#ce5c00;font-weight:bold">[</span>sha1<span style="color:#ce5c00;font-weight:bold">]=</span>9567f9a28e66f4d7ec4baf31cfbf68d0410f0ae6, stripped
+</span></span></code></pre></div><h4 id="1414-morelesstailhead">1.4.1.4 more,less,tail,head</h4>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tail -n <span style="color:#0000cf;font-weight:bold">10</span> test.txt 查看test.txt尾部10行
+</span></span><span style="display:flex;"><span>head -n <span style="color:#0000cf;font-weight:bold">10</span> test.txt 查看test.txt头部10行
+</span></span><span style="display:flex;"><span>tail -f test.txt 实时查看test.txt
+</span></span></code></pre></div><h3 id="142-进程相关命令">1.4.2 进程相关命令</h3>
+<h4 id="1421-ps">1.4.2.1 ps</h4>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ps -auxf <span style="color:#000;font-weight:bold">|</span> grep 进程名
+</span></span></code></pre></div>
 	<ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
   <li>
     <a href="/blog/2023/08/23/linux%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98%E5%AE%9A%E4%BD%8D%E4%B8%8E%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/" aria-label="Previous - Linux系统问题定位与性能调优" class="btn btn-primary"><span class="me-1">←</span>Previous</a>
