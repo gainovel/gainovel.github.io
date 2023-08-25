@@ -130,7 +130,6 @@ flowchart TB
 1. 块设备文件对应于每次以块形式处理数据的设备
 2. 比如硬盘驱动器
 
-<p align="center">Copyright © [2023/8/23 17:46] [gainovel]. All rights reserved.</p>
 
 ## 1.2 GUN实用工具
 
@@ -240,3 +239,7 @@ tail -f test.txt 实时查看test.txt
 ```bash
 ps -auxf | grep 进程名
 ```
+
+![](pic/分布式爬虫.svg)
+
+<p align="center">Copyright © [2023/8/23 17:46] [gainovel]. All rights reserved.</p>
