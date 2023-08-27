@@ -1,4 +1,4 @@
-baseURL = "https://kubernetes.io"
+baseURL = "192.168.0.102"
 title = "Kubernetes"
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
@@ -439,7 +439,7 @@ language_alternatives = ["en"]
 [languages.hi]
 title = "Kubernetes"
 description = "प्रोडक्शन-ग्रेड कंटेनर ऑर्केस्ट्रेशन"
-languageName = "हिन्दी (Hindi)"  
+languageName = "हिन्दी (Hindi)"
 languageNameLatinScript = "Hindi"
 weight = 12
 contentDir = "content/hi"
