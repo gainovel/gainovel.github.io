@@ -1,4 +1,4 @@
 ---
 title: Go
-weight: 1
+weight: 10
 ---

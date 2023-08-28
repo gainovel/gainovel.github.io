@@ -1,0 +1,205 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gainovel – 计算机网络</title>
+    <link>https://gainovel.github.io/blog/computernetwork/</link>
+    <description>Recent content in 计算机网络 on Gainovel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://gainovel.github.io/blog/computernetwork/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: HTTP相关面试题</title>
+      <link>https://gainovel.github.io/blog/2023/08/23/http%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gainovel.github.io/blog/2023/08/23/http%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;1-什么是http&#34;&gt;1. 什么是HTTP？&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;超文本传输协议(HyperText Transfer Protocol)&lt;/li&gt;
+&lt;li&gt;HTTP传输的内容是超文本。它是文字、图片、视频等的混合体&lt;/li&gt;
+&lt;li&gt;传输就是把数据从计算机网络的某个节点传递到另一个节点&lt;/li&gt;
+&lt;li&gt;协议就是一种约定和行为规范&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;2-http常见的状态码有哪些&#34;&gt;2. HTTP常见的状态码有哪些？&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;1xx类表示信息性状态码；是协议处理中的一种中间状态，实际用到的比较少&lt;/li&gt;
+&lt;li&gt;2xx类表示成功状态码；服务器成功处理了客户端的请求
+&lt;ol&gt;
+&lt;li&gt;[200 OK] 成功&lt;/li&gt;
+&lt;li&gt;[204 No Content] 与[200 OK]基本相同，只是相应头中没有body数据&lt;/li&gt;
+&lt;li&gt;[206 Partial Content]用于HTTTP分块下载或断点续传，表示想用返回的body数据只是一部分&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;3xx类表示重定向状态码；客户端请求的资源发生了变动，需要重定向
+&lt;ol&gt;
+&lt;li&gt;[301 Moved Permanently]表示永久重定向，说明请求的资源已经不存在了，需改用新的URL再次访问&lt;/li&gt;
+&lt;li&gt;[302 Found]表示临时重定向，说明请求的资源还在，但暂时需要用另一个URL来访问&lt;/li&gt;
+&lt;li&gt;301和302都会在响应头里使用字段Location，指明后续要跳转的URL，浏览器会自动重定向新的URL&lt;/li&gt;
+&lt;li&gt;[304 Not Modified] 缓存重定向&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;4xx类表示客户端错误状态码；客户端发送的报文有误，服务器无法处理
+&lt;ol&gt;
+&lt;li&gt;[400 Bad Request]比较笼统的错误&lt;/li&gt;
+&lt;li&gt;[403 Forbiddden]表示服务器禁止访问资源，一般是由于没有权限&lt;/li&gt;
+&lt;li&gt;[404 Not Found] 表示请求的资源在服务器上不存在或未找到&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;5xx类状态码表示服务器错误状态码；服务器处理时内部发生了错误
+&lt;ol&gt;
+&lt;li&gt;[500 Internal Server Error]比较笼统&lt;/li&gt;
+&lt;li&gt;[501 Not Implemented]表示客户端请求的功能还不支持&lt;/li&gt;
+&lt;li&gt;[502 Bad Gateway] 服务器以代理服务器或网关的形式工作时，收到从上游服务器到达的执行请求的非法响应&lt;/li&gt;
+&lt;li&gt;[503 Service Unavailable]表示服务器当前很忙，暂时无法响应客户端&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;bash-test&#34;&gt;Bash Test&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;#!/usr/bin/env sh
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt; -d public &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   rm -rf public
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt; -d docs &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   rm -rf docs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt; -d resources &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   rm -rf resources
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo --ignoreCache
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cp -r public docs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;update blog: &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$1&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin blog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;including-images&#34;&gt;Including images&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s an image (&lt;code&gt;featured-sunset-get.png&lt;/code&gt;) that includes a byline and a caption.&lt;/p&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 810px&#34;&gt;
+&lt;img class=&#34;card-img-top&#34; src=&#34;https://gainovel.github.io/blog/2023/08/23/http%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/pic/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_800x400_fill_catmullrom_smart1_3.png&#34; width=&#34;800&#34; height=&#34;400&#34;&gt;
+&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+&lt;p class=&#34;card-text&#34;&gt;
+
+
+Fetch and scale an image in the upcoming Hugo 0.43.
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Photo: Gainovel / tiandao&lt;/small&gt;
+&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The front matter of this post specifies properties to be assigned to all image resources:&lt;/p&gt;
+&lt;p&gt;To include the image in a page, specify its details like this:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 610px&#34;&gt;
+&lt;img class=&#34;card-img-top&#34; src=&#34;https://gainovel.github.io/blog/2023/08/23/http%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/pic/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_3.png&#34; width=&#34;600&#34; height=&#34;300&#34;&gt;
+&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+&lt;p class=&#34;card-text&#34;&gt;
+
+
+Fetch and scale an image in the upcoming Hugo 0.43.
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Photo: Gainovel / tiandao&lt;/small&gt;
+&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The image will be rendered at the size and byline specified in the front matter.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: TCP相关面试题</title>
+      <link>https://gainovel.github.io/blog/2023/08/23/tcp%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gainovel.github.io/blog/2023/08/23/tcp%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;1-什么是http&#34;&gt;1. 什么是HTTP？&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;超文本传输协议(HyperText Transfer Protocol)&lt;/li&gt;
+&lt;li&gt;HTTP传输的内容是超文本。它是文字、图片、视频等的混合体&lt;/li&gt;
+&lt;li&gt;传输就是把数据从计算机网络的某个节点传递到另一个节点&lt;/li&gt;
+&lt;li&gt;协议就是一种约定和行为规范&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;2-http常见的状态码有哪些&#34;&gt;2. HTTP常见的状态码有哪些？&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;1xx类表示信息性状态码；是协议处理中的一种中间状态，实际用到的比较少&lt;/li&gt;
+&lt;li&gt;2xx类表示成功状态码；服务器成功处理了客户端的请求
+&lt;ol&gt;
+&lt;li&gt;[200 OK] 成功&lt;/li&gt;
+&lt;li&gt;[204 No Content] 与[200 OK]基本相同，只是相应头中没有body数据&lt;/li&gt;
+&lt;li&gt;[206 Partial Content]用于HTTTP分块下载或断点续传，表示想用返回的body数据只是一部分&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;3xx类表示重定向状态码；客户端请求的资源发生了变动，需要重定向
+&lt;ol&gt;
+&lt;li&gt;[301 Moved Permanently]表示永久重定向，说明请求的资源已经不存在了，需改用新的URL再次访问&lt;/li&gt;
+&lt;li&gt;[302 Found]表示临时重定向，说明请求的资源还在，但暂时需要用另一个URL来访问&lt;/li&gt;
+&lt;li&gt;301和302都会在响应头里使用字段Location，指明后续要跳转的URL，浏览器会自动重定向新的URL&lt;/li&gt;
+&lt;li&gt;[304 Not Modified] 缓存重定向&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;4xx类表示客户端错误状态码；客户端发送的报文有误，服务器无法处理
+&lt;ol&gt;
+&lt;li&gt;[400 Bad Request]比较笼统的错误&lt;/li&gt;
+&lt;li&gt;[403 Forbiddden]表示服务器禁止访问资源，一般是由于没有权限&lt;/li&gt;
+&lt;li&gt;[404 Not Found] 表示请求的资源在服务器上不存在或未找到&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;5xx类状态码表示服务器错误状态码；服务器处理时内部发生了错误
+&lt;ol&gt;
+&lt;li&gt;[500 Internal Server Error]比较笼统&lt;/li&gt;
+&lt;li&gt;[501 Not Implemented]表示客户端请求的功能还不支持&lt;/li&gt;
+&lt;li&gt;[502 Bad Gateway] 服务器以代理服务器或网关的形式工作时，收到从上游服务器到达的执行请求的非法响应&lt;/li&gt;
+&lt;li&gt;[503 Service Unavailable]表示服务器当前很忙，暂时无法响应客户端&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;including-images&#34;&gt;Including images&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;pic/featured-sunset-get.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an image (&lt;code&gt;featured-sunset-get.png&lt;/code&gt;) that includes a byline and a caption.&lt;/p&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 810px&#34;&gt;
+&lt;img class=&#34;card-img-top&#34; src=&#34;https://gainovel.github.io/blog/2023/08/23/tcp%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/pic/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_800x400_fill_catmullrom_smart1_3.png&#34; width=&#34;800&#34; height=&#34;400&#34;&gt;
+&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+&lt;p class=&#34;card-text&#34;&gt;
+
+
+Fetch and scale an image in the upcoming Hugo 0.43.
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Photo: Gainovel / tiandao&lt;/small&gt;
+&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The front matter of this post specifies properties to be assigned to all image resources:&lt;/p&gt;
+&lt;p&gt;To include the image in a page, specify its details like this:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 610px&#34;&gt;
+&lt;img class=&#34;card-img-top&#34; src=&#34;https://gainovel.github.io/blog/2023/08/23/tcp%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/pic/featured-sunset-get_hu69849a7cdb847c2393a7b3a7f6061c86_387442_600x300_fill_catmullrom_smart1_3.png&#34; width=&#34;600&#34; height=&#34;300&#34;&gt;
+&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+&lt;p class=&#34;card-text&#34;&gt;
+
+
+Fetch and scale an image in the upcoming Hugo 0.43.
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Photo: Gainovel / tiandao&lt;/small&gt;
+&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The image will be rendered at the size and byline specified in the front matter.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

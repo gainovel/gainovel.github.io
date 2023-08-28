@@ -89,5 +89,29 @@
       </description>
     </item>
     
+    <item>
+      <title>Blog: 操作系统面试题</title>
+      <link>https://gainovel.github.io/blog/2023/08/25/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gainovel.github.io/blog/2023/08/25/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <description>
+        
+        
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![](pic)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;键入网址到网页显示期间发生了什么&#34;&gt;键入网址到网页显示，期间发生了什么？&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;pic/%E9%94%AE%E5%85%A5%E7%BD%91%E5%9D%80%E5%88%B0%E7%BD%91%E9%A1%B5%E6%98%BE%E7%A4%BA%EF%BC%8C%E6%9C%9F%E9%97%B4%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ip和mac定位相关&#34;&gt;IP和MAC定位相关&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;pic/640.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;linux-系统是如何收发网络包的&#34;&gt;Linux 系统是如何收发网络包的？&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;pic/Linux%20%E7%B3%BB%E7%BB%9F%E6%98%AF%E5%A6%82%E4%BD%95%E6%94%B6%E5%8F%91%E7%BD%91%E7%BB%9C%E5%8C%85%E7%9A%84%EF%BC%9F.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;http-常见的状态码有哪些&#34;&gt;HTTP 常见的状态码有哪些？&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;pic/HTTP%E5%B8%B8%E8%A7%81%E7%8A%B6%E6%80%81%E7%A0%81%EF%BC%9F.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;get和post的区别&#34;&gt;Get和Post的区别&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;pic/GET%20POST%E7%9A%84%E5%8C%BA%E5%88%AB.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
