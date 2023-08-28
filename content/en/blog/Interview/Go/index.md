@@ -2,7 +2,7 @@
 date: 2023-08-25
 title: Go面试题
 linkTitle: Go
-weight: 2
+weight: 20
 description: >
   图片输出，给每个知识点附上简历，准备2023面试...<br>
   经济危机，普通人的出路在哪里
