@@ -3313,66 +3313,6 @@ Fetch and scale an image in the upcoming Hugo 0.43.
     </item>
     
     <item>
-      <title>Blog: Go面试题</title>
-      <link>https://gainovel.github.io/blog/2023/08/25/go%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
-      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://gainovel.github.io/blog/2023/08/25/go%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
-      <description>
-        
-        
-        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![](pic)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;1-gotcp长连接框架概览&#34;&gt;1. GoTCP长连接框架概览&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;pic/Zinx%E6%A1%86%E6%9E%B6%E8%AE%BE%E8%AE%A1%E5%9B%BE.png&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;pic/Go%20TCP.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;server设计&#34;&gt;Server设计&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;pic/Server.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;超文本传输协议(HyperText Transfer Protocol)&lt;/li&gt;
-&lt;li&gt;HTTP传输的内容是超文本。它是文字、图片、视频等的混合体&lt;/li&gt;
-&lt;li&gt;传输就是把数据从计算机网络的某个节点传递到另一个节点&lt;/li&gt;
-&lt;li&gt;协议就是一种约定和行为规范&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;2-http常见的状态码有哪些&#34;&gt;2. HTTP常见的状态码有哪些？&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;1xx类表示信息性状态码；是协议处理中的一种中间状态，实际用到的比较少&lt;/li&gt;
-&lt;li&gt;2xx类表示成功状态码；服务器成功处理了客户端的请求
-&lt;ol&gt;
-&lt;li&gt;[200 OK] 成功&lt;/li&gt;
-&lt;li&gt;[204 No Content] 与[200 OK]基本相同，只是相应头中没有body数据&lt;/li&gt;
-&lt;li&gt;[206 Partial Content]用于HTTTP分块下载或断点续传，表示想用返回的body数据只是一部分&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;3xx类表示重定向状态码；客户端请求的资源发生了变动，需要重定向
-&lt;ol&gt;
-&lt;li&gt;[301 Moved Permanently]表示永久重定向，说明请求的资源已经不存在了，需改用新的URL再次访问&lt;/li&gt;
-&lt;li&gt;[302 Found]表示临时重定向，说明请求的资源还在，但暂时需要用另一个URL来访问&lt;/li&gt;
-&lt;li&gt;301和302都会在响应头里使用字段Location，指明后续要跳转的URL，浏览器会自动重定向新的URL&lt;/li&gt;
-&lt;li&gt;[304 Not Modified] 缓存重定向&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;4xx类表示客户端错误状态码；客户端发送的报文有误，服务器无法处理
-&lt;ol&gt;
-&lt;li&gt;[400 Bad Request]比较笼统的错误&lt;/li&gt;
-&lt;li&gt;[403 Forbiddden]表示服务器禁止访问资源，一般是由于没有权限&lt;/li&gt;
-&lt;li&gt;[404 Not Found] 表示请求的资源在服务器上不存在或未找到&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;5xx类状态码表示服务器错误状态码；服务器处理时内部发生了错误
-&lt;ol&gt;
-&lt;li&gt;[500 Internal Server Error]比较笼统&lt;/li&gt;
-&lt;li&gt;[501 Not Implemented]表示客户端请求的功能还不支持&lt;/li&gt;
-&lt;li&gt;[502 Bad Gateway] 服务器以代理服务器或网关的形式工作时，收到从上游服务器到达的执行请求的非法响应&lt;/li&gt;
-&lt;li&gt;[503 Service Unavailable]表示服务器当前很忙，暂时无法响应客户端&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre class=&#34;mermaid&#34;&gt;info&lt;/pre&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Blog: Linux系统问题定位与性能调优</title>
       <link>https://gainovel.github.io/blog/2023/08/23/linux%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98%E5%AE%9A%E4%BD%8D%E4%B8%8E%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/</link>
       <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
@@ -3615,6 +3555,89 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 &lt;p&gt;&lt;img src=&#34;pic/HTTP%E5%B8%B8%E8%A7%81%E7%8A%B6%E6%80%81%E7%A0%81%EF%BC%9F.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;get和post的区别&#34;&gt;Get和Post的区别&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;pic/GET%20POST%E7%9A%84%E5%8C%BA%E5%88%AB.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Go面试题</title>
+      <link>https://gainovel.github.io/blog/2023/08/25/go%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gainovel.github.io/blog/2023/08/25/go%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <description>
+        
+        
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![](pic)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;1-gotcp长连接框架概览&#34;&gt;1. GoTCP长连接框架概览&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;pic/Zinx%E6%A1%86%E6%9E%B6%E8%AE%BE%E8%AE%A1%E5%9B%BE.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;pic/Go%20TCP.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;server设计&#34;&gt;Server设计&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;pic/Server.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;超文本传输协议(HyperText Transfer Protocol)&lt;/li&gt;
+&lt;li&gt;HTTP传输的内容是超文本。它是文字、图片、视频等的混合体&lt;/li&gt;
+&lt;li&gt;传输就是把数据从计算机网络的某个节点传递到另一个节点&lt;/li&gt;
+&lt;li&gt;协议就是一种约定和行为规范&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;2-http常见的状态码有哪些&#34;&gt;2. HTTP常见的状态码有哪些？&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;1xx类表示信息性状态码；是协议处理中的一种中间状态，实际用到的比较少&lt;/li&gt;
+&lt;li&gt;2xx类表示成功状态码；服务器成功处理了客户端的请求
+&lt;ol&gt;
+&lt;li&gt;[200 OK] 成功&lt;/li&gt;
+&lt;li&gt;[204 No Content] 与[200 OK]基本相同，只是相应头中没有body数据&lt;/li&gt;
+&lt;li&gt;[206 Partial Content]用于HTTTP分块下载或断点续传，表示想用返回的body数据只是一部分&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;3xx类表示重定向状态码；客户端请求的资源发生了变动，需要重定向
+&lt;ol&gt;
+&lt;li&gt;[301 Moved Permanently]表示永久重定向，说明请求的资源已经不存在了，需改用新的URL再次访问&lt;/li&gt;
+&lt;li&gt;[302 Found]表示临时重定向，说明请求的资源还在，但暂时需要用另一个URL来访问&lt;/li&gt;
+&lt;li&gt;301和302都会在响应头里使用字段Location，指明后续要跳转的URL，浏览器会自动重定向新的URL&lt;/li&gt;
+&lt;li&gt;[304 Not Modified] 缓存重定向&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;4xx类表示客户端错误状态码；客户端发送的报文有误，服务器无法处理
+&lt;ol&gt;
+&lt;li&gt;[400 Bad Request]比较笼统的错误&lt;/li&gt;
+&lt;li&gt;[403 Forbiddden]表示服务器禁止访问资源，一般是由于没有权限&lt;/li&gt;
+&lt;li&gt;[404 Not Found] 表示请求的资源在服务器上不存在或未找到&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;5xx类状态码表示服务器错误状态码；服务器处理时内部发生了错误
+&lt;ol&gt;
+&lt;li&gt;[500 Internal Server Error]比较笼统&lt;/li&gt;
+&lt;li&gt;[501 Not Implemented]表示客户端请求的功能还不支持&lt;/li&gt;
+&lt;li&gt;[502 Bad Gateway] 服务器以代理服务器或网关的形式工作时，收到从上游服务器到达的执行请求的非法响应&lt;/li&gt;
+&lt;li&gt;[503 Service Unavailable]表示服务器当前很忙，暂时无法响应客户端&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;info&lt;/pre&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: MySQL面试题</title>
+      <link>https://gainovel.github.io/blog/2023/08/25/mysql%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gainovel.github.io/blog/2023/08/25/mysql%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <description>
+        
+        
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![](pic)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;1-数据库的基本操作&#34;&gt;1. 数据库的基本操作&lt;/h2&gt;
+&lt;h3 id=&#34;11-数据库和表&#34;&gt;1.1 数据库和表&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;pic/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%92%8C%E8%A1%A8.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;12-数据库的基本操作&#34;&gt;1.2 数据库的基本操作&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;pic/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-表的基本操作&#34;&gt;2. 表的基本操作&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;pic/%E8%A1%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3-列的属性&#34;&gt;3. 列的属性&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;pic/%E5%88%97%E7%9A%84%E5%B1%9E%E6%80%A7.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
       </description>
     </item>
