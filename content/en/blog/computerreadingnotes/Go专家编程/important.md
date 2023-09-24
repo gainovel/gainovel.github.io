@@ -1,3 +1,14 @@
+---
+date: 2023-09-23
+title: Go专家编程
+linkTitle: Go专家编程
+weight: 1
+description: >
+  计算机类书籍读书笔记<br>
+  经济危机，普通人的出路在哪里
+author: Gainovel ([@gainovel](https://gainovel.github.io/))
+---
+
 # 一、 常见数据结构的实现原理
 
 ## 1.1 管道
