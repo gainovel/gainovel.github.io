@@ -595,14 +595,23 @@ elem unsafe.Pointer // data element
 3. 不同的类型细节上存在一些差异
 
 **for range遍历数组**
+
 ![](pic/forrange-数组.png)
+
 **for range遍历切片**
+
 ![](pic/forrange-切片.png)
+
 **for range遍历string**
+
 ![](pic/forrang-string.png)
+
 **for range遍历map**
+
 ![](pic/forrange-map.png)
+
 **for range遍历chan**
+
 ![](pic/forrang-chan.png)
 
 # 三、协程
