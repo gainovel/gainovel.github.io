@@ -262,7 +262,7 @@ This is the multi-page printable view of this section.
     
 	
 
-    <li><a href="#pg-7f9059fdf190ae4c236d0bb3ddab5fd8">Go专家编程</a></li>
+    <li><a href="#pg-7f9059fdf190ae4c236d0bb3ddab5fd8"></a></li>
 
 
 
@@ -1168,12 +1168,10 @@ Linux安装。</li>
   
 
 <div class="td-content" style="">
-    <h1 id="pg-7f9059fdf190ae4c236d0bb3ddab5fd8">Go专家编程</h1>
-	<div class="lead">计算机类书籍读书笔记<br> 经济危机，普通人的出路在哪里</div>
+    <h1 id="pg-7f9059fdf190ae4c236d0bb3ddab5fd8"></h1>
+	
 	<div class="td-byline mb-4">
-		By <b>Gainovel (<a href="https://gainovel.github.io/">@gainovel</a>)</b> |
-        
-		<time datetime="2023-09-23" class="text-muted">Saturday, September 23, 2023</time>
+		
         
 	</div>
 	<h1 id="一-常见数据结构的实现原理">一、 常见数据结构的实现原理</h1>
@@ -1236,27 +1234,27 @@ channel</li>
 <li>panic-recover：关闭一个chan直接调用close即可，但是关闭一个已经关闭的chan会导致 panic，怎么办？panic-recover 配合使用即可。</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">func</span> <span style="color:#000">SafeClose</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">ch</span> <span style="color:#204a87;font-weight:bold">chan</span> <span style="color:#204a87;font-weight:bold">int</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">closed</span> <span style="color:#204a87;font-weight:bold">bool</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">defer</span> <span style="color:#204a87;font-weight:bold">func</span> <span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#204a87">recover</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#ce5c00;font-weight:bold">!=</span> <span style="color:#204a87;font-weight:bold">nil</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#000">closed</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">false</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">}()</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic">// 如果 ch 是一个已经关闭的，会 panic 的，然后被 recover 捕捉到；
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#204a87">close</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">ch</span><span style="color:#000;font-weight:bold">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#204a87;font-weight:bold">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">defer</span> <span style="color:#204a87;font-weight:bold">func</span> <span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">if</span> <span style="color:#204a87">recover</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#ce5c00;font-weight:bold">!=</span> <span style="color:#204a87;font-weight:bold">nil</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">closed</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}()</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// 如果 ch 是一个已经关闭的，会 panic 的，然后被 recover 捕捉到；
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87">close</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">ch</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">return</span> <span style="color:#204a87;font-weight:bold">true</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
 </span></span></code></pre></div><ol start="2">
 <li>sync.Once：可以使用 sync.Once 来确保 close 只执行一次。</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">type</span> <span style="color:#000">ChanMgr</span> <span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">C</span>    <span style="color:#204a87;font-weight:bold">chan</span> <span style="color:#204a87;font-weight:bold">int</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">once</span> <span style="color:#000">sync</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Once</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">C</span>    <span style="color:#204a87;font-weight:bold">chan</span> <span style="color:#204a87;font-weight:bold">int</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">once</span> <span style="color:#000">sync</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Once</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">func</span> <span style="color:#000">NewChanMgr</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">ChanMgr</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#ce5c00;font-weight:bold">&amp;</span><span style="color:#000">ChanMgr</span><span style="color:#000;font-weight:bold">{</span><span style="color:#000">C</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#204a87">make</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87;font-weight:bold">chan</span> <span style="color:#204a87;font-weight:bold">int</span><span style="color:#000;font-weight:bold">)}</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">return</span> <span style="color:#ce5c00;font-weight:bold">&amp;</span><span style="color:#000">ChanMgr</span><span style="color:#000;font-weight:bold">{</span><span style="color:#000">C</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#204a87">make</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87;font-weight:bold">chan</span> <span style="color:#204a87;font-weight:bold">int</span><span style="color:#000;font-weight:bold">)}</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">func</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">cm</span> <span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">ChanMgr</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000">SafeClose</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">cm</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">once</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Do</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87;font-weight:bold">func</span> <span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span> <span style="color:#204a87">close</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">cm</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">C</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">})</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">cm</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">once</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Do</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87;font-weight:bold">func</span> <span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span> <span style="color:#204a87">close</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">cm</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">C</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">})</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
 </span></span></code></pre></div><ol start="3">
 <li>专门一个协程执行关闭操作，context做事件同步，先停止写chan，再关闭chan</li>
@@ -1264,52 +1262,52 @@ channel</li>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">package</span> <span style="color:#000">main</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000;font-weight:bold">(</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">&#34;context&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">&#34;sync&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">&#34;time&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#4e9a06">&#34;context&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#4e9a06">&#34;sync&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#4e9a06">&#34;time&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">)</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">func</span> <span style="color:#000">main</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic">// channel 初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#000">c</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#204a87">make</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87;font-weight:bold">chan</span> <span style="color:#204a87;font-weight:bold">int</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">10</span><span style="color:#000;font-weight:bold">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic">// 用来 recevivers 同步事件的
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#000">wg</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#000">sync</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">WaitGroup</span><span style="color:#000;font-weight:bold">{}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic">// 上下文
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#000">ctx</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">cancel</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#000">context</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">WithCancel</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">context</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">TODO</span><span style="color:#000;font-weight:bold">())</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#8f5902;font-style:italic">// channel 初始化
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>	<span style="color:#000">c</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#204a87">make</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87;font-weight:bold">chan</span> <span style="color:#204a87;font-weight:bold">int</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">10</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#8f5902;font-style:italic">// 用来 recevivers 同步事件的
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>	<span style="color:#000">wg</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#000">sync</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">WaitGroup</span><span style="color:#000;font-weight:bold">{}</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#8f5902;font-style:italic">// 上下文
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>	<span style="color:#000">ctx</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">cancel</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#000">context</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">WithCancel</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">context</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">TODO</span><span style="color:#000;font-weight:bold">())</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic">// 专门关闭的协程
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#204a87;font-weight:bold">go</span> <span style="color:#204a87;font-weight:bold">func</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#000">time</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Sleep</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">2</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000">time</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Second</span><span style="color:#000;font-weight:bold">)</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#000">cancel</span><span style="color:#000;font-weight:bold">()</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#8f5902;font-style:italic">// ... 某种条件下，关闭 channel
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>        <span style="color:#204a87">close</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">c</span><span style="color:#000;font-weight:bold">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">}()</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#8f5902;font-style:italic">// 专门关闭的协程
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>	<span style="color:#204a87;font-weight:bold">go</span> <span style="color:#204a87;font-weight:bold">func</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#000">time</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Sleep</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">2</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000">time</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Second</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#000">cancel</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#8f5902;font-style:italic">// ... 某种条件下，关闭 channel
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>		<span style="color:#204a87">close</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">c</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#000;font-weight:bold">}()</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic">// senders（写端）
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">i</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">i</span> <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#0000cf;font-weight:bold">10</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">i</span><span style="color:#ce5c00;font-weight:bold">++</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#204a87;font-weight:bold">go</span> <span style="color:#204a87;font-weight:bold">func</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">ctx</span> <span style="color:#000">context</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Context</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">id</span> <span style="color:#204a87;font-weight:bold">int</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">select</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span><span style="color:#000">ctx</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Done</span><span style="color:#000;font-weight:bold">():</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">return</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">case</span> <span style="color:#000">c</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">id</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#8f5902;font-style:italic">// 入队
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>                <span style="color:#8f5902;font-style:italic">// ...
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>            <span style="color:#000;font-weight:bold">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">}(</span><span style="color:#000">ctx</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">i</span><span style="color:#000;font-weight:bold">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#8f5902;font-style:italic">// senders（写端）
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>	<span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">i</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">i</span> <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#0000cf;font-weight:bold">10</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">i</span><span style="color:#ce5c00;font-weight:bold">++</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#204a87;font-weight:bold">go</span> <span style="color:#204a87;font-weight:bold">func</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">ctx</span> <span style="color:#000">context</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Context</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">id</span> <span style="color:#204a87;font-weight:bold">int</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#204a87;font-weight:bold">select</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#204a87;font-weight:bold">case</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span><span style="color:#000">ctx</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Done</span><span style="color:#000;font-weight:bold">():</span>
+</span></span><span style="display:flex;"><span>				<span style="color:#204a87;font-weight:bold">return</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#204a87;font-weight:bold">case</span> <span style="color:#000">c</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">id</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#8f5902;font-style:italic">// 入队
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>				<span style="color:#8f5902;font-style:italic">// ...
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>			<span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#000;font-weight:bold">}(</span><span style="color:#000">ctx</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">i</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#000;font-weight:bold">}</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic">// receivers（读端）
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">i</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">i</span> <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#0000cf;font-weight:bold">10</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">i</span><span style="color:#ce5c00;font-weight:bold">++</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#000">wg</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Add</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#204a87;font-weight:bold">go</span> <span style="color:#204a87;font-weight:bold">func</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">defer</span> <span style="color:#000">wg</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Done</span><span style="color:#000;font-weight:bold">()</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#8f5902;font-style:italic">// ... 处理 channel 里的数据
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>            <span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">v</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#204a87;font-weight:bold">range</span> <span style="color:#000">c</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#000">_</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">v</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">}()</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#8f5902;font-style:italic">// 等待所有的 receivers 完成；
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>    <span style="color:#000">wg</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Wait</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#8f5902;font-style:italic">// receivers（读端）
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>	<span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">i</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">i</span> <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#0000cf;font-weight:bold">10</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">i</span><span style="color:#ce5c00;font-weight:bold">++</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#000">wg</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Add</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#204a87;font-weight:bold">go</span> <span style="color:#204a87;font-weight:bold">func</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#204a87;font-weight:bold">defer</span> <span style="color:#000">wg</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Done</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#8f5902;font-style:italic">// ... 处理 channel 里的数据
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>			<span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">v</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#204a87;font-weight:bold">range</span> <span style="color:#000">c</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>				<span style="color:#000">_</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">v</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#000;font-weight:bold">}()</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#8f5902;font-style:italic">// 等待所有的 receivers 完成；
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>	<span style="color:#000">wg</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Wait</span><span style="color:#000;font-weight:bold">()</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
 </span></span></code></pre></div><h3 id="118-how-select监控chan">1.1.8 HOW-select监控chan</h3>
 <ol>
@@ -1335,11 +1333,12 @@ channel</li>
 </span></span><span style="display:flex;"><span><span style="color:#000">s5</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#000">s1</span><span style="color:#000;font-weight:bold">[</span><span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">:</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">]</span>
 </span></span></code></pre></div><h3 id="122-why-实现原理">1.2.2 WHY-实现原理</h3>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">type</span> <span style="color:#000">slice</span> <span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">array</span> <span style="color:#000">unsafe</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Pointer</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">len</span>   <span style="color:#204a87;font-weight:bold">int</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">cap</span>   <span style="color:#204a87;font-weight:bold">int</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">array</span> <span style="color:#000">unsafe</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Pointer</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">len</span>   <span style="color:#204a87;font-weight:bold">int</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">cap</span>   <span style="color:#204a87;font-weight:bold">int</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
-</span></span></code></pre></div><h3 id="123-why-扩容规则">1.2.3 WHY-扩容规则</h3>
+</span></span></code></pre></div><p><img src="pic/slice_struct.png" alt=""></p>
+<h3 id="123-why-扩容规则">1.2.3 WHY-扩容规则</h3>
 <ol>
 <li>确定预估容量
 go1.21 src</li>
@@ -1347,26 +1346,26 @@ go1.21 src</li>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#000">newcap</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#000">oldCap</span>
 </span></span><span style="display:flex;"><span><span style="color:#000">doublecap</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#000">newcap</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#000">newcap</span>
 </span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000">newLen</span> <span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#000">doublecap</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">newcap</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">newLen</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">newcap</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">newLen</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">threshold</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">256</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000">oldCap</span> <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#000">threshold</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#000">newcap</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">doublecap</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#8f5902;font-style:italic">// Check 0 &lt; newcap to detect overflow
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>        <span style="color:#8f5902;font-style:italic">// and prevent an infinite loop.
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>        <span style="color:#204a87;font-weight:bold">for</span> <span style="color:#0000cf;font-weight:bold">0</span> <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#000">newcap</span> <span style="color:#ce5c00;font-weight:bold">&amp;&amp;</span> <span style="color:#000">newcap</span> <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#000">newLen</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#8f5902;font-style:italic">// Transition from growing 2x for small slices
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>            <span style="color:#8f5902;font-style:italic">// to growing 1.25x for large slices. This formula
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>            <span style="color:#8f5902;font-style:italic">// gives a smooth-ish transition between the two.
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>            <span style="color:#000">newcap</span> <span style="color:#ce5c00;font-weight:bold">+=</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">newcap</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#0000cf;font-weight:bold">3</span><span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">threshold</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">/</span> <span style="color:#0000cf;font-weight:bold">4</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#8f5902;font-style:italic">// Set newcap to the requested cap when
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>        <span style="color:#8f5902;font-style:italic">// the newcap calculation overflowed.
-</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>        <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000">newcap</span> <span style="color:#ce5c00;font-weight:bold">&lt;=</span> <span style="color:#0000cf;font-weight:bold">0</span> <span style="color:#000;font-weight:bold">{</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#000">newcap</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">newLen</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">const</span> <span style="color:#000">threshold</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">256</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000">oldCap</span> <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#000">threshold</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">newcap</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">doublecap</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span> <span style="color:#204a87;font-weight:bold">else</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// Check 0 &lt; newcap to detect overflow
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// and prevent an infinite loop.
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">for</span> <span style="color:#0000cf;font-weight:bold">0</span> <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#000">newcap</span> <span style="color:#ce5c00;font-weight:bold">&amp;&amp;</span> <span style="color:#000">newcap</span> <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#000">newLen</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// Transition from growing 2x for small slices
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// to growing 1.25x for large slices. This formula
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// gives a smooth-ish transition between the two.
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">newcap</span> <span style="color:#ce5c00;font-weight:bold">+=</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">newcap</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#0000cf;font-weight:bold">3</span><span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">threshold</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">/</span> <span style="color:#0000cf;font-weight:bold">4</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// Set newcap to the requested cap when
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// the newcap calculation overflowed.
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000">newcap</span> <span style="color:#ce5c00;font-weight:bold">&lt;=</span> <span style="color:#0000cf;font-weight:bold">0</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">newcap</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">newLen</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
 </span></span></code></pre></div><pre class="mermaid">sequenceDiagram
     participant p1 as 实际所需容量
@@ -1414,6 +1413,301 @@ go1.21 src</li>
 <li>创建切片时可根据实际需要预分配容量，尽量避免在追加过程中的扩容操作，有利于提升性能；</li>
 <li>切片拷贝时需要判断实际拷贝的元素个数；</li>
 <li>谨慎使用多个切片操作同一个数组，以防读写冲突。</li>
+</ol>
+<h2 id="13-map">1.3 map</h2>
+<p>Go语言的map底层使用hash表实现</p>
+<h3 id="131-how-map声明和初始化">1.3.1 HOW-map声明和初始化</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// map声明
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">map1</span> <span style="color:#204a87;font-weight:bold">map</span><span style="color:#000;font-weight:bold">[</span><span style="color:#204a87;font-weight:bold">string</span><span style="color:#000;font-weight:bold">]</span><span style="color:#204a87;font-weight:bold">int</span> <span style="color:#8f5902;font-style:italic">// map1 == nl
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// map初始化
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">//1
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">map1</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#204a87;font-weight:bold">map</span><span style="color:#000;font-weight:bold">[</span><span style="color:#204a87;font-weight:bold">string</span><span style="color:#000;font-weight:bold">]</span><span style="color:#204a87;font-weight:bold">int</span><span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">{</span><span style="color:#4e9a06">&#34;apple&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">},</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">{</span><span style="color:#4e9a06">&#34;banana&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">},</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">//2
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">map2</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#204a87">make</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87;font-weight:bold">map</span><span style="color:#000;font-weight:bold">[</span><span style="color:#204a87;font-weight:bold">string</span><span style="color:#000;font-weight:bold">]</span><span style="color:#204a87;font-weight:bold">int</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">map2</span><span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;apple&#34;</span><span style="color:#000;font-weight:bold">]</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">2</span>
+</span></span></code></pre></div><h3 id="132-what-map特点">1.3.2 WHAT-map特点</h3>
+<ol>
+<li>向值为nil的map添加元素时会触发panic。&mdash;panic: assignment to entry in nil map</li>
+<li>查询时，如果键不存在，不会报错，返回值类型的零值</li>
+<li>map为nil或者键不存在，查询和删除<code>delete(map1, &quot;apple&quot;)</code>不报错</li>
+<li>使用val,ok形式查询map，ok为false，表示元素不存在</li>
+<li>map不支持并发读写，多个协同同时操作map会fatal &mdash;fatal error: concurrent map writes</li>
+</ol>
+<h3 id="133-how-map使用建议">1.3.3 HOW-map使用建议</h3>
+<ol>
+<li>初始化map时推荐使用内置函数make()并指定预估的容量</li>
+<li>修改键值对时，需要先判断map是否为nil，否则会触发panic</li>
+<li>查询键值对时，最好检查键是否存在，避免操作零值。</li>
+<li>避免并发读写map，如果需要并发读写，则可以使用额外的锁（互斥锁、读写锁），也可以考虑使用标准库sync包中的sync.Map</li>
+</ol>
+<h3 id="134-why-map实现原理">1.3.4 WHY-map实现原理</h3>
+<p><strong>map的数据结构</strong></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">type</span> <span style="color:#000">hmap</span> <span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">count</span>     <span style="color:#204a87;font-weight:bold">int</span> <span style="color:#8f5902;font-style:italic">//已经存储的键值对个数
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">flags</span>     <span style="color:#204a87;font-weight:bold">uint8</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">B</span>         <span style="color:#204a87;font-weight:bold">uint8</span> <span style="color:#8f5902;font-style:italic">// 常规桶个数等于2^B
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">noverflow</span> <span style="color:#204a87;font-weight:bold">uint16</span>          <span style="color:#8f5902;font-style:italic">// 使用的溢出桶数量
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">hash0</span>     <span style="color:#204a87;font-weight:bold">uint32</span>          <span style="color:#8f5902;font-style:italic">// hash seed
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">buckets</span>    <span style="color:#000">unsafe</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Pointer</span> <span style="color:#8f5902;font-style:italic">// 常规桶起始地址
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">oldbuckets</span> <span style="color:#000">unsafe</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Pointer</span> <span style="color:#8f5902;font-style:italic">// 扩容时保存原来常规桶的地址
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">nevacuate</span>  <span style="color:#204a87;font-weight:bold">uintptr</span>        <span style="color:#8f5902;font-style:italic">// 渐进式扩容时记录下一个要被迁移的旧桶编号
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#000">extra</span> <span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">mapextra</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">type</span> <span style="color:#000">bmap</span> <span style="color:#204a87;font-weight:bold">struct</span><span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">tophash</span><span style="color:#000;font-weight:bold">[</span><span style="color:#0000cf;font-weight:bold">8</span><span style="color:#000;font-weight:bold">]</span><span style="color:#204a87;font-weight:bold">uint8</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">data</span> <span style="color:#000;font-weight:bold">[]</span><span style="color:#204a87;font-weight:bold">byte</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">overflow</span><span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">bmap</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">type</span> <span style="color:#000">mapextra</span> <span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">overflow</span>    <span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000;font-weight:bold">[]</span><span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">bmap</span> <span style="color:#8f5902;font-style:italic">//把已经用到的溢出桶链起来
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">oldoverflow</span> <span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000;font-weight:bold">[]</span><span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">bmap</span> <span style="color:#8f5902;font-style:italic">//渐进式扩容时，保存旧桶用到的溢出桶
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">nextOverflow</span> <span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">bmap</span>   <span style="color:#8f5902;font-style:italic">//下一个尚未使用的溢出桶
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000;font-weight:bold">}</span>
+</span></span></code></pre></div><ol>
+<li>hmap中添加9个元素
+<img src="pic/hmap_struct.png" alt=""></li>
+<li>hmap中添加10000个元素
+<img src="pic/hmap_10000+.png" alt=""></li>
+<li>hmap结构图
+<img src="pic/hmap%E7%BB%93%E6%9E%84%E5%9B%BE.png" alt=""></li>
+<li>预分配溢出桶
+<img src="pic/%E9%A2%84%E5%88%86%E9%85%8D%E6%BA%A2%E5%87%BA%E6%A1%B6.png" alt=""></li>
+<li>hash冲突占用溢出桶
+<img src="pic/%E5%8D%A0%E7%94%A8%E6%BA%A2%E5%87%BA%E6%A1%B6.png" alt="">
+<img src="pic/hash%E5%86%B2%E7%AA%81%E6%97%B6hmap%E7%BB%93%E6%9E%84%E5%9B%BE.png" alt=""></li>
+<li>翻倍扩容时hmap结构图
+<img src="pic/%E6%89%A9%E5%AE%B9%E6%97%B6hmap%E7%BB%93%E6%9E%84%E5%9B%BE.png" alt=""></li>
+<li>翻倍扩容结束hmap结构图
+<img src="pic/%E6%89%A9%E5%AE%B9%E6%97%B6hmap%E7%BB%93%E6%9E%84%E5%9B%BE.png" alt=""></li>
+<li>等量扩容时hmap结构
+<img src="pic/%E7%AD%89%E9%87%8F%E6%89%A9%E5%AE%B9%E6%97%B6hmap%E7%BB%93%E6%9E%84.png" alt=""></li>
+</ol>
+<h3 id="135-how-hash冲突怎么处理">1.3.5 HOW-hash冲突怎么处理</h3>
+<h3 id="136-how-翻倍扩容和等量扩容触发条件">1.3.6 HOW-翻倍扩容和等量扩容触发条件</h3>
+<h3 id="137-how-翻倍扩容负载因子怎么计算负载因子说明了什么">1.3.7 HOW-翻倍扩容负载因子怎么计算？负载因子说明了什么？</h3>
+<h3 id="138-how-翻倍扩容如何保证key均匀的散落到新桶中">1.3.8 HOW-翻倍扩容如何保证key均匀的散落到新桶中？</h3>
+<h3 id="139-how-为什么要做等量扩容">1.3.9 HOW-为什么要做等量扩容？</h3>
+<h3 id="1310-how-map增删改查的过程">1.3.10 HOW-map增删改查的过程？</h3>
+<h2 id="14-struct">1.4 struct</h2>
+<p>Go语言的struct与其他编程语言的class有些类似，可以定义字段和方法，但是不可以继承</p>
+<h3 id="141-what-内嵌字段">1.4.1 WHAT-内嵌字段</h3>
+<ol>
+<li>对于类型为结构体的字段，显式指定时与其他类型没有区别，仅代表某种类型的字段，而隐式指定时，原结构体的字段和方法看起来就像是被“继承”过来了一样。</li>
+<li>当结构体cat中嵌入另一个结构体Animal时，相当于声明了一个名为Animal的字段,
+此时结构体Animal中的字段和方法会被提升到Cat中，看上去就像是Cat的原生字段和方法。</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">type</span> <span style="color:#000">Animal</span> <span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">Name</span> <span style="color:#204a87;font-weight:bold">string</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">func</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">a</span> <span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">Animal</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000">SetName</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">name</span> <span style="color:#204a87;font-weight:bold">string</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">a</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Name</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">name</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">type</span> <span style="color:#000">Cat</span> <span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">Animal</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">type</span> <span style="color:#000">Dog</span> <span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">a</span> <span style="color:#000">Animal</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span></code></pre></div><p><img src="pic/%E5%86%85%E5%B5%8C%E7%BB%93%E6%9E%84%E4%BD%93.png" alt=""></p>
+<h3 id="142-what-结构体方法和方法接收者">1.4.2 WHAT-结构体方法和方法接收者</h3>
+<ol>
+<li>可以为结构体定义方法，此时结构体作为方法接收者</li>
+<li>此时可以把方法接收者看作方法的特殊参数</li>
+<li>接收者类型为结构体指针，相当于把指针传给了方法，对该接收者的修改直接作用到接收者本身；接收者类型为结构体，相当于传递了一份拷贝给方法，对该接收者的修改不会作用到结构体自身</li>
+</ol>
+<h3 id="143-what-结构体字段标签">1.4.3 WHAT-结构体字段标签</h3>
+<p>reflect包中，用StructField表示结构体的一个字段</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">type</span> <span style="color:#000">StructField</span> <span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// Name is the field name.
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">Name</span> <span style="color:#204a87;font-weight:bold">string</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// PkgPath is the package path that qualifies a lower case (unexported)
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// field name. It is empty for upper case (exported) field names.
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// See https://golang.org/ref/spec#Uniqueness_of_identifiers
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">PkgPath</span> <span style="color:#204a87;font-weight:bold">string</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">Type</span>      <span style="color:#000">Type</span> <span style="color:#8f5902;font-style:italic">// field type
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">Tag</span>       <span style="color:#000">StructTag</span> <span style="color:#8f5902;font-style:italic">// field tag string
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">Offset</span>    <span style="color:#204a87;font-weight:bold">uintptr</span>   <span style="color:#8f5902;font-style:italic">// offset within struct, in bytes
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">Index</span>     <span style="color:#000;font-weight:bold">[]</span><span style="color:#204a87;font-weight:bold">int</span>     <span style="color:#8f5902;font-style:italic">// index sequence for Type.FieldByIndex
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">Anonymous</span> <span style="color:#204a87;font-weight:bold">bool</span> <span style="color:#8f5902;font-style:italic">// is an embedded field
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000;font-weight:bold">}</span>
+</span></span></code></pre></div><ol>
+<li>Tag 用于标识结构体字段的额外属性，有点类似于注释。标准库 reflect 包中提供了操作Tag 的方法</li>
+<li>Tag本身是一个字符串，有一个约定的格式：key:&ldquo;value&quot;格式；key和value之间使用冒号分隔，冒号前后不能有空格，多个key:&ldquo;value&quot;之间由
+空格分开</li>
+<li>key 一般表示用途，比如 json 表示用于控制结构体类型与 JSON 格式数据之间的转换，
+protobuf 表示用于控制序列化和反序列化。 value 一般表示控制指令，具体控制指令由不同
+的库指定</li>
+</ol>
+<h3 id="144-what-如何获取tag">1.4.4 WHAT-如何获取tag?</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">type</span> <span style="color:#000">TypeMeta</span> <span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">Kind</span>       <span style="color:#204a87;font-weight:bold">string</span> <span style="color:#4e9a06">`json:&#34;kind,omitempty&#34; protobuf:&#34;bytes,1,opt,name=kind&#34;`</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">APIVersion</span> <span style="color:#204a87;font-weight:bold">string</span> <span style="color:#4e9a06">`json:&#34;apiVersion,omitempty&#34; protobuf:&#34;bytes,2,opt,name=apiVersion&#34;`</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">func</span> <span style="color:#000">PrintTag</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">t</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#000">TypeMeta</span><span style="color:#000;font-weight:bold">{}</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">ty</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#000">reflect</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">TypeOf</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">t</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">i</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">;</span> <span style="color:#000">i</span> <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#000">ty</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">NumField</span><span style="color:#000;font-weight:bold">();</span> <span style="color:#000">i</span><span style="color:#ce5c00;font-weight:bold">++</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">fmt</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Printf</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;Field: %s, Tag: %s\n&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">ty</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Field</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">i</span><span style="color:#000;font-weight:bold">).</span><span style="color:#000">Name</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">ty</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Field</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">i</span><span style="color:#000;font-weight:bold">).</span><span style="color:#000">Tag</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Get</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;json&#34;</span><span style="color:#000;font-weight:bold">))</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span></code></pre></div><h3 id="145-what-tag的意义">1.4.5 WHAT-tag的意义?</h3>
+<p>Go 语言的反射特性可以动态地给结构体成员赋值，正是因为有 Tag, 在赋值前可以使用Tag 来决定赋值的动作。</p>
+<h2 id="15-iota">1.5 iota</h2>
+<h3 id="151-what-const和iota赋值规则">1.5.1 WHAT-const和iota赋值规则</h3>
+<ol>
+<li>const下一行的值定义可以省略，省略后依据前一行的值定义赋值</li>
+<li>iota代表了 const声明块的行索引（下标从0开始）</li>
+<li>const+iota可以实现快速赋值</li>
+</ol>
+<h2 id="16-string">1.6 string</h2>
+<ol>
+<li>值类型，值结构类似于[]byte</li>
+<li>值不可修改</li>
+<li>string因为不可变，每次赋值都会新建一个string，设计到内存拷贝</li>
+</ol>
+<h3 id="161-how-声明和初始化">1.6.1 HOW-声明和初始化</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// 声名
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#204a87;font-weight:bold">var</span> <span style="color:#000">s</span> <span style="color:#204a87;font-weight:bold">string</span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic">// 初始化
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">s1</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#4e9a06">&#34;hello&#34;</span>
+</span></span></code></pre></div><h3 id="162-what-和的区别">1.6.2 WHAT-&ldquo;&ldquo;和``的区别</h3>
+<ol>
+<li><code>&quot;&quot;</code>会对特殊字符进行转义，``不会对特殊字符进行转义</li>
+</ol>
+<h3 id="163-what-字符串拼接">1.6.3 WHAT-字符串拼接</h3>
+<ol>
+<li>字符串拼接时会触发内存分配及内存拷贝，单行语句拼接多个字符串只分配一次内存</li>
+<li>两次遍历：第一次遍历要拼接的所有字符串，计算总长度，据此申请内存；第二次遍历会把字符逐个拷过去</li>
+<li>字符串不可修改，因此新生成的字符串也不可修改；具体做法就是，使字符串和切片共享底层数组，通过切片将字符拷贝过去，进而生成新的字符串</li>
+</ol>
+<h3 id="164-how-byte和string之间互相转换">1.6.4 HOW-[]byte和string之间互相转换</h3>
+<ol>
+<li>无论是字符串转换成口byte,还是[]byte转换成string,都将发生一次内存拷贝，会有一定的开销</li>
+<li>编译优化：byte 切片转换成 string 的场景有很多，出于性能上的考虑，有时候只是应用在临时需要字符串的场景下。byte切片转换成string时并不会拷贝内存，而是直接返回一个string,
+这个string 的指针 (string.str) 指向切片的内存</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#000">bytes1</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#000;font-weight:bold">[]</span><span style="color:#204a87;font-weight:bold">byte</span><span style="color:#000;font-weight:bold">{</span><span style="color:#0000cf;font-weight:bold">228</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">184</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">173</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">229</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">155</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">189</span><span style="color:#000;font-weight:bold">}</span><span style="color:#8f5902;font-style:italic">//中国
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">runes1</span> <span style="color:#ce5c00;font-weight:bold">:=</span> <span style="color:#000;font-weight:bold">[]</span><span style="color:#204a87;font-weight:bold">rune</span><span style="color:#000;font-weight:bold">{</span><span style="color:#0000cf;font-weight:bold">20013</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">22269</span><span style="color:#000;font-weight:bold">}</span><span style="color:#8f5902;font-style:italic">//中国
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">fmt</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Println</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87">string</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">bytes1</span><span style="color:#000;font-weight:bold">))</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">fmt</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Println</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87">string</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">runes1</span><span style="color:#000;font-weight:bold">))</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">fmt</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Println</span><span style="color:#000;font-weight:bold">([]</span><span style="color:#204a87">byte</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87">string</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">bytes1</span><span style="color:#000;font-weight:bold">)))</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">fmt</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Println</span><span style="color:#000;font-weight:bold">([]</span><span style="color:#204a87">byte</span><span style="color:#000;font-weight:bold">(</span><span style="color:#204a87">string</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">runes1</span><span style="color:#000;font-weight:bold">)))</span>
+</span></span></code></pre></div><h3 id="165-why-实现原理">1.6.5 WHY-实现原理</h3>
+<p>数据结构</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">type</span> <span style="color:#000">stringStruct</span> <span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">str</span> <span style="color:#000">unsafe</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Pointer</span> <span style="color:#8f5902;font-style:italic">// 字符串的首地址
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">len</span> <span style="color:#204a87;font-weight:bold">int</span>            <span style="color:#8f5902;font-style:italic">// 字符串的长度
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000;font-weight:bold">}</span>
+</span></span></code></pre></div><h3 id="166-why-为什么string不能修改">1.6.6 WHY-为什么string不能修改？</h3>
+<ol>
+<li>在Go的实现中，string不包含内存空间，只有一个内存的指针，这样做的好处是string变得非常轻量，可以很方便地进行传递而不用担心内存拷贝。</li>
+<li>因为string通常指向字符串字面量，而字符串字面量存储的位置是只读段，而不是堆或栈上，所以才有了 string不可修改的约定</li>
+</ol>
+<h1 id="二控制结构">二、控制结构</h1>
+<h2 id="21-select">2.1 select</h2>
+<ol>
+<li>select是Go在语言层面提供的多路I/O复用机制，用于检测多个管道是否就绪（即可读或可写），其特性跟管道息息相关</li>
+</ol>
+<h3 id="211-why-fatal-error-all-goroutines-are-asleep---deadlock">2.1.1 WHY-fatal error: all goroutines are asleep - deadlock!</h3>
+<ol>
+<li>所有goroutine都阻塞了：因为go的runtime会检查你所有的goroutine都卡住了， 没有一个能执行，就会报改错</li>
+<li>死锁发生：①多个协程获取多个互斥锁②已经获得的锁协程自己不释放，别的协程也不可剥夺③多个协程循环等待锁</li>
+</ol>
+<h3 id="212-how-select使用举例">2.1.2 HOW-select使用举例</h3>
+<ol>
+<li>永久阻塞</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">func</span> <span style="color:#000">main</span><span style="color:#000;font-weight:bold">(){</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">select</span><span style="color:#000;font-weight:bold">{}</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span></code></pre></div><ol start="2">
+<li>快速检错
+将chan当作参数进行传递，将error写入chan，主协程通过chan快速检查错误的发生</li>
+<li>限时等待
+通过timer设定select的最长等待时间，最长等待时间到达还未从chan中获得数据，就执行超时相关操作</li>
+</ol>
+<h3 id="213-why-select实现原理">2.1.3 WHY-select实现原理</h3>
+<ol>
+<li>select中case语句对应scase数据结构</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">type</span> <span style="color:#000">scase</span> <span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">c</span>    <span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">hchan</span>         <span style="color:#8f5902;font-style:italic">// chan
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">elem</span> <span style="color:#000">unsafe</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Pointer</span> <span style="color:#8f5902;font-style:italic">// data element
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000;font-weight:bold">}</span>
+</span></span></code></pre></div><ol start="2">
+<li>select中每个scase的类型</li>
+</ol>
+<p><img src="pic/selectKind.png" alt=""></p>
+<ol>
+<li>
+<p>c为该scase可操作的管道，因此select中每个case有且必须有个管道操作，否则会给出编译错误</p>
+</li>
+<li>
+<p>每个case分支必然是读管道<code>selectSend</code>、写管道<code>selectRecv</code>或default<code>selectDefault</code>中的一种</p>
+</li>
+<li>
+<p>default分支最多一个</p>
+</li>
+<li>
+<p>elem表示从管道中读写的数据存放的地址</p>
+</li>
+<li>
+<p>select随机选择就绪的case实现：所有的case分支都对应一个scase结构，将所有的case分支都放入一个数组，并打乱数组顺序，这样再从数组中取值，就可以达到随机选择一个case的效果</p>
+</li>
+</ol>
+<h3 id="214-how-select使用小结">2.1.4 HOW-select使用小结</h3>
+<ol>
+<li>select仅能操作管道</li>
+<li>每个case语句只能处理一个管道，要么读要么写</li>
+<li>多个case语句的执行顺序是随机的</li>
+<li>default分支最多一个，存在default分支select不会阻塞</li>
+</ol>
+<h2 id="22-for-range">2.2 for-range</h2>
+<ol>
+<li>range可作用于数组、切片、string、map、chan</li>
+</ol>
+<h3 id="221-why-实现原理">2.2.1 WHY-实现原理</h3>
+<ol>
+<li>编译器会将fbr-range语句处理成传统的for循环</li>
+<li>编译器会从for-range语句中提取出初始化语句(NT)、条件语句(COND)和迭代语句(POST)</li>
+<li>不同的类型细节上存在一些差异</li>
+</ol>
+<p><strong>for range遍历数组</strong>
+<img src="pic/forrange-%E6%95%B0%E7%BB%84.png" alt="">
+<strong>for range遍历切片</strong>
+<img src="pic/forrange-%E5%88%87%E7%89%87.png" alt="">
+<strong>for range遍历string</strong>
+<img src="pic/forrang-string.png" alt="">
+<strong>for range遍历map</strong>
+<img src="pic/forrange-map.png" alt="">
+<strong>for range遍历chan</strong>
+<img src="pic/forrang-chan.png" alt=""></p>
+<h1 id="三协程">三、协程</h1>
+<h2 id="31-what-什么是进程">3.1 WHAT-什么是进程？</h2>
+<ol>
+<li>进程是应用程序的启动实例，每个进程都有独立的内存空间，不同进程通过进程间的通信方式来通信</li>
+</ol>
+<h2 id="32-what-什么是线程">3.2 WHAT-什么是线程？</h2>
+<ol>
+<li>线程从属于进程，每个进程至少包含一个线程，线程是CPU调度的基本单位，多个线程之间可以共享进程的资源并通过共享内存等线程间的通信方式来通信。</li>
+</ol>
+<h2 id="32-what-什么是协程">3.2 WHAT-什么是协程？</h2>
+<ol>
+<li>协程可理解为一种轻量级线程，与线程相比，协程不受操作系统调度，协程调度器由用户
+应用程序提供，协程调度器按照调度策略把协程调度到线程中运行。Go应用程序的协程调度
+器由runtime包提供，用户使用go关键字即可创建协程，这也就是在语言层面直接支持协程的
+含义。</li>
 </ol>
 
 </div>
