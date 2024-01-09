@@ -1,0 +1,5 @@
+[frontmatter]
+date = ['lastmod', 'date', 'pubdate', 'publishdate', 'published', 'modified']
+expirydate = ['expirydate', 'unpublishdate']
+lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']
+publishdate = ['publishdate', 'pubdate', 'published', 'date']

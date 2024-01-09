@@ -1,4 +1,4 @@
-module github.com/CaiJimmy/hugo-theme-stack-starter
+module gainove.com/gainovel/blog
 
 go 1.17
 
