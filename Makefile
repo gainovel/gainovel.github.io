@@ -8,6 +8,13 @@
 # @Description  : 开发中···
 
 .PHONY: hugo/server
+.PHONY: hugo
+
+# default
+.DEFAULT_GOAL = default
+
+default:
+	@hugo server --disableFastRender --bind="0.0.0.0" -p 80
 
 hugo/server:
 	@hugo server --disableFastRender --bind="0.0.0.0" -p 80
