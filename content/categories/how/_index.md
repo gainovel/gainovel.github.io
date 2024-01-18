@@ -1,5 +1,5 @@
 ---
-title: how
+title: How
 description: 5w2h→how
 date: 2024-01-04
 image: /pic/questions/png/how001.png

@@ -1,5 +1,5 @@
 ---
-title: linux
+title: Linux
 description: 编程基础学科
 date: 1949-01-01
 image: /pic/common/logo/png/linux_log.png

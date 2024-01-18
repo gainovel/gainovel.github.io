@@ -1,5 +1,5 @@
 ---
-title: when
+title: When
 description: 5w2h→when
 date: 2024-01-04
 image: /pic/questions/png/when001.png

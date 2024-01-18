@@ -1,5 +1,5 @@
 ---
-title: cmake
+title: Cmake
 description: cmake
 date: 2009-05-10
 image: /pic/common/logo/ico/cmake_favicon.ico

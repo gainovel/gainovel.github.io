@@ -2,6 +2,7 @@
 title: "关于"
 date: 2024-01-03
 slug: "about"
+comments: false
 menu:
   main:
     weight: 25

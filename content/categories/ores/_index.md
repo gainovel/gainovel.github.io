@@ -1,5 +1,5 @@
 ---
-title: ores
+title: ORES
 description: 观点|原因&例子|建议
 date: 2024-01-04
 #image: /pic/questions/png/why001.png

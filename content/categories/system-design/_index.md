@@ -1,5 +1,5 @@
 ---
-title: system-design
+title: System Design
 description: 系统设计类型问题
 date: 2024-01-04
 #image: /pic/questions/png/why001.png

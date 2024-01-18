@@ -1,5 +1,5 @@
 ---
-title: what
+title: What
 description: 5w2h→what
 date: 2024-01-04
 image: /pic/questions/png/what001.png

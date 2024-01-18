@@ -1,5 +1,5 @@
 ---
-title: brainstorm
+title: Brainstorm
 description: 头脑风暴
 date: 2024-01-04
 #image: /pic/questions/png/why001.png
