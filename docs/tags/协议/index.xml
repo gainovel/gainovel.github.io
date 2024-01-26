@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>协议 on 玽琅小说家</title>
+        <link>https://www.gainovel.com/tags/%E5%8D%8F%E8%AE%AE/</link>
+        <description>Recent content in 协议 on 玽琅小说家</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gainovel.com/tags/%E5%8D%8F%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>计算机网络 | 计算机网络基础问题</title>
+        <link>https://www.gainovel.com/p/computer-network/basic/</link>
+        <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.gainovel.com/p/computer-network/basic/</guid>
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/067.jpg" alt="Featured image of post 计算机网络 | 计算机网络基础问题" /&gt;&lt;h2 id=&#34;问题列表&#34;&gt;问题列表&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;------------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Type      | Tag            | UpdateTime          | Question
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;------------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| common    | TCP/IP         | 2024/01/08 11:49:52 | 002.🍋为什么要有 TCP/IP 网络模型？🍋TCP/IP 网络模型存在的意义？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| who       | TCP/IP         | 2024/01/08 12:49:52 | 010.🍋TCP/IP 网络模型？🍋TCP/IP 网络模型有哪几层？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| process   | TCP/IP         | 2024/01/08 17:26:08 | 007.🍋键入网址到网页显示，期间发生了什么？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;------------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;为什么要有-tcpip-网络模型&#34;&gt;为什么要有 TCP/IP 网络模型？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月08日 星期一 | 🌙农历 兔年(2023)十一月廿七 | 🕛中午 11点49分52秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;------------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(common)-002
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q01.为什么要有 TCP/IP 网络模型？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q02.TCP/IP 网络模型存在的意义？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.答案📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.同一台设备上的进程间通信可通过管道、消息队列、共享内存、信号等方式
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.不同设备上的进程间通信就需要网络通信
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S03.设备是多样性的，所以为了兼容多种多样的设备，就协商出了一套通用的网络协议
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;------------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;答案&#34;&gt;答案📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;同一台设备上的进程间通信可通过管道、消息队列、共享内存、信号等方式&lt;/li&gt;
+&lt;li&gt;不同设备上的进程间通信就需要网络通信&lt;/li&gt;
+&lt;li&gt;设备是多样性的，所以为了兼容多种多样的设备，就协商出了一套通用的网络协议&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;tcpip-网络模型&#34;&gt;TCP/IP 网络模型？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月08日 星期一 | 🌙农历 兔年(2023)十一月廿七 | 🕛中午 12点49分52秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-1&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;------------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(who)-010
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q01.TCP/IP 网络模型？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q02.TCP/IP 网络模型有哪几层？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.TCP/IP网络模型有四层，分别是应用层、传输层、网络层、网络接口层
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.是OSI七层模型的一种简化实现
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.列举📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.应用层
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.传输层
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S03.网络层
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S04.网络接口层
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;------------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;TCP/IP网络模型有四层，分别是应用层、传输层、网络层、网络接口层&lt;/li&gt;
+&lt;li&gt;是OSI七层模型的一种简化实现&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;列举&#34;&gt;列举📑&lt;/h3&gt;
+&lt;h4 id=&#34;应用层&#34;&gt;应用层&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;应用层直接为应用进程提供服务的&lt;/li&gt;
+&lt;li&gt;常用的大多数软件都是在应用层实现&lt;/li&gt;
+&lt;li&gt;常见协议HTTP、FTP、SSH、DNS、SMTP&lt;/li&gt;
+&lt;li&gt;应用层是工作在操作系统中的用户态，传输层及以下则工作在内核态&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;传输层&#34;&gt;传输层&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;传输层是为应用层提供网络支持的&lt;/li&gt;
+&lt;li&gt;传输层有TCP和UDP两个传输协议&lt;/li&gt;
+&lt;li&gt;UDP功能简单，只负责发送数据包，不保证数据可靠传输，但它实时性好，传输效率高&lt;/li&gt;
+&lt;li&gt;TCP是大部分应用层使用的传输层协议，TCP保证可靠传输&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;网络层&#34;&gt;网络层&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;网络层为传输层提供支持，负责将数据从源地址传递到目标地址（ip⇨ip）&lt;/li&gt;
+&lt;li&gt;网络层最常使用的是IP协议&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;网络接口层&#34;&gt;网络接口层&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;网络接口层为传输层提供支持，主要为网络层提供「链路级别」传输的服务，负责在以太网、WiFi 这样的底层网络上发送原始数据包&lt;/li&gt;
+&lt;li&gt;工作在网卡这个层次，使用 MAC 地址来标识网络上的设备&lt;/li&gt;
+&lt;li&gt;可以理解网络接口层是在直接相连的设备间进行数据传递，而网络层只是负责 源ip⇨目标ip，具体中间如何传递就由网络接口层负责&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;键入网址到网页显示期间发生了什么&#34;&gt;键入网址到网页显示，期间发生了什么？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月08日 星期一 | 🌙农历 兔年(2023)十一月廿七 | 🕛傍晚 5点26分08秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-2&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;------------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(process)-007
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.键入网址到网页显示，期间发生了什么？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.前置知识 &amp;amp; 问题描述📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.考察对【客户端请求⇌服务端响应】流程的整体把握
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.考察对【TCP/IP协议栈】的理解
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.解决步骤📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.解析URL
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.生成HTTP请求
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S03.DNS解析
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S04.操作系统协议栈
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S05.传输层⇨TCP
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S06.网络层⇨IP
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S07.网络接口层⇨MAC
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S08.网卡发送数据
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S09.路由器
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S10.服务端
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;------------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;前置知识--问题描述&#34;&gt;前置知识 &amp;amp; 问题描述📑&lt;/h3&gt;
+&lt;h4 id=&#34;考察对客户端请求服务端响应流程的整体把握&#34;&gt;考察对【客户端请求⇌服务端响应】流程的整体把握&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;HTTP⇌DNS⇌TCP⇌IP⇌MAC⇌网卡⇌路由器⇌服务端&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;考察对tcpip协议栈的理解&#34;&gt;考察对【TCP/IP协议栈】的理解&lt;/h4&gt;
+&lt;h3 id=&#34;解决步骤&#34;&gt;解决步骤📑&lt;/h3&gt;
+&lt;h4 id=&#34;解析url&#34;&gt;解析URL&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;http(协议类型)://example.com(域名)/xxx(资源路径)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;生成http请求&#34;&gt;生成HTTP请求&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;常用请求：GET和POST&lt;/li&gt;
+&lt;li&gt;请求包含：请求行、请求头、请求体&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;dns解析&#34;&gt;DNS解析&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;查询服务器域名对应的IP地址&lt;/li&gt;
+&lt;li&gt;查询路径：浏览器缓存⇨操作系统缓存⇨hosts文件⇨本地DNS服务器⇨根DNS服务器()⇨顶级域DNS服务器([.com:ip1]、[.cn:ip2]、···)⇨权威DNS服务器([example.com:ip1]、···)⇨真实IP&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;操作系统协议栈&#34;&gt;操作系统协议栈&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;应用程序或浏览器通过调用系统&lt;code&gt;Socket&lt;/code&gt;库，来委托系统协议栈处理传输数据&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;传输层tcp&#34;&gt;传输层⇨TCP&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;TCP协议是面向连接的、可靠的、基于字节流的传输层通信协议&lt;/li&gt;
+&lt;li&gt;TCP层负责连接的建立（三次握手）和释放（四次挥手）&lt;/li&gt;
+&lt;li&gt;TCP层会将HTTP请求报文切分成&amp;lt;=MSS的大小，然后分别添加上TCP头部&lt;/li&gt;
+&lt;li&gt;TCP头部包含源端口号和目标端口号用于标识服务进程和请求进程&lt;/li&gt;
+&lt;li&gt;TCP头部包含确认号、窗口大小以及一些状态位都是为了可靠传输准备的&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;网络层ip&#34;&gt;网络层⇨IP&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;网络层会在TCP报文上添加IP头部&lt;/li&gt;
+&lt;li&gt;IP头部中包含源地址IP（发送数据的网卡的IP）和目标地址IP（通过DNS解析获得）&lt;/li&gt;
+&lt;li&gt;多网卡情况下源地址IP可通过查询路由表得到（&lt;code&gt;route -n&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;每个IP报文的大小&amp;lt;=MTU&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;网络接口层mac&#34;&gt;网络接口层⇨MAC&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;网络接口层主要是在直连的两个设备间传输&lt;/li&gt;
+&lt;li&gt;网络层会在TCP报文上添加MAC头部&lt;/li&gt;
+&lt;li&gt;MAC头部包含发送方MAC地址（发送数据的网卡的MAC地址）和接收方MAC地址&lt;/li&gt;
+&lt;li&gt;接收方MAC地址获取流程：①ARP缓存|②查路由表获取下一跳IP⇨arp协议解析下一跳IP获得下一跳MAC地址&lt;/li&gt;
+&lt;li&gt;添加ARP缓存&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;网卡发送数据&#34;&gt;网卡发送数据&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;网卡驱动程序将待发送数据复制到网卡内的缓存区中&lt;/li&gt;
+&lt;li&gt;在其开头加上&lt;code&gt;报头&lt;/code&gt;和&lt;code&gt;起始帧分界符&lt;/code&gt;，在末尾加上用于检测错误的&lt;code&gt;帧校验序列&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;起始帧分界符&lt;/code&gt;是一个用来表示包起始位置的标记 | 末尾的 &lt;code&gt;FCS（帧校验序列）&lt;/code&gt;用来检查包传输过程是否有损坏&lt;/li&gt;
+&lt;li&gt;发送&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;路由器&#34;&gt;路由器&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;通过路由器将数据不断转发，直至目标服务器&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;服务端&#34;&gt;服务端&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;目标服务器收到请求，进行请求处理&lt;/li&gt;
+&lt;li&gt;处理完成后向客户端回应响应数据&lt;/li&gt;
+&lt;li&gt;响应数据以类似的流程从服务端流转到客户端&lt;/li&gt;
+&lt;li&gt;客户端的浏览器收到响应，如果是HTML文件，浏览器进行渲染，就可以看到具体的网页了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;[1 ] 百度百科 &lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/TCP/IP%e5%8d%8f%e8%ae%ae&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://baike.baidu.com/item/TCP/IP协议&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[2 ] 小林coding &lt;a class=&#34;link&#34; href=&#34;https://xiaolincoding.com/network/1_base/tcp_ip_model.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://xiaolincoding.com/network/1_base/tcp_ip_model.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

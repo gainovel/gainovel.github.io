@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>command line on 玽琅小说家</title>
+        <link>https://www.gainovel.com/tags/command-line/</link>
+        <description>Recent content in command line on 玽琅小说家</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gainovel.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Linux | Linux命令行</title>
+        <link>https://www.gainovel.com/p/linux/r_n/linux_command_line_and_shell_scripting/</link>
+        <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.gainovel.com/p/linux/r_n/linux_command_line_and_shell_scripting/</guid>
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/034.jpg" alt="Featured image of post Linux | Linux命令行" /&gt;&lt;h2 id=&#34;最近更新&#34;&gt;最近更新&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Type      | Tag            | UpdateTime          | Question
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;全部内容列表&#34;&gt;全部内容列表&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Type      | Tag            | UpdateTime          | Question
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| r-n       | shell script   | 2024/01/12 16:13:16 | 016.🍋第二部分 shell脚本编程
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| common    | shell          | 2024/01/12 13:03:16 | 003.🍋什么是shell？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| common    | shell          | 2024/01/12 00:23:07 | 002.🍋如何查看当前用户的默认shell
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| r-n       | command line   | 2024/01/11 22:03:54 | 015.🍋第一部分 Linux命令行
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;第二部分-shell脚本编程基础linux命令行与shell脚本编程大全--读书笔记&#34;&gt;第二部分 shell脚本编程基础（Linux命令行与shell脚本编程大全 | 读书笔记）&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月12日 星期五 | 🌙农历 兔年(2023)腊月初二 | 🕛下午 4点13分16秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Chapters(r-n)-016
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.第二部分 shell脚本编程
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 本部分简介📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  1.第1 章 构建基础脚本
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  2.第2 章 结构化命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  3.第3 章 更多的结构化命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  4.第4 章 处理用户输入
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  5.第5 章 呈现数据
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └──  6.第6 章 脚本控制
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第1章 构建基础脚本
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 1.1 使用多个命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 1.1.1 使用多个命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 1.2 创建shell脚本文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       └── 1.2.1 第一行指定要使用的 shell
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第2章 结构化命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 2.1 if
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── 2.1.1 if-then-else
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── 2.1.2 test
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── 2.1.3 数值比较
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       └── 2.1.4 字符串比较
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;本部分简介&#34;&gt;本部分简介📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;第1 章 构建基础脚本&lt;/li&gt;
+&lt;li&gt;第2 章 结构化命令&lt;/li&gt;
+&lt;li&gt;第3 章 更多的结构化命令&lt;/li&gt;
+&lt;li&gt;第4 章 处理用户输入&lt;/li&gt;
+&lt;li&gt;第5 章 呈现数据&lt;/li&gt;
+&lt;li&gt;第6 章 脚本控制&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;第1章-构建基础脚本&#34;&gt;第1章 构建基础脚本&lt;/h3&gt;
+&lt;h4 id=&#34;11-使用多个命令&#34;&gt;1.1 使用多个命令&lt;/h4&gt;
+&lt;h5 id=&#34;111-使用多个命令&#34;&gt;1.1.1 使用多个命令&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;如果想让两个命令一起运行，可以将其放在同一行中，彼此用分号隔开&lt;/li&gt;
+&lt;li&gt;e.g. date ; who&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;12-创建shell脚本文件&#34;&gt;1.2 创建shell脚本文件&lt;/h4&gt;
+&lt;h5 id=&#34;121-第一行指定要使用的-shell&#34;&gt;1.2.1 第一行指定要使用的 shell&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;#!/bin/bash&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#&lt;/code&gt;用作注释行&lt;/li&gt;
+&lt;li&gt;然而，shell脚本文件的第一行是个例外， # 后面的惊叹号会告诉 shell 用哪个 shell 来运行脚本,&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;第2章-结构化命令&#34;&gt;第2章 结构化命令&lt;/h3&gt;
+&lt;h4 id=&#34;21-if&#34;&gt;2.1 if&lt;/h4&gt;
+&lt;h5 id=&#34;211-if-then-else&#34;&gt;2.1.1 if-then-else&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;bash shell 的 if 语句会运行 if 之后的命令&lt;/li&gt;
+&lt;li&gt;如果该命令的退出状态码（参见第 11 章）为 0（命令成功运行），那么位于 then 部分的命令就会被执行&lt;/li&gt;
+&lt;li&gt;如果该命令的退出状态码是其他值，则 then 部分的命令不会被执行，bash  shell 会接着处理脚本中的下一条命令&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;212-test&#34;&gt;2.1.2 test&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;test 命令可以在 if-then 语句中测试不同的条件。如果 test 命令中列出的条件成立，那么test 命令就会退出并返回退出状态码 0&lt;/li&gt;
+&lt;li&gt;如果不写 test 命令的 condition 部分，则它会以非 0 的退出状态码退出并执行 else 代码块语句&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;213-数值比较&#34;&gt;2.1.3 数值比较&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;方括号定义了测试条件。注意，第一个方括号之后和第二个方括号之前必须留有空格，否则就会报错&lt;/li&gt;
+&lt;li&gt;-eq&lt;/li&gt;
+&lt;li&gt;-ge&lt;/li&gt;
+&lt;li&gt;-gt&lt;/li&gt;
+&lt;li&gt;-le&lt;/li&gt;
+&lt;li&gt;-lt&lt;/li&gt;
+&lt;li&gt;-ne&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;214-字符串比较&#34;&gt;2.1.4 字符串比较&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;=&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;!=&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-n str1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-z str1&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;什么是shell&#34;&gt;什么是shell？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月12日 星期五 | 🌙农历 兔年(2023)腊月初二 | 🕛下午 1点03分16秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-1&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(common)-003
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.什么是shell？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.答案📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.是一种复杂的交互式程序
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;答案&#34;&gt;答案📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;是一种复杂的交互式程序&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;如何查看当前用户的默认shell&#34;&gt;如何查看当前用户的默认shell&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月12日 星期五 | 🌙农历 兔年(2023)腊月初二 | 🕛半夜 12点23分07秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-2&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(common)-002
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.如何查看当前用户的默认shell
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.用户登录后会默认进入一个shell与系统交互
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.答案📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.查看/etc/passwd文件，最后一个值就是用户默认的shell
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;用户登录后会默认进入一个shell与系统交互&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;答案-1&#34;&gt;答案📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;查看/etc/passwd文件，最后一个值就是用户默认的shell&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;第一部分-linux命令行linux命令行与shell脚本编程大全--读书笔记&#34;&gt;第一部分 Linux命令行（Linux命令行与shell脚本编程大全 | 读书笔记）&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月11日 星期四 | 🌙农历 兔年(2023)腊月初一 | 🕛晚上 10点03分54秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-3&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 45
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 46
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 47
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 48
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 49
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 50
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 51
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 52
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 53
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 54
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 55
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 56
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 57
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 58
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 59
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 60
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 61
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 62
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 63
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 64
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 65
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 66
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 67
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 68
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 69
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 70
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 71
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 72
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 73
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 74
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 75
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 76
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 77
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 78
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 79
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 80
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 81
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 82
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 83
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 84
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 85
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 86
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 87
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 88
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 89
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 90
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 91
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 92
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 93
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 94
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 95
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 96
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 97
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 98
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 99
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;100
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;101
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Chapters(r-n)-015
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.第一部分 Linux命令行
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 本部分简介📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  1.第 1章 初识Linux shell
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  2.第 2章 走进shell
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  3.第 3章 bash shell基础命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  4.第 4章 更多的bash shell 命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  5.第 5章 理解shell
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  6.第 6章 Linux环境变量
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  7.第 7章 理解Linux文件权限
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  8.第 8章 管理文件系统
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  9.第 9章 安装软件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 10.第10章 文本编辑器
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第1章 认识Linux系统
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 1.1 Linux系统组成
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 1.1.1 Linux内核
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 1.1.2 GUN实用工具
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 1.1.3 Linux桌面环境
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 1.2 Linux发行版
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── 1.2.1 完整的核心Linux发行版
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       └── 1.2.2 特定用途的Linux发行版
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第2章 走进shell
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 2.1 进入命令行
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── 2.1.1 CLI
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── 2.1.2 控制台终端
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       └── 2.1.3 图形化终端
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第3章 bash shell基础命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 3.1 启动shell
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 3.2 使用shell提示符
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 3.3 与bash手册交互
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 3.3.1 man
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 3.3.2 info
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 3.3.3 --help
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 3.4 浏览文件系统
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 3.4.1 虚拟目录
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 3.4.2 根驱动器
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 3.4.3 Linux 文件系统结构
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 3.4.4 遍历目录
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 3.5 处理文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 3.5.1 文件增删改查、链接
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 3.6 管理目录
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 3.6.1 创建、删除
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 3.7 查看文件内容
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       └── 3.7.1 文件类型、全部查看、部分查看
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第4章 更多的bash shell命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 4.1 监测程序
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 4.1.1 探查进程 ⇨ ps
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 4.1.2 实时监测进程 ⇨ top
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 4.1.3 结束进程 ⇨ kill、pkill
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 4.2 监测磁盘空间
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 4.2.1 挂在存储设备
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 4.2.2 df
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 4.2.3 lsof
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 4.2.4 du
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 4.3 处理数据文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── 4.3.1 数据排序
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── 4.3.2 数据搜索
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── 4.3.3 数据压缩
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       └── 4.3.4 数据归档
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第5章 理解shell
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 5.1 shell的类型
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 5.1.1 默认 shell 程序
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 5.2 shell的父子关系
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 5.2.1 进程列表
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 5.2.2 后台模式
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 5.2.3 协程
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 5.3 外部命令和内建命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── 5.3.1 外部命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       └── 5.3.2 内建命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第6章 Linux环境变量
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 6.1 环境变量
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 6.1.1 全局环境变量
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 6.1.2 局部环境变量
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 6.2 设置用户自定义环境变量
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 6.2.1 局部
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 6.2.2 全局
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 6.3 删除环境变量
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 6.3.1 unset
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 6.4 环境变量文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 6.4.1 主启动文件 ⇨ /etc/profile
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 6.4.2 $HOME 目录下的启动文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 6.5 环境变量持久化
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 6.5.1 针对每个用户
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 6.5.2 针对某个用户
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 6.6 数组变量
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       └── 6.6.1 增删改查
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第7章 Linux文件权限
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 7.1 Linux 的安全性
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 7.1.1 用户账户
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 7.1.2 /etc/passwd 文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 7.1.3 /etc/shadow 文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 7.1.4 添加新用户
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 7.1.5 删除用户
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 7.1.6 修改用户
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 7.2 使用 Linux 组
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       └── 7.2.1 ···
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第8章 管理文件系统
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第9章 安装软件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第10章 文本编辑器
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;本部分简介-1&#34;&gt;本部分简介📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;第 1章 初识Linux shell&lt;/li&gt;
+&lt;li&gt;第 2章 走进shell&lt;/li&gt;
+&lt;li&gt;第 3章 bash shell基础命令&lt;/li&gt;
+&lt;li&gt;第 4章 更多的bash shell 命令&lt;/li&gt;
+&lt;li&gt;第 5章 理解shell&lt;/li&gt;
+&lt;li&gt;第 6章 Linux环境变量&lt;/li&gt;
+&lt;li&gt;第 7章 理解Linux文件权限&lt;/li&gt;
+&lt;li&gt;第 8章 管理文件系统&lt;/li&gt;
+&lt;li&gt;第 9章 安装软件&lt;/li&gt;
+&lt;li&gt;第10章 文本编辑器&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;第1章-认识linux系统&#34;&gt;第1章 认识Linux系统&lt;/h3&gt;
+&lt;h4 id=&#34;11-linux系统组成&#34;&gt;1.1 Linux系统组成&lt;/h4&gt;
+&lt;h5 id=&#34;111-linux内核&#34;&gt;1.1.1 Linux内核&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;Linux系统的核心&lt;/li&gt;
+&lt;li&gt;内核控制着计算机系统的所有硬件和软件，在必要时分配硬件，并根据需要执行软件&lt;/li&gt;
+&lt;li&gt;👇内核主要负责以下4种功能&lt;/li&gt;
+&lt;li&gt;系统内存管理：虚拟内存、物理内存、交换空间、内存分段、内存分页&lt;/li&gt;
+&lt;li&gt;软件程序管理：进程管理&lt;/li&gt;
+&lt;li&gt;硬件设备管理：驱动程序、设备驱动模块、设备文件、设备节点&lt;/li&gt;
+&lt;li&gt;文件系统管理：多文件系统支持、虚拟文件系统&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;112-gun实用工具&#34;&gt;1.1.2 GUN实用工具&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;除了由内核来控制硬件设备，操作系统还需要实用工具来实现各种标准功能，比如控制文件和程序&lt;/li&gt;
+&lt;li&gt;GNU（GNU 代表 GNU’s Not Unix）组织开发出了一套完整的 Unix 实用工具&lt;/li&gt;
+&lt;li&gt;通常将 Linux 内核和 GNU 实用工具的结合体称为 GNU/Linux&lt;/li&gt;
+&lt;li&gt;👇供 Linux 系统使用的核心工具被称为 coreutils（core utilities）软件包，由 3 部分构成&lt;/li&gt;
+&lt;li&gt;文件实用工具&lt;/li&gt;
+&lt;li&gt;文本实用工具&lt;/li&gt;
+&lt;li&gt;进程实用工具&lt;/li&gt;
+&lt;li&gt;👇GNU/Linux shell&lt;/li&gt;
+&lt;li&gt;是一种交互式工具，为用户提供了启动程序、管理文件系统中的文件以及运行在 Linux 系统中的进程的途径&lt;/li&gt;
+&lt;li&gt;将多个 shell 命令放入文件中作为程序执行。这些文件称作 shell 脚本&lt;/li&gt;
+&lt;li&gt;Linux发行版默认的shell是bash shell&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;113-linux桌面环境&#34;&gt;1.1.3 Linux桌面环境&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;X Window 软件&lt;/li&gt;
+&lt;li&gt;KDE Plasma 桌面&lt;/li&gt;
+&lt;li&gt;GNOME 桌面&lt;/li&gt;
+&lt;li&gt;其他桌面&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;12-linux发行版&#34;&gt;1.2 Linux发行版&lt;/h4&gt;
+&lt;h5 id=&#34;121-完整的核心linux发行版&#34;&gt;1.2.1 完整的核心Linux发行版&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;👇核心Linux发行版含有内核、一个或多个图形化桌面环境以及预编译好的大部分可用的Linux应用程序。它提供了一站式的完整 Linux 安装&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Slackware&lt;/code&gt;             最早的 Linux 发行版中的一员，流行于 Linux 极客之间&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;❣️Red Hat Enterprise&lt;/code&gt;  一个主要用于 Internet 服务器的商业发行版&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Gentoo&lt;/code&gt;                为高级 Linux 用户设计的发行版，仅包含 Linux 源代码&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;❣️openSUSE&lt;/code&gt;            兼顾商用和家用的发行版&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;❣️Debian&lt;/code&gt;              流行于 Linux 专家和商用 Linux 产品中的发行版&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;122-特定用途的linux发行版&#34;&gt;1.2.2 特定用途的Linux发行版&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;👇通常基于某个主流发行版，但仅包含其中一部分用于某种特定用途的应用程序&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;❣️Fedora&lt;/code&gt;  一款通过 Red Hat Enterprise Linux 源代码构建而成的免费发行版&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;❣️Ubuntu&lt;/code&gt;  一款兼用于学校和家庭的免费发行版&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MX Linux&lt;/code&gt;  一款用于家庭的免费发行版&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Linux Mint&lt;/code&gt;  一款用于家庭娱乐的免费发行版&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Puppy Linux&lt;/code&gt;  一款适用于老旧 PC 的小型免费发行版&lt;/li&gt;
+&lt;li&gt;除了提供特定软件（比如仅用于商业用户的办公应用），定制化发行版还尝试通过自动检测和自动配置常见硬件来帮助新手安装 Linux&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;第2章-走进shell&#34;&gt;第2章 走进shell&lt;/h3&gt;
+&lt;h4 id=&#34;21-进入命令行&#34;&gt;2.1 进入命令行&lt;/h4&gt;
+&lt;h5 id=&#34;211-cli&#34;&gt;2.1.1 CLI&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;command line interface(命令行界面)&lt;/li&gt;
+&lt;li&gt;在图形化桌面出现之前，和 Unix 系统交互的唯一方式就是通过 shell 提供的文本命令行界面&lt;/li&gt;
+&lt;li&gt;CLI 只允许输入文本，而且只能显示文本和基本图形输出&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;212-控制台终端&#34;&gt;2.1.2 控制台终端&lt;/h5&gt;
+&lt;h5 id=&#34;213-图形化终端&#34;&gt;2.1.3 图形化终端&lt;/h5&gt;
+&lt;h3 id=&#34;第3章-bash-shell基础命令&#34;&gt;第3章 bash shell基础命令&lt;/h3&gt;
+&lt;h4 id=&#34;31-启动shell&#34;&gt;3.1 启动shell&lt;/h4&gt;
+&lt;h4 id=&#34;32-使用shell提示符&#34;&gt;3.2 使用shell提示符&lt;/h4&gt;
+&lt;h4 id=&#34;33-与bash手册交互&#34;&gt;3.3 与bash手册交互&lt;/h4&gt;
+&lt;h5 id=&#34;331-man&#34;&gt;3.3.1 man&lt;/h5&gt;
+&lt;h5 id=&#34;332-info&#34;&gt;3.3.2 info&lt;/h5&gt;
+&lt;h5 id=&#34;333---help&#34;&gt;3.3.3 &amp;ndash;help&lt;/h5&gt;
+&lt;h4 id=&#34;34-浏览文件系统&#34;&gt;3.4 浏览文件系统&lt;/h4&gt;
+&lt;h5 id=&#34;341-虚拟目录&#34;&gt;3.4.1 虚拟目录&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;Linux&lt;/code&gt;虚拟目录结构只包含一个称为根&lt;code&gt;（root）&lt;/code&gt;目录的基础目录&lt;/li&gt;
+&lt;li&gt;虚拟目录会将计算机中所有存储设备的文件路径都纳入其中&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;342-根驱动器&#34;&gt;3.4.2 根驱动器&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;Linux 系统中安装的第一块硬盘为根驱动器,&lt;/li&gt;
+&lt;li&gt;根驱动器包含了虚拟目录的核心，其他目录都是从那里开始构建的&lt;/li&gt;
+&lt;li&gt;Linux 会使用根驱动器上一些特别的目录作为挂载点（mount point）。挂载点是虚拟目录中分配给额外存储设备的目录。Linux 会让文件和目录出现在这些挂载点目录中，即便它们位于其他物理驱动器中&lt;/li&gt;
+&lt;li&gt;系统文件通常存储在根驱动器中，而用户文件则存储在其他驱动器中&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;343-linux-文件系统结构&#34;&gt;3.4.3 Linux 文件系统结构&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;/&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/bin&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/boot&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/dev&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/etc&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/home&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/lib&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/libname&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/media&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/mnt&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/opt&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/proc&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/root&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/run&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/sbin&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/srv&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/sys&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/tmp&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/usr&lt;/code&gt;: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/var&lt;/code&gt;: ···&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;344-遍历目录&#34;&gt;3.4.4 遍历目录&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;cd&lt;/li&gt;
+&lt;li&gt;pwd&lt;/li&gt;
+&lt;li&gt;ls&lt;/li&gt;
+&lt;li&gt;···&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;35-处理文件&#34;&gt;3.5 处理文件&lt;/h4&gt;
+&lt;h5 id=&#34;351-文件增删改查链接&#34;&gt;3.5.1 文件增删改查、链接&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;touch&lt;/li&gt;
+&lt;li&gt;cp&lt;/li&gt;
+&lt;li&gt;ln&lt;/li&gt;
+&lt;li&gt;mv&lt;/li&gt;
+&lt;li&gt;rm&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;36-管理目录&#34;&gt;3.6 管理目录&lt;/h4&gt;
+&lt;h5 id=&#34;361-创建删除&#34;&gt;3.6.1 创建、删除&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;mkdir&lt;/li&gt;
+&lt;li&gt;rmdir&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;37-查看文件内容&#34;&gt;3.7 查看文件内容&lt;/h4&gt;
+&lt;h5 id=&#34;371-文件类型全部查看部分查看&#34;&gt;3.7.1 文件类型、全部查看、部分查看&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;file&lt;/li&gt;
+&lt;li&gt;cat&lt;/li&gt;
+&lt;li&gt;more&lt;/li&gt;
+&lt;li&gt;less&lt;/li&gt;
+&lt;li&gt;tail&lt;/li&gt;
+&lt;li&gt;head&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;第4章-更多的bash-shell命令&#34;&gt;第4章 更多的bash shell命令&lt;/h3&gt;
+&lt;h4 id=&#34;41-监测程序&#34;&gt;4.1 监测程序&lt;/h4&gt;
+&lt;h5 id=&#34;411-探查进程--ps&#34;&gt;4.1.1 探查进程 ⇨ ps&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;ps 命令默认只显示运行在当前终端中属于当前用户的那些进程&lt;/li&gt;
+&lt;li&gt;shell 只是运行在系统中的另一个程序而已&lt;/li&gt;
+&lt;li&gt;ps 也只是一个运行进程&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;412-实时监测进程--top&#34;&gt;4.1.2 实时监测进程 ⇨ top&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;413-结束进程--killpkill&#34;&gt;4.1.3 结束进程 ⇨ kill、pkill&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;Linux 进程信号&lt;/li&gt;
+&lt;li&gt;kill、kill -s&lt;/li&gt;
+&lt;li&gt;pkill&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;42-监测磁盘空间&#34;&gt;4.2 监测磁盘空间&lt;/h4&gt;
+&lt;h5 id=&#34;421-挂在存储设备&#34;&gt;4.2.1 挂在存储设备&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;mount -t type device directory&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;umount&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;422-df&#34;&gt;4.2.2 df&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;有时需要知道在某台设备上还有多少磁盘空间。 df 命令可以方便地查看所有已挂载磁盘的使用情况&lt;/li&gt;
+&lt;li&gt;设备文件位置&lt;/li&gt;
+&lt;li&gt;包含多少以 1024 字节为单位的块&lt;/li&gt;
+&lt;li&gt;使用了多少以 1024 字节为单位的块&lt;/li&gt;
+&lt;li&gt;还有多少以 1024 字节为单位的块可用&lt;/li&gt;
+&lt;li&gt;已用空间所占的百分比&lt;/li&gt;
+&lt;li&gt;设备挂载点&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;423-lsof&#34;&gt;4.2.3 lsof&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;如果在卸载设备时，系统提示设备繁忙，无法卸载，那么通常是有进程还在访问该设备或使用该设备上的文件。这时可用 lsof 命令获得相关进程的信息，然后将进程终止。lsof 命令的用法很简单：&lt;code&gt;lsof /path/to/device/node&lt;/code&gt;，或者&lt;code&gt;lsof /path/to/mount/point&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;424-du&#34;&gt;4.2.4 du&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;du 命令可以显示某个特定目录（默认情况下是当前目录）的磁盘使用情况&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;43-处理数据文件&#34;&gt;4.3 处理数据文件&lt;/h4&gt;
+&lt;h5 id=&#34;431-数据排序&#34;&gt;4.3.1 数据排序&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;sort&lt;/li&gt;
+&lt;li&gt;sort -n：数字排序&lt;/li&gt;
+&lt;li&gt;sort -M：月份排序&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sort -t &#39;:&#39; -k 3 -n /etc/passwd&lt;/code&gt;：按:进行分割，按第三行数字排序&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;432-数据搜索&#34;&gt;4.3.2 数据搜索&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;❣️grep&lt;/li&gt;
+&lt;li&gt;egrep&lt;/li&gt;
+&lt;li&gt;fgrep&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;433-数据压缩&#34;&gt;4.3.3 数据压缩&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;gzip&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;434-数据归档&#34;&gt;4.3.4 数据归档&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;tar&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;第5章-理解shell&#34;&gt;第5章 理解shell&lt;/h3&gt;
+&lt;h4 id=&#34;51-shell的类型&#34;&gt;5.1 shell的类型&lt;/h4&gt;
+&lt;h5 id=&#34;511-默认-shell-程序&#34;&gt;5.1.1 默认 shell 程序&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;cat /etc/passwd&lt;/code&gt;:用户默认shell&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;echo $0&lt;/code&gt;:当前使用shell&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;52-shell的父子关系&#34;&gt;5.2 shell的父子关系&lt;/h4&gt;
+&lt;h5 id=&#34;521-进程列表&#34;&gt;5.2.1 进程列表&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;pwd; ls; pwd;ls&lt;/code&gt;命令列表 ⇨ 执行起来不就是进程列表&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pwd; ls; pwd;ls&lt;/code&gt; ⇨当前shell执行该进程列表&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;(pwd; ls; pwd;ls)&lt;/code&gt; ⇨当前shell启动子shell执行该进程列表&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;(pwd ; ls test* ; cd /etc ; pwd ; cd ; pwd ; ls my* ; echo $BASH_SUBSHELL)&lt;/code&gt; ⇨ &lt;code&gt;echo $BASH_SUBSHELL&lt;/code&gt;查看当前shell有多少个子shell&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;522-后台模式&#34;&gt;5.2.2 后台模式&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;要想将命令置入后台模式，可以在命令末尾加上字符 &amp;amp;&lt;/li&gt;
+&lt;li&gt;e.g. &lt;code&gt;sleep 3000&amp;amp;&lt;/code&gt; ⇨ sleep 命令会在后台（ &amp;amp; ）睡眠 3000 秒（ 50 分钟）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jobs -l&lt;/code&gt;查看当前shell的后台进程&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;(sleep 2 ; echo $BASH_SUBSHELL ; sleep 2)&amp;amp;&lt;/code&gt;进程列表置入后台&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;523-协程&#34;&gt;5.2.3 协程&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;coproc sleep 10&lt;/code&gt; ⇨ 协程同时做两件事：一是在后台生成一个子 shell，二是在该子 shell 中执行命令&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;53-外部命令和内建命令&#34;&gt;5.3 外部命令和内建命令&lt;/h4&gt;
+&lt;h5 id=&#34;531-外部命令&#34;&gt;5.3.1 外部命令&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;外部命令（有时也称为文件系统命令）是存在于 bash  shell 之外的程序&lt;/li&gt;
+&lt;li&gt;可以使用 which 命令和 type 命令找到其对应的文件名&lt;/li&gt;
+&lt;li&gt;每当执行外部命令时，就会创建一个子进程。这种操作称为衍生（forking）&lt;/li&gt;
+&lt;li&gt;只要涉及进程衍生，就需要耗费时间和资源来设置新子进程的环境。因此，外部命令系统开销较高&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;532-内建命令&#34;&gt;5.3.2 内建命令&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;与外部命令不同，内建命令无须使用子进程来执行。内建命令已经和 shell 编译成一体，作为 shell 的组成部分存在，无须借助外部程序文件来执行&lt;/li&gt;
+&lt;li&gt;因为内建命令既不需要通过衍生出子进程来执行，也不用打开程序文件，所以执行速度更快，效率也更高,&lt;/li&gt;
+&lt;li&gt;有些命令有多种实现。例如， echo 和 pwd 既有内建命令也有外部命令。两种实现略有差异。要查看命令的不同实现，可以使用 &lt;code&gt;type 命令的 -a 选项&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;对于有多种实现的命令，如果想使用其外部命令实现，直接指明对应的文件即可。例如，要使用外部命令 pwd ，可以输入&lt;code&gt;/usr/bin/pwd&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;history&lt;/li&gt;
+&lt;li&gt;你可以唤回并重用历史列表中最近的命令。这样既能节省时间，又能少敲点儿键盘。输入 !! ，然后按 Enter 键，唤回并重用最近那条命令&lt;/li&gt;
+&lt;li&gt;在 CLI 会话期间， bash 命令的历史记录被保存在内存中。当 shell 退出时才被写入历史文件,&lt;/li&gt;
+&lt;li&gt;alias&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;第6章-linux环境变量&#34;&gt;第6章 Linux环境变量&lt;/h3&gt;
+&lt;h4 id=&#34;61-环境变量&#34;&gt;6.1 环境变量&lt;/h4&gt;
+&lt;h5 id=&#34;611-全局环境变量&#34;&gt;6.1.1 全局环境变量&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;全局环境变量在设置该变量的父进程所创建的子进程中都是可见的&lt;/li&gt;
+&lt;li&gt;printenv&lt;/li&gt;
+&lt;li&gt;env&lt;/li&gt;
+&lt;li&gt;printenv HOME&lt;/li&gt;
+&lt;li&gt;echo $HOME&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;612-局部环境变量&#34;&gt;6.1.2 局部环境变量&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;set&lt;/code&gt;命令可以显示特定进程的所有环境变量，既包括局部变量、全局变量，也包括用户自定义变量&lt;/li&gt;
+&lt;li&gt;局部环境变量只能在定义它的进程中可见&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;62-设置用户自定义环境变量&#34;&gt;6.2 设置用户自定义环境变量&lt;/h4&gt;
+&lt;h5 id=&#34;621-局部&#34;&gt;6.2.1 局部&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;key=value&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;622-全局&#34;&gt;6.2.2 全局&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;key=value;export key&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;63-删除环境变量&#34;&gt;6.3 删除环境变量&lt;/h4&gt;
+&lt;h5 id=&#34;631-unset&#34;&gt;6.3.1 unset&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;unset key&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;64-环境变量文件&#34;&gt;6.4 环境变量文件&lt;/h4&gt;
+&lt;h5 id=&#34;641-主启动文件--etcprofile&#34;&gt;6.4.1 主启动文件 ⇨ /etc/profile&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;/etc/profile 文件是系统中默认的 bash shell 的主启动文件。系统中的每个用户登录时都会执行这个启动文件,&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;642-home-目录下的启动文件&#34;&gt;6.4.2 $HOME 目录下的启动文件&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;👇shell 会按照下列顺序执行第一个被找到的文件&lt;/li&gt;
+&lt;li&gt;$HOME/.bash_profile&lt;/li&gt;
+&lt;li&gt;$HOME/.bash_login&lt;/li&gt;
+&lt;li&gt;$HOME/.profile&lt;/li&gt;
+&lt;li&gt;$HOME/.bashrc这个文件通常通过其他文件运行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;65-环境变量持久化&#34;&gt;6.5 环境变量持久化&lt;/h4&gt;
+&lt;h5 id=&#34;651-针对每个用户&#34;&gt;6.5.1 针对每个用户&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;最好在/etc/profile.d 目录中创建一个以.sh 结尾的文件。把所有新的或修改过的全局环境变量设置都放在这个文件中&lt;/li&gt;
+&lt;li&gt;因为/etc/profile文件会依次加载/etc/profile.d 目录下的环境变量&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;652-针对某个用户&#34;&gt;6.5.2 针对某个用户&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;放在$HOME/.bashrc中&lt;/li&gt;
+&lt;li&gt;因为$HOME/.bashrc这个文件通常通过其他文件运行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;66-数组变量&#34;&gt;6.6 数组变量&lt;/h4&gt;
+&lt;h5 id=&#34;661-增删改查&#34;&gt;6.6.1 增删改查&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;mytest=(zero one two three four)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;要为某个环境变量设置多个值，可以把值放在圆括号中，值与值之间以空格分隔&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;第7章-linux文件权限&#34;&gt;第7章 Linux文件权限&lt;/h3&gt;
+&lt;h4 id=&#34;71-linux-的安全性&#34;&gt;7.1 Linux 的安全性&lt;/h4&gt;
+&lt;h5 id=&#34;711-用户账户&#34;&gt;7.1.1 用户账户&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;Linux 安全系统的核心是用户账户&lt;/li&gt;
+&lt;li&gt;每个能访问 Linux 系统的用户都会被分配一个唯一的用户账户。用户对系统中各种对象的访问权限取决于他们登录系统时所用的账户&lt;/li&gt;
+&lt;li&gt;用户权限是通过创建用户时分配的用户 ID（user ID，UID）来跟踪的。UID 是个数值，每个用户都有一个唯一的 UID。但用户在登录系统时是使用登录名（login name）来代替 UID 登录的。登录名是用户用来登录系统的最长 8 字符的字符串（字符可以是数字或字母），同时会关联一个对应的密码&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;712-etcpasswd-文件&#34;&gt;7.1.2 /etc/passwd 文件&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;Linux 系统使用一个专门的文件/etc/passwd 来匹配登录名与对应的 UID 值。该文件包含了一些与用户有关的信息&lt;/li&gt;
+&lt;li&gt;root 用户账户是 Linux 系统的管理员，为其固定分配的 UID 是 0&lt;/li&gt;
+&lt;li&gt;Linux 系统会为各种各样的功能创建不同的用户账户，而这些账户并非真正的人类用户。我们称其为系统账户，它们是系统中运行的各种服务进程访问资源使用的特殊账户。所有运行在后台的服务都需要通过一个系统用户账户登录到 Linux 系统中,&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;713-etcshadow-文件&#34;&gt;7.1.3 /etc/shadow 文件&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;用户的密码存在这个文件里&lt;/li&gt;
+&lt;li&gt;/etc/shadow文件对Linux系统密码管理提供了更多的控制。只有root用户才能访问/etc/shadow文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;714-添加新用户&#34;&gt;7.1.4 添加新用户&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;useradd&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;715-删除用户&#34;&gt;7.1.5 删除用户&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;userdel&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;716-修改用户&#34;&gt;7.1.6 修改用户&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;usermod&lt;/li&gt;
+&lt;li&gt;passwd、chpasswd&lt;/li&gt;
+&lt;li&gt;chsh、chfn、change&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;72-使用-linux-组&#34;&gt;7.2 使用 Linux 组&lt;/h4&gt;
+&lt;h5 id=&#34;721-&#34;&gt;7.2.1 ···&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;···&lt;/li&gt;
+&lt;li&gt;··&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;第8章-管理文件系统&#34;&gt;第8章 管理文件系统&lt;/h3&gt;
+&lt;h3 id=&#34;第9章-安装软件&#34;&gt;第9章 安装软件&lt;/h3&gt;
+&lt;h3 id=&#34;第10章-文本编辑器&#34;&gt;第10章 文本编辑器&lt;/h3&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;[1 ] Linux命令行与shell脚本编程大全（第4版） &lt;a class=&#34;link&#34; href=&#34;https://book.douban.com/subject/35933905/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://book.douban.com/subject/35933905/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Makefile on 玽琅小说家</title>
+        <link>https://www.gainovel.com/tags/makefile/</link>
+        <description>Recent content in Makefile on 玽琅小说家</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gainovel.com/tags/makefile/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Study | 记录日常学习中碰到的问题及解决方案</title>
+        <link>https://www.gainovel.com/p/study/computer/daily/2024/</link>
+        <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.gainovel.com/p/study/computer/daily/2024/</guid>
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/107.jpg" alt="Featured image of post Study | 记录日常学习中碰到的问题及解决方案" /&gt;&lt;h2 id=&#34;最近更新&#34;&gt;最近更新&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Type      | Tag            | UpdateTime          | Question
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| common    | Makefile       | 2024/01/16 17:02:18 | 003.🍋使用make编译Makefile中的target时报`*** missing separator.  Stop.`
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;全部问题列表&#34;&gt;全部问题列表&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Type      | Tag            | UpdateTime          | Question
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| common    | Makefile       | 2024/01/16 17:02:18 | 003.🍋使用make编译Makefile中的target时报`*** missing separator.  Stop.`
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| common    | hugo stack     | 2024/01/12 00:23:07 | 002.🍋使用hugo stack主题时有时侯post内容不显示
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| how       | Chrome         | 2024/01/08 19:49:29 | 010.🍋Chrome浏览器复制带中文的网址被转码如何解决？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;使用make编译makefile中的target时报-missing-separator--stop&#34;&gt;使用make编译Makefile中的target时报&lt;code&gt;*** missing separator.  Stop.&lt;/code&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月16日 星期二 | 🌙农历 兔年(2023)腊月初六 | 🕛傍晚 5点02分18秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(common)-003
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.使用make编译Makefile中的target时报`*** missing separator.  Stop.`
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.执行`make targetxxx`时报错：makefile:13: *** missing separator.  Stop.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.答案📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.👇原因
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.在Makefile文件中，命令必须以【tab】键开始
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S03.e.g.`  @command`中@之前必须是tab
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S04.👇解决
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S05.将@之前的空格全部删除改为【tab】
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;执行&lt;code&gt;make targetxxx&lt;/code&gt;时报错：makefile:13: *** missing separator.  Stop.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;答案&#34;&gt;答案📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;👇原因&lt;/li&gt;
+&lt;li&gt;在Makefile文件中，命令必须以【tab】键开始&lt;/li&gt;
+&lt;li&gt;e.g.&lt;code&gt;  @command&lt;/code&gt;中@之前必须是tab&lt;/li&gt;
+&lt;li&gt;👇解决&lt;/li&gt;
+&lt;li&gt;将@之前的空格全部删除改为【tab】&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;使用hugo-stack主题时有时侯post内容不显示&#34;&gt;使用hugo stack主题时有时侯post内容不显示&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月12日 星期五 | 🌙农历 兔年(2023)腊月初二 | 🕛半夜 12点23分07秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-1&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(common)-002
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.使用hugo stack主题时有时侯post内容不显示
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.猜测是时区问题
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.答案📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.e.g. 当前时区时间是是`2024-1-12 00:00:00`，但由于时区不同hugo获取时间时仍然是`2024-1-11`
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.因此当你在`*.md`文件头的`front matter`的`date`字段写的是`2024-1-12`，`hugo`就无法识别这个`*.md`文件，无法转换成`html`页面
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-1&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;猜测是时区问题&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;答案-1&#34;&gt;答案📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;e.g. 当前时区时间是是&lt;code&gt;2024-1-12 00:00:00&lt;/code&gt;，但由于时区不同hugo获取时间时仍然是&lt;code&gt;2024-1-11&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;因此当你在&lt;code&gt;*.md&lt;/code&gt;文件头的&lt;code&gt;front matter&lt;/code&gt;的&lt;code&gt;date&lt;/code&gt;字段写的是&lt;code&gt;2024-1-12&lt;/code&gt;，&lt;code&gt;hugo&lt;/code&gt;就无法识别这个&lt;code&gt;*.md&lt;/code&gt;文件，无法转换成&lt;code&gt;html&lt;/code&gt;页面&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;chrome浏览器复制带中文的网址被转码如何解决&#34;&gt;Chrome浏览器复制带中文的网址被转码如何解决？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月08日 星期一 | 🌙农历 兔年(2023)十一月廿七 | 🕛晚上 7点49分29秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-2&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(how)-010
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.Chrome浏览器复制带中文的网址被转码如何解决？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.如果在浏览器的 URL 地址中包含中文，复制地址出来后中文部分就会被转换变成看起来像乱码一样的字符
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.痛点分析📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.URL编码
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.解决方案📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.复制不包含协议名(`http://`|`https://`)的部分网址
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.在线网站进行转换
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S03.Chrome插件进行转换（需科学上网）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-2&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;如果在浏览器的 URL 地址中包含中文，复制地址出来后中文部分就会被转换变成看起来像乱码一样的字符&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;痛点分析&#34;&gt;痛点分析📑&lt;/h3&gt;
+&lt;h4 id=&#34;url编码&#34;&gt;URL编码&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;👇为了避免不受识别的字符影响 URL 的解析，根据 RFC3986 文档规定，URL 中只允许包含以下四种字符👇&lt;/li&gt;
+&lt;li&gt;英文字母（a-z/A-Z）&lt;/li&gt;
+&lt;li&gt;数字（0-9）&lt;/li&gt;
+&lt;li&gt;-_.~ 4 个特殊字符&lt;/li&gt;
+&lt;li&gt;所有保留字符&lt;code&gt;! * &#39; ( ) ; : @ &amp;amp; = + $ , / ? # [ ]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;非以上4中字符都会产生【URL编码】👉（使用%加上两位的字符——0123456789ABCDEF——代表一个字节的十六进制形式）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;解决方案&#34;&gt;解决方案📑&lt;/h3&gt;
+&lt;h4 id=&#34;复制不包含协议名httphttps的部分网址&#34;&gt;复制不包含协议名(&lt;code&gt;http://&lt;/code&gt;|&lt;code&gt;https://&lt;/code&gt;)的部分网址&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;👇&lt;code&gt;https://baike.baidu.com/item/TCP/IP协议&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;只复制&lt;code&gt;baike.baidu.com/item/TCP/IP协议&lt;/code&gt;可以避免URL编码&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;在线网站进行转换&#34;&gt;在线网站进行转换&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;The X 在线工具箱 &lt;a class=&#34;link&#34; href=&#34;https://the-x.cn/UrlDecode.aspx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://the-x.cn/UrlDecode.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;chrome插件进行转换需科学上网&#34;&gt;Chrome插件进行转换（需科学上网）&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;URL Decode/Encode &lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/url-decodeencode/dgoepmkoiphgabefpbapldnjmbbiaoag?utm_source=ext_app_menu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://chromewebstore.google.com/detail/url-decodeencode/dgoepmkoiphgabefpbapldnjmbbiaoag?utm_source=ext_app_menu&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;[1 ] Chrome 浏览器复制带中文的网址被转码影响美观 &lt;a class=&#34;link&#34; href=&#34;https://hexingxing.cn/chrome-browser-copy-with-chinese-url-is-affected-by-transcoding/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://hexingxing.cn/chrome-browser-copy-with-chinese-url-is-affected-by-transcoding/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[2 ] The X 在线工具箱 &lt;a class=&#34;link&#34; href=&#34;https://the-x.cn/UrlDecode.aspx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://the-x.cn/UrlDecode.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[3 ] missing separator.错误解决办法 &lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/jack_wang128801/article/details/90080915&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blog.csdn.net/jack_wang128801/article/details/90080915&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

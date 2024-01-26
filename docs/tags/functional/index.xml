@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>functional on 玽琅小说家</title>
+        <link>https://www.gainovel.com/tags/functional/</link>
+        <description>Recent content in functional on 玽琅小说家</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gainovel.com/tags/functional/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Go | 极客时间|初级Go工程师训练营|Go语言的成长之路</title>
+        <link>https://www.gainovel.com/p/go/geektime/junior_go_engineer_camp/go_growth_path/</link>
+        <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.gainovel.com/p/go/geektime/junior_go_engineer_camp/go_growth_path/</guid>
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/007.jpg" alt="Featured image of post Go | 极客时间|初级Go工程师训练营|Go语言的成长之路" /&gt;&lt;h2 id=&#34;问题列表&#34;&gt;问题列表&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Type      | Tag            | UpdateTime          | Question
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| common    | functional     | 2024/01/13 18:02:28 | 004.🍋函数式编程
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| common    | option         | 2024-01-15 11:45:16 | 005.🍋Go中option模式的作用？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| common    | error          | 2024-01-15 11:50:16 | 006.🍋Go错误处理个人原则
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| common    | ability        | 2024-01-15 12:08:16 | 007.🍋Go后端工程师应该具备的能力
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| brief     | trap           | 2024-01-14 15:24:08 | 019.🍋Go语法层面的重点难点
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| brief     | concurrency    | 2024-01-15 11:37:16 | 020.🍋Go并发编程
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| brief     | generation     | 2024-01-15 11:56:16 | 021.🍋Go缺乏SPI机制与动态生成新的类型的机制
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| brief     | interview      | 2024-01-15 12:04:16 | 022.🍋Go面试难点
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| brief     | ability        | 2024-01-15 12:10:16 | 023.🍋Go后端工程师应该具备的能力
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| brief     | senior         | 2024-01-15 12:51:16 | 024.🍋走向高级工程师的途径
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| brief     | content        | 2024-01-15 13:17:16 | 025.🍋初级Go工程师训练营-内容丰富
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| compare   | xxx            | 2024/01/13 18:02:28 | 028.🍋❗xxx？🍋❗xxx？🍋❗xxx？🍋...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| process   | xxx            | 2024/01/13 18:02:28 | 031.🍋❗xxx？🍋❗xxx？🍋❗xxx？🍋...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| what      | xxx            | 2024/01/13 18:02:28 | 034.🍋❗xxx？🍋❗xxx？🍋❗xxx？🍋...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| who       | xxx            | 2024/01/13 18:02:28 | 044.🍋❗xxx？🍋❗xxx？🍋❗xxx？🍋...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| how       | xxx            | 2024/01/13 18:02:28 | 047.🍋❗xxx？🍋❗xxx？🍋❗xxx？🍋...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| why       | xxx            | 2024/01/13 18:02:28 | 050.🍋❗xxx？🍋❗xxx？🍋❗xxx？🍋...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| s-d       | xxx            | 2024/01/13 18:02:28 | 053.🍋❗xxx？🍋❗xxx？🍋❗xxx？🍋...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| ores      | xxx            | 2024/01/13 18:02:28 | 056.🍋❗xxx？🍋❗xxx？🍋❗xxx？🍋...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| narrative | xxx            | 2024/01/13 18:02:28 | 059.🍋❗xxx？🍋❗xxx？🍋❗xxx？🍋...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| r-n       | xxx            | 2024/01/13 18:02:28 | 062.🍋❗xxx？🍋❗xxx？🍋❗xxx？🍋...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| brainstorm| xxx            | 2024/01/13 18:02:28 | 065.🍋石沉大海
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;函数式编程&#34;&gt;函数式编程&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月13日 星期六 | 🌙农历 兔年(2023)腊月初三 | 🕛晚上 6点02分28秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(common)-004
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.函数式编程
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.Go里面函数是一等公民
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.答案📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.Go里面函数式编程应用很广泛
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.函数式编程同时影响了设计模式在Go中的形态
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S03.e.g. Go的责任链模式
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S04.e.g. Go的Option模式
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Go里面函数是一等公民&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;答案&#34;&gt;答案📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Go里面函数式编程应用很广泛&lt;/li&gt;
+&lt;li&gt;函数式编程同时影响了设计模式在Go中的形态&lt;/li&gt;
+&lt;li&gt;e.g. Go的责任链模式&lt;/li&gt;
+&lt;li&gt;e.g. Go的Option模式&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;go中option模式的作用&#34;&gt;Go中option模式的作用？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月15日 星期一 | 🌙农历 兔年(2023)腊月初五 | 🕛中午 11点45分16秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-1&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(common)-005
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.Go中option模式的作用？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.答案📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.用于解决Go中没有构造函数又没有重载的问题
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.通过option模式控制初始化对象时有选择性的初始化一些字段，option就是选项的意思
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;答案-1&#34;&gt;答案📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;用于解决Go中没有构造函数又没有重载的问题&lt;/li&gt;
+&lt;li&gt;通过option模式控制初始化对象时有选择性的初始化一些字段，option就是选项的意思&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;go错误处理个人原则&#34;&gt;Go错误处理个人原则&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月15日 星期一 | 🌙农历 兔年(2023)腊月初五 | 🕛中午 11点50分16秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-2&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(common)-006
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.Go错误处理个人原则
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.如果用error，那么就是一大堆`if err != nil`
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.如果用panic，那么就要时刻小心在哪里recover了
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.答案📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.任何公共方法，都加一个error作为返回值
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.除了在系统初始化的部分，绝对不用panic
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-1&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;如果用error，那么就是一大堆&lt;code&gt;if err != nil&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;如果用panic，那么就要时刻小心在哪里recover了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;答案-2&#34;&gt;答案📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;任何公共方法，都加一个error作为返回值&lt;/li&gt;
+&lt;li&gt;除了在系统初始化的部分，绝对不用panic&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;go后端工程师应该具备的能力&#34;&gt;Go后端工程师应该具备的能力&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月15日 星期一 | 🌙农历 兔年(2023)腊月初五 | 🕛中午 12点08分16秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-3&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(common)-007
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.Go后端工程师应该具备的能力
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.Go后端开发需要学习哪些知识
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.答案📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.计算机基础知识
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.分布式系统
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S03.业务领域问题解决方案
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S04.业务技术问题解决方案
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S05.热门中间件的原理
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-2&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Go后端开发需要学习哪些知识&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;答案-3&#34;&gt;答案📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;计算机基础知识&lt;/li&gt;
+&lt;li&gt;分布式系统&lt;/li&gt;
+&lt;li&gt;业务领域问题解决方案&lt;/li&gt;
+&lt;li&gt;业务技术问题解决方案&lt;/li&gt;
+&lt;li&gt;热门中间件的原理&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;go语法层面的重点难点&#34;&gt;Go语法层面的重点难点&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月14日 星期日 | 🌙农历 兔年(2023)腊月初四 | 🕛下午 3点24分08秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-4&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(brief)-019
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.Go语法层面的重点难点
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.Go中有一些&amp;#34;特性&amp;#34;，让你经常踩坑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.简答📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.for循环的迭代变量都是共享地址的
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.Go的数组功能很弱
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S03.Go切片的共享内存特性
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S04.Go中有类型推断(断言)，但是没有自动类型转换
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S05.Go泛型太弱
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-3&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Go中有一些&amp;quot;特性&amp;quot;，让你经常踩坑&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;简答&#34;&gt;简答📑&lt;/h3&gt;
+&lt;h4 id=&#34;for循环的迭代变量都是共享地址的&#34;&gt;for循环的迭代变量都是共享地址的&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;特指for-range迭代&lt;code&gt;e.g. for i,v:=range nums&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;go的数组功能很弱&#34;&gt;Go的数组功能很弱&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;只能用常量来初始化数组：e.g. &lt;code&gt;[3]int&lt;/code&gt;中3的位置只能为常量&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;go切片的共享内存特性&#34;&gt;Go切片的共享内存特性&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;因为Go的数组功能很弱，因此Go中基本都使用切片&lt;/li&gt;
+&lt;li&gt;多个切片可能共享底层数组&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;go中有类型推断断言但是没有自动类型转换&#34;&gt;Go中有类型推断(断言)，但是没有自动类型转换&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;需要手动转换类型&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;go泛型太弱&#34;&gt;Go泛型太弱&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;无法实现别的语言的很多泛型操作&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;go并发编程&#34;&gt;Go并发编程&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月15日 星期一 | 🌙农历 兔年(2023)腊月初五 | 🕛中午 11点37分16秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-5&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(brief)-020
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.Go并发编程
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.并发编程本身很难，大多数人没有分析并发时序的经验
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.Go的并发编程难点在于两点：①goroutine的使用②channel的使用
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.简答📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.goroutine和channel使用不当，很容易goroutine泄露
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.额外难点
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-4&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;并发编程本身很难，大多数人没有分析并发时序的经验&lt;/li&gt;
+&lt;li&gt;Go的并发编程难点在于两点：①goroutine的使用②channel的使用&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;简答-1&#34;&gt;简答📑&lt;/h3&gt;
+&lt;h4 id=&#34;goroutine和channel使用不当很容易goroutine泄露&#34;&gt;goroutine和channel使用不当，很容易goroutine泄露&lt;/h4&gt;
+&lt;h4 id=&#34;额外难点&#34;&gt;额外难点&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Go的并发工具库远不如Java丰富&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;go缺乏spi机制与动态生成新的类型的机制&#34;&gt;Go缺乏SPI机制与动态生成新的类型的机制&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月15日 星期一 | 🌙农历 兔年(2023)腊月初五 | 🕛中午 11点56分16秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-6&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(brief)-021
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.Go缺乏SPI机制与动态生成新的类型的机制
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.`SPI:Service Provider Interface`
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.简答📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.缺乏SPI机制
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.运行时为一个接口提供新的实现的机制
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S03.好处
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-5&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;SPI:Service Provider Interface&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;简答-2&#34;&gt;简答📑&lt;/h3&gt;
+&lt;h4 id=&#34;缺乏spi机制&#34;&gt;缺乏SPI机制&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;直观来说就是Go里面缺乏一个根据接口查找实现的功能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;运行时为一个接口提供新的实现的机制&#34;&gt;运行时为一个接口提供新的实现的机制&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Go里面的依赖注入框架都很难用&lt;/li&gt;
+&lt;li&gt;Go很多框架都只能依赖于代码生成&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;好处&#34;&gt;好处&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Go的代码很直观&lt;/li&gt;
+&lt;li&gt;追踪代码很容易&lt;/li&gt;
+&lt;li&gt;能全面掌握&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;go面试难点&#34;&gt;Go面试难点&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月15日 星期一 | 🌙农历 兔年(2023)腊月初五 | 🕛中午 12点04分16秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-7&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(brief)-022
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.Go面试难点
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.Go面试内容相对Java少很多
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.简答📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.Go内存管理
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.Go垃圾回收
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S03.Go GMP调度
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S04.Go 并发编程
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S05.Go 内置类型的实现原理
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-6&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Go面试内容相对Java少很多&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;简答-3&#34;&gt;简答📑&lt;/h3&gt;
+&lt;h4 id=&#34;go内存管理&#34;&gt;Go内存管理&lt;/h4&gt;
+&lt;h4 id=&#34;go垃圾回收&#34;&gt;Go垃圾回收&lt;/h4&gt;
+&lt;h4 id=&#34;go-gmp调度&#34;&gt;Go GMP调度&lt;/h4&gt;
+&lt;h4 id=&#34;go-并发编程&#34;&gt;Go 并发编程&lt;/h4&gt;
+&lt;h4 id=&#34;go-内置类型的实现原理&#34;&gt;Go 内置类型的实现原理&lt;/h4&gt;
+&lt;h2 id=&#34;go后端工程师应该具备的能力-1&#34;&gt;Go后端工程师应该具备的能力&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月15日 星期一 | 🌙农历 兔年(2023)腊月初五 | 🕛中午 12点10分16秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-8&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(brief)-023
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.Go后端工程师应该具备的能力
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.Go后端开发需要学习哪些知识
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.简答📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.计算机基础知识
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.分布式系统
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S03.业务领域问题解决方案
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S04.业务技术问题解决方案
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S05.热门中间件的原理
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-7&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Go后端开发需要学习哪些知识&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;简答-4&#34;&gt;简答📑&lt;/h3&gt;
+&lt;h4 id=&#34;计算机基础知识&#34;&gt;计算机基础知识&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;👇操作系统：最核心是下面两个👇&lt;/li&gt;
+&lt;li&gt;内存管理：将GO内存管理、Linux内存管理融会贯通&lt;/li&gt;
+&lt;li&gt;文件系统：能够理解各种中间件为了优化IO的锁所采取的措施&lt;/li&gt;
+&lt;li&gt;计算机网络：最核心是TCP，学到你能理解Linux上TCP所有的相关参数，以及如何调优&lt;/li&gt;
+&lt;li&gt;数据库原理：能搞懂MySQL各个参数的含义，以及优化的方向就可以了&lt;/li&gt;
+&lt;li&gt;计算机组成原理：学到能看懂汇编、能从计算机指令级别解释各种原子操作就可以了&lt;/li&gt;
+&lt;li&gt;先学一遍，有一个基本概念。而后再到后面学习其它内容的时候，遇到相关主题，再回来复习&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;分布式系统&#34;&gt;分布式系统&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;分布式系统理论一定要学扎实，目前大多数的热门中间件都是分布式的。&lt;/li&gt;
+&lt;li&gt;通信：不同节点之间怎么通信。具体到当下，就是RPC调用，HTTP调用等等，以及通信过程中可能会出现的各种问题&lt;/li&gt;
+&lt;li&gt;命名系统：也就是怎么用名字标识分布式系统里面的资源，怎么根据名字查找。最直观的就是服务支持与发现，DNS&lt;/li&gt;
+&lt;li&gt;协同：各个节点怎么合作完成一件事情，怎么就某个点达成一致。博爱喊了公式算法和选举等内容，你日常接触的主从选举、对等集群达成一致，就是这部分内容&lt;/li&gt;
+&lt;li&gt;容错：即分布式系统某一部分出错了，其它部分要怎么应对。服务治理整个部分都可以看做是这个主题的一部分&lt;/li&gt;
+&lt;li&gt;复制：数据要分散在多个节点上才能有效防止丢失，这种状态下就要考虑一份数据复制到别的节点的问题。e.g. 主从同步&lt;/li&gt;
+&lt;li&gt;事务：多个节点共同完成一个任务，怎么满足事务的语义；e.g. 两阶段提交、TCC、SAGA&lt;/li&gt;
+&lt;li&gt;《数据密集型应用系统设计》&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;业务领域问题解决方案&#34;&gt;业务领域问题解决方案&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;解决业务问题的能力&lt;/li&gt;
+&lt;li&gt;和你职业发展规划、所在公司主营范围相关的。要做到一精多熟，即一个特定的领域，你是大佬；跟这个领域相关、市面常见的，你要做到熟悉&lt;/li&gt;
+&lt;li&gt;比如说订单这一部分你就要了解清楚，订单系统怎么设计，包括各种表结构大概应该怎么样，扣库存怎么设计&lt;/li&gt;
+&lt;li&gt;领域专家抗失业能力很强&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;业务技术问题解决方案&#34;&gt;业务技术问题解决方案&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;一般就是四个：高并发、高可用、大数据、高性能；并不是你都得实践过，但是至少得听过一般性的方案&lt;/li&gt;
+&lt;li&gt;从前端到后端、从网关到数据库怎么做到高并发、高可用、支撑大数据、高性能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;热门中间件的原理&#34;&gt;热门中间件的原理&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;每一类都需要至少非常熟悉一个&lt;/li&gt;
+&lt;li&gt;能用来做什么：熟记各种典型场景，比如说kafka用于秒杀。这点你要和前面的技术解决方案互相参照理解&lt;/li&gt;
+&lt;li&gt;底层原理：也就是为什么它能做到这个地步，一般就是要熟练掌握它高可用、高并发、高性能的原理。你要能从分布式基本理论的角度去分析&lt;/li&gt;
+&lt;li&gt;👇包括：&lt;/li&gt;
+&lt;li&gt;云原生：kubernetes&lt;/li&gt;
+&lt;li&gt;消息队列：如kafka&lt;/li&gt;
+&lt;li&gt;缓存：如Redis&lt;/li&gt;
+&lt;li&gt;数据库：如MySQL&lt;/li&gt;
+&lt;li&gt;分库分表：如ShardingSphere&lt;/li&gt;
+&lt;li&gt;Elasticsearch&lt;/li&gt;
+&lt;li&gt;数据流处理：如Flink&lt;/li&gt;
+&lt;li&gt;大数据处理：如Hadoop&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;走向高级工程师的途径&#34;&gt;走向高级工程师的途径&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月15日 星期一 | 🌙农历 兔年(2023)腊月初五 | 🕛中午 12点51分16秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-9&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(brief)-024
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.走向高级工程师的途径
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.简答📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.第一步：初入门径，工作为先
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.第二步：夯实基础，锤炼技艺
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S03.第三步：长远计划，日积月累
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S04.确定自己各个阶段的标准
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;简答-5&#34;&gt;简答📑&lt;/h3&gt;
+&lt;h4 id=&#34;第一步初入门径工作为先&#34;&gt;第一步：初入门径，工作为先&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;速成为主&lt;/li&gt;
+&lt;li&gt;学习一门语言：比如说学习Go，正常来说你学什么语言对你未来有影响，但是不大&lt;/li&gt;
+&lt;li&gt;学会这门语言的基础框架：比如说Go学会Gin和Gorm&lt;/li&gt;
+&lt;li&gt;背熟Kafka、Redis、MySQL、Go、微服务的八股文：这个时候就可以出去面试了&lt;/li&gt;
+&lt;li&gt;学会微服务的我基本理论和框架，比如说服务治理相关的熔断限流降级、服务注册与发现&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;第二步夯实基础锤炼技艺&#34;&gt;第二步：夯实基础，锤炼技艺&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;👇在公司内部，你要开始总结职场生存小技巧，总结锻炼各种软技能👇&lt;/li&gt;
+&lt;li&gt;刻意练习代码能力，尝试设计一些比增删改查还要复杂的东西，尝试重构公司系统&lt;/li&gt;
+&lt;li&gt;你所用语言的高级内容：Go里面的并发编程、彻底理解和掌握G运行时&lt;/li&gt;
+&lt;li&gt;所用框架的底层原理：Gin、Gorm&lt;/li&gt;
+&lt;li&gt;计算机基础知识&lt;/li&gt;
+&lt;li&gt;分布式系统的基本理论&lt;/li&gt;
+&lt;li&gt;理论在语言中的体现；理论在框架中的体现；框架对理论的实践&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;第三步长远计划日积月累&#34;&gt;第三步：长远计划，日积月累&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;清楚自己朝着什么放西努力&lt;/li&gt;
+&lt;li&gt;在公司内部持续输出内容、提升技术影响里&lt;/li&gt;
+&lt;li&gt;设计和实现更加复杂的系统，尝试复刻工作中接触到的框架&lt;/li&gt;
+&lt;li&gt;学习复杂中间件的设计原理，总结这些中间件的一般设计规律&lt;/li&gt;
+&lt;li&gt;学习各种技术问题、领域问题的一般解决方案，尝试在公司内部落地复杂的技术方案&lt;/li&gt;
+&lt;li&gt;追踪业界发展前沿。正常来说我们都不是搞科研的，所以只需要了解业界目前的技术前进方向就可以了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;确定自己各个阶段的标准&#34;&gt;确定自己各个阶段的标准&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;👇第三阶段的特征&lt;/li&gt;
+&lt;li&gt;重复造轮子不是不可能的事情，经历多次重构能造出生产环境用的框架&lt;/li&gt;
+&lt;li&gt;从业务研发的角度来说，你能完成类似这种复杂度的功能设计与实现&lt;/li&gt;
+&lt;li&gt;领导多人小组&lt;/li&gt;
+&lt;li&gt;👇第二阶段的特征&lt;/li&gt;
+&lt;li&gt;能独立设计并实现比较简单的中间件，比如说Web和ORM框架&lt;/li&gt;
+&lt;li&gt;能为复杂中间件提供插件或者实现，比如说为gRPC提供一整套的微服务插件&lt;/li&gt;
+&lt;li&gt;从业务研发的角度来说：①能独立负责重大复杂功能的核心模块设计与研发②能解决 小组成员遇到的各种BUG、能胜任各种性能优化工作&lt;/li&gt;
+&lt;li&gt;从公司的角度来说，你是核心研发，你会被安排带领新人，是小组的绝对灵魂人物&lt;/li&gt;
+&lt;li&gt;👇第一阶段的特征&lt;/li&gt;
+&lt;li&gt;不太能胜任中间件研发，可以做一些业务研发工作&lt;/li&gt;
+&lt;li&gt;leader交代的人物，你能按时完成，但是你缺乏对系统的完整认知&lt;/li&gt;
+&lt;li&gt;根据自己的需求，为框架提供一些插件或者实现，但是这个过程你会遇到很多问题&lt;/li&gt;
+&lt;li&gt;你会遇到一些BUG，你找不到思路，需要寻求帮助&lt;/li&gt;
+&lt;li&gt;从公司的角度来说，你只能维护一些不太重要的模块。重要模块你也需要别人提供设计，或者至少提供思路&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;初级go工程师训练营-内容丰富&#34;&gt;初级Go工程师训练营-内容丰富&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月15日 星期一 | 🌙农历 兔年(2023)腊月初五 | 🕛下午 1点17分16秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-10&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(brief)-025
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q01.初级Go工程师训练营-内容丰富
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.初级Go工程师训练营内容
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.简答📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.涉及中间件丰富
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.切身体会设计模式
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S03.DDD、TDD理论与实践结合
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S04.综合复杂方案
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S05.针对面试
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-8&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;初级Go工程师训练营内容&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;简答-6&#34;&gt;简答📑&lt;/h3&gt;
+&lt;h4 id=&#34;涉及中间件丰富&#34;&gt;涉及中间件丰富&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;包括Gin、Gorm、MySQL、Redis、Kafka、···&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;切身体会设计模式&#34;&gt;切身体会设计模式&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;如何用设计模式解决问题&lt;/li&gt;
+&lt;li&gt;以及用不用设计模式的差异&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;dddtdd理论与实践结合&#34;&gt;DDD、TDD理论与实践结合&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;DDD来驱动业务设计&lt;/li&gt;
+&lt;li&gt;TDD来保障代码质量&lt;/li&gt;
+&lt;li&gt;同时也涵盖了面向接口编程、依赖注入等最佳实践&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;综合复杂方案&#34;&gt;综合复杂方案&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;综合应用多种中间件以解决一个复杂的问题&lt;/li&gt;
+&lt;li&gt;凸显自己的技术实力和技术积累&lt;/li&gt;
+&lt;li&gt;比如说全链路观测、全方面微服务治理，高性能搜索、Feed流、即时通讯等&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;针对面试&#34;&gt;针对面试&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;知识点 ⇨ 整理出面试题，凸显竞争优势&lt;/li&gt;
+&lt;li&gt;Go项目包装&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;xxx&#34;&gt;❗xxx？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月13日 星期六 | 🌙农历 兔年(2023)腊月初三 | 🕛晚上 6点02分28秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-11&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(compare)-028
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q01.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q02.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q03.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q04.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.正面📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F03.反面📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-9&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;正面&#34;&gt;正面📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-1&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;反面&#34;&gt;反面📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-2&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;xxx-3&#34;&gt;❗xxx？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月13日 星期六 | 🌙农历 兔年(2023)腊月初三 | 🕛晚上 6点02分28秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-12&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(process)-031
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q01.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q02.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q03.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q04.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.前置知识 &amp;amp; 问题描述📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.解决步骤📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;前置知识--问题描述&#34;&gt;前置知识 &amp;amp; 问题描述📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-4&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;解决步骤&#34;&gt;解决步骤📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-5&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;xxx-6&#34;&gt;❗xxx？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月13日 星期六 | 🌙农历 兔年(2023)腊月初三 | 🕛晚上 6点02分28秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-13&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(what)-034
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q01.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q02.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q03.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q04.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S02.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S03.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S04.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.特征📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F03.用法📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F04.原理📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-10&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;特征&#34;&gt;特征📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-7&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;用法&#34;&gt;用法📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-8&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;原理&#34;&gt;原理📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-9&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;xxx-10&#34;&gt;❗xxx？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月13日 星期六 | 🌙农历 兔年(2023)腊月初三 | 🕛晚上 6点02分28秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-14&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(who)-044
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q01.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q02.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q03.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q04.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.列举📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-11&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;列举&#34;&gt;列举📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-11&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;xxx-12&#34;&gt;❗xxx？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月13日 星期六 | 🌙农历 兔年(2023)腊月初三 | 🕛晚上 6点02分28秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-15&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(how)-047
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q01.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q02.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q03.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q04.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.痛点分析📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.解决方案📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-12&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;痛点分析&#34;&gt;痛点分析📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-13&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;解决方案&#34;&gt;解决方案📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-14&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;xxx-15&#34;&gt;❗xxx？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月13日 星期六 | 🌙农历 兔年(2023)腊月初三 | 🕛晚上 6点02分28秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-16&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(why)-050
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q01.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q02.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q03.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q04.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.痛点分析📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.原因 &amp;amp; 举例📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-13&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;痛点分析-1&#34;&gt;痛点分析📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-16&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;原因--举例&#34;&gt;原因 &amp;amp; 举例📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-17&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;xxx-18&#34;&gt;❗xxx？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月13日 星期六 | 🌙农历 兔年(2023)腊月初三 | 🕛晚上 6点02分28秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-17&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(s-d)-053
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q01.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q02.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q03.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q04.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.问题背景📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.版本迭代📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── T01.版本简介
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   │   ├── F01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   │   ├── F02.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   │   ├── F03.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   │   └── F04.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── T02.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S02.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── T01.版本简介
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       │   ├── F01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       │   └── F02.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       └── T02.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;问题背景-14&#34;&gt;问题背景📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;版本迭代&#34;&gt;版本迭代📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-19&#34;&gt;xxx&lt;/h4&gt;
+&lt;h5 id=&#34;版本简介&#34;&gt;版本简介&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;xxx-20&#34;&gt;xxx&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;xxx-21&#34;&gt;xxx&lt;/h4&gt;
+&lt;h5 id=&#34;版本简介-1&#34;&gt;版本简介&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;xxx-22&#34;&gt;xxx&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;xxx-23&#34;&gt;❗xxx？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月13日 星期六 | 🌙农历 兔年(2023)腊月初三 | 🕛晚上 6点02分28秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-18&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(ores)-056
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q01.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q02.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q03.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q04.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.观点 | 结论📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.原因 &amp;amp; 举例📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F03.结论补充 &amp;amp; 建议📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;观点--结论&#34;&gt;观点 | 结论📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-24&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;原因--举例-1&#34;&gt;原因 &amp;amp; 举例📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-25&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;结论补充--建议&#34;&gt;结论补充 &amp;amp; 建议📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-26&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;xxx-27&#34;&gt;❗xxx？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月13日 星期六 | 🌙农历 兔年(2023)腊月初三 | 🕛晚上 6点02分28秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-19&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Question(narrative)-059
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q01.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q02.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q03.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q04.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F01.时间📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F02.地点📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F03.人物📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F04.起因📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F05.经过📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── F06.结果📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── S01.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;时间&#34;&gt;时间📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-28&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;地点&#34;&gt;地点📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-29&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;人物&#34;&gt;人物📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-30&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;起因&#34;&gt;起因📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-31&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;经过&#34;&gt;经过📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-32&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;结果&#34;&gt;结果📑&lt;/h3&gt;
+&lt;h4 id=&#34;xxx-33&#34;&gt;xxx&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;👇xxx👇&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;🚩xxx🚩&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;第一部分-xxxxxx--读书笔记&#34;&gt;第一部分 xxx（xxx | 读书笔记）&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年01月13日 星期六 | 🌙农历 兔年(2023)腊月初三 | 🕛晚上 6点02分28秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;大纲-20&#34;&gt;大纲&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 🤔Chapters(r-n)-062
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q01.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q02.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 🍋Q03.❗xxx？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 🍋Q04.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 本部分简介📑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├──  1.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └──  2.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第1章 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 1.1 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 1.1.1 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 1.1.2 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 1.2 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── 1.2.1 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       └── 1.2.2 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�├── 第2章 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   ├── 2.1 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   ├── 2.1.1 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   │   └── 2.1.2 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│   └── 2.2 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       ├── 2.2.1 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;�│       └── 2.2.2 xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;本部分简介&#34;&gt;本部分简介📑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;第1章-xxx&#34;&gt;第1章 xxx&lt;/h3&gt;
+&lt;h4 id=&#34;11-xxx&#34;&gt;1.1 xxx&lt;/h4&gt;
+&lt;h5 id=&#34;111-xxx&#34;&gt;1.1.1 xxx&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;112-xxx&#34;&gt;1.1.2 xxx&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;12-xxx&#34;&gt;1.2 xxx&lt;/h4&gt;
+&lt;h5 id=&#34;121-xxx&#34;&gt;1.2.1 xxx&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;122-xxx&#34;&gt;1.2.2 xxx&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;第2章-xxx&#34;&gt;第2章 xxx&lt;/h3&gt;
+&lt;h4 id=&#34;21-xxx&#34;&gt;2.1 xxx&lt;/h4&gt;
+&lt;h5 id=&#34;211-xxx&#34;&gt;2.1.1 xxx&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;212-xxx&#34;&gt;2.1.2 xxx&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;22-xxx&#34;&gt;2.2 xxx&lt;/h4&gt;
+&lt;h5 id=&#34;221-xxx&#34;&gt;2.2.1 xxx&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;222-xxx&#34;&gt;2.2.2 xxx&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;xxx&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

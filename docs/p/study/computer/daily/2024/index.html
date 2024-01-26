@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='2024在学习计算机知识中碰到的一系列问题的解决方案记录'>
+<title>Study | 记录日常学习中碰到的问题及解决方案</title>
+
+<link rel='canonical' href='https://www.gainovel.com/p/study/computer/daily/2024/'>
+
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='Study | 记录日常学习中碰到的问题及解决方案'>
+<meta property='og:description' content='2024在学习计算机知识中碰到的一系列问题的解决方案记录'>
+<meta property='og:url' content='https://www.gainovel.com/p/study/computer/daily/2024/'>
+<meta property='og:site_name' content='玽琅小说家'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Makefile' /><meta property='article:tag' content='Chrome' /><meta property='article:tag' content='hugo stack' /><meta property='article:tag' content='Computer' /><meta property='article:published_time' content='2024-01-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-01-16T00:00:00&#43;00:00'/><meta property='og:image' content='https://www.gainovel.com/pic/common/content/post/cover/107.jpg' />
+<meta name="twitter:title" content="Study | 记录日常学习中碰到的问题及解决方案">
+<meta name="twitter:description" content="2024在学习计算机知识中碰到的一系列问题的解决方案记录"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://www.gainovel.com/pic/common/content/post/cover/107.jpg' />
+    <link rel="shortcut icon" href="/pic/common/config/default/params/png/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu8be45973510da8f31d78ecffb4510f14_274284_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🐉</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">玽琅小说家</a></h1>
+            <h2 class="site-description">衣带渐宽终不悔</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>存档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                
+                <span>分类</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/tags/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>标签</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>链接</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://www.gainovel.com/" selected>简体中文</option>
+                        
+                            <option value="https://www.gainovel.com/en/" >English</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#最近更新">最近更新</a></li>
+    <li><a href="#全部问题列表">全部问题列表</a></li>
+    <li><a href="#使用make编译makefile中的target时报-missing-separator--stop">使用make编译Makefile中的target时报<code>*** missing separator.  Stop.</code></a>
+      <ol>
+        <li><a href="#大纲">大纲</a></li>
+        <li><a href="#问题背景">问题背景📑</a></li>
+        <li><a href="#答案">答案📑</a></li>
+      </ol>
+    </li>
+    <li><a href="#使用hugo-stack主题时有时侯post内容不显示">使用hugo stack主题时有时侯post内容不显示</a>
+      <ol>
+        <li><a href="#大纲-1">大纲</a></li>
+        <li><a href="#问题背景-1">问题背景📑</a></li>
+        <li><a href="#答案-1">答案📑</a></li>
+      </ol>
+    </li>
+    <li><a href="#chrome浏览器复制带中文的网址被转码如何解决">Chrome浏览器复制带中文的网址被转码如何解决？</a>
+      <ol>
+        <li><a href="#大纲-2">大纲</a></li>
+        <li><a href="#问题背景-2">问题背景📑</a></li>
+        <li><a href="#痛点分析">痛点分析📑</a>
+          <ol>
+            <li><a href="#url编码">URL编码</a></li>
+          </ol>
+        </li>
+        <li><a href="#解决方案">解决方案📑</a>
+          <ol>
+            <li><a href="#复制不包含协议名httphttps的部分网址">复制不包含协议名(<code>http://</code>|<code>https://</code>)的部分网址</a></li>
+            <li><a href="#在线网站进行转换">在线网站进行转换</a></li>
+            <li><a href="#chrome插件进行转换需科学上网">Chrome插件进行转换（需科学上网）</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#参考">参考</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/study/computer/daily/2024/">
+                
+                    <img src="/pic/common/content/post/cover/107.jpg" loading="lazy" alt="Featured image of post Study | 记录日常学习中碰到的问题及解决方案" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/study/" style="background-color: #002428; color: #fff;">
+                Study
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/study/computer/daily/2024/">Study | 记录日常学习中碰到的问题及解决方案</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            2024在学习计算机知识中碰到的一系列问题的解决方案记录
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 16, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="最近更新">最近更新</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">| Type      | Tag            | UpdateTime          | Question
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">| common    | Makefile       | 2024/01/16 17:02:18 | 003.🍋使用make编译Makefile中的target时报`*** missing separator.  Stop.`
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="全部问题列表">全部问题列表</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">| Type      | Tag            | UpdateTime          | Question
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">| common    | Makefile       | 2024/01/16 17:02:18 | 003.🍋使用make编译Makefile中的target时报`*** missing separator.  Stop.`
+</span></span><span class="line"><span class="cl">| common    | hugo stack     | 2024/01/12 00:23:07 | 002.🍋使用hugo stack主题时有时侯post内容不显示
+</span></span><span class="line"><span class="cl">| how       | Chrome         | 2024/01/08 19:49:29 | 010.🍋Chrome浏览器复制带中文的网址被转码如何解决？
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="使用make编译makefile中的target时报-missing-separator--stop">使用make编译Makefile中的target时报<code>*** missing separator.  Stop.</code></h2>
+<blockquote>
+<p>☀️︎阳历 2024年01月16日 星期二 | 🌙农历 兔年(2023)腊月初六 | 🕛傍晚 5点02分18秒 | 更新 🏳️‍🌈</p>
+</blockquote>
+<h3 id="大纲">大纲</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl"> ├── 🤔Question(common)-003
+</span></span><span class="line"><span class="cl"> │   └── 🍋Q01.使用make编译Makefile中的target时报`*** missing separator.  Stop.`
+</span></span><span class="line"><span class="cl"> ├── F01.问题背景📑
+</span></span><span class="line"><span class="cl"> │   └── S01.执行`make targetxxx`时报错：makefile:13: *** missing separator.  Stop.
+</span></span><span class="line"><span class="cl"> ├── F02.答案📑
+</span></span><span class="line"><span class="cl"> │   ├── S01.👇原因
+</span></span><span class="line"><span class="cl"> │   ├── S02.在Makefile文件中，命令必须以【tab】键开始
+</span></span><span class="line"><span class="cl"> │   ├── S03.e.g.`  @command`中@之前必须是tab
+</span></span><span class="line"><span class="cl"> │   ├── S04.👇解决
+</span></span><span class="line"><span class="cl"> │   └── S05.将@之前的空格全部删除改为【tab】
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="问题背景">问题背景📑</h3>
+<ol>
+<li>执行<code>make targetxxx</code>时报错：makefile:13: *** missing separator.  Stop.</li>
+</ol>
+<h3 id="答案">答案📑</h3>
+<ol>
+<li>👇原因</li>
+<li>在Makefile文件中，命令必须以【tab】键开始</li>
+<li>e.g.<code>  @command</code>中@之前必须是tab</li>
+<li>👇解决</li>
+<li>将@之前的空格全部删除改为【tab】</li>
+</ol>
+<h2 id="使用hugo-stack主题时有时侯post内容不显示">使用hugo stack主题时有时侯post内容不显示</h2>
+<blockquote>
+<p>☀️︎阳历 2024年01月12日 星期五 | 🌙农历 兔年(2023)腊月初二 | 🕛半夜 12点23分07秒 | 更新 🏳️‍🌈</p>
+</blockquote>
+<h3 id="大纲-1">大纲</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl"> ├── 🤔Question(common)-002
+</span></span><span class="line"><span class="cl"> │   └── 🍋Q01.使用hugo stack主题时有时侯post内容不显示
+</span></span><span class="line"><span class="cl"> ├── F01.问题背景📑
+</span></span><span class="line"><span class="cl"> │   └── S01.猜测是时区问题
+</span></span><span class="line"><span class="cl"> ├── F02.答案📑
+</span></span><span class="line"><span class="cl"> │   ├── S01.e.g. 当前时区时间是是`2024-1-12 00:00:00`，但由于时区不同hugo获取时间时仍然是`2024-1-11`
+</span></span><span class="line"><span class="cl"> │   └── S02.因此当你在`*.md`文件头的`front matter`的`date`字段写的是`2024-1-12`，`hugo`就无法识别这个`*.md`文件，无法转换成`html`页面
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="问题背景-1">问题背景📑</h3>
+<ol>
+<li>猜测是时区问题</li>
+</ol>
+<h3 id="答案-1">答案📑</h3>
+<ol>
+<li>e.g. 当前时区时间是是<code>2024-1-12 00:00:00</code>，但由于时区不同hugo获取时间时仍然是<code>2024-1-11</code></li>
+<li>因此当你在<code>*.md</code>文件头的<code>front matter</code>的<code>date</code>字段写的是<code>2024-1-12</code>，<code>hugo</code>就无法识别这个<code>*.md</code>文件，无法转换成<code>html</code>页面</li>
+</ol>
+<h2 id="chrome浏览器复制带中文的网址被转码如何解决">Chrome浏览器复制带中文的网址被转码如何解决？</h2>
+<blockquote>
+<p>☀️︎阳历 2024年01月08日 星期一 | 🌙农历 兔年(2023)十一月廿七 | 🕛晚上 7点49分29秒 | 更新 🏳️‍🌈</p>
+</blockquote>
+<h3 id="大纲-2">大纲</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl"> ├── 🤔Question(how)-010
+</span></span><span class="line"><span class="cl"> │   └── 🍋Q01.Chrome浏览器复制带中文的网址被转码如何解决？
+</span></span><span class="line"><span class="cl"> ├── F01.问题背景📑
+</span></span><span class="line"><span class="cl"> │   └── S01.如果在浏览器的 URL 地址中包含中文，复制地址出来后中文部分就会被转换变成看起来像乱码一样的字符
+</span></span><span class="line"><span class="cl"> ├── F01.痛点分析📑
+</span></span><span class="line"><span class="cl"> │   └── S01.URL编码
+</span></span><span class="line"><span class="cl"> ├── F02.解决方案📑
+</span></span><span class="line"><span class="cl"> │   ├── S01.复制不包含协议名(`http://`|`https://`)的部分网址
+</span></span><span class="line"><span class="cl"> │   ├── S02.在线网站进行转换
+</span></span><span class="line"><span class="cl"> │   └── S03.Chrome插件进行转换（需科学上网）
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="问题背景-2">问题背景📑</h3>
+<ol>
+<li>如果在浏览器的 URL 地址中包含中文，复制地址出来后中文部分就会被转换变成看起来像乱码一样的字符</li>
+</ol>
+<h3 id="痛点分析">痛点分析📑</h3>
+<h4 id="url编码">URL编码</h4>
+<ol>
+<li>👇为了避免不受识别的字符影响 URL 的解析，根据 RFC3986 文档规定，URL 中只允许包含以下四种字符👇</li>
+<li>英文字母（a-z/A-Z）</li>
+<li>数字（0-9）</li>
+<li>-_.~ 4 个特殊字符</li>
+<li>所有保留字符<code>! * ' ( ) ; : @ &amp; = + $ , / ? # [ ]</code></li>
+<li>非以上4中字符都会产生【URL编码】👉（使用%加上两位的字符——0123456789ABCDEF——代表一个字节的十六进制形式）</li>
+</ol>
+<h3 id="解决方案">解决方案📑</h3>
+<h4 id="复制不包含协议名httphttps的部分网址">复制不包含协议名(<code>http://</code>|<code>https://</code>)的部分网址</h4>
+<ol>
+<li>👇<code>https://baike.baidu.com/item/TCP/IP协议</code></li>
+<li>只复制<code>baike.baidu.com/item/TCP/IP协议</code>可以避免URL编码</li>
+</ol>
+<h4 id="在线网站进行转换">在线网站进行转换</h4>
+<ol>
+<li>The X 在线工具箱 <a class="link" href="https://the-x.cn/UrlDecode.aspx"  target="_blank" rel="noopener"
+    >https://the-x.cn/UrlDecode.aspx</a></li>
+</ol>
+<h4 id="chrome插件进行转换需科学上网">Chrome插件进行转换（需科学上网）</h4>
+<ol>
+<li>URL Decode/Encode <a class="link" href="https://chromewebstore.google.com/detail/url-decodeencode/dgoepmkoiphgabefpbapldnjmbbiaoag?utm_source=ext_app_menu"  target="_blank" rel="noopener"
+    >https://chromewebstore.google.com/detail/url-decodeencode/dgoepmkoiphgabefpbapldnjmbbiaoag?utm_source=ext_app_menu</a></li>
+</ol>
+<h2 id="参考">参考</h2>
+<blockquote>
+<ul>
+<li>[1 ] Chrome 浏览器复制带中文的网址被转码影响美观 <a class="link" href="https://hexingxing.cn/chrome-browser-copy-with-chinese-url-is-affected-by-transcoding/"  target="_blank" rel="noopener"
+    >https://hexingxing.cn/chrome-browser-copy-with-chinese-url-is-affected-by-transcoding/</a></li>
+<li>[2 ] The X 在线工具箱 <a class="link" href="https://the-x.cn/UrlDecode.aspx"  target="_blank" rel="noopener"
+    >https://the-x.cn/UrlDecode.aspx</a></li>
+<li>[3 ] missing separator.错误解决办法 <a class="link" href="https://blog.csdn.net/jack_wang128801/article/details/90080915"  target="_blank" rel="noopener"
+    >https://blog.csdn.net/jack_wang128801/article/details/90080915</a></li>
+</ul>
+</blockquote>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/makefile/">Makefile</a>
+        
+            <a href="/tags/chrome/">Chrome</a>
+        
+            <a href="/tags/hugo-stack/">hugo stack</a>
+        
+            <a href="/tags/computer/">Computer</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2024 玽琅小说家
+    </section>
+    
+    <section class="powerby">
+        
+            gainovel.com All Rights Reserved. <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
