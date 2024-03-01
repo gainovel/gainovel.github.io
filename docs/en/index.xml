@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>gainovel</title>
-        <link>http://wheel/en/</link>
+        <link>https://www.gainovel.com/en/</link>
         <description>Recent content on gainovel</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="http://wheel/en/index.xml" rel="self" type="application/rss+xml" />
+        <language>en</language><atom:link href="https://www.gainovel.com/en/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

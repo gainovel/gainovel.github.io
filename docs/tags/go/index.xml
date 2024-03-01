@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Go on 玽琅小说家</title>
-        <link>http://wheel/tags/go/</link>
+        <link>https://www.gainovel.com/tags/go/</link>
         <description>Recent content in Go on 玽琅小说家</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://wheel/tags/go/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://www.gainovel.com/tags/go/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>RabbitMQ实战指南读书笔记 | 第1章 RabbitMQ简介 | 第2章 RabbitMQ入门</title>
-        <link>http://wheel/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/</link>
+        <link>https://www.gainovel.com/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/</link>
         <pubDate>Wed, 21 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>http://wheel/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/</guid>
-        <description>&lt;img src="http://wheel/pic/common/content/post/cover/086.jpg" alt="Featured image of post RabbitMQ实战指南读书笔记 | 第1章 RabbitMQ简介 | 第2章 RabbitMQ入门" /&gt;&lt;h2 id=&#34;近期更新问题&#34;&gt;近期更新问题&lt;/h2&gt;
+        <guid>https://www.gainovel.com/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/</guid>
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/086.jpg" alt="Featured image of post RabbitMQ实战指南读书笔记 | 第1章 RabbitMQ简介 | 第2章 RabbitMQ入门" /&gt;&lt;h2 id=&#34;近期更新问题&#34;&gt;近期更新问题&lt;/h2&gt;
 &lt;p&gt;无。&lt;/p&gt;
 &lt;h2 id=&#34;全部问题&#34;&gt;全部问题&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -160,11 +160,11 @@
         </item>
         <item>
         <title>《Go专家编程》读书笔记 | 第2章 控制结构</title>
-        <link>http://wheel/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</link>
+        <link>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</link>
         <pubDate>Tue, 20 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>http://wheel/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
-        <description>&lt;img src="http://wheel/pic/common/content/post/cover/001.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构" /&gt;&lt;h2 id=&#34;近期更新问题&#34;&gt;近期更新问题&lt;/h2&gt;
+        <guid>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/001.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构" /&gt;&lt;h2 id=&#34;近期更新问题&#34;&gt;近期更新问题&lt;/h2&gt;
 &lt;p&gt;无。&lt;/p&gt;
 &lt;h2 id=&#34;全部问题&#34;&gt;全部问题&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -225,11 +225,11 @@
         </item>
         <item>
         <title>《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理</title>
-        <link>http://wheel/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/</link>
+        <link>https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/</link>
         <pubDate>Sun, 18 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>http://wheel/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
-        <description>&lt;img src="http://wheel/pic/common/content/post/cover/006.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理" /&gt;&lt;h2 id=&#34;近期更新问题&#34;&gt;近期更新问题&lt;/h2&gt;
+        <guid>https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/006.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理" /&gt;&lt;h2 id=&#34;近期更新问题&#34;&gt;近期更新问题&lt;/h2&gt;
 &lt;p&gt;无。&lt;/p&gt;
 &lt;h2 id=&#34;全部问题&#34;&gt;全部问题&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
