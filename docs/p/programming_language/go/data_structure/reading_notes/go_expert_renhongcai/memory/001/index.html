@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='数据结构篇🟠chan🟠slice🟠map🟠struct🟠iota🟠string🟠sync.Map'>
+<title>《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理</title>
+
+<link rel='canonical' href='http://wheel/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/'>
+
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理'>
+<meta property='og:description' content='数据结构篇🟠chan🟠slice🟠map🟠struct🟠iota🟠string🟠sync.Map'>
+<meta property='og:url' content='http://wheel/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/'>
+<meta property='og:site_name' content='玽琅小说家'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='《Go专家编程》' /><meta property='article:tag' content='Go' /><meta property='article:tag' content='chan' /><meta property='article:tag' content='slice' /><meta property='article:tag' content='map' /><meta property='article:tag' content='struct' /><meta property='article:tag' content='iota' /><meta property='article:tag' content='string' /><meta property='article:tag' content='sync.Map' /><meta property='article:published_time' content='2024-02-18T00:00:00&#43;08:00'/><meta property='article:modified_time' content='2024-03-01T15:49:28&#43;08:00'/><meta property='og:image' content='http://wheel/pic/common/content/post/cover/006.jpg' />
+<meta name="twitter:title" content="《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理">
+<meta name="twitter:description" content="数据结构篇🟠chan🟠slice🟠map🟠struct🟠iota🟠string🟠sync.Map"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://wheel/pic/common/content/post/cover/006.jpg' />
+    <link rel="shortcut icon" href="/pic/common/config/_default/params/png/pdx001.png" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu8be45973510da8f31d78ecffb4510f14_274284_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🐉</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">玽琅小说家</a></h1>
+            <h2 class="site-description">衣带渐宽终不悔</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/gainovel'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg t="1708414762543" class="icon" viewBox="0 0 1049 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5556"
+     width="60" height="60">
+    <path d="M524.979332 0C234.676191 0 0 234.676191 0 524.979332c0 232.068678 150.366597 428.501342 358.967656 498.035028 26.075132 5.215026 35.636014-11.299224 35.636014-25.205961 0-12.168395-0.869171-53.888607-0.869171-97.347161-146.020741 31.290159-176.441729-62.580318-176.441729-62.580318-23.467619-60.841976-58.234462-76.487055-58.234463-76.487055-47.804409-32.15933 3.476684-32.15933 3.476685-32.15933 53.019436 3.476684 80.83291 53.888607 80.83291 53.888607 46.935238 79.963739 122.553122 57.365291 152.97411 43.458554 4.345855-33.897672 18.252593-57.365291 33.028501-70.402857-116.468925-12.168395-239.022047-57.365291-239.022047-259.012982 0-57.365291 20.860106-104.300529 53.888607-140.805715-5.215026-13.037566-23.467619-66.926173 5.215027-139.067372 0 0 44.327725-13.906737 144.282399 53.888607 41.720212-11.299224 86.917108-17.383422 131.244833-17.383422s89.524621 6.084198 131.244833 17.383422C756.178839 203.386032 800.506564 217.29277 800.506564 217.29277c28.682646 72.1412 10.430053 126.029806 5.215026 139.067372 33.897672 36.505185 53.888607 83.440424 53.888607 140.805715 0 201.64769-122.553122 245.975415-239.891218 259.012982 19.121764 16.514251 35.636014 47.804409 35.636015 97.347161 0 70.402857-0.869171 126.898978-0.869172 144.282399 0 13.906737 9.560882 30.420988 35.636015 25.205961 208.601059-69.533686 358.967656-265.96635 358.967655-498.035028C1049.958663 234.676191 814.413301 0 524.979332 0z"
+          fill="#191717" p-id="5557"></path>
+    <path d="M199.040177 753.571326c-0.869171 2.607513-5.215026 3.476684-8.691711 1.738342s-6.084198-5.215026-4.345855-7.82254c0.869171-2.607513 5.215026-3.476684 8.691711-1.738342s5.215026 5.215026 4.345855 7.82254z m-6.953369-4.345856M219.900283 777.038945c-2.607513 2.607513-7.82254 0.869171-10.430053-2.607514-3.476684-3.476684-4.345855-8.691711-1.738342-11.299224 2.607513-2.607513 6.953369-0.869171 10.430053 2.607514 3.476684 4.345855 4.345855 9.560882 1.738342 11.299224z m-5.215026-5.215027M240.760389 807.459932c-3.476684 2.607513-8.691711 0-11.299224-4.345855-3.476684-4.345855-3.476684-10.430053 0-12.168395 3.476684-2.607513 8.691711 0 11.299224 4.345855 3.476684 4.345855 3.476684 9.560882 0 12.168395z m0 0M269.443034 837.011749c-2.607513 3.476684-8.691711 2.607513-13.906737-1.738342-4.345855-4.345855-6.084198-10.430053-2.607513-13.037566 2.607513-3.476684 8.691711-2.607513 13.906737 1.738342 4.345855 3.476684 5.215026 9.560882 2.607513 13.037566z m0 0M308.555733 853.526c-0.869171 4.345855-6.953369 6.084198-13.037566 4.345855-6.084198-1.738342-9.560882-6.953369-8.691711-10.430053 0.869171-4.345855 6.953369-6.084198 13.037566-4.345855 6.084198 1.738342 9.560882 6.084198 8.691711 10.430053z m0 0M351.145116 857.002684c0 4.345855-5.215026 7.82254-11.299224 7.82254-6.084198 0-11.299224-3.476684-11.299224-7.82254s5.215026-7.82254 11.299224-7.82254c6.084198 0 11.299224 3.476684 11.299224 7.82254z m0 0M391.126986 850.049315c0.869171 4.345855-3.476684 8.691711-9.560882 9.560882-6.084198 0.869171-11.299224-1.738342-12.168395-6.084197-0.869171-4.345855 3.476684-8.691711 9.560881-9.560882 6.084198-0.869171 11.299224 1.738342 12.168396 6.084197z m0 0"
+          fill="#191717" p-id="5558"></path>
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://gitee.com/gainovel'
+                        target="_blank"
+                        title="Gitee"
+                        rel="me"
+                    >
+                        
+                        
+                            <?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="LOGO" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-7" transform="translate(-192.000000, -115.000000)" fill="#C71D23">
+            <path d="M228,115 C247.882251,115 264,131.117749 264,151 C264,170.882251 247.882251,187 228,187 C208.117749,187 192,170.882251 192,151 C192,131.117749 208.117749,115 228,115 Z M246.223335,131 C246.222967,131 246.2226,131 246.222232,131.001102 L221.33326,131.001102 C213.969504,131.001102 208,136.970606 208,144.334362 L208,169.222232 C208,170.204066 208.795934,171 209.777768,171 L236.000329,171 C242.627564,171 248,165.627564 248,159.000329 L248,148.778425 C248,147.796591 247.204066,147.000657 246.222232,147.000657 L225.7779,147.000657 C224.796248,147.001123 224.000389,147.796773 223.999667,148.778425 L223.998503,153.222667 C223.997802,154.155409 224.715909,154.920565 225.629522,154.994969 L225.775805,155.00042 L225.775805,155.00042 L238.222276,155.000317 C239.155019,155.000295 239.919992,155.718618 239.994164,156.63225 L240.000044,156.77807 L240.000044,156.77807 L240.000044,157.666909 C240.000044,160.612411 237.612243,163.000213 234.66674,163.000213 L217.776621,163.000213 C216.794928,163.000164 215.999101,162.204358 215.999025,161.222665 L215.998559,144.334184 C215.998337,141.462319 218.268172,139.120556 221.111731,139.005187 L221.331716,139.00088 L221.331716,139.00088 L246.21727,139.00088 C247.198674,138.999777 247.994429,138.204515 247.996141,137.223112 L247.998897,132.77887 C248.000609,131.797037 247.205169,131.000609 246.223335,131 Z" id="logo_gitee_g_red"></path>
+        </g>
+    </g>
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/549555287'
+                        target="_blank"
+                        title="bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg t="1708413584918" class="icon" viewBox="0 0 1129 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1482"
+     width="60" height="60">
+    <path d="M234.909 9.656a80.468 80.468 0 0 1 68.398 0 167.374 167.374 0 0 1 41.843 30.578l160.937 140.82h115.07l160.936-140.82a168.983 168.983 0 0 1 41.843-30.578A80.468 80.468 0 0 1 930.96 76.445a80.468 80.468 0 0 1-17.703 53.914 449.818 449.818 0 0 1-35.406 32.187 232.553 232.553 0 0 1-22.531 18.508h100.585a170.593 170.593 0 0 1 118.289 53.109 171.397 171.397 0 0 1 53.914 118.288v462.693a325.897 325.897 0 0 1-4.024 70.007 178.64 178.64 0 0 1-80.468 112.656 173.007 173.007 0 0 1-92.539 25.75h-738.7a341.186 341.186 0 0 1-72.421-4.024A177.835 177.835 0 0 1 28.91 939.065a172.202 172.202 0 0 1-27.36-92.539V388.662a360.498 360.498 0 0 1 0-66.789A177.03 177.03 0 0 1 162.487 178.64h105.414c-16.899-12.07-31.383-26.555-46.672-39.43a80.468 80.468 0 0 1-25.75-65.984 80.468 80.468 0 0 1 39.43-63.57M216.4 321.873a80.468 80.468 0 0 0-63.57 57.937 108.632 108.632 0 0 0 0 30.578v380.615a80.468 80.468 0 0 0 55.523 80.469 106.218 106.218 0 0 0 34.601 5.632h654.208a80.468 80.468 0 0 0 76.444-47.476 112.656 112.656 0 0 0 8.047-53.109v-354.06a135.187 135.187 0 0 0 0-38.625 80.468 80.468 0 0 0-52.304-54.719 129.554 129.554 0 0 0-49.89-7.242H254.22a268.764 268.764 0 0 0-37.82 0z m0 0"
+          fill="#20B0E3" p-id="1483"></path>
+    <path d="M348.369 447.404a80.468 80.468 0 0 1 55.523 18.507 80.468 80.468 0 0 1 28.164 59.547v80.468a80.468 80.468 0 0 1-16.094 51.5 80.468 80.468 0 0 1-131.968-9.656 104.609 104.609 0 0 1-10.46-54.719v-80.468a80.468 80.468 0 0 1 70.007-67.593z m416.02 0a80.468 80.468 0 0 1 86.102 75.64v80.468a94.148 94.148 0 0 1-12.07 53.11 80.468 80.468 0 0 1-132.773 0 95.757 95.757 0 0 1-12.875-57.133V519.02a80.468 80.468 0 0 1 70.007-70.812z m0 0"
+          fill="#20B0E3" p-id="1484"></path>
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/549555287'
+                        target="_blank"
+                        title="微信公众号"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg t="1708414676506" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4592"
+     width="60" height="60">
+    <path d="M337.387283 341.82659c-17.757225 0-35.514451 11.83815-35.514451 29.595375s17.757225 29.595376 35.514451 29.595376 29.595376-11.83815 29.595376-29.595376c0-18.49711-11.83815-29.595376-29.595376-29.595375zM577.849711 513.479769c-11.83815 0-22.936416 12.578035-22.936416 23.6763 0 12.578035 11.83815 23.676301 22.936416 23.676301 17.757225 0 29.595376-11.83815 29.595376-23.676301s-11.83815-23.676301-29.595376-23.6763zM501.641618 401.017341c17.757225 0 29.595376-12.578035 29.595376-29.595376 0-17.757225-11.83815-29.595376-29.595376-29.595375s-35.514451 11.83815-35.51445 29.595375 17.757225 29.595376 35.51445 29.595376zM706.589595 513.479769c-11.83815 0-22.936416 12.578035-22.936416 23.6763 0 12.578035 11.83815 23.676301 22.936416 23.676301 17.757225 0 29.595376-11.83815 29.595376-23.676301s-11.83815-23.676301-29.595376-23.6763z"
+          fill="#28C445" p-id="4593"></path>
+    <path d="M510.520231 2.959538C228.624277 2.959538 0 231.583815 0 513.479769s228.624277 510.520231 510.520231 510.520231 510.520231-228.624277 510.520231-510.520231-228.624277-510.520231-510.520231-510.520231zM413.595376 644.439306c-29.595376 0-53.271676-5.919075-81.387284-12.578034l-81.387283 41.433526 22.936416-71.768786c-58.450867-41.433526-93.965318-95.445087-93.965317-159.815029 0-113.202312 105.803468-201.988439 233.803468-201.98844 114.682081 0 216.046243 71.028902 236.023121 166.473989-7.398844-0.739884-14.797688-1.479769-22.196532-1.479769-110.982659 1.479769-198.289017 85.086705-198.289017 188.67052 0 17.017341 2.959538 33.294798 7.398844 49.572255-7.398844 0.739884-15.537572 1.479769-22.936416 1.479768z m346.265896 82.867052l17.757225 59.190752-63.630058-35.514451c-22.936416 5.919075-46.612717 11.83815-70.289017 11.83815-111.722543 0-199.768786-76.947977-199.768786-172.393063-0.739884-94.705202 87.306358-171.653179 198.289017-171.65318 105.803468 0 199.028902 77.687861 199.028902 172.393064 0 53.271676-34.774566 100.624277-81.387283 136.138728z"
+          fill="#28C445" p-id="4594"></path>
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>存档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                
+                <span>分类</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/tags/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>标签</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>链接</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/history/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                
+                <span>历史</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="http://wheel/" selected>简体中文</option>
+                        
+                            <option value="http://wheel/en/" >English</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#近期更新问题">近期更新问题</a></li>
+    <li><a href="#全部问题">全部问题</a></li>
+    <li><a href="#chan">chan</a>
+      <ol>
+        <li><a href="#全部知识点">全部知识点</a></li>
+      </ol>
+    </li>
+    <li><a href="#slice">slice</a>
+      <ol>
+        <li><a href="#全部知识点-1">全部知识点</a></li>
+      </ol>
+    </li>
+    <li><a href="#map">map</a>
+      <ol>
+        <li><a href="#全部知识点-2">全部知识点</a></li>
+      </ol>
+    </li>
+    <li><a href="#struct">struct</a>
+      <ol>
+        <li><a href="#全部知识点-3">全部知识点</a></li>
+      </ol>
+    </li>
+    <li><a href="#iota">iota</a>
+      <ol>
+        <li><a href="#全部知识点-4">全部知识点</a></li>
+      </ol>
+    </li>
+    <li><a href="#string">string</a>
+      <ol>
+        <li><a href="#全部知识点-5">全部知识点</a></li>
+      </ol>
+    </li>
+    <li><a href="#syncmap">sync.Map</a>
+      <ol>
+        <li><a href="#全部知识点-6">全部知识点</a></li>
+      </ol>
+    </li>
+    <li><a href="#参考">参考</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/">
+                
+                    <img src="/pic/common/content/post/cover/006.jpg" loading="lazy" alt="Featured image of post 《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/go/" style="background-color: #79d4fd; color: #fff;">
+                Go
+            </a>
+        
+            <a href="/categories/reading-notes/" style="background-color: #42a5f5; color: #fff;">
+                Reading Notes
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/">《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            数据结构篇🟠chan🟠slice🟠map🟠struct🟠iota🟠string🟠sync.Map
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2024-02-18</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 19 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="近期更新问题">近期更新问题</h2>
+<p>无。</p>
+<h2 id="全部问题">全部问题</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">| ID | UpdateTime          | Question
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">| 1  | 2024-02-18 22:13:39 | chan
+</span></span><span class="line"><span class="cl">| 2  | 2024-02-19 16:09:05 | slice
+</span></span><span class="line"><span class="cl">| 3  | 2024-02-19 20:01:07 | map
+</span></span><span class="line"><span class="cl">| 4  | 2024-02-19 23:35:18 | struct
+</span></span><span class="line"><span class="cl">| 5  | 2024-02-20 13:20:05 | iota
+</span></span><span class="line"><span class="cl">| 6  | 2024-02-20 13:30:42 | string
+</span></span><span class="line"><span class="cl">| 7  | 2024-02-20 14:20:59 | sync.Map
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="chan">chan</h2>
+<blockquote>
+<p>☀️︎阳历 2024年02月18日 星期日 | 🌙农历 龙年(2024)正月初九 | 🕛晚上 10点13分39秒 | 更新 🏳️‍🌈</p>
+</blockquote>
+<h3 id="全部知识点">全部知识点</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">├── 1.chan简介
+</span></span><span class="line"><span class="cl">├── 2.chan特征
+</span></span><span class="line"><span class="cl">├── 3.如何判断管道是否关闭？
+</span></span><span class="line"><span class="cl">├── 4.chan用法
+</span></span><span class="line"><span class="cl">├── 5.chan原理
+</span></span><span class="line"><span class="cl">├── 6.读等待队列和写等待队列会同时存在协程吗？| 什么情况下读等待队列和写等待队列会同时存在协程
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="table-wrapper"><table>
+	<tbody>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #d99156;">
+			<td style="text-align: center;">chan简介</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>管道时Go在语言层面提供的协程间的通信方式，比UNIX管道更易用也更轻便。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #4c1f24;">
+			<td style="text-align: center;">chan特征</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>FIFO，先入先出。</li>
+					<li>协程读取管道时，阻塞的条件有3个：①管道无缓冲区②管道缓冲区中无数据③管道为nil。</li>
+					<li>协程写入管道时，阻塞的条件有3个：①管道无缓冲区②管道缓冲区已满③管道为nil。</li>
+					<li>panic的情况有两种，①向关闭的管道写数据会触发panic②关闭已经关闭的管道。</li>
+					<li>管道关闭后，仍然可以读取数据。</li>
+					<li>使用逗号模式(val,ok := <-ch1)从管道中读取数据，ok为bool类型，表示是否读取到数据。</li>
+					<li>管道关闭&管道缓冲区中无数据 ⇌ ok为false；管道关闭后读取管道需通过ok判断本次是否读取到数据，以防返回零值，误操作。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #5698c3;">
+			<td style="text-align: center;">如何判断管道是否关闭？</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>可以根据逗号表达式的第二个返回值来判断，但有一定的限制；管道已经关闭且缓冲区中没有数据时，逗号表达式的第二个返回值才和管道关闭状态一致。</li>
+					<li>因为逗号表达式的第二个返回值的含义是是否从管道中读取到了数据。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #ee4866;">
+			<td style="text-align: center;">chan用法</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>使用内置函数make()创建chan。</li>
+					<li>使用内置函数len()和cap()分别查询chan的长度和容量。</li>
+					<li>使用<-(箭头符号)读取和写入管道，管道在左表示向管道中写入数据，管道在右表示从管道中读取数据。</li>
+					<li>使用内置函数close()关闭管道。</li>
+					<li>单向管道，通过在函数参数或返回值中使用<-(箭头符号)来限定管道的只读或只写。</li>
+					<li>配合select使用，select可监控多个管道，当其中一个管道可操作时就触发响应的case分支，实现go在语言层面的多路复用机制。</li>
+					<li>使用for-range可以持续从管道中读取数据，好像在遍历一个数组一样，当管道中没有数据时，当前协程会阻塞；管道被关闭了，for-range也可以优雅结束。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #66a9c9;">
+			<td style="text-align: center;">chan原理</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>chan的源码在go的runtime包下；src/runtime/chan.go:hchan；chan底层是一个结构体类型，从数据结构可以看出chan由环形队列、类型信息、协程等待队列、互斥锁等组成。</li>
+					<li>环形队列。chan内部实现了一个环形队列作为其缓冲区，队列的长度是创建chan时指定的。</li>
+					<li>等待队列。读阻塞的协程加入读等待队列，写阻塞的协程加入写等待队列；因读阻塞的协程会被向管道写入数据的协程唤醒，因写阻塞的协程会被从管道中读取数据的协程唤醒。</li>
+					<li>类型信息。chan结构体中维护了元素的类型信息，chan创建后只能传递一种类型的数据，如果想要传递任意类型的数据，则可以使用interface{}类型。</li>
+					<li>互斥锁。因为互斥锁的存在，一个管道同时仅允许一个协程读写，因此chan是并发安全的。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #f04a3a;">
+			<td style="text-align: center;">读等待队列和写等待队列会同时存在协程吗？| 什么情况下读等待队列和写等待队列会同时存在协程</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>会 | 同一个协程使用select向管道一边写数据，一边读数据。</li>
+				</ol>
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+<h2 id="slice">slice</h2>
+<blockquote>
+<p>☀️︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛下午 4点09分05秒 | 更新 🏳️‍🌈</p>
+</blockquote>
+<h3 id="全部知识点-1">全部知识点</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">├── 1.slice简介
+</span></span><span class="line"><span class="cl">├── 2.slice特征
+</span></span><span class="line"><span class="cl">├── 3.slice用法
+</span></span><span class="line"><span class="cl">├── 4.slice原理
+</span></span><span class="line"><span class="cl">├── 5.slice使用心得
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="table-wrapper"><table>
+	<tbody>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #aa6a4c;">
+			<td style="text-align: center;">slice简介</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>slice又称动态数组，依托数组实现，可以方便的进行扩容和传递，实际使用中比数组更加灵活。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #29b7cb;">
+			<td style="text-align: center;">slice特征</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>并发不安全。</li>
+					<li>panic的情况：①索引超出范围。</li>
+					<li>多个slice可能共享同一底层数组。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #f2ce2b;">
+			<td style="text-align: center;">slice用法</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>内置函数make()进行初始化，可指定slice长度和容量（即底层数组的长度）。</li>
+					<li>slice copy。copy()方法用于将源slice中的数据拷贝到目标slice，拷贝的元素个数取源slice和`目标slice元素个数的最小值，拷贝的过程，从第一个元素开始，直到达到拷贝的元素个数，拷贝的过程中不会发生扩容。</li>
+					<li>切片操作。①简单表达式(s1[low:high])，简单表达式切片并未限制新的slice的容量，也就是说通过内置函数append()添加新元素时有覆盖原数组或者原slice元素的风险；②扩展表达式(s1[low:high:max])，扩展表达式切片限制了新的slice的容量，相当于一个被封印了的切片，不会存在覆盖的风险。</li>
+					<li>切片操作举例。①简单表达式，对数组[⚪,🟡,⚪,⚪,🟢,⚪,⚪]切片，low=🟡，high=🟢，虽然新slice的len从🟡到🟢，但cap却是从🟡到末尾，append()添加新元素时🟢之后的空间有被覆盖的风险；②扩展表达式，对数组[⚪,🟡,⚪,⚪,⚪,🟢,🟠,⚪,⚪]切片，low=🟡，high=🟢，max=🟠，len从🟡到🟢，cap从🟡到🟠，append()添加新元素时🟠之后的空间没有被覆盖的风险，至于🟢到🟠的这一块是我们自己控制的，默认可覆盖，我们完全可以让🟢=🟠。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #edc3ae;">
+			<td style="text-align: center;">slice原理</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>slice的源码在go的runtime包下，src/runtime/slice.go:slice；从数据结构看slice很清晰，array指针执行底层数组，len表示切片长度，cap表示底层数组容量。</li>
+					<li>slice扩容。使用append向slice追加元素时，如果slice容量不足，则会触发slice扩容；扩容实际上是分配一块更大的内存，将原slice数据拷贝进新slice，然后返回新slice，扩容后再将数据追加进去。</li>
+					<li>slice扩容规则。①slice扩容时有几个关键的值需要提前说明一下👉oldCap：扩容前容量、oldLen：扩容前元素个数、cap：扩容所需最小容量、newCap：预估容量②Go1.15扩容规则👉如果oldCap(扩容前的容量)翻倍之后还是小于cap(扩容所需最小容量)，那么newCap(预估容量)就等于cap(扩容所需最小容量)，如果不满足第一条，而且oldLen(扩容前元素个数)小于1024，那么newCap(预估容量)=oldCap(扩容前的容量)*2，如果不满足第一条，而且oldLen(扩容前元素个数)大于等于1024，那就循环扩容四分之一，直到大于等于所需最小容量③Go1.16扩容规则👉Go1.16中有了些变化，和1024比较的不再是oldLen(扩容前元素个数)，而是oldCap(扩容前的容量)；Go1.18扩容规则👉到了Go1.18时，又改成不和1024比较了，而是和256比较；并且扩容的增量也有所变化，除了每次扩容1/4，还得加上256*3/4。</li>
+					<li>从go1.15到go1.18 slice扩容规则的变化可以看出Go在slice扩容上的一些权衡；当切片较小时，采用较大的扩容倍速，可以避免频繁地扩容，从而减少内存分配次数和数据拷贝的代价；当切片较大时，采用较小的扩容倍速，主要是避免空间浪费。总结一下就是两方面：①slice性能②slice空间使用率；提高slice的综合性能。</li>
+					<li>预估容量不一定为最终申请的容量；Go的内存管理，申请内存时都有一定的规格(8,16,32,48…)，e.g. int类型slice，预估容量为5，64位操作系统，需要申请40字节，但内存规格中不存在40，Go的内存管理会帮我们匹配到足够大、且最接近的规格48，最终申请的容量是6。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #47484c;">
+			<td style="text-align: center;">slice使用心得</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>创建切片时可根据实际需要预分配容量，尽量避免使用内置函数append()追加过程中出现扩容，有利于提升性能。</li>
+					<li>切片拷贝时需要判断实际拷贝的元素个数。</li>
+					<li>谨慎使用多个切片操作同一个底层数组，以防读写冲突。</li>
+				</ol>
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+<h2 id="map">map</h2>
+<blockquote>
+<p>☀️︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛晚上 8点01分07秒 | 更新 🏳️‍🌈</p>
+</blockquote>
+<h3 id="全部知识点-2">全部知识点</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">├── 1.map简介
+</span></span><span class="line"><span class="cl">├── 2.map特征
+</span></span><span class="line"><span class="cl">├── 3.map用法
+</span></span><span class="line"><span class="cl">├── 4.map原理
+</span></span><span class="line"><span class="cl">├── 5.从map中查找元素的流程
+</span></span><span class="line"><span class="cl">├── 6.map使用心得
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="table-wrapper"><table>
+	<tbody>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #ddc871;">
+			<td style="text-align: center;">map简介</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>字典类型，底层使用Hash表实现。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #ef6f48;">
+			<td style="text-align: center;">map特征</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>并发不安全，多协程同时同时写会报错concurrent map writes。</li>
+					<li>panic的情况，给nil map添加key-value会引发panic，但是查询、删除nil map均不报错，相当于空操作。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #3e3841;">
+			<td style="text-align: center;">map用法</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>使用内置函数make()进行初始化。</li>
+					<li>使用内置函数delete()进行删除元素，key不存在不报错，相当于空操作。</li>
+					<li>可以使用逗号模式(val,ok)获取值，key不存在返回val的零值，ok的值表示key是否存在。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #f2e6ce;">
+			<td style="text-align: center;">map原理</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>map的源码在go的runtime包下，runtime/map.go:hmap；go语言的map使用Hash表作为底层实现，一个Hash表里可以有多个bucket，而每个bucket保存了map中的一个或一组键值对。</li>
+					<li>bucket的数据结构。tophash是一个长度为8的整型数组，数组中存储的是key的Hash值的高8位；一个bucket可以存储8个元素，Hash值低位相同的键会存到同一个bucket中，将这些键的高8位存储到tophash中，方便后续查询；data：存储key,value；为了节省字节对齐带来的空间浪费，先存的是key，再存value(key/key/key···value/value/value···)；overflow：存储溢出bucket的地址；当当前bucket存满了，使用拉链法解决冲突，新元素存到溢出bucket中。</li>
+					<li>map负载因子。负载因子=键数量/bucket数量，负载因子小，说明空间利用率不高，负载因子大，说明冲突严重，存取效率低；当负载因子过大或过小时，需要通过扩容来降低负载因子。</li>
+					<li>扩容触发条件。负载因子大于6.5，即平均每个bucket存储的键值对达到6.5个以上；overflow(溢出桶)的数量达到一定值；扩容的过程其实是重新创建bucket，重新组织键值对，让键值对均匀分布到新创建的bucket中，这个过程称为rehash。</li>
+					<li>增量扩容。负载因子大于6.5时，触发增量扩容，新建一个bucket数组，长度是之前bucket数组的2倍，将之前bucket的元素搬迁过来即可；map结构体中维护了指向新bucket数组和老bucket数组的指针；Go语言采用逐步搬迁的策略，每次访问map时都会触发一次搬迁，每次搬迁2个bucket，直至搬迁完毕，就可以释放老的bucket数组了。</li>
+					<li>等量扩容。极端场景下，比如经过大量的元素增删时，键值对刚好集中在一小部分的bucket中，这样会造成溢出的bucket数量增多，触发扩容的第二个条件overflow(溢出桶)的数量达到一定值；此时会触发增量扩容，增量扩容并不扩大容量，但也会走一遍等量扩容的流程；目的在于重新组织键值对，让键值对均匀分布到新创建的bucket中。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #5e5314;">
+			<td style="text-align: center;">从map中查找元素的流程</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>根据key值计算Hash值。</li>
+					<li>根据Hash值的低位确定要加入的bucket的位置。</li>
+					<li>取Hash值的高8位，在tophash数组中查询。</li>
+					<li>如果查询到了，则在data区进一步定位到key-value值并返回。</li>
+					<li>如果当前bucket没有找到，则依次从溢出的bucket中查找。</li>
+					<li>如果当前map处于搬迁过程中，则优先从老的bucket数组中查找，查找不到再从新的bucket数组中查找。</li>
+					<li>如果以上都没有找到，则说明key不存在，就返回value类型的零值。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #ec9bad;">
+			<td style="text-align: center;">map使用心得</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>初始化map时推荐使用内置函数make()并指定预估的容量。</li>
+					<li>修改键值对时，需要先查询指定的键是否存在，否则map将创建新的键值对。</li>
+					<li>查询键值对时，最好检查键是否存在，避免操作零值。</li>
+					<li>避免并发读写map，可能会引起panic，如果需要并发读写，使用锁或改用sync.Map。</li>
+				</ol>
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+<h2 id="struct">struct</h2>
+<blockquote>
+<p>☀️︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛晚上 11点35分18秒 | 更新 🏳️‍🌈</p>
+</blockquote>
+<h3 id="全部知识点-3">全部知识点</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">├── 1.struct简介
+</span></span><span class="line"><span class="cl">├── 2.struct特征
+</span></span><span class="line"><span class="cl">├── 3.struct用法
+</span></span><span class="line"><span class="cl">├── 4.Tag的本质
+</span></span><span class="line"><span class="cl">├── 5.方法
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="table-wrapper"><table>
+	<tbody>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #eea6b7;">
+			<td style="text-align: center;">struct简介</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>Go的struct和其它编程语言的class有些类似，可以定义方法和字段，但是不可以继承，通常用内嵌结构体的方式代替继承。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #126bae;">
+			<td style="text-align: center;">struct特征</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>可导出性。无论是结构体还是结构体字段，都是通过首字符是否大写来判断是否可导出。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #ed2f6a;">
+			<td style="text-align: center;">struct用法</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>内嵌字段。Go中没有继承，当要复用其它结构体的字段和方法时，可以通过内嵌的方式；形式上似乎是继承了内嵌结构体的字段和方法，实际上这些字段和方法仍属于内嵌结构体。</li>
+					<li>方法受体。可以为结构体和它的指针类型定义方法；值接收者方法无法修改结构体本身字段，指针接收者可以修改。</li>
+					<li>字段标签。结构体字段可以定义字段标签(Tag)。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #513c20;">
+			<td style="text-align: center;">Tag的本质</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>Tag是struct的一部分。用于标识结构体字段的额外属性，标准库reflect包提供了操作Tag的方法。</li>
+					<li>Tag的约定。Tag本身是一个字符串，字符串内容应是key:"value"形式组成，key一般表示用途，比如json表示将用于控制结构体类型与JSON格式数据之间的转换；protobuf表示用于控制序列化和反序列化;value一般表示控制指令。</li>
+					<li>Tag的意义。Go语言的反射特性可以动态的给结构体赋值，正式因为有Tag，在赋值前可以使用Tag来决定赋值的动作；比如，encoding/json包，可以将一个JSON数据Unmarshal进一个结构体，此过程中就使用了Tag；该包定义了一些Tag规则，只要遵循该规则设置Tag就可以将一个JSON数"Unmarshal"进一个结构体。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #82111f;">
+			<td style="text-align: center;">方法</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>方法即method，Go语言支持为自定义类型实现方法，method在具体实现上与普通的函数并无不同，只不过会通过运行时栈多传递一个隐含的参数，这个隐含的参数就是所谓的接收者。</li>
+					<li>值接收者和指针接收者语法糖。即使我们只定义了值接收者方法或指针接收者方法，我们都可以使用值或指针访问，这是go的语法糖，go会帮我们进行相应的引用或解引用操作。</li>
+					<li>方法表达式和方法变量。我们可以将一个结构体的方法或者一个结构体变量的方法赋给一个变量，这个变量就被称为方法表达式或方法变量；通过方法表达式调用方法要传递接收者和方法的参数；通过方法变量调用函数只需要传递方法的参数即可，无需传递接收者；方法表达式和方法变量和普通的函数在实现上也没什么不同。</li>
+				</ol>
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+<h2 id="iota">iota</h2>
+<blockquote>
+<p>☀️︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 1点20分05秒 | 更新 🏳️‍🌈</p>
+</blockquote>
+<h3 id="全部知识点-4">全部知识点</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">├── 1.iota简介
+</span></span><span class="line"><span class="cl">├── 2.iota疑惑烟消云散
+</span></span><span class="line"><span class="cl">├── 3.iota原理
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="table-wrapper"><table>
+	<tbody>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #f86b1d;">
+			<td style="text-align: center;">iota简介</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>iota只能用于const声明中。</li>
+					<li>值从零开始，const声明中每增加一行，iota值自增1。</li>
+					<li>使用iota可以简化常量定义。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #33141e;">
+			<td style="text-align: center;">iota疑惑烟消云散</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>使用iota牢记一句话，所有困惑都会烟消云散。iota代表了const声明块的行索引；不管一行声明多少个iota、不管中途是否更换iota表达式、不管是否从首行开始声明iota ⇨ iota雷打不动代表了const声明块的行索引。</li>
+					<li>使用const声明块也牢记一句话。如果为常量指定了一个表达式，但后续常量没有表达式，则继承上面的表达式。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #f7cfba;">
+			<td style="text-align: center;">iota原理</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>了解iota的原理首先要了解编译器处理常量声明语句的方式。const声明块中，每个常量声明都对应一个ValueSpec结构体，ValueSpec结构记录的是每一行常量声明的元信息，比如变量名称、类型、值、注释等等；const声明块中一般包含多行常量声明，则对应多个ValueSpec结构体，一行对应一个；实际上一个const声明块就是一个[]ValueSpec，iota的本质就是[]ValueSpec的索引值，也就是行索引。</li>
+				</ol>
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+<h2 id="string">string</h2>
+<blockquote>
+<p>☀️︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 1点30分42秒 | 更新 🏳️‍🌈</p>
+</blockquote>
+<h3 id="全部知识点-5">全部知识点</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">├── 1.string简介
+</span></span><span class="line"><span class="cl">├── 2.string特征
+</span></span><span class="line"><span class="cl">├── 3.string用法
+</span></span><span class="line"><span class="cl">├── 4.string原理
+</span></span><span class="line"><span class="cl">├── 5.为什么字符串不允许修改？
+</span></span><span class="line"><span class="cl">├── 6.string和[]byte如何取舍？
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="table-wrapper"><table>
+	<tbody>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #fcc515;">
+			<td style="text-align: center;">string简介</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>string是Go的基础类型之一，值不可修改。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #806d9e;">
+			<td style="text-align: center;">string特征</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>值不可修改。不能通过取索引的方式修改字符内容或获取字符地址。</li>
+					<li>空值。空值为""而不是nil。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #393733;">
+			<td style="text-align: center;">string用法</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>string字面量。双引号("···")和反引号(`···`)两种方式，区别在于`···`是原样输出，不会对特殊字符进行转义。</li>
+					<li>内存占用。字符串类型不可修改，因此字符串赋值时会触发内存分配和内存拷贝，单行语句拼接多个字符串只分配一次内存，先计算最终字符串长度再分配内存。</li>
+					<li>常用标准库函数。标准库strings包中包含了大量的字符串操作函数。</li>
+					<li>字符串和[]byte、[]rune可以互相转换。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #55bb8a;">
+			<td style="text-align: center;">string原理</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>string和slice很相似，有一个底层的[]byte用于存储，Go默认使用UTF8编码，[]byte存储的是字符采用UTF-8得到的字节。</li>
+					<li>UTF-8是一种可变长度字符编码，通常用1~3个字节表示一个字符。e.g. "A"占一个字节，而"中"占3个字节。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #fb8b05;">
+			<td style="text-align: center;">为什么字符串不允许修改？</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>像C++中的string，其本身拥有内存空间，是支持修改的。但在Go的实现中，string不包含内存空间，只有一个内存的指针，这样做的好处是string变得非常轻量，可以很方便的进行传递而不用担心内存拷贝。</li>
+					<li>因为string通常指向字符串字面量，而字符串字面量的存储位置是只读段，而不是堆或栈上，所有有了string类型不支持修改的约定。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #c09351;">
+			<td style="text-align: center;">string和[]byte如何取舍？</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>string和[]byte都可以表示字符串，但因数据结构不同，其衍生出来的方法也不同，要根据实际场景来选择。</li>
+					<li>string擅长的场景。①需要字符串比较的场景②不需要nil字符串的场景。</li>
+					<li>[]byte擅长的场景。①修改字符串的场景，尤其是修改粒度为一个字节②函数返回值，需要用nil表示含义的场景③需要切片操作的场景。</li>
+				</ol>
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+<h2 id="syncmap">sync.Map</h2>
+<blockquote>
+<p>☀️︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 2点20分59秒 | 更新 🏳️‍🌈</p>
+</blockquote>
+<h3 id="全部知识点-6">全部知识点</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">├── 1.sync.Map简介
+</span></span><span class="line"><span class="cl">├── 2.sync.Map特征
+</span></span><span class="line"><span class="cl">├── 3.sync.Map用法
+</span></span><span class="line"><span class="cl">├── 4.sync.Map原理
+</span></span><span class="line"><span class="cl">├── 5.sync.Map使用思考
+</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="table-wrapper"><table>
+	<tbody>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #81776e;">
+			<td style="text-align: center;">sync.Map简介</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>sync.Map是一种并发安全的map，针对特定场景优化的map，并非可以取代原生map，其实大多数场景还是使用原生map；因为sync.Map和原生map在功能上也并非完全对等。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #efafad;">
+			<td style="text-align: center;">sync.Map特征</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>零值。sync.Map是结构体，零值是结构体的零值，并非nil；因此声明完即可使用。</li>
+					<li>遍历方法。sync.Map不能使用for-range遍历；sync.Map提供了range方法支持遍历，并且可以针对每个键值对设置回调方法。</li>
+					<li>并发安全。sync.Map并发安全，支持并发读写，因此遍历期间有可能读到其它协程刚写入的数据。</li>
+					<li>sync.Map可存储任何类型的键值对，取出的元素类型为interface{}，使用时需要使用类型断言。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #5d3d21;">
+			<td style="text-align: center;">sync.Map用法</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>增改：sync.Map.Store(key,value)。</li>
+					<li>查：sync.Map.Load(key)。</li>
+					<li>删：sync.Map.Delete(key)。</li>
+					<li>遍历：sync.Map.Range(f func(key, value any) bool)。</li>
+					<li>LoadOrStore。如果key存在，则执行Load方法，加载原来的数据；如果key不存在，则执行Store方法，插入数据。</li>
+					<li>LoadAndDelete。如果key存在，则执行Load和Delete方法，删除键值对并返回删除的值；如果key不存在，则返回标识key不存在  。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #9a8878;">
+			<td style="text-align: center;">sync.Map原理</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>sync.Map内部维护了两个mapread和dirty，read用于并发读，dirty用于新数据的写入。</li>
+					<li>sync.Map内部维护了一个互斥锁用于保护dirty表。</li>
+					<li>dirty用于新数据的写入，访问需要加锁，但dirty表也只是暂存数据，最终都会同步到read表中。</li>
+					<li>sync.Map内部维护了一个整型值用于记录查找read表时miss的次数。</li>
+					<li>上面说的dirty表暂存数据，最终都会同步到read表中；同步的条件就是miss的值累加到一定的值(等于数据总数)。</li>
+					<li>dirty表向map同步数据的过程中也会加锁，避免多个同步操作并发执行。</li>
+					<li>因此，sync.Map在读多写少且键值对不断增长的场景下可以减少对锁的依赖，因为read表只读，可并发读写。</li>
+					<li>sync.Map缩小了互斥锁的保护范围，获得性能提升。</li>
+				</ol>
+			</td>
+		</tr>
+		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #b9dec9;">
+			<td style="text-align: center;">sync.Map使用思考</td>
+		</tr>
+		<tr style="color: #323752; background-color: #f2f7f7;">
+			<td>
+				<ol>
+					<li>并发安全。sync.Map将互斥锁内置来实现并发读写。</li>
+					<li>特定场景下性能能够提升。sync.Map的内部实现采用了两个原生的map（read和dirty）来实现读写分离，同时又将互斥锁仅限定在dirty中，缩小了互斥锁的保护范围，可以提升性能；由于存在dirty向read同步的机制，在大部分场合下，数据可以从read中获取，所以当读多写少是，sync.Map相较原生map会有性能提升，在写多读少的场景下则不适合使用，主要是由于写入时dirty会冗余read的数据，一方面增加了遍历的时间开销，另一方面增加了新对象的创建频次，从而增加垃圾回收的负担；实际场景下如何选择？如果对性能不敏感，则二者都可以，如果对性能敏感，则可以使用go benchmark进行相应的测试，以得到这个场景的性能比较数据，从而做出选择。</li>
+					<li>警惕类型安全风险。sync.Map会将数据以interface{}的类型来进行存储，读出的数据都是interface{}类型，因此要进行类型断言，避免触发panic；因此建议不要在同一个sync.Map中存储不同类型的键值对，以避免panic风险，提升代码的可读性。</li>
+					<li>不能拷贝和传递。我们已经习惯在函数间传递原生的map，但sync.Map不支持拷贝和函数间传递，因为它内置锁，而锁是不能拷贝的，否则可能引起死锁或触发panic。</li>
+				</ol>
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+<h2 id="参考">参考</h2>
+<blockquote>
+<ul>
+<li>[ 1] Go专家编程（第2版） <a class="link" href="https://book.douban.com/subject/36356905/"  target="_blank" rel="noopener"
+    >https://book.douban.com/subject/36356905/</a></li>
+</ul>
+</blockquote>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/go%E4%B8%93%E5%AE%B6%E7%BC%96%E7%A8%8B/">《Go专家编程》</a>
+        
+            <a href="/tags/go/">Go</a>
+        
+            <a href="/tags/chan/">chan</a>
+        
+            <a href="/tags/slice/">slice</a>
+        
+            <a href="/tags/map/">map</a>
+        
+            <a href="/tags/struct/">struct</a>
+        
+            <a href="/tags/iota/">iota</a>
+        
+            <a href="/tags/string/">string</a>
+        
+            <a href="/tags/sync.map/">sync.Map</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2024-03-01 15:49:28 Fri
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/pic/common/content/post/cover/001.jpg" loading="lazy" data-key="programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001" data-hash="/pic/common/content/post/cover/001.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">《Go专家编程》读书笔记 | 第2章 控制结构</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/pic/common/content/post/cover/086.jpg" loading="lazy" data-key="middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001" data-hash="/pic/common/content/post/cover/086.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">RabbitMQ实战指南读书笔记 | 第1章 RabbitMQ简介 | 第2章 RabbitMQ入门</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/pic/common/content/post/cover/015.jpg" loading="lazy" data-key="cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001" data-hash="/pic/common/content/post/cover/015.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/pic/common/content/post/cover/044.jpg" loading="lazy" data-key="cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002" data-hash="/pic/common/content/post/cover/044.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/linux/r_n/linux_command_line_and_shell_scripting/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/pic/common/content/post/cover/067.jpg" loading="lazy" data-key="linux/r_n/linux_command_line_and_shell_scripting" data-hash="/pic/common/content/post/cover/067.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Linux | Linux命令行</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2018 - 
+        
+        2024 玽琅小说家
+    </section>
+    
+    <section class="powerby">
+        
+            gainovel.com All Rights Reserved. <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

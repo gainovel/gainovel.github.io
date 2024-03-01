@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.gainovel.com/en/categories/</loc>
+    <loc>http://wheel/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.gainovel.com/categories/"
+                href="http://wheel/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.gainovel.com/en/categories/"
+                href="http://wheel/en/categories/"
                 />
   </url><url>
-    <loc>https://www.gainovel.com/en/</loc>
+    <loc>http://wheel/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.gainovel.com/"
+                href="http://wheel/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.gainovel.com/en/"
+                href="http://wheel/en/"
                 />
   </url><url>
-    <loc>https://www.gainovel.com/en/tags/</loc>
+    <loc>http://wheel/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://www.gainovel.com/tags/"
+                href="http://wheel/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.gainovel.com/en/tags/"
+                href="http://wheel/en/tags/"
                 />
   </url>
 </urlset>

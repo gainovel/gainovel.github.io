@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>RabbitMQ on 玽琅小说家</title>
+        <link>http://wheel/tags/rabbitmq/</link>
+        <description>Recent content in RabbitMQ on 玽琅小说家</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://wheel/tags/rabbitmq/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>RabbitMQ实战指南读书笔记 | 第1章 RabbitMQ简介 | 第2章 RabbitMQ入门</title>
+        <link>http://wheel/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/</link>
+        <pubDate>Wed, 21 Feb 2024 00:00:00 +0800</pubDate>
+        
+        <guid>http://wheel/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/</guid>
+        <description>&lt;img src="http://wheel/pic/common/content/post/cover/086.jpg" alt="Featured image of post RabbitMQ实战指南读书笔记 | 第1章 RabbitMQ简介 | 第2章 RabbitMQ入门" /&gt;&lt;h2 id=&#34;近期更新问题&#34;&gt;近期更新问题&lt;/h2&gt;
+&lt;p&gt;无。&lt;/p&gt;
+&lt;h2 id=&#34;全部问题&#34;&gt;全部问题&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| ID | UpdateTime          | Question
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1  | 2024-02-21 17:03:14 | RabbitMQ相关介绍
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;rabbitmq相关介绍&#34;&gt;RabbitMQ相关介绍&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年02月21日 星期三 | 🌙农历 龙年(2024)正月十二 | 🕛傍晚 5点03分14秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;全部知识点&#34;&gt;全部知识点&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 1.什么是RabbitMQ？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 2.什么是消息中间件？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 3.消息中间件的作用？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 4.RabbitMQ的特点？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 5.RabbitMQ的安装
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 6.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 7.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #645822;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;什么是RabbitMQ？&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;RabbitMQ是目前非常热门的一款消息中间件。&lt;/li&gt;
+					&lt;li&gt;RabbitMQ整体上是一个生产者与消费者模型，主要负责接收、存储和转发消息。可以把消息传递的过程想象成：当你将一个包裹送到邮局，邮局会暂存并最终将邮件通过邮递员送到收件人的手上，RabbitMQ就好比由邮局、邮箱和邮递员组成的一个系统。从计算机术语层面来说，RabbitMQ模型更像是一种交换机模型。&lt;/li&gt;
+					&lt;li&gt;RabbitMQ具有可靠性、灵活的路由、扩展性、高可用性、多语言客户端等特点。&lt;/li&gt;
+					&lt;li&gt;RabbitMQ作为消息中间件通常应用于应用的解耦、流量的削峰以及异步通信等场景。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f1c4cd;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;什么是消息中间件？&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #ff9900;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;消息中间件的作用？&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #617172;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;RabbitMQ的特点？&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #1177b0;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;RabbitMQ的安装&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;windows上安装。①安装erlang。 https://www.erlang.org/ ②下载rabbitmq-server-windows-x.xx.xx.zip https://www.rabbitmq.com/install-windows-manual.html③解压运行 rabbitmq-server.bat -detached(This will start a node in the background (not attached to the Command Prompt).)。&lt;/li&gt;
+					&lt;li&gt;rabbitmqctl status查看RabbitMQ是否正常启动。&lt;/li&gt;
+					&lt;li&gt;rabbitmqctl cluster_status查看集群信息。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #d11a2d;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;xxx&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #5c1e19;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;xxx&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;[ 1] RabbitMQ实战指南 &lt;a class=&#34;link&#34; href=&#34;https://book.douban.com/subject/27591386/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://book.douban.com/subject/27591386/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

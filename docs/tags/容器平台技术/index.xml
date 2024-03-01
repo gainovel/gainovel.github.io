@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>容器平台技术 on 玽琅小说家</title>
+        <link>http://wheel/tags/%E5%AE%B9%E5%99%A8%E5%B9%B3%E5%8F%B0%E6%8A%80%E6%9C%AF/</link>
+        <description>Recent content in 容器平台技术 on 玽琅小说家</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://wheel/tags/%E5%AE%B9%E5%99%A8%E5%B9%B3%E5%8F%B0%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统</title>
+        <link>http://wheel/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</link>
+        <pubDate>Thu, 29 Feb 2024 00:00:00 +0800</pubDate>
+        
+        <guid>http://wheel/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</guid>
+        <description>&lt;img src="http://wheel/pic/common/content/post/cover/015.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div style=&#34;text-align: center;width: 100%;color: #888888;font: bold 20px STHeiti;border-top-left-radius: 5px;border-top-right-radius: 5px;padding: 15px 15px 15px 15px;background-color: #c09351;&#34;&gt;同系列其它文章
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
+			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td style=&#34;width: 92%;&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;http://wheel/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #181818; background-color: #f8f8f8;&#34;&gt;
+			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;2
+			&lt;/td&gt;
+			&lt;td style=&#34;width: 92%;&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;http://wheel/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;全部问题&#34;&gt;全部问题&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| ID | UpdateTime          | Question
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1  | 2024-02-26 19:37:35 | 容器核心技术
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 2  | 2024-02-27 13:55:01 | 容器平台技术
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 3  | 2024-02-27 17:53:33 | 容器支持技术
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;容器核心技术&#34;&gt;容器核心技术&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年02月26日 星期一 | 🌙农历 龙年(2024)正月十七 | 🕛晚上 7点37分35秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;全部知识点&#34;&gt;全部知识点&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 1.什么是容器核心技术？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 2.容器核心技术包含哪些内容
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 3.OCI容器规范是什么？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 4.容器runtime是什么?
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 5.容器管理工具是什么？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 6.容器定义工具是什么？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 7.Registry
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 8.容器OS
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #4c1f24;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;什么是容器核心技术？&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;容器核心技术是指能够让Container在host上运行起来的那些技术。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #e0c8d1;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;容器核心技术包含哪些内容&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;容器规范。&lt;/li&gt;
+					&lt;li&gt;容器runtime。&lt;/li&gt;
+					&lt;li&gt;容器管理工具。&lt;/li&gt;
+					&lt;li&gt;容器定义工具。&lt;/li&gt;
+					&lt;li&gt;Registries。&lt;/li&gt;
+					&lt;li&gt;容器OS。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #e46828;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;OCI容器规范是什么？&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;容器不光是Docker，还有其它容器，比如CoreOS的rkt。为了保证容器生态的健康发展，保证同容器之间能够兼容，包含Docker、CoreOS、Google在内的若干公司共同成立了一个叫Open Container Initiative（OCI）的组织，其目的是制定开放的容器规范。&lt;/li&gt;
+					&lt;li&gt;目前OCI发布了两个规范，runtime spec和image format spec。有了这个两个规范，不同组织和厂商开发的容器能够在不同的runtime上运行。这样就保证了容器的可移植性和互操作性。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f8e8c1;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;容器runtime是什么?&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;runtime是容器真正运行的地方。runtime需要跟操作系统kernel紧密协作，为容器提供运行环境。&lt;/li&gt;
+					&lt;li&gt;容器和runtime可以类比与Java程序和JVM，Java程序好比就是容器，JVM则好比是runtime，JVM为Java程序提供运行环境。同样的道理，容器只有在runtime中才能运行。&lt;/li&gt;
+					&lt;li&gt;Docker开发了自己的容器runtime，符合OCI规范。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #483332;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;容器管理工具是什么？&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;光有容器runtime还不够，用户得有工具来管理容器。容器管理工具对内与runtime进行交互，对外为用户提供interface；这就好比除了JVM，还得提供Java命令让用户能够启停应用。&lt;/li&gt;
+					&lt;li&gt;Docker的容器管理工具是docker engine。通常我们提到的Docker，一般就是指docker engine。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #815f25;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;容器定义工具是什么？&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;容器定义工具允许用户定义容器的内容和属性，这样容器就能够被保存、共享和重建。&lt;/li&gt;
+					&lt;li&gt;docker image是docker容器的模板，runtime根据docker image创建容器。&lt;/li&gt;
+					&lt;li&gt;dockerfile是包含若干命令的文本文件，可以通过这些命令创建出docker image。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f1f0ed;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;Registry&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;容器是通过image创建的，需要有一个仓库来统一存放image，这个仓库就叫做Registry。&lt;/li&gt;
+					&lt;li&gt;企业可以用Docker Registry构建私有的Registry；Docker Hub是Docker为公众提供的托管Registry，上面有很多现成的image，为Docker用户提供了极大的便利。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #cc5595;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;容器OS&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;由于有容器runtime，几乎所有的Linux、MAC OS和Windows都可以运行容器，但这并没有妨碍容器OS的问世；容器OS是专门运行容器的操作系统。与常规OS相比，容器OS通常体积更小，启动更快。因为是为容器定制的OS，通常他们运行容器的效率会更高。&lt;/li&gt;
+					&lt;li&gt;例如：Ubuntu Core。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;容器平台技术&#34;&gt;容器平台技术&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年02月27日 星期二 | 🌙农历 龙年(2024)正月十八 | 🕛下午 1点55分01秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;全部知识点-1&#34;&gt;全部知识点&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 1.什么是容器平台技术？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 2.容器平台技术包括哪些？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 3.容器编排引擎
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 4.容器管理平台
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 5.基于容器的PaaS
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f4a83a;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;什么是容器平台技术？&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;容器核心技术使得容器能够在单个host上运行，而容器平台技术能够让容器作为集群在分布式环境中运行。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #918072;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;容器平台技术包括哪些？&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;容器平台技术包括容器编排引擎、容器管理平台和基于容器的PaaS。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #ed9db2;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;容器编排引擎&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;基于容器的应用一般会采用微服务架构。在这种架构下，应用被划分为不同的组件，并以服务的形式运行在各自的容器中，通过API对外提供服务。为了保证 应用的高可用，每个组件都可能会运行多个相同的容器。这些容器会组成集群，集群中的容器会根据业务需要被动态地创建、迁移和销毁。&lt;/li&gt;
+					&lt;li&gt;这样一个基于微服务架构地应用系统实际上是一个动态地可伸缩的系统。这对部署环境提出了新的要求，我们需要一种高效的方法来管理容器集群。而这，就是容器编排引擎要干的工作。&lt;/li&gt;
+					&lt;li&gt;所谓编排，通常包括容器管理、调度、集群定义和服务发现等。通过容器编排引擎，容器被有机地组合成微服务应用，实现业务需求。&lt;/li&gt;
+					&lt;li&gt;docker swarm是Docker开发地容器编排引擎；kubernetes是Google领导开发地开源容器编排引擎，同时支持Docker和CoreOS容器。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #0f95b0;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;容器管理平台&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;容器管理平台是架构在容器编排引擎之上的一个更为通用的平台。通常容器管理平台能够支持多种编排引擎，抽象了编排引擎的底层实现细节，为用户提供更方便的功能；比如application catalog（应用目录）和一键应用部署。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #126e82;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;基于容器的PaaS&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;基于容器的PaaS为微服务应用开发人员和公司提供了开发、部署和管理应用的平台，使用户不必关心底层基础设施而专注于应用的开发。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;容器支持技术&#34;&gt;容器支持技术&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;☀️︎阳历 2024年02月27日 星期二 | 🌙农历 龙年(2024)正月十八 | 🕛傍晚 5点53分33秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;全部知识点-2&#34;&gt;全部知识点&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 1.容器支持技术（用于支持基于容器的基础设施）有哪些？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 2.容器网络
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 3.服务发现
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 4.监控
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 5.数据管理
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 6.日志管理
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 7.安全性
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #d4c4b7;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;容器支持技术（用于支持基于容器的基础设施）有哪些？&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;容器网络。&lt;/li&gt;
+					&lt;li&gt;服务发现。&lt;/li&gt;
+					&lt;li&gt;监控。&lt;/li&gt;
+					&lt;li&gt;数据管理。&lt;/li&gt;
+					&lt;li&gt;日志管理。&lt;/li&gt;
+					&lt;li&gt;安全性。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #cdd1d3;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;容器网络&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;容器的出现使网络拓扑变得更加动态和复杂。用户需要专门的解决方案来管理容器与容器、容器与其他实体之间的连通性和隔离性。&lt;/li&gt;
+					&lt;li&gt;docker network是Docker原生的网络解决方案。除此之外，我们还可以采用第三方开源解决方案。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #b2bbbe;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;服务发现&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;动态变化是微服务应用的一大特点。当负载增加时，集群会自动创建新的容器；负载减小，多余的容器会被销毁。容器也会根据host的资源使用情况在不同host中迁移，容器的IP和端口也会随之发生变化。在这种动态的环境下，必须要有一种机制让client能够知道如何访问容器提供的服务。这就是服务发现技术要完成的工作。&lt;/li&gt;
+					&lt;li&gt;服务发现会保存容器集群中所有微服务最新的信息，比如IP和端口，并对外提供API，提供服务查询功能。etcd、consul和zookeeper是服务发现的典型解决方案。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f9cb8b;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;监控&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;监控对于基础架构非常重要，而容器的动态特性对监控提出更多挑战。针对容器环境，已经涌现出很多监控工具和方案。&lt;/li&gt;
+					&lt;li&gt;docker ps/top/stats是Docker原生的命令行监控工具。除了命令行，Docker也提供了stats的API，用户可以通过HTTP请求获取容器的状态信息。&lt;/li&gt;
+					&lt;li&gt;sysdig、cAdvisor/Heapster和Weave Scope是其他开源的容器监控方案。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #a7535a;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;数据管理&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;容器经常会在不同的host之间迁移，如何保证持久化数据也能够动态迁移，是Rex-Ray这类数据管理工具提供的能力。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #5c3719;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;日志管理&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;日志为问题排除和事件管理提供了重要依据。docker logs是Docker原生的日志工具。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #83a78d;&#34;&gt;
+			&lt;td style=&#34;text-align: center;&#34;&gt;安全性&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;容器镜像可以存在安全漏洞，需要有工具能够对镜像进行扫描，发现潜在的漏洞。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;系列文章-1&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div style=&#34;text-align: center;width: 100%;color: #888888;font: bold 20px STHeiti;border-top-left-radius: 5px;border-top-right-radius: 5px;padding: 15px 15px 15px 15px;background-color: #d2b42c;&#34;&gt;同系列其它文章
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
+			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td style=&#34;width: 92%;&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;http://wheel/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&#34;color: #181818; background-color: #f8f8f8;&#34;&gt;
+			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;2
+			&lt;/td&gt;
+			&lt;td style=&#34;width: 92%;&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;http://wheel/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;[ 1] 每天5分钟玩转Docker容器技术 &lt;a class=&#34;link&#34; href=&#34;https://book.douban.com/subject/27593748/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://book.douban.com/subject/27593748/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
