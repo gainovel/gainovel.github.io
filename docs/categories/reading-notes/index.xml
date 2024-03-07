@@ -7,29 +7,341 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://www.gainovel.com/categories/reading-notes/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统</title>
+        <title>《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇</title>
+        <link>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/</link>
+        <pubDate>Tue, 05 Mar 2024 00:00:00 +0800</pubDate>
+        
+        <guid>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/</guid>
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/088.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #fbc82f;&#34;&gt;同系列其它文章
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;全部问题&#34;&gt;全部问题&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| ID | UpdateTime          | Question
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1  | 2024-03-05 18:40:25 | select特性综述
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 2  | 2024-03-05 18:40:25 | select特性综述
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;select特性综述&#34;&gt;select特性综述&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🌞 ︎阳历 2024年03月05日 星期二 | 🌙农历 龙年(2024)正月廿五 | 🕛晚上 6点40分25秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;qmemoDir qmemoFont20&#34; style=&#34;background-color: #134857;&#34;&gt;select特性综述
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdLeft&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdCenter&#34;&gt;&amp;emsp;&amp;emsp;先介绍一下select的case语句。&lt;br&gt;&amp;emsp;&amp;emsp;说一下select的case阻塞条件。&lt;br&gt;&amp;emsp;&amp;emsp;说一下select的全部case阻塞后会怎么样。&lt;br&gt;&amp;emsp;&amp;emsp;说一下select的多个case都没有阻塞会怎么样。&lt;br&gt;
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;						&lt;span style=&#34;color: #ffc90c;&#34;&gt;select的case语句基本特点&lt;/span&gt;。&lt;span&gt;select的case语句每次只能操作一个管道，要么写入数据，要么读取数据&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li&gt;						&lt;span style=&#34;color: #c8adc4;&#34;&gt;select的case阻塞的条件&lt;/span&gt;。&lt;span&gt;鉴于管道的特性，如果管道中没有数据读取操作则会阻塞，如果管道中没有空余的缓冲区则写入操作会阻塞&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li&gt;						&lt;span style=&#34;color: #9abeaf;&#34;&gt;select的全部case阻塞后会怎么样&lt;/span&gt;。&lt;span&gt;当select的多个case语句中的管道均阻塞时，整个select语句也会陷入阻塞（没有default的情况下），直到任意一个管道解除阻塞。&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li&gt;						&lt;span style=&#34;color: #eb3c70;&#34;&gt;select的多个case都没有阻塞会怎么样&lt;/span&gt;。&lt;span&gt;如果多个case语句均没有阻塞，那么select将随机挑选一个case执行&lt;/span&gt;
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdLeft&#34;&gt;2
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdCenter&#34;&gt;&amp;emsp;&amp;emsp;先介绍一下select的case语句。&lt;br&gt;&amp;emsp;&amp;emsp;说一下select的case阻塞条件。&lt;br&gt;&amp;emsp;&amp;emsp;说一下select的全部case阻塞后会怎么样。&lt;br&gt;&amp;emsp;&amp;emsp;说一下select的多个case都没有阻塞会怎么样。&lt;br&gt;
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;						&lt;span style=&#34;color: #131124;&#34;&gt;select的case语句基本特点&lt;/span&gt;。&lt;span&gt;select的case语句每次只能操作一个管道，要么写入数据，要么读取数据&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li&gt;						&lt;span style=&#34;color: #f8e0b0;&#34;&gt;select的case阻塞的条件&lt;/span&gt;。&lt;span&gt;鉴于管道的特性，如果管道中没有数据读取操作则会阻塞，如果管道中没有空余的缓冲区则写入操作会阻塞&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li&gt;						&lt;span style=&#34;color: #ed5126;&#34;&gt;select的全部case阻塞后会怎么样&lt;/span&gt;。&lt;span&gt;当select的多个case语句中的管道均阻塞时，整个select语句也会陷入阻塞（没有default的情况下），直到任意一个管道解除阻塞。&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li&gt;						&lt;span style=&#34;color: #ed3333;&#34;&gt;select的多个case都没有阻塞会怎么样&lt;/span&gt;。&lt;span&gt;如果多个case语句均没有阻塞，那么select将随机挑选一个case执行&lt;/span&gt;
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;select特性综述-1&#34;&gt;select特性综述&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🌞 ︎阳历 2024年03月05日 星期二 | 🌙农历 龙年(2024)正月廿五 | 🕛晚上 6点40分25秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;qmemoDir qmemoFont20&#34; style=&#34;background-color: #f26b1f;&#34;&gt;select特性综述
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdLeft&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdCenter&#34;&gt;&amp;emsp;&amp;emsp;先介绍一下select的case语句。&lt;br&gt;&amp;emsp;&amp;emsp;说一下select的case阻塞条件。&lt;br&gt;&amp;emsp;&amp;emsp;说一下select的全部case阻塞后会怎么样。&lt;br&gt;&amp;emsp;&amp;emsp;说一下select的多个case都没有阻塞会怎么样。&lt;br&gt;
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;						&lt;span style=&#34;color: #5b423a;&#34;&gt;select的case语句基本特点&lt;/span&gt;。&lt;span&gt;select的case语句每次只能操作一个管道，要么写入数据，要么读取数据&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li&gt;						&lt;span style=&#34;color: #381924;&#34;&gt;select的case阻塞的条件&lt;/span&gt;。&lt;span&gt;鉴于管道的特性，如果管道中没有数据读取操作则会阻塞，如果管道中没有空余的缓冲区则写入操作会阻塞&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li&gt;						&lt;span style=&#34;color: #2b73af;&#34;&gt;select的全部case阻塞后会怎么样&lt;/span&gt;。&lt;span&gt;当select的多个case语句中的管道均阻塞时，整个select语句也会陷入阻塞（没有default的情况下），直到任意一个管道解除阻塞。&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li&gt;						&lt;span style=&#34;color: #cc5595;&#34;&gt;select的多个case都没有阻塞会怎么样&lt;/span&gt;。&lt;span&gt;如果多个case语句均没有阻塞，那么select将随机挑选一个case执行&lt;/span&gt;
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;系列文章-1&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #f8c387;&#34;&gt;同系列其它文章
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;[ 1] Go专家编程（第2版） &lt;a class=&#34;link&#34; href=&#34;https://book.douban.com/subject/36356905/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://book.douban.com/subject/36356905/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题</title>
+        <link>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</link>
+        <pubDate>Sat, 02 Mar 2024 00:00:00 +0800</pubDate>
+        
+        <guid>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</guid>
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/035.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #fcb70a;&#34;&gt;同系列其它文章
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;全部问题&#34;&gt;全部问题&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| ID | UpdateTime          | Question
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1  | 2024-03-02 22:15:13 | Why-为什么需要容器？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;why-为什么需要容器&#34;&gt;Why-为什么需要容器？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🌞 ︎阳历 2024年03月02日 星期六 | 🌙农历 龙年(2024)正月廿二 | 🕛晚上 10点15分13秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;qmemoDir qmemoFont20&#34; style=&#34;background-color: #4d1018;&#34;&gt;Why-为什么需要容器？
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdLeft&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdCenter&#34;&gt;&amp;emsp;&amp;emsp;先说一下当今的软件开发面临着怎样的挑战-部署问题。&lt;br&gt;&amp;emsp;&amp;emsp;再说一下技术人员从传统的运输行业找到了答案。&lt;br&gt;&amp;emsp;&amp;emsp;简要说一下Docker如何利用集装箱的思想来解决这个问题。&lt;br&gt;
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;&lt;span&gt;软件打包部署的挑战&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li&gt;&lt;span&gt;传统运输行业的集装箱思想对软件打包的启发&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li&gt;&lt;span&gt;Docker将集装箱思想运用到软件打包的简介&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li&gt;&lt;span&gt;集装箱与Docker的特性对比&lt;/span&gt;
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdLeft&#34;&gt;2
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdCenter&#34;&gt;&amp;emsp;&amp;emsp;说一下容器的优势（从开发人员和运维人员两个角度说明）。&lt;br&gt;
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoComprehensiveTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;&lt;span&gt;容器的优势&lt;/span&gt;
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;系列文章-1&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #c3d7df;&#34;&gt;同系列其它文章
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;[ 1] 每天5分钟玩转Docker容器技术 &lt;a class=&#34;link&#34; href=&#34;https://book.douban.com/subject/27593748/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://book.douban.com/subject/27593748/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题</title>
         <link>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</link>
         <pubDate>Thu, 29 Feb 2024 00:00:00 +0800</pubDate>
         
         <guid>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/015.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
-&lt;div style=&#34;text-align: center;width: 100%;color: #888888;font: bold 20px STHeiti;border-top-left-radius: 5px;border-top-right-radius: 5px;padding: 15px 15px 15px 15px;background-color: #c09351;&#34;&gt;同系列其它文章
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/119.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #eef7f2;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;1
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
-			&lt;td style=&#34;width: 92%;&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统】
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #f8f8f8;&#34;&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;2
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
-			&lt;td style=&#34;width: 92%;&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述】
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -58,7 +370,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;容器核心技术&#34;&gt;容器核心技术&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;☀️︎阳历 2024年02月26日 星期一 | 🌙农历 龙年(2024)正月十七 | 🕛晚上 7点37分35秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;p&gt;🌞 ︎阳历 2024年02月26日 星期一 | 🌙农历 龙年(2024)正月十七 | 🕛晚上 7点37分35秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;全部知识点&#34;&gt;全部知识点&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -89,20 +401,20 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #4c1f24;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;什么是容器核心技术？&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #efafad;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;什么是容器核心技术？&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;容器核心技术是指能够让Container在host上运行起来的那些技术。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #e0c8d1;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;容器核心技术包含哪些内容&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #e77c8e;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器核心技术包含哪些内容&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;容器规范。&lt;/li&gt;
@@ -114,10 +426,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #e46828;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;OCI容器规范是什么？&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #964d22;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;OCI容器规范是什么？&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;容器不光是Docker，还有其它容器，比如CoreOS的rkt。为了保证容器生态的健康发展，保证同容器之间能够兼容，包含Docker、CoreOS、Google在内的若干公司共同成立了一个叫Open Container Initiative（OCI）的组织，其目的是制定开放的容器规范。&lt;/li&gt;
@@ -125,10 +437,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f8e8c1;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;容器runtime是什么?&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #41b349;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器runtime是什么?&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;runtime是容器真正运行的地方。runtime需要跟操作系统kernel紧密协作，为容器提供运行环境。&lt;/li&gt;
@@ -137,10 +449,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #483332;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;容器管理工具是什么？&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #62102e;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器管理工具是什么？&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;光有容器runtime还不够，用户得有工具来管理容器。容器管理工具对内与runtime进行交互，对外为用户提供interface；这就好比除了JVM，还得提供Java命令让用户能够启停应用。&lt;/li&gt;
@@ -148,10 +460,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #815f25;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;容器定义工具是什么？&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ef6f48;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器定义工具是什么？&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;容器定义工具允许用户定义容器的内容和属性，这样容器就能够被保存、共享和重建。&lt;/li&gt;
@@ -160,10 +472,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f1f0ed;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;Registry&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #eeaa9c;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;Registry&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;容器是通过image创建的，需要有一个仓库来统一存放image，这个仓库就叫做Registry。&lt;/li&gt;
@@ -171,10 +483,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #cc5595;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;容器OS&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #fcc307;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器OS&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;由于有容器runtime，几乎所有的Linux、MAC OS和Windows都可以运行容器，但这并没有妨碍容器OS的问世；容器OS是专门运行容器的操作系统。与常规OS相比，容器OS通常体积更小，启动更快。因为是为容器定制的OS，通常他们运行容器的效率会更高。&lt;/li&gt;
@@ -186,7 +498,7 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;容器平台技术&#34;&gt;容器平台技术&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;☀️︎阳历 2024年02月27日 星期二 | 🌙农历 龙年(2024)正月十八 | 🕛下午 1点55分01秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;p&gt;🌞 ︎阳历 2024年02月27日 星期二 | 🌙农历 龙年(2024)正月十八 | 🕛下午 1点55分01秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;全部知识点-1&#34;&gt;全部知识点&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -211,30 +523,30 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f4a83a;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;什么是容器平台技术？&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #5d3131;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;什么是容器平台技术？&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;容器核心技术使得容器能够在单个host上运行，而容器平台技术能够让容器作为集群在分布式环境中运行。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #918072;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;容器平台技术包括哪些？&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #dad4cb;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器平台技术包括哪些？&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;容器平台技术包括容器编排引擎、容器管理平台和基于容器的PaaS。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #ed9db2;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;容器编排引擎&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #fbcd31;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器编排引擎&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;基于容器的应用一般会采用微服务架构。在这种架构下，应用被划分为不同的组件，并以服务的形式运行在各自的容器中，通过API对外提供服务。为了保证 应用的高可用，每个组件都可能会运行多个相同的容器。这些容器会组成集群，集群中的容器会根据业务需要被动态地创建、迁移和销毁。&lt;/li&gt;
@@ -244,20 +556,20 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #0f95b0;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;容器管理平台&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #862617;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器管理平台&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;容器管理平台是架构在容器编排引擎之上的一个更为通用的平台。通常容器管理平台能够支持多种编排引擎，抽象了编排引擎的底层实现细节，为用户提供更方便的功能；比如application catalog（应用目录）和一键应用部署。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #126e82;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;基于容器的PaaS&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f2b9b2;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;基于容器的PaaS&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;基于容器的PaaS为微服务应用开发人员和公司提供了开发、部署和管理应用的平台，使用户不必关心底层基础设施而专注于应用的开发。&lt;/li&gt;
@@ -268,7 +580,7 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;容器支持技术&#34;&gt;容器支持技术&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;☀️︎阳历 2024年02月27日 星期二 | 🌙农历 龙年(2024)正月十八 | 🕛傍晚 5点53分33秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;p&gt;🌞 ︎阳历 2024年02月27日 星期二 | 🌙农历 龙年(2024)正月十八 | 🕛傍晚 5点53分33秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;全部知识点-2&#34;&gt;全部知识点&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -297,10 +609,10 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #d4c4b7;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;容器支持技术（用于支持基于容器的基础设施）有哪些？&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #eed045;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器支持技术（用于支持基于容器的基础设施）有哪些？&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;容器网络。&lt;/li&gt;
@@ -312,10 +624,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #cdd1d3;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;容器网络&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ed4845;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器网络&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;容器的出现使网络拓扑变得更加动态和复杂。用户需要专门的解决方案来管理容器与容器、容器与其他实体之间的连通性和隔离性。&lt;/li&gt;
@@ -323,10 +635,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #b2bbbe;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;服务发现&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ef632b;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;服务发现&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;动态变化是微服务应用的一大特点。当负载增加时，集群会自动创建新的容器；负载减小，多余的容器会被销毁。容器也会根据host的资源使用情况在不同host中迁移，容器的IP和端口也会随之发生变化。在这种动态的环境下，必须要有一种机制让client能够知道如何访问容器提供的服务。这就是服务发现技术要完成的工作。&lt;/li&gt;
@@ -334,10 +646,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f9cb8b;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;监控&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #132c33;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;监控&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;监控对于基础架构非常重要，而容器的动态特性对监控提出更多挑战。针对容器环境，已经涌现出很多监控工具和方案。&lt;/li&gt;
@@ -346,30 +658,30 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #a7535a;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;数据管理&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #c1651a;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;数据管理&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;容器经常会在不同的host之间迁移，如何保证持久化数据也能够动态迁移，是Rex-Ray这类数据管理工具提供的能力。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #5c3719;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;日志管理&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f03f24;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;日志管理&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;日志为问题排除和事件管理提供了重要依据。docker logs是Docker原生的日志工具。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #83a78d;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;安全性&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #482936;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;安全性&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;容器镜像可以存在安全漏洞，需要有工具能够对镜像进行扫描，发现潜在的漏洞。&lt;/li&gt;
@@ -379,23 +691,31 @@
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;系列文章-1&#34;&gt;系列文章&lt;/h2&gt;
-&lt;div style=&#34;text-align: center;width: 100%;color: #888888;font: bold 20px STHeiti;border-top-left-radius: 5px;border-top-right-radius: 5px;padding: 15px 15px 15px 15px;background-color: #d2b42c;&#34;&gt;同系列其它文章
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #ffc90c;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;1
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
-			&lt;td style=&#34;width: 92%;&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统】
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #f8f8f8;&#34;&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;2
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
-			&lt;td style=&#34;width: 92%;&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述】
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -411,29 +731,37 @@
 </description>
         </item>
         <item>
-        <title>《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述</title>
+        <title>《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题</title>
         <link>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</link>
         <pubDate>Thu, 29 Feb 2024 00:00:00 +0800</pubDate>
         
         <guid>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/044.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
-&lt;div style=&#34;text-align: center;width: 100%;color: #888888;font: bold 20px STHeiti;border-top-left-radius: 5px;border-top-right-radius: 5px;padding: 15px 15px 15px 15px;background-color: #73575c;&#34;&gt;同系列其它文章
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/110.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #ffd111;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;1
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
-			&lt;td style=&#34;width: 92%;&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统】
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #f8f8f8;&#34;&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;2
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
-			&lt;td style=&#34;width: 92%;&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述】
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -452,13 +780,13 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| ID | UpdateTime          | Question
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1  | 2024-02-29 22:41:33 | xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1  | 2024-02-29 22:41:33 | What-什么是容器？
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;xxx&#34;&gt;xxx&lt;/h2&gt;
+&lt;/div&gt;&lt;h2 id=&#34;what-什么是容器&#34;&gt;What-什么是容器？&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;☀️︎阳历 2024年02月29日 星期四 | 🌙农历 龙年(2024)正月二十 | 🕛晚上 10点41分33秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;p&gt;🌞 ︎阳历 2024年02月29日 星期四 | 🌙农历 龙年(2024)正月二十 | 🕛晚上 10点41分33秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;全部知识点&#34;&gt;全部知识点&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -466,47 +794,67 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 1.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 1.容器简介
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 2.容器与虚拟机简单对比
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #ee2746;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;xxx&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f9e9cd;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器简介&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
-					&lt;li&gt;xxx。&lt;/li&gt;
-					&lt;li&gt;xxx。&lt;/li&gt;
-					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;容器是一种轻量级、可移植、自包含的软件打包技术，使应用程序可以在几乎任何地方以相同的方式运行。开发人员在自己的笔记本上创建并测试好的容器，无须任何修改就能够在生产系统的虚拟机、物理服务器或公有云主机上运行。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #533c1b;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器与虚拟机简单对比&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;作用相同：容器和虚拟机都是为应用提供封装和隔离。&lt;/li&gt;
+					&lt;li&gt;组成不同：容器仅由两部分组成，①应用程序本身；②依赖：比如应用程序需要的库或其他软件。容器在Host操作系统的用户空间中运行，与操作系统的其他进程隔离。而传统的虚拟化技术，比如Vmware，目标是创建完整的虚拟机，除了应用程序本身及其依赖，还得安装整个操作系统。&lt;/li&gt;
+					&lt;li&gt;体积大小、启动速度、开销不同：由于所有容器共享同一个Host OS，这使得容器在体积上要比虚拟机小很多。另外，启动容器不需要启动整个操作系统，所以容器部署和启动速度更快、开销更小，也更容易迁移。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;系列文章-1&#34;&gt;系列文章&lt;/h2&gt;
-&lt;div style=&#34;text-align: center;width: 100%;color: #888888;font: bold 20px STHeiti;border-top-left-radius: 5px;border-top-right-radius: 5px;padding: 15px 15px 15px 15px;background-color: #0f95b0;&#34;&gt;同系列其它文章
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #617172;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;1
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
-			&lt;td style=&#34;width: 92%;&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统】
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #f8f8f8;&#34;&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;2
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
-			&lt;td style=&#34;width: 92%;&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述】
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -515,7 +863,8 @@
 &lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;[ 1] xxx &lt;a class=&#34;link&#34; href=&#34;xxx&#34; &gt;xxx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[ 1] 每天5分钟玩转Docker容器技术 &lt;a class=&#34;link&#34; href=&#34;https://book.douban.com/subject/27593748/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://book.douban.com/subject/27593748/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 </description>
@@ -673,13 +1022,42 @@
 </description>
         </item>
         <item>
-        <title>《Go专家编程》读书笔记 | 第2章 控制结构</title>
+        <title>《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇</title>
         <link>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</link>
         <pubDate>Tue, 20 Feb 2024 00:00:00 +0800</pubDate>
         
         <guid>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/001.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构" /&gt;&lt;h2 id=&#34;近期更新问题&#34;&gt;近期更新问题&lt;/h2&gt;
-&lt;p&gt;无。&lt;/p&gt;
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/021.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #dfecd5;&#34;&gt;同系列其它文章
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h2 id=&#34;全部问题&#34;&gt;全部问题&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -699,7 +1077,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;select&#34;&gt;select&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;☀️︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛晚上 6点23分44秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;p&gt;🌞 ︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛晚上 6点23分44秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;全部知识点&#34;&gt;全部知识点&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -707,23 +1085,138 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 1.select简介
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 2.select的case返回值
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 3.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 4.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 5.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 6.xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 7.xxx
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f9d27d;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;select简介&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ec9bad;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;select简介&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;select是Go在语言层面提供的多路复用机制，用于监测多个管道是否就绪（即可读可写），其特性与管道息息相关。&lt;/li&gt;
 				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #d2d97a;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;select的case返回值&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;se。&lt;/li&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #fffef8;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;xxx&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f8f4ed;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;xxx&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #3b818c;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;xxx&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #e4bf11;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;xxx&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #101f30;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;xxx&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
+			&lt;td&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;xxx。&lt;/li&gt;
+					&lt;li&gt;。&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;系列文章-1&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #132c33;&#34;&gt;同系列其它文章
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
@@ -738,13 +1231,42 @@
 </description>
         </item>
         <item>
-        <title>《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理</title>
+        <title>《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇</title>
         <link>https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/</link>
         <pubDate>Sun, 18 Feb 2024 00:00:00 +0800</pubDate>
         
         <guid>https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/006.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理" /&gt;&lt;h2 id=&#34;近期更新问题&#34;&gt;近期更新问题&lt;/h2&gt;
-&lt;p&gt;无。&lt;/p&gt;
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/071.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #1177b0;&#34;&gt;同系列其它文章
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h2 id=&#34;全部问题&#34;&gt;全部问题&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -776,7 +1298,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;chan&#34;&gt;chan&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;☀️︎阳历 2024年02月18日 星期日 | 🌙农历 龙年(2024)正月初九 | 🕛晚上 10点13分39秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;p&gt;🌞 ︎阳历 2024年02月18日 星期日 | 🌙农历 龙年(2024)正月初九 | 🕛晚上 10点13分39秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;全部知识点&#34;&gt;全部知识点&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -803,20 +1325,20 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #d99156;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;chan简介&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #69a794;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;chan简介&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;管道时Go在语言层面提供的协程间的通信方式，比UNIX管道更易用也更轻便。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #4c1f24;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;chan特征&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #c21f30;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;chan特征&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;FIFO，先入先出。&lt;/li&gt;
@@ -829,10 +1351,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #5698c3;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;如何判断管道是否关闭？&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ee3f4d;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;如何判断管道是否关闭？&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;可以根据逗号表达式的第二个返回值来判断，但有一定的限制；管道已经关闭且缓冲区中没有数据时，逗号表达式的第二个返回值才和管道关闭状态一致。&lt;/li&gt;
@@ -840,10 +1362,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #ee4866;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;chan用法&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #253d24;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;chan用法&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;使用内置函数make()创建chan。&lt;/li&gt;
@@ -856,10 +1378,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #66a9c9;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;chan原理&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ec4e8a;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;chan原理&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;chan的源码在go的runtime包下；src/runtime/chan.go:hchan；chan底层是一个结构体类型，从数据结构可以看出chan由环形队列、类型信息、协程等待队列、互斥锁等组成。&lt;/li&gt;
@@ -870,10 +1392,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f04a3a;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;读等待队列和写等待队列会同时存在协程吗？| 什么情况下读等待队列和写等待队列会同时存在协程&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #add5a2;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;读等待队列和写等待队列会同时存在协程吗？| 什么情况下读等待队列和写等待队列会同时存在协程&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;会 | 同一个协程使用select向管道一边写数据，一边读数据。&lt;/li&gt;
@@ -884,7 +1406,7 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;slice&#34;&gt;slice&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;☀️︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛下午 4点09分05秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;p&gt;🌞 ︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛下午 4点09分05秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;全部知识点-1&#34;&gt;全部知识点&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -909,20 +1431,20 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #aa6a4c;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;slice简介&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #e16c96;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;slice简介&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;slice又称动态数组，依托数组实现，可以方便的进行扩容和传递，实际使用中比数组更加灵活。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #29b7cb;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;slice特征&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #de2a18;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;slice特征&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;并发不安全。&lt;/li&gt;
@@ -931,10 +1453,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f2ce2b;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;slice用法&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f6ad8f;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;slice用法&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;内置函数make()进行初始化，可指定slice长度和容量（即底层数组的长度）。&lt;/li&gt;
@@ -944,10 +1466,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #edc3ae;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;slice原理&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #30161c;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;slice原理&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;slice的源码在go的runtime包下，src/runtime/slice.go:slice；从数据结构看slice很清晰，array指针执行底层数组，len表示切片长度，cap表示底层数组容量。&lt;/li&gt;
@@ -958,10 +1480,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #47484c;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;slice使用心得&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #e16723;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;slice使用心得&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;创建切片时可根据实际需要预分配容量，尽量避免使用内置函数append()追加过程中出现扩容，有利于提升性能。&lt;/li&gt;
@@ -974,7 +1496,7 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;map&#34;&gt;map&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;☀️︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛晚上 8点01分07秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;p&gt;🌞 ︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛晚上 8点01分07秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;全部知识点-2&#34;&gt;全部知识点&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1001,20 +1523,20 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #ddc871;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;map简介&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #fbecde;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;map简介&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;字典类型，底层使用Hash表实现。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #ef6f48;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;map特征&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #5a1f1b;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;map特征&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;并发不安全，多协程同时同时写会报错concurrent map writes。&lt;/li&gt;
@@ -1022,10 +1544,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #3e3841;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;map用法&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #36282b;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;map用法&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;使用内置函数make()进行初始化。&lt;/li&gt;
@@ -1034,10 +1556,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f2e6ce;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;map原理&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #373834;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;map原理&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;map的源码在go的runtime包下，runtime/map.go:hmap；go语言的map使用Hash表作为底层实现，一个Hash表里可以有多个bucket，而每个bucket保存了map中的一个或一组键值对。&lt;/li&gt;
@@ -1049,10 +1571,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #5e5314;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;从map中查找元素的流程&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #503e2a;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;从map中查找元素的流程&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;根据key值计算Hash值。&lt;/li&gt;
@@ -1065,10 +1587,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #ec9bad;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;map使用心得&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #cdd1d3;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;map使用心得&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;初始化map时推荐使用内置函数make()并指定预估的容量。&lt;/li&gt;
@@ -1082,7 +1604,7 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;struct&#34;&gt;struct&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;☀️︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛晚上 11点35分18秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;p&gt;🌞 ︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛晚上 11点35分18秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;全部知识点-3&#34;&gt;全部知识点&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1107,30 +1629,30 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #eea6b7;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;struct简介&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #411c35;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;struct简介&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;Go的struct和其它编程语言的class有些类似，可以定义方法和字段，但是不可以继承，通常用内嵌结构体的方式代替继承。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #126bae;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;struct特征&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #806d9e;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;struct特征&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;可导出性。无论是结构体还是结构体字段，都是通过首字符是否大写来判断是否可导出。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #ed2f6a;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;struct用法&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #131824;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;struct用法&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;内嵌字段。Go中没有继承，当要复用其它结构体的字段和方法时，可以通过内嵌的方式；形式上似乎是继承了内嵌结构体的字段和方法，实际上这些字段和方法仍属于内嵌结构体。&lt;/li&gt;
@@ -1139,10 +1661,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #513c20;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;Tag的本质&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ad6598;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;Tag的本质&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;Tag是struct的一部分。用于标识结构体字段的额外属性，标准库reflect包提供了操作Tag的方法。&lt;/li&gt;
@@ -1151,10 +1673,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #82111f;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;方法&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f9c116;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;方法&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;方法即method，Go语言支持为自定义类型实现方法，method在具体实现上与普通的函数并无不同，只不过会通过运行时栈多传递一个隐含的参数，这个隐含的参数就是所谓的接收者。&lt;/li&gt;
@@ -1167,7 +1689,7 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;iota&#34;&gt;iota&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;☀️︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 1点20分05秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;p&gt;🌞 ︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 1点20分05秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;全部知识点-4&#34;&gt;全部知识点&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1188,10 +1710,10 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f86b1d;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;iota简介&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #1e131d;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;iota简介&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;iota只能用于const声明中。&lt;/li&gt;
@@ -1200,10 +1722,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #33141e;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;iota疑惑烟消云散&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #525288;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;iota疑惑烟消云散&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;使用iota牢记一句话，所有困惑都会烟消云散。iota代表了const声明块的行索引；不管一行声明多少个iota、不管中途是否更换iota表达式、不管是否从首行开始声明iota ⇨ iota雷打不动代表了const声明块的行索引。&lt;/li&gt;
@@ -1211,10 +1733,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #f7cfba;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;iota原理&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #b14b28;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;iota原理&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;了解iota的原理首先要了解编译器处理常量声明语句的方式。const声明块中，每个常量声明都对应一个ValueSpec结构体，ValueSpec结构记录的是每一行常量声明的元信息，比如变量名称、类型、值、注释等等；const声明块中一般包含多行常量声明，则对应多个ValueSpec结构体，一行对应一个；实际上一个const声明块就是一个[]ValueSpec，iota的本质就是[]ValueSpec的索引值，也就是行索引。&lt;/li&gt;
@@ -1225,7 +1747,7 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;string&#34;&gt;string&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;☀️︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 1点30分42秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;p&gt;🌞 ︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 1点30分42秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;全部知识点-5&#34;&gt;全部知识点&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1252,20 +1774,20 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #fcc515;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;string简介&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #eeb8c3;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;string简介&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;string是Go的基础类型之一，值不可修改。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #806d9e;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;string特征&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #12aa9c;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;string特征&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;值不可修改。不能通过取索引的方式修改字符内容或获取字符地址。&lt;/li&gt;
@@ -1273,10 +1795,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #393733;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;string用法&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ee8055;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;string用法&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;string字面量。双引号(&#34;···&#34;)和反引号(`···`)两种方式，区别在于`···`是原样输出，不会对特殊字符进行转义。&lt;/li&gt;
@@ -1286,10 +1808,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #55bb8a;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;string原理&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f0945d;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;string原理&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;string和slice很相似，有一个底层的[]byte用于存储，Go默认使用UTF8编码，[]byte存储的是字符采用UTF-8得到的字节。&lt;/li&gt;
@@ -1297,10 +1819,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #fb8b05;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;为什么字符串不允许修改？&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #4b2e2b;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;为什么字符串不允许修改？&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;像C++中的string，其本身拥有内存空间，是支持修改的。但在Go的实现中，string不包含内存空间，只有一个内存的指针，这样做的好处是string变得非常轻量，可以很方便的进行传递而不用担心内存拷贝。&lt;/li&gt;
@@ -1308,10 +1830,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #c09351;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;string和[]byte如何取舍？&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #68b88e;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;string和[]byte如何取舍？&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;string和[]byte都可以表示字符串，但因数据结构不同，其衍生出来的方法也不同，要根据实际场景来选择。&lt;/li&gt;
@@ -1324,7 +1846,7 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;syncmap&#34;&gt;sync.Map&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;☀️︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 2点20分59秒 | 更新 🏳️‍🌈&lt;/p&gt;
+&lt;p&gt;🌞 ︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 2点20分59秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;全部知识点-6&#34;&gt;全部知识点&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1349,20 +1871,20 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #81776e;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;sync.Map简介&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ba2f7b;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;sync.Map简介&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;sync.Map是一种并发安全的map，针对特定场景优化的map，并非可以取代原生map，其实大多数场景还是使用原生map；因为sync.Map和原生map在功能上也并非完全对等。&lt;/li&gt;
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #efafad;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;sync.Map特征&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #e8b49a;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;sync.Map特征&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;零值。sync.Map是结构体，零值是结构体的零值，并非nil；因此声明完即可使用。&lt;/li&gt;
@@ -1372,10 +1894,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #5d3d21;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;sync.Map用法&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #cfccc9;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;sync.Map用法&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;增改：sync.Map.Store(key,value)。&lt;/li&gt;
@@ -1387,10 +1909,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #9a8878;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;sync.Map原理&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #815f25;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;sync.Map原理&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;sync.Map内部维护了两个mapread和dirty，read用于并发读，dirty用于新数据的写入。&lt;/li&gt;
@@ -1404,10 +1926,10 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #888888;font: bold 20px STHeiti;background-color: #b9dec9;&#34;&gt;
-			&lt;td style=&#34;text-align: center;&#34;&gt;sync.Map使用思考&lt;/td&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #63bbd0;&#34;&gt;
+			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;sync.Map使用思考&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #323752; background-color: #f2f7f7;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
 			&lt;td&gt;
 				&lt;ol&gt;
 					&lt;li&gt;并发安全。sync.Map将互斥锁内置来实现并发读写。&lt;/li&gt;
@@ -1415,6 +1937,37 @@
 					&lt;li&gt;警惕类型安全风险。sync.Map会将数据以interface{}的类型来进行存储，读出的数据都是interface{}类型，因此要进行类型断言，避免触发panic；因此建议不要在同一个sync.Map中存储不同类型的键值对，以避免panic风险，提升代码的可读性。&lt;/li&gt;
 					&lt;li&gt;不能拷贝和传递。我们已经习惯在函数间传递原生的map，但sync.Map不支持拷贝和函数间传递，因为它内置锁，而锁是不能拷贝的，否则可能引起死锁或触发panic。&lt;/li&gt;
 				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;系列文章-1&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #40a070;&#34;&gt;同系列其它文章
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;/a&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;

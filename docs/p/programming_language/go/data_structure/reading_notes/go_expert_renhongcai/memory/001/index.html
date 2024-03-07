@@ -2,19 +2,33 @@
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='数据结构篇🟠chan🟠slice🟠map🟠struct🟠iota🟠string🟠sync.Map'>
-<title>《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理</title>
+<title>《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇</title>
 
 <link rel='canonical' href='https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/'>
 
-<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理'>
+<link rel="stylesheet" href="/scss/style.min.10c5438512047226668c9b23df4de6d6ddbe9b64a89e5f1bb6aedae765a882c3.css"><meta property='og:title' content='《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇'>
 <meta property='og:description' content='数据结构篇🟠chan🟠slice🟠map🟠struct🟠iota🟠string🟠sync.Map'>
 <meta property='og:url' content='https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/'>
 <meta property='og:site_name' content='玽琅实践家'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='《Go专家编程》' /><meta property='article:tag' content='Go' /><meta property='article:tag' content='chan' /><meta property='article:tag' content='slice' /><meta property='article:tag' content='map' /><meta property='article:tag' content='struct' /><meta property='article:tag' content='iota' /><meta property='article:tag' content='string' /><meta property='article:tag' content='sync.Map' /><meta property='article:published_time' content='2024-02-18T00:00:00&#43;08:00'/><meta property='article:modified_time' content='2024-03-01T15:49:28&#43;08:00'/><meta property='og:image' content='https://www.gainovel.com/pic/common/content/post/cover/006.jpg' />
-<meta name="twitter:title" content="《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='《Go专家编程》' /><meta property='article:tag' content='Go' /><meta property='article:tag' content='chan' /><meta property='article:tag' content='slice' /><meta property='article:tag' content='map' /><meta property='article:tag' content='struct' /><meta property='article:tag' content='iota' /><meta property='article:tag' content='string' /><meta property='article:tag' content='sync.Map' /><meta property='article:published_time' content='2024-02-18T00:00:00&#43;08:00'/><meta property='article:modified_time' content='2024-03-07T19:36:58&#43;08:00'/><meta property='og:image' content='https://www.gainovel.com/pic/common/content/post/cover/071.jpg' />
+<meta name="twitter:title" content="《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇">
 <meta name="twitter:description" content="数据结构篇🟠chan🟠slice🟠map🟠struct🟠iota🟠string🟠sync.Map"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://www.gainovel.com/pic/common/content/post/cover/006.jpg' />
+    <meta name="twitter:image" content='https://www.gainovel.com/pic/common/content/post/cover/071.jpg' />
     <link rel="shortcut icon" href="/pic/common/config/default/params/ico/favicon.ico" />
+
+
+
+<link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css" />
+
+
+
+
+
+
+
+
+
+
 
     </head>
     <body class="
@@ -23,9 +37,7 @@
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
-            if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto");
-            }
+            localStorage.setItem(colorSchemeKey, "auto");
         })();
     </script><script>
     (function() {
@@ -281,25 +293,6 @@
         
         
         <li >
-            <a href='/history/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                
-                <span>历史</span>
-            </a>
-        </li>
-        
-        
-        <li >
             <a href='/about/' >
                 
                 
@@ -317,32 +310,13 @@
             </a>
         </li>
         
-
-        <div class="menu-bottom-section">
-            
-            
-                <li id="dark-mode-toggle">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="8" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="16" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                    <span>暗色模式</span>
-                </li>
-            
-        </div>
     </ol>
+    <div class="menu-bottom-section">
+        <ol class="menu">
+
+            
+        </ol>
+    </div>
 </aside>
 
     <aside class="sidebar right-sidebar sticky">
@@ -367,7 +341,7 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#近期更新问题">近期更新问题</a></li>
+    <li><a href="#系列文章">系列文章</a></li>
     <li><a href="#全部问题">全部问题</a></li>
     <li><a href="#chan">chan</a>
       <ol>
@@ -404,6 +378,7 @@
         <li><a href="#全部知识点-6">全部知识点</a></li>
       </ol>
     </li>
+    <li><a href="#系列文章-1">系列文章</a></li>
     <li><a href="#参考">参考</a></li>
   </ol>
 </nav>
@@ -421,7 +396,7 @@
         <div class="article-image">
             <a href="/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/">
                 
-                    <img src="/pic/common/content/post/cover/006.jpg" loading="lazy" alt="Featured image of post 《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理" />
+                    <img src="/pic/common/content/post/cover/071.jpg" loading="lazy" alt="Featured image of post 《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇" />
                 
             </a>
         </div>
@@ -439,12 +414,16 @@
                 Reading Notes
             </a>
         
+            <a href="/categories/memory/" style="background-color: #f9ba48; color: #fff;">
+                Memory
+            </a>
+        
     </header>
     
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/">《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理</a>
+            <a href="/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/">《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇</a>
         </h2>
     
         
@@ -489,6 +468,16 @@
                 </time>
             </div>
         
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="48" height="48" viewBox="0 0 24 24" stroke-width="1" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+    <path d="M13.5 6.5l4 4" />
+</svg>
+            <time class="article-time--words">
+                字数: 9345字
+            </time>
+        </div>
     </footer>
     
 
@@ -500,8 +489,37 @@
     <section class="article-content">
     
     
-    <h2 id="近期更新问题">近期更新问题</h2>
-<p>无。</p>
+    <h2 id="系列文章">系列文章</h2>
+<div class="qmemoFont20 qmemoDir" style="background-color: #1177b0;">同系列其它文章
+</div>
+<div class="table-wrapper"><table>
+	<tbody>
+		<tr class="qmemoOddTr">
+			<td class="qmemoSeriesTrTdLeft">1
+			</td>
+			<td class="qmemoSeriesTrTdRight">
+						<a class="link" target="_blank" href="https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/">【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						</a>
+			</td>
+		</tr>
+		<tr class="qmemoEvenTr">
+			<td class="qmemoSeriesTrTdLeft">2
+			</td>
+			<td class="qmemoSeriesTrTdRight">
+						<a class="link" target="_blank" href="https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/">【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						</a>
+			</td>
+		</tr>
+		<tr class="qmemoOddTr">
+			<td class="qmemoSeriesTrTdLeft">3
+			</td>
+			<td class="qmemoSeriesTrTdRight">
+						<a class="link" target="_blank" href="https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/">【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						</a>
+			</td>
+		</tr>
+	</tbody>
+</table></div>
 <h2 id="全部问题">全部问题</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -533,7 +551,7 @@
 </div>
 </div><h2 id="chan">chan</h2>
 <blockquote>
-<p>☀️︎阳历 2024年02月18日 星期日 | 🌙农历 龙年(2024)正月初九 | 🕛晚上 10点13分39秒 | 更新 🏳️‍🌈</p>
+<p>🌞 ︎阳历 2024年02月18日 星期日 | 🌙农历 龙年(2024)正月初九 | 🕛晚上 10点13分39秒 | 更新 🏳️‍🌈</p>
 </blockquote>
 <h3 id="全部知识点">全部知识点</h3>
 <div class="highlight"><div class="chroma">
@@ -560,20 +578,20 @@
 </div>
 </div><div class="table-wrapper"><table>
 	<tbody>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #d99156;">
-			<td style="text-align: center;">chan简介</td>
+		<tr class="qmemoFont20" style="background-color: #69a794;">
+			<td class="qmemoMemoryOddTrTd">chan简介</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>管道时Go在语言层面提供的协程间的通信方式，比UNIX管道更易用也更轻便。</li>
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #4c1f24;">
-			<td style="text-align: center;">chan特征</td>
+		<tr class="qmemoFont20" style="background-color: #c21f30;">
+			<td class="qmemoMemoryOddTrTd">chan特征</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>FIFO，先入先出。</li>
@@ -586,10 +604,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #5698c3;">
-			<td style="text-align: center;">如何判断管道是否关闭？</td>
+		<tr class="qmemoFont20" style="background-color: #ee3f4d;">
+			<td class="qmemoMemoryOddTrTd">如何判断管道是否关闭？</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>可以根据逗号表达式的第二个返回值来判断，但有一定的限制；管道已经关闭且缓冲区中没有数据时，逗号表达式的第二个返回值才和管道关闭状态一致。</li>
@@ -597,10 +615,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #ee4866;">
-			<td style="text-align: center;">chan用法</td>
+		<tr class="qmemoFont20" style="background-color: #253d24;">
+			<td class="qmemoMemoryOddTrTd">chan用法</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>使用内置函数make()创建chan。</li>
@@ -613,10 +631,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #66a9c9;">
-			<td style="text-align: center;">chan原理</td>
+		<tr class="qmemoFont20" style="background-color: #ec4e8a;">
+			<td class="qmemoMemoryOddTrTd">chan原理</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>chan的源码在go的runtime包下；src/runtime/chan.go:hchan；chan底层是一个结构体类型，从数据结构可以看出chan由环形队列、类型信息、协程等待队列、互斥锁等组成。</li>
@@ -627,10 +645,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #f04a3a;">
-			<td style="text-align: center;">读等待队列和写等待队列会同时存在协程吗？| 什么情况下读等待队列和写等待队列会同时存在协程</td>
+		<tr class="qmemoFont20" style="background-color: #add5a2;">
+			<td class="qmemoMemoryOddTrTd">读等待队列和写等待队列会同时存在协程吗？| 什么情况下读等待队列和写等待队列会同时存在协程</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>会 | 同一个协程使用select向管道一边写数据，一边读数据。</li>
@@ -641,7 +659,7 @@
 </table></div>
 <h2 id="slice">slice</h2>
 <blockquote>
-<p>☀️︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛下午 4点09分05秒 | 更新 🏳️‍🌈</p>
+<p>🌞 ︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛下午 4点09分05秒 | 更新 🏳️‍🌈</p>
 </blockquote>
 <h3 id="全部知识点-1">全部知识点</h3>
 <div class="highlight"><div class="chroma">
@@ -666,20 +684,20 @@
 </div>
 </div><div class="table-wrapper"><table>
 	<tbody>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #aa6a4c;">
-			<td style="text-align: center;">slice简介</td>
+		<tr class="qmemoFont20" style="background-color: #e16c96;">
+			<td class="qmemoMemoryOddTrTd">slice简介</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>slice又称动态数组，依托数组实现，可以方便的进行扩容和传递，实际使用中比数组更加灵活。</li>
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #29b7cb;">
-			<td style="text-align: center;">slice特征</td>
+		<tr class="qmemoFont20" style="background-color: #de2a18;">
+			<td class="qmemoMemoryOddTrTd">slice特征</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>并发不安全。</li>
@@ -688,10 +706,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #f2ce2b;">
-			<td style="text-align: center;">slice用法</td>
+		<tr class="qmemoFont20" style="background-color: #f6ad8f;">
+			<td class="qmemoMemoryOddTrTd">slice用法</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>内置函数make()进行初始化，可指定slice长度和容量（即底层数组的长度）。</li>
@@ -701,10 +719,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #edc3ae;">
-			<td style="text-align: center;">slice原理</td>
+		<tr class="qmemoFont20" style="background-color: #30161c;">
+			<td class="qmemoMemoryOddTrTd">slice原理</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>slice的源码在go的runtime包下，src/runtime/slice.go:slice；从数据结构看slice很清晰，array指针执行底层数组，len表示切片长度，cap表示底层数组容量。</li>
@@ -715,10 +733,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #47484c;">
-			<td style="text-align: center;">slice使用心得</td>
+		<tr class="qmemoFont20" style="background-color: #e16723;">
+			<td class="qmemoMemoryOddTrTd">slice使用心得</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>创建切片时可根据实际需要预分配容量，尽量避免使用内置函数append()追加过程中出现扩容，有利于提升性能。</li>
@@ -731,7 +749,7 @@
 </table></div>
 <h2 id="map">map</h2>
 <blockquote>
-<p>☀️︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛晚上 8点01分07秒 | 更新 🏳️‍🌈</p>
+<p>🌞 ︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛晚上 8点01分07秒 | 更新 🏳️‍🌈</p>
 </blockquote>
 <h3 id="全部知识点-2">全部知识点</h3>
 <div class="highlight"><div class="chroma">
@@ -758,20 +776,20 @@
 </div>
 </div><div class="table-wrapper"><table>
 	<tbody>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #ddc871;">
-			<td style="text-align: center;">map简介</td>
+		<tr class="qmemoFont20" style="background-color: #fbecde;">
+			<td class="qmemoMemoryOddTrTd">map简介</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>字典类型，底层使用Hash表实现。</li>
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #ef6f48;">
-			<td style="text-align: center;">map特征</td>
+		<tr class="qmemoFont20" style="background-color: #5a1f1b;">
+			<td class="qmemoMemoryOddTrTd">map特征</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>并发不安全，多协程同时同时写会报错concurrent map writes。</li>
@@ -779,10 +797,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #3e3841;">
-			<td style="text-align: center;">map用法</td>
+		<tr class="qmemoFont20" style="background-color: #36282b;">
+			<td class="qmemoMemoryOddTrTd">map用法</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>使用内置函数make()进行初始化。</li>
@@ -791,10 +809,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #f2e6ce;">
-			<td style="text-align: center;">map原理</td>
+		<tr class="qmemoFont20" style="background-color: #373834;">
+			<td class="qmemoMemoryOddTrTd">map原理</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>map的源码在go的runtime包下，runtime/map.go:hmap；go语言的map使用Hash表作为底层实现，一个Hash表里可以有多个bucket，而每个bucket保存了map中的一个或一组键值对。</li>
@@ -806,10 +824,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #5e5314;">
-			<td style="text-align: center;">从map中查找元素的流程</td>
+		<tr class="qmemoFont20" style="background-color: #503e2a;">
+			<td class="qmemoMemoryOddTrTd">从map中查找元素的流程</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>根据key值计算Hash值。</li>
@@ -822,10 +840,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #ec9bad;">
-			<td style="text-align: center;">map使用心得</td>
+		<tr class="qmemoFont20" style="background-color: #cdd1d3;">
+			<td class="qmemoMemoryOddTrTd">map使用心得</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>初始化map时推荐使用内置函数make()并指定预估的容量。</li>
@@ -839,7 +857,7 @@
 </table></div>
 <h2 id="struct">struct</h2>
 <blockquote>
-<p>☀️︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛晚上 11点35分18秒 | 更新 🏳️‍🌈</p>
+<p>🌞 ︎阳历 2024年02月19日 星期一 | 🌙农历 龙年(2024)正月初十 | 🕛晚上 11点35分18秒 | 更新 🏳️‍🌈</p>
 </blockquote>
 <h3 id="全部知识点-3">全部知识点</h3>
 <div class="highlight"><div class="chroma">
@@ -864,30 +882,30 @@
 </div>
 </div><div class="table-wrapper"><table>
 	<tbody>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #eea6b7;">
-			<td style="text-align: center;">struct简介</td>
+		<tr class="qmemoFont20" style="background-color: #411c35;">
+			<td class="qmemoMemoryOddTrTd">struct简介</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>Go的struct和其它编程语言的class有些类似，可以定义方法和字段，但是不可以继承，通常用内嵌结构体的方式代替继承。</li>
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #126bae;">
-			<td style="text-align: center;">struct特征</td>
+		<tr class="qmemoFont20" style="background-color: #806d9e;">
+			<td class="qmemoMemoryOddTrTd">struct特征</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>可导出性。无论是结构体还是结构体字段，都是通过首字符是否大写来判断是否可导出。</li>
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #ed2f6a;">
-			<td style="text-align: center;">struct用法</td>
+		<tr class="qmemoFont20" style="background-color: #131824;">
+			<td class="qmemoMemoryOddTrTd">struct用法</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>内嵌字段。Go中没有继承，当要复用其它结构体的字段和方法时，可以通过内嵌的方式；形式上似乎是继承了内嵌结构体的字段和方法，实际上这些字段和方法仍属于内嵌结构体。</li>
@@ -896,10 +914,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #513c20;">
-			<td style="text-align: center;">Tag的本质</td>
+		<tr class="qmemoFont20" style="background-color: #ad6598;">
+			<td class="qmemoMemoryOddTrTd">Tag的本质</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>Tag是struct的一部分。用于标识结构体字段的额外属性，标准库reflect包提供了操作Tag的方法。</li>
@@ -908,10 +926,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #82111f;">
-			<td style="text-align: center;">方法</td>
+		<tr class="qmemoFont20" style="background-color: #f9c116;">
+			<td class="qmemoMemoryOddTrTd">方法</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>方法即method，Go语言支持为自定义类型实现方法，method在具体实现上与普通的函数并无不同，只不过会通过运行时栈多传递一个隐含的参数，这个隐含的参数就是所谓的接收者。</li>
@@ -924,7 +942,7 @@
 </table></div>
 <h2 id="iota">iota</h2>
 <blockquote>
-<p>☀️︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 1点20分05秒 | 更新 🏳️‍🌈</p>
+<p>🌞 ︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 1点20分05秒 | 更新 🏳️‍🌈</p>
 </blockquote>
 <h3 id="全部知识点-4">全部知识点</h3>
 <div class="highlight"><div class="chroma">
@@ -945,10 +963,10 @@
 </div>
 </div><div class="table-wrapper"><table>
 	<tbody>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #f86b1d;">
-			<td style="text-align: center;">iota简介</td>
+		<tr class="qmemoFont20" style="background-color: #1e131d;">
+			<td class="qmemoMemoryOddTrTd">iota简介</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>iota只能用于const声明中。</li>
@@ -957,10 +975,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #33141e;">
-			<td style="text-align: center;">iota疑惑烟消云散</td>
+		<tr class="qmemoFont20" style="background-color: #525288;">
+			<td class="qmemoMemoryOddTrTd">iota疑惑烟消云散</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>使用iota牢记一句话，所有困惑都会烟消云散。iota代表了const声明块的行索引；不管一行声明多少个iota、不管中途是否更换iota表达式、不管是否从首行开始声明iota ⇨ iota雷打不动代表了const声明块的行索引。</li>
@@ -968,10 +986,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #f7cfba;">
-			<td style="text-align: center;">iota原理</td>
+		<tr class="qmemoFont20" style="background-color: #b14b28;">
+			<td class="qmemoMemoryOddTrTd">iota原理</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>了解iota的原理首先要了解编译器处理常量声明语句的方式。const声明块中，每个常量声明都对应一个ValueSpec结构体，ValueSpec结构记录的是每一行常量声明的元信息，比如变量名称、类型、值、注释等等；const声明块中一般包含多行常量声明，则对应多个ValueSpec结构体，一行对应一个；实际上一个const声明块就是一个[]ValueSpec，iota的本质就是[]ValueSpec的索引值，也就是行索引。</li>
@@ -982,7 +1000,7 @@
 </table></div>
 <h2 id="string">string</h2>
 <blockquote>
-<p>☀️︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 1点30分42秒 | 更新 🏳️‍🌈</p>
+<p>🌞 ︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 1点30分42秒 | 更新 🏳️‍🌈</p>
 </blockquote>
 <h3 id="全部知识点-5">全部知识点</h3>
 <div class="highlight"><div class="chroma">
@@ -1009,20 +1027,20 @@
 </div>
 </div><div class="table-wrapper"><table>
 	<tbody>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #fcc515;">
-			<td style="text-align: center;">string简介</td>
+		<tr class="qmemoFont20" style="background-color: #eeb8c3;">
+			<td class="qmemoMemoryOddTrTd">string简介</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>string是Go的基础类型之一，值不可修改。</li>
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #806d9e;">
-			<td style="text-align: center;">string特征</td>
+		<tr class="qmemoFont20" style="background-color: #12aa9c;">
+			<td class="qmemoMemoryOddTrTd">string特征</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>值不可修改。不能通过取索引的方式修改字符内容或获取字符地址。</li>
@@ -1030,10 +1048,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #393733;">
-			<td style="text-align: center;">string用法</td>
+		<tr class="qmemoFont20" style="background-color: #ee8055;">
+			<td class="qmemoMemoryOddTrTd">string用法</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>string字面量。双引号("···")和反引号(`···`)两种方式，区别在于`···`是原样输出，不会对特殊字符进行转义。</li>
@@ -1043,10 +1061,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #55bb8a;">
-			<td style="text-align: center;">string原理</td>
+		<tr class="qmemoFont20" style="background-color: #f0945d;">
+			<td class="qmemoMemoryOddTrTd">string原理</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>string和slice很相似，有一个底层的[]byte用于存储，Go默认使用UTF8编码，[]byte存储的是字符采用UTF-8得到的字节。</li>
@@ -1054,10 +1072,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #fb8b05;">
-			<td style="text-align: center;">为什么字符串不允许修改？</td>
+		<tr class="qmemoFont20" style="background-color: #4b2e2b;">
+			<td class="qmemoMemoryOddTrTd">为什么字符串不允许修改？</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>像C++中的string，其本身拥有内存空间，是支持修改的。但在Go的实现中，string不包含内存空间，只有一个内存的指针，这样做的好处是string变得非常轻量，可以很方便的进行传递而不用担心内存拷贝。</li>
@@ -1065,10 +1083,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #c09351;">
-			<td style="text-align: center;">string和[]byte如何取舍？</td>
+		<tr class="qmemoFont20" style="background-color: #68b88e;">
+			<td class="qmemoMemoryOddTrTd">string和[]byte如何取舍？</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>string和[]byte都可以表示字符串，但因数据结构不同，其衍生出来的方法也不同，要根据实际场景来选择。</li>
@@ -1081,7 +1099,7 @@
 </table></div>
 <h2 id="syncmap">sync.Map</h2>
 <blockquote>
-<p>☀️︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 2点20分59秒 | 更新 🏳️‍🌈</p>
+<p>🌞 ︎阳历 2024年02月20日 星期二 | 🌙农历 龙年(2024)正月十一 | 🕛下午 2点20分59秒 | 更新 🏳️‍🌈</p>
 </blockquote>
 <h3 id="全部知识点-6">全部知识点</h3>
 <div class="highlight"><div class="chroma">
@@ -1106,20 +1124,20 @@
 </div>
 </div><div class="table-wrapper"><table>
 	<tbody>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #81776e;">
-			<td style="text-align: center;">sync.Map简介</td>
+		<tr class="qmemoFont20" style="background-color: #ba2f7b;">
+			<td class="qmemoMemoryOddTrTd">sync.Map简介</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>sync.Map是一种并发安全的map，针对特定场景优化的map，并非可以取代原生map，其实大多数场景还是使用原生map；因为sync.Map和原生map在功能上也并非完全对等。</li>
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #efafad;">
-			<td style="text-align: center;">sync.Map特征</td>
+		<tr class="qmemoFont20" style="background-color: #e8b49a;">
+			<td class="qmemoMemoryOddTrTd">sync.Map特征</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>零值。sync.Map是结构体，零值是结构体的零值，并非nil；因此声明完即可使用。</li>
@@ -1129,10 +1147,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #5d3d21;">
-			<td style="text-align: center;">sync.Map用法</td>
+		<tr class="qmemoFont20" style="background-color: #cfccc9;">
+			<td class="qmemoMemoryOddTrTd">sync.Map用法</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>增改：sync.Map.Store(key,value)。</li>
@@ -1144,10 +1162,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #9a8878;">
-			<td style="text-align: center;">sync.Map原理</td>
+		<tr class="qmemoFont20" style="background-color: #815f25;">
+			<td class="qmemoMemoryOddTrTd">sync.Map原理</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>sync.Map内部维护了两个mapread和dirty，read用于并发读，dirty用于新数据的写入。</li>
@@ -1161,10 +1179,10 @@
 				</ol>
 			</td>
 		</tr>
-		<tr style="color: #888888;font: bold 20px STHeiti;background-color: #b9dec9;">
-			<td style="text-align: center;">sync.Map使用思考</td>
+		<tr class="qmemoFont20" style="background-color: #63bbd0;">
+			<td class="qmemoMemoryOddTrTd">sync.Map使用思考</td>
 		</tr>
-		<tr style="color: #323752; background-color: #f2f7f7;">
+		<tr class="qmemoMemoryEvenTr">
 			<td>
 				<ol>
 					<li>并发安全。sync.Map将互斥锁内置来实现并发读写。</li>
@@ -1172,6 +1190,37 @@
 					<li>警惕类型安全风险。sync.Map会将数据以interface{}的类型来进行存储，读出的数据都是interface{}类型，因此要进行类型断言，避免触发panic；因此建议不要在同一个sync.Map中存储不同类型的键值对，以避免panic风险，提升代码的可读性。</li>
 					<li>不能拷贝和传递。我们已经习惯在函数间传递原生的map，但sync.Map不支持拷贝和函数间传递，因为它内置锁，而锁是不能拷贝的，否则可能引起死锁或触发panic。</li>
 				</ol>
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+<h2 id="系列文章-1">系列文章</h2>
+<div class="qmemoFont20 qmemoDir" style="background-color: #40a070;">同系列其它文章
+</div>
+<div class="table-wrapper"><table>
+	<tbody>
+		<tr class="qmemoOddTr">
+			<td class="qmemoSeriesTrTdLeft">1
+			</td>
+			<td class="qmemoSeriesTrTdRight">
+						<a class="link" target="_blank" href="https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/">【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						</a>
+			</td>
+		</tr>
+		<tr class="qmemoEvenTr">
+			<td class="qmemoSeriesTrTdLeft">2
+			</td>
+			<td class="qmemoSeriesTrTdRight">
+						<a class="link" target="_blank" href="https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/">【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						</a>
+			</td>
+		</tr>
+		<tr class="qmemoOddTr">
+			<td class="qmemoSeriesTrTdLeft">3
+			</td>
+			<td class="qmemoSeriesTrTdRight">
+						<a class="link" target="_blank" href="https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/">【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						</a>
 			</td>
 		</tr>
 	</tbody>
@@ -1234,7 +1283,7 @@
 
 
         <span>
-            最后更新于 2024-03-01 15:49:28 Fri
+            最后更新于 2024-03-07 19:36:58 Thu
         </span>
     </section></footer>
 
@@ -1258,13 +1307,32 @@
         
             <div class="article-image">
                 
-                    <img src="/pic/common/content/post/cover/001.jpg" loading="lazy" data-key="programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001" data-hash="/pic/common/content/post/cover/001.jpg"/>
+                    <img src="/pic/common/content/post/cover/021.jpg" loading="lazy" data-key="programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001" data-hash="/pic/common/content/post/cover/021.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">《Go专家编程》读书笔记 | 第2章 控制结构</h2>
+            <h2 class="article-title">《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/pic/common/content/post/cover/088.jpg" loading="lazy" data-key="programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001" data-hash="/pic/common/content/post/cover/088.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇</h2>
         </div>
     </a>
 </article>
@@ -1296,13 +1364,13 @@
         
             <div class="article-image">
                 
-                    <img src="/pic/common/content/post/cover/015.jpg" loading="lazy" data-key="cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001" data-hash="/pic/common/content/post/cover/015.jpg"/>
+                    <img src="/pic/common/content/post/cover/119.jpg" loading="lazy" data-key="cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001" data-hash="/pic/common/content/post/cover/119.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统</h2>
+            <h2 class="article-title">《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题</h2>
         </div>
     </a>
 </article>
@@ -1315,32 +1383,13 @@
         
             <div class="article-image">
                 
-                    <img src="/pic/common/content/post/cover/044.jpg" loading="lazy" data-key="cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002" data-hash="/pic/common/content/post/cover/044.jpg"/>
+                    <img src="/pic/common/content/post/cover/110.jpg" loading="lazy" data-key="cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002" data-hash="/pic/common/content/post/cover/110.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/linux/r_n/linux_command_line_and_shell_scripting/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/pic/common/content/post/cover/067.jpg" loading="lazy" data-key="linux/r_n/linux_command_line_and_shell_scripting" data-hash="/pic/common/content/post/cover/067.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Linux | Linux命令行</h2>
+            <h2 class="article-title">《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题</h2>
         </div>
     </a>
 </article>
@@ -1355,18 +1404,246 @@
 
     <footer class="site-footer">
     <section class="copyright">
-        &copy; 
+        Copyright ©️
         
-            2018 - 
+        2018 -
         
         2024 玽琅实践家
-    </section>
-    
-    <section class="powerby">
+        <br>
+        <a class="link" href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2024xxxxxx-1号</a><br>
+        <span id="timeYear">载入年数...</span><span id="timeDate">载入天数...</span><span
+            id="times">载入时分秒...</span>
+        <br>
         
-            gainovel.com All Rights Reserved. <br/>
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        📚 本站共 4.41 万字 · 共 21 篇文章
+    </section>
+
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br/>
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+                                    data-version="3.23.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -1456,16 +1733,64 @@
                 
                 >
             </script><script type="text/javascript" src="/ts/main.js" defer></script>
+
+<script src="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.css" crossorigin="anonymous"/>
 <script>
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
+</script>
 
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
+<script async>
+    var now = new Date();
+    function createtime() {
+        
+        now.setTime(now.getTime() + 250);
+        var grt = new Date("2018/05/27 00:00:00"); 
+        years = (now - grt) / 1000 / 60 / 60 / 24 / 365;
+        ynum = Math.floor(years);
+        days = (now - grt) / 1000 / 60 / 60 / 24 - (365 * ynum);
+        totalDays = (now - grt) / 1000 / 60 / 60 / 24
+        dnum = Math.floor(days);
+        totalDNum = Math.floor(totalDays);
+        hours = (now - grt) / 1000 / 60 / 60 - (24 * totalDNum);
+        hnum = Math.floor(hours);
+        if (String(hnum).length == 1) {
+            hnum = "0" + hnum;
+        }
+        minutes = (now - grt) / 1000 / 60 - (24 * 60 * totalDNum) - (60 * hnum);
+        mnum = Math.floor(minutes);
+        if (String(mnum).length == 1) {
+            mnum = "0" + mnum;
+        }
+        seconds = (now - grt) / 1000 - (24 * 60 * 60 * totalDNum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds);
+        if (String(snum).length == 1) {
+            snum = "0" + snum;
+        }
+        if (ynum == 0) {
+            if (document.getElementById("timeYear") == null) {
+                document.getElementById("timeDate").innerHTML = "⏳ 本站已运行 " + dnum + " 天 ";
+                document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"
+            } else {
+                document.getElementById("timeYear").remove()
+                document.getElementById("timeDate").innerHTML = "⏳ 本站已运行 " + dnum + " 天 ";
+                document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"
+            }
+        } else {
+            document.getElementById("timeYear").innerHTML = "⏳ 本站已运行 " + ynum + " 年 ";
+            document.getElementById("timeDate").innerHTML = dnum + " 天 ";
+            document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"
+        }
+    }
 
-        document.head.appendChild(customFont);
-    }());
+    setInterval("createtime()", 250);
+    window.onload = function () {
+        createtime();
+    }
 </script>
 
     </body>

@@ -31,162 +31,6 @@
         <description></description>
         </item>
         <item>
-        <title>历史</title>
-        <link>https://www.gainovel.com/history/</link>
-        <pubDate>Sat, 28 Apr 2018 00:00:00 +0800</pubDate>
-        
-        <guid>https://www.gainovel.com/history/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/clock.jpg" alt="Featured image of post 历史" /&gt;&lt;h2 id=&#34;2024年&#34;&gt;2024年&lt;/h2&gt;
-&lt;h3 id=&#34;2月&#34;&gt;2月&lt;/h3&gt;
-&lt;div style=&#34;text-align: center;width: 100%;color: #888888;font: bold 20px STHeiti;border-top-left-radius: 5px;border-top-right-radius: 5px;padding: 15px 15px 15px 15px;background-color: #553b18;&#34;&gt;2024年 2月 新增/更新 文章
-&lt;/div&gt;
-&lt;table&gt;
-	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
-			&lt;td rowspan=&#34;2&#34; style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;02-29
-			&lt;/td&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; &#34;&gt;新增
-			&lt;/td&gt;
-			&lt;td style=&#34;width: 84%;&#34;&gt;
-				&lt;ol&gt;
-					&lt;li&gt;新增文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统】
-						&lt;/a&gt;。
-						主要内容：容器核心技术、容器平台技术、容器支持技术。
-					&lt;/li&gt;
-					&lt;li&gt;新增文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述】
-						&lt;/a&gt;。
-						主要内容：容器核心知识主要回答有三个问题，①What-什么是容器？②Why-为什么需要容器？③How-容器是如何工作的；其中How是重点。
-					&lt;/li&gt;
-				&lt;/ol&gt;
-			&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; &#34;&gt;更新
-			&lt;/td&gt;
-			&lt;td style=&#34;width: 84%;&#34;&gt;
-				&lt;ol&gt;
-					&lt;li&gt;更新文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
-						&lt;/a&gt;。
-						新增内容：xxx。修改内容：xxx。
-					&lt;/li&gt;
-				&lt;/ol&gt;
-			&lt;/td&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;1月&#34;&gt;1月&lt;/h3&gt;
-&lt;div style=&#34;text-align: center;width: 100%;color: #888888;font: bold 20px STHeiti;border-top-left-radius: 5px;border-top-right-radius: 5px;padding: 15px 15px 15px 15px;background-color: #ffa60f;&#34;&gt;2024年 1月 新增/更新 文章
-&lt;/div&gt;
-&lt;table&gt;
-	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
-			&lt;td rowspan=&#34;2&#34; style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;01-29
-			&lt;/td&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; &#34;&gt;新增
-			&lt;/td&gt;
-			&lt;td style=&#34;width: 84%;&#34;&gt;
-				&lt;ol&gt;
-					&lt;li&gt;新增文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
-						&lt;/a&gt;。
-						主要内容：xxx。
-					&lt;/li&gt;
-				&lt;/ol&gt;
-			&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; &#34;&gt;更新
-			&lt;/td&gt;
-			&lt;td style=&#34;width: 84%;&#34;&gt;
-				&lt;ol&gt;
-					&lt;li&gt;更新文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
-						&lt;/a&gt;。
-						新增内容：xxx。修改内容：xxx。
-					&lt;/li&gt;
-				&lt;/ol&gt;
-			&lt;/td&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;2023年&#34;&gt;2023年&lt;/h2&gt;
-&lt;h3 id=&#34;2月-1&#34;&gt;2月&lt;/h3&gt;
-&lt;div style=&#34;text-align: center;width: 100%;color: #888888;font: bold 20px STHeiti;border-top-left-radius: 5px;border-top-right-radius: 5px;padding: 15px 15px 15px 15px;background-color: #3c9566;&#34;&gt;2023年 2月 新增/更新 文章
-&lt;/div&gt;
-&lt;table&gt;
-	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
-			&lt;td rowspan=&#34;2&#34; style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;02-29
-			&lt;/td&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; &#34;&gt;新增
-			&lt;/td&gt;
-			&lt;td style=&#34;width: 84%;&#34;&gt;
-				&lt;ol&gt;
-					&lt;li&gt;新增文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
-						&lt;/a&gt;。
-						主要内容：xxx。
-					&lt;/li&gt;
-				&lt;/ol&gt;
-			&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; &#34;&gt;更新
-			&lt;/td&gt;
-			&lt;td style=&#34;width: 84%;&#34;&gt;
-				&lt;ol&gt;
-					&lt;li&gt;更新文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
-						&lt;/a&gt;。
-						新增内容：xxx。修改内容：xxx。
-					&lt;/li&gt;
-				&lt;/ol&gt;
-			&lt;/td&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;2022年&#34;&gt;2022年&lt;/h2&gt;
-&lt;h3 id=&#34;2月-2&#34;&gt;2月&lt;/h3&gt;
-&lt;div style=&#34;text-align: center;width: 100%;color: #888888;font: bold 20px STHeiti;border-top-left-radius: 5px;border-top-right-radius: 5px;padding: 15px 15px 15px 15px;background-color: #f2b9b2;&#34;&gt;2022年 2月 新增/更新 文章
-&lt;/div&gt;
-&lt;table&gt;
-	&lt;tbody&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
-			&lt;td rowspan=&#34;2&#34; style=&#34;text-align: center; vertical-align: middle; width: 8%; color: #41b349;&#34;&gt;02-29
-			&lt;/td&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; &#34;&gt;新增
-			&lt;/td&gt;
-			&lt;td style=&#34;width: 84%;&#34;&gt;
-				&lt;ol&gt;
-					&lt;li&gt;新增文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
-						&lt;/a&gt;。
-						主要内容：xxx。
-					&lt;/li&gt;
-				&lt;/ol&gt;
-			&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr style=&#34;color: #181818; background-color: #ffffff;&#34;&gt;
-			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; &#34;&gt;更新
-			&lt;/td&gt;
-			&lt;td style=&#34;width: 84%;&#34;&gt;
-				&lt;ol&gt;
-					&lt;li&gt;更新文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
-						&lt;/a&gt;。
-						新增内容：xxx。修改内容：xxx。
-					&lt;/li&gt;
-				&lt;/ol&gt;
-			&lt;/td&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        </item>
-        <item>
         <title>关于</title>
         <link>https://www.gainovel.com/about/</link>
         <pubDate>Fri, 28 Apr 1995 00:00:00 +0800</pubDate>
@@ -405,6 +249,238 @@
 			&lt;td style=&#34;text-align: center; vertical-align: middle; width: 8%; &#34;&gt;xxx
 			&lt;/td&gt;
 			&lt;td style=&#34;width: 84%;&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://www.gainovel.com/about/</link>
+        <pubDate>Fri, 28 Apr 1995 00:00:00 +0800</pubDate>
+        
+        <guid>https://www.gainovel.com/about/</guid>
+        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/tom_and_jerry.jpg" alt="Featured image of post 关于" /&gt;&lt;blockquote&gt;
+&lt;p&gt;衣带渐宽终不悔，为伊消得人憔悴&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;  从记事开始，那些平凡的理想，如海市蜃楼在眼前闪烁；很多东西都是看的见，摸不着，或者要付出巨大的努力去获得；不甘平凡也不得不承认自己的平凡，普通人的一生该如何渡过，吾将上下而求索……&lt;/p&gt;
+&lt;h2 id=&#34;简历&#34;&gt;简历&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont28 qmemoDir qmemoResumeBackColor&#34;&gt;个人简历&lt;/div&gt;
+&lt;img src=&#34;pic/svg/resume_go.svg&#34;&gt;
+&lt;h2 id=&#34;编程&#34;&gt;编程&lt;/h2&gt;
+&lt;h3 id=&#34;2024年&#34;&gt;2024年&lt;/h3&gt;
+&lt;h4 id=&#34;2月&#34;&gt;2月&lt;/h4&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #513c20;&#34;&gt;2024年2月
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td rowspan=&#34;2&#34; class=&#34;qmemoAboutTrTdLeft&#34;&gt;02-29
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdCenter&#34;&gt;xxx
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoAboutTrTdCenter&#34;&gt;xxx1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td rowspan=&#34;2&#34; class=&#34;qmemoAboutTrTdLeft&#34;&gt;02-28
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdCenter&#34;&gt;xxx
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoEvenTr&#34;&gt;
+			&lt;td class=&#34;qmemoAboutTrTdCenter&#34;&gt;xxx1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td rowspan=&#34;2&#34; class=&#34;qmemoAboutTrTdLeft&#34;&gt;02-27
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdCenter&#34;&gt;xxx
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td class=&#34;qmemoAboutTrTdCenter&#34;&gt;xxx1
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;1月&#34;&gt;1月&lt;/h4&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #b78d12;&#34;&gt;2024年1月
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td rowspan=&#34;1&#34; class=&#34;qmemoAboutTrTdLeft&#34;&gt;01-29
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdCenter&#34;&gt;xxx
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;求学&#34;&gt;求学&lt;/h2&gt;
+&lt;h3 id=&#34;2023年&#34;&gt;2023年&lt;/h3&gt;
+&lt;h4 id=&#34;2月-1&#34;&gt;2月&lt;/h4&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #f33b1f;&#34;&gt;2023年2月
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td rowspan=&#34;1&#34; class=&#34;qmemoAboutTrTdLeft&#34;&gt;02-29
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdCenter&#34;&gt;xxx
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+&lt;h3 id=&#34;2024年-1&#34;&gt;2024年&lt;/h3&gt;
+&lt;h4 id=&#34;2月-2&#34;&gt;2月&lt;/h4&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #eb261a;&#34;&gt;2024年2月
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td rowspan=&#34;1&#34; class=&#34;qmemoAboutTrTdLeft&#34;&gt;02-29
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdCenter&#34;&gt;xxx
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
+				&lt;ol&gt;
+					&lt;li&gt;xxx
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;/a&gt;。
+						主要内容：xxx。
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;读书&#34;&gt;读书&lt;/h2&gt;
+&lt;h3 id=&#34;2024年-2&#34;&gt;2024年&lt;/h3&gt;
+&lt;h4 id=&#34;2月-3&#34;&gt;2月&lt;/h4&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #f97d1c;&#34;&gt;2024年2月
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&#34;qmemoOddTr&#34;&gt;
+			&lt;td rowspan=&#34;1&#34; class=&#34;qmemoAboutTrTdLeft&#34;&gt;02-29
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdCenter&#34;&gt;xxx
+			&lt;/td&gt;
+			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;xxx
 						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
