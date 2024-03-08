@@ -2,368 +2,368 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>分类 on 玽琅实践家</title>
-        <link>https://www.gainovel.com/categories/</link>
+        <link>https://gainovel.github.io/categories/</link>
         <description>Recent content in 分类 on 玽琅实践家</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language><atom:link href="https://www.gainovel.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>zh-cn</language><atom:link href="https://gainovel.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Life</title>
-        <link>https://www.gainovel.com/categories/life/</link>
+        <link>https://gainovel.github.io/categories/life/</link>
         <pubDate>Mon, 08 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/life/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/categories/png/life.png" alt="Featured image of post Life" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/life/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/categories/png/life.png" alt="Featured image of post Life" /&gt;</description>
         </item>
         <item>
         <title>Study</title>
-        <link>https://www.gainovel.com/categories/study/</link>
+        <link>https://gainovel.github.io/categories/study/</link>
         <pubDate>Mon, 08 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/study/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/categories/png/study.png" alt="Featured image of post Study" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/study/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/categories/png/study.png" alt="Featured image of post Study" /&gt;</description>
         </item>
         <item>
         <title>Work</title>
-        <link>https://www.gainovel.com/categories/work/</link>
+        <link>https://gainovel.github.io/categories/work/</link>
         <pubDate>Mon, 08 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/work/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/categories/png/work.png" alt="Featured image of post Work" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/work/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/categories/png/work.png" alt="Featured image of post Work" /&gt;</description>
         </item>
         <item>
         <title>Interview</title>
-        <link>https://www.gainovel.com/categories/interview/</link>
+        <link>https://gainovel.github.io/categories/interview/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/interview/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/questions/png/interview.png" alt="Featured image of post Interview" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/interview/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/questions/png/interview.png" alt="Featured image of post Interview" /&gt;</description>
         </item>
         <item>
         <title>Geektime</title>
-        <link>https://www.gainovel.com/categories/geektime/</link>
+        <link>https://gainovel.github.io/categories/geektime/</link>
         <pubDate>Sun, 01 Oct 2017 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/geektime/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/png/geektime_logo.png" alt="Featured image of post Geektime" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/geektime/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/png/geektime_logo.png" alt="Featured image of post Geektime" /&gt;</description>
         </item>
         <item>
         <title>Go</title>
-        <link>https://www.gainovel.com/categories/go/</link>
+        <link>https://gainovel.github.io/categories/go/</link>
         <pubDate>Tue, 10 Nov 2009 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/go/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/png/favicon-gopher.png" alt="Featured image of post Go" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/go/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/png/favicon-gopher.png" alt="Featured image of post Go" /&gt;</description>
         </item>
         <item>
         <title>Gin</title>
-        <link>https://www.gainovel.com/categories/gin/</link>
+        <link>https://gainovel.github.io/categories/gin/</link>
         <pubDate>Mon, 30 Jun 2014 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/gin/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/ico/gin_favicon.ico" alt="Featured image of post Gin" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/gin/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/ico/gin_favicon.ico" alt="Featured image of post Gin" /&gt;</description>
         </item>
         <item>
         <title>Gorm</title>
-        <link>https://www.gainovel.com/categories/gorm/</link>
+        <link>https://gainovel.github.io/categories/gorm/</link>
         <pubDate>Mon, 30 Jun 2014 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/gorm/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/png/gorm_favicon.png" alt="Featured image of post Gorm" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/gorm/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/png/gorm_favicon.png" alt="Featured image of post Gorm" /&gt;</description>
         </item>
         <item>
         <title>Linux</title>
-        <link>https://www.gainovel.com/categories/linux/</link>
+        <link>https://gainovel.github.io/categories/linux/</link>
         <pubDate>Sat, 01 Jan 1949 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/linux/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/png/linux_log.png" alt="Featured image of post Linux" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/linux/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/png/linux_log.png" alt="Featured image of post Linux" /&gt;</description>
         </item>
         <item>
         <title>Operating System</title>
-        <link>https://www.gainovel.com/categories/operating-system/</link>
+        <link>https://gainovel.github.io/categories/operating-system/</link>
         <pubDate>Sat, 01 Jan 1949 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/operating-system/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/categories/png/operating_system.png" alt="Featured image of post Operating System" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/operating-system/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/categories/png/operating_system.png" alt="Featured image of post Operating System" /&gt;</description>
         </item>
         <item>
         <title>Reading Notes</title>
-        <link>https://www.gainovel.com/categories/reading-notes/</link>
+        <link>https://gainovel.github.io/categories/reading-notes/</link>
         <pubDate>Mon, 08 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/reading-notes/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/categories/png/reading-notes_001.png" alt="Featured image of post Reading Notes" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/reading-notes/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/categories/png/reading-notes_001.png" alt="Featured image of post Reading Notes" /&gt;</description>
         </item>
         <item>
         <title>Jetbrains IDE Usage</title>
-        <link>https://www.gainovel.com/categories/jetbrains-ide-usage/</link>
+        <link>https://gainovel.github.io/categories/jetbrains-ide-usage/</link>
         <pubDate>Sun, 07 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/jetbrains-ide-usage/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/png/jb_beam.png" alt="Featured image of post Jetbrains IDE Usage" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/jetbrains-ide-usage/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/png/jb_beam.png" alt="Featured image of post Jetbrains IDE Usage" /&gt;</description>
         </item>
         <item>
         <title>Cloud Native</title>
-        <link>https://www.gainovel.com/categories/cloud-native/</link>
+        <link>https://gainovel.github.io/categories/cloud-native/</link>
         <pubDate>Mon, 26 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/cloud-native/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/ico/cloud_native.ico" alt="Featured image of post Cloud Native" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/cloud-native/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/ico/cloud_native.ico" alt="Featured image of post Cloud Native" /&gt;</description>
         </item>
         <item>
         <title>Original Article</title>
-        <link>https://www.gainovel.com/categories/original-article/</link>
+        <link>https://gainovel.github.io/categories/original-article/</link>
         <pubDate>Sun, 18 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/original-article/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/categories/png/original_article.png" alt="Featured image of post Original Article" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/original-article/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/categories/png/original_article.png" alt="Featured image of post Original Article" /&gt;</description>
         </item>
         <item>
         <title>Web Article Notes</title>
-        <link>https://www.gainovel.com/categories/web-article-notes/</link>
+        <link>https://gainovel.github.io/categories/web-article-notes/</link>
         <pubDate>Sun, 18 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/web-article-notes/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/categories/png/web_article_notes_001.png" alt="Featured image of post Web Article Notes" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/web-article-notes/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/categories/png/web_article_notes_001.png" alt="Featured image of post Web Article Notes" /&gt;</description>
         </item>
         <item>
         <title>Kubernetes</title>
-        <link>https://www.gainovel.com/categories/kubernetes/</link>
+        <link>https://gainovel.github.io/categories/kubernetes/</link>
         <pubDate>Sun, 01 Jun 2014 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/kubernetes/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/png/kubernetes.png" alt="Featured image of post Kubernetes" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/kubernetes/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/png/kubernetes.png" alt="Featured image of post Kubernetes" /&gt;</description>
         </item>
         <item>
         <title>Docker</title>
-        <link>https://www.gainovel.com/categories/docker/</link>
+        <link>https://gainovel.github.io/categories/docker/</link>
         <pubDate>Wed, 20 Mar 2013 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/docker/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/png/docker-mark-blue.png" alt="Featured image of post Docker" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/docker/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/png/docker-mark-blue.png" alt="Featured image of post Docker" /&gt;</description>
         </item>
         <item>
         <title>Leetcode</title>
-        <link>https://www.gainovel.com/categories/leetcode/</link>
+        <link>https://gainovel.github.io/categories/leetcode/</link>
         <pubDate>Tue, 10 Nov 2009 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/leetcode/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/ico/leetcode.ico" alt="Featured image of post Leetcode" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/leetcode/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/ico/leetcode.ico" alt="Featured image of post Leetcode" /&gt;</description>
         </item>
         <item>
         <title>Computer Network</title>
-        <link>https://www.gainovel.com/categories/computer-network/</link>
+        <link>https://gainovel.github.io/categories/computer-network/</link>
         <pubDate>Wed, 01 Jan 1969 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/computer-network/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/categories/png/computer_network.png" alt="Featured image of post Computer Network" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/computer-network/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/categories/png/computer_network.png" alt="Featured image of post Computer Network" /&gt;</description>
         </item>
         <item>
         <title>MySQL</title>
-        <link>https://www.gainovel.com/categories/mysql/</link>
+        <link>https://gainovel.github.io/categories/mysql/</link>
         <pubDate>Mon, 01 Jan 1996 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/mysql/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/png/mysql_logo.png" alt="Featured image of post MySQL" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/mysql/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/png/mysql_logo.png" alt="Featured image of post MySQL" /&gt;</description>
         </item>
         <item>
         <title>MongoDB</title>
-        <link>https://www.gainovel.com/categories/mongodb/</link>
+        <link>https://gainovel.github.io/categories/mongodb/</link>
         <pubDate>Thu, 11 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/mongodb/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/png/mongodb_logo.png" alt="Featured image of post MongoDB" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/mongodb/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/png/mongodb_logo.png" alt="Featured image of post MongoDB" /&gt;</description>
         </item>
         <item>
         <title>Redis</title>
-        <link>https://www.gainovel.com/categories/redis/</link>
+        <link>https://gainovel.github.io/categories/redis/</link>
         <pubDate>Sun, 10 May 2009 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/redis/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/png/redis_logo.png" alt="Featured image of post Redis" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/redis/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/png/redis_logo.png" alt="Featured image of post Redis" /&gt;</description>
         </item>
         <item>
         <title>Cache</title>
-        <link>https://www.gainovel.com/categories/cache/</link>
+        <link>https://gainovel.github.io/categories/cache/</link>
         <pubDate>Sun, 10 May 2009 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/cache/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/png/redis_logo.png" alt="Featured image of post Cache" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/cache/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/png/redis_logo.png" alt="Featured image of post Cache" /&gt;</description>
         </item>
         <item>
         <title>RabbitMQ</title>
-        <link>https://www.gainovel.com/categories/rabbitmq/</link>
+        <link>https://gainovel.github.io/categories/rabbitmq/</link>
         <pubDate>Sun, 10 May 2009 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/rabbitmq/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/ico/rabbitmq_logo.ico" alt="Featured image of post RabbitMQ" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/rabbitmq/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/ico/rabbitmq_logo.ico" alt="Featured image of post RabbitMQ" /&gt;</description>
         </item>
         <item>
         <title>Reprint Article</title>
-        <link>https://www.gainovel.com/categories/reprint-article/</link>
+        <link>https://gainovel.github.io/categories/reprint-article/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/reprint-article/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/categories/png/reprint_article.png" alt="Featured image of post Reprint Article" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/reprint-article/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/categories/png/reprint_article.png" alt="Featured image of post Reprint Article" /&gt;</description>
         </item>
         <item>
         <title>Common</title>
-        <link>https://www.gainovel.com/categories/common/</link>
+        <link>https://gainovel.github.io/categories/common/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/common/</guid>
+        <guid>https://gainovel.github.io/categories/common/</guid>
         <description></description>
         </item>
         <item>
         <title>Brief</title>
-        <link>https://www.gainovel.com/categories/brief/</link>
+        <link>https://gainovel.github.io/categories/brief/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/brief/</guid>
+        <guid>https://gainovel.github.io/categories/brief/</guid>
         <description></description>
         </item>
         <item>
         <title>Compare</title>
-        <link>https://www.gainovel.com/categories/compare/</link>
+        <link>https://gainovel.github.io/categories/compare/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/compare/</guid>
+        <guid>https://gainovel.github.io/categories/compare/</guid>
         <description></description>
         </item>
         <item>
         <title>Process</title>
-        <link>https://www.gainovel.com/categories/process/</link>
+        <link>https://gainovel.github.io/categories/process/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/process/</guid>
+        <guid>https://gainovel.github.io/categories/process/</guid>
         <description></description>
         </item>
         <item>
         <title>What</title>
-        <link>https://www.gainovel.com/categories/what/</link>
+        <link>https://gainovel.github.io/categories/what/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/what/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/questions/png/what001.png" alt="Featured image of post What" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/what/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/questions/png/what001.png" alt="Featured image of post What" /&gt;</description>
         </item>
         <item>
         <title>Who</title>
-        <link>https://www.gainovel.com/categories/who/</link>
+        <link>https://gainovel.github.io/categories/who/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/who/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/questions/png/who002.png" alt="Featured image of post Who" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/who/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/questions/png/who002.png" alt="Featured image of post Who" /&gt;</description>
         </item>
         <item>
         <title>How</title>
-        <link>https://www.gainovel.com/categories/how/</link>
+        <link>https://gainovel.github.io/categories/how/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/how/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/questions/png/how001.png" alt="Featured image of post How" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/how/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/questions/png/how001.png" alt="Featured image of post How" /&gt;</description>
         </item>
         <item>
         <title>Why</title>
-        <link>https://www.gainovel.com/categories/why/</link>
+        <link>https://gainovel.github.io/categories/why/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/why/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/questions/png/why001.png" alt="Featured image of post Why" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/why/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/questions/png/why001.png" alt="Featured image of post Why" /&gt;</description>
         </item>
         <item>
         <title>Design Pattern</title>
-        <link>https://www.gainovel.com/categories/design-pattern/</link>
+        <link>https://gainovel.github.io/categories/design-pattern/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/design-pattern/</guid>
+        <guid>https://gainovel.github.io/categories/design-pattern/</guid>
         <description></description>
         </item>
         <item>
         <title>Microservice</title>
-        <link>https://www.gainovel.com/categories/microservice/</link>
+        <link>https://gainovel.github.io/categories/microservice/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/microservice/</guid>
+        <guid>https://gainovel.github.io/categories/microservice/</guid>
         <description></description>
         </item>
         <item>
         <title>System Design</title>
-        <link>https://www.gainovel.com/categories/system-design/</link>
+        <link>https://gainovel.github.io/categories/system-design/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/system-design/</guid>
+        <guid>https://gainovel.github.io/categories/system-design/</guid>
         <description></description>
         </item>
         <item>
         <title>Cmake</title>
-        <link>https://www.gainovel.com/categories/cmake/</link>
+        <link>https://gainovel.github.io/categories/cmake/</link>
         <pubDate>Sun, 10 May 2009 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/cmake/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/logo/ico/cmake_favicon.ico" alt="Featured image of post Cmake" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/cmake/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/logo/ico/cmake_favicon.ico" alt="Featured image of post Cmake" /&gt;</description>
         </item>
         <item>
         <title>ORES</title>
-        <link>https://www.gainovel.com/categories/ores/</link>
+        <link>https://gainovel.github.io/categories/ores/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/ores/</guid>
+        <guid>https://gainovel.github.io/categories/ores/</guid>
         <description></description>
         </item>
         <item>
         <title>Narrative</title>
-        <link>https://www.gainovel.com/categories/narrative/</link>
+        <link>https://gainovel.github.io/categories/narrative/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/narrative/</guid>
+        <guid>https://gainovel.github.io/categories/narrative/</guid>
         <description></description>
         </item>
         <item>
         <title>Brainstorm</title>
-        <link>https://www.gainovel.com/categories/brainstorm/</link>
+        <link>https://gainovel.github.io/categories/brainstorm/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/brainstorm/</guid>
+        <guid>https://gainovel.github.io/categories/brainstorm/</guid>
         <description></description>
         </item>
         <item>
         <title>Comprehensive</title>
-        <link>https://www.gainovel.com/categories/comprehensive/</link>
+        <link>https://gainovel.github.io/categories/comprehensive/</link>
         <pubDate>Tue, 06 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/comprehensive/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/categories/png/comprehensive.png" alt="Featured image of post Comprehensive" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/comprehensive/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/categories/png/comprehensive.png" alt="Featured image of post Comprehensive" /&gt;</description>
         </item>
         <item>
         <title>Memory</title>
-        <link>https://www.gainovel.com/categories/memory/</link>
+        <link>https://gainovel.github.io/categories/memory/</link>
         <pubDate>Tue, 06 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/memory/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/categories/png/memory.png" alt="Featured image of post Memory" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/memory/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/categories/png/memory.png" alt="Featured image of post Memory" /&gt;</description>
         </item>
         <item>
         <title>Write</title>
-        <link>https://www.gainovel.com/categories/write/</link>
+        <link>https://gainovel.github.io/categories/write/</link>
         <pubDate>Mon, 04 Mar 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/write/</guid>
+        <guid>https://gainovel.github.io/categories/write/</guid>
         <description></description>
         </item>
         <item>
         <title>Writing Novel</title>
-        <link>https://www.gainovel.com/categories/writing-novel/</link>
+        <link>https://gainovel.github.io/categories/writing-novel/</link>
         <pubDate>Thu, 11 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/writing-novel/</guid>
+        <guid>https://gainovel.github.io/categories/writing-novel/</guid>
         <description></description>
         </item>
         <item>
         <title>When</title>
-        <link>https://www.gainovel.com/categories/when/</link>
+        <link>https://gainovel.github.io/categories/when/</link>
         <pubDate>Thu, 04 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/when/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/questions/png/when001.png" alt="Featured image of post When" /&gt;</description>
+        <guid>https://gainovel.github.io/categories/when/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/questions/png/when001.png" alt="Featured image of post When" /&gt;</description>
         </item>
         
     </channel>

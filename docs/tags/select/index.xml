@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>select on 玽琅实践家</title>
-        <link>https://www.gainovel.com/tags/select/</link>
+        <link>https://gainovel.github.io/tags/select/</link>
         <description>Recent content in select on 玽琅实践家</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://www.gainovel.com/tags/select/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://gainovel.github.io/tags/select/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇</title>
-        <link>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/</link>
+        <link>https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/</link>
         <pubDate>Tue, 05 Mar 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/088.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/088.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
 &lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #fbc82f;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
@@ -21,7 +21,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -29,7 +29,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -37,7 +37,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -145,7 +145,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -153,7 +153,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -161,7 +161,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -178,11 +178,11 @@
         </item>
         <item>
         <title>《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇</title>
-        <link>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</link>
+        <link>https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</link>
         <pubDate>Tue, 20 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/021.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/021.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
 &lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #dfecd5;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
@@ -191,7 +191,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -199,7 +199,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -207,7 +207,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -354,7 +354,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -362,7 +362,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -370,7 +370,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;

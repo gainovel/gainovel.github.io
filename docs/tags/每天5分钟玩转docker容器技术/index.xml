@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>《每天5分钟玩转Docker容器技术》 on 玽琅实践家</title>
-        <link>https://www.gainovel.com/tags/%E6%AF%8F%E5%A4%A95%E5%88%86%E9%92%9F%E7%8E%A9%E8%BD%ACdocker%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/</link>
+        <link>https://gainovel.github.io/tags/%E6%AF%8F%E5%A4%A95%E5%88%86%E9%92%9F%E7%8E%A9%E8%BD%ACdocker%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/</link>
         <description>Recent content in 《每天5分钟玩转Docker容器技术》 on 玽琅实践家</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://www.gainovel.com/tags/%E6%AF%8F%E5%A4%A95%E5%88%86%E9%92%9F%E7%8E%A9%E8%BD%ACdocker%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://gainovel.github.io/tags/%E6%AF%8F%E5%A4%A95%E5%88%86%E9%92%9F%E7%8E%A9%E8%BD%ACdocker%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题</title>
-        <link>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</link>
+        <link>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</link>
         <pubDate>Sat, 02 Mar 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/035.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/035.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
 &lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #fcb70a;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
@@ -21,7 +21,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -29,7 +29,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -37,7 +37,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -109,7 +109,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -117,7 +117,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -125,7 +125,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -142,11 +142,11 @@
         </item>
         <item>
         <title>《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题</title>
-        <link>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</link>
+        <link>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</link>
         <pubDate>Thu, 29 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/119.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/119.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
 &lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #eef7f2;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
@@ -155,7 +155,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -163,7 +163,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -171,7 +171,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -529,7 +529,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -537,7 +537,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -545,7 +545,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -562,11 +562,11 @@
         </item>
         <item>
         <title>《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题</title>
-        <link>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</link>
+        <link>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</link>
         <pubDate>Thu, 29 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/110.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/110.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
 &lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #ffd111;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
@@ -575,7 +575,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -583,7 +583,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -591,7 +591,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -668,7 +668,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -676,7 +676,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -684,7 +684,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;

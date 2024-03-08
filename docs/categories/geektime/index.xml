@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Geektime on 玽琅实践家</title>
-        <link>https://www.gainovel.com/categories/geektime/</link>
+        <link>https://gainovel.github.io/categories/geektime/</link>
         <description>Recent content in Geektime on 玽琅实践家</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0800</lastBuildDate><atom:link href="https://www.gainovel.com/categories/geektime/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0800</lastBuildDate><atom:link href="https://gainovel.github.io/categories/geektime/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

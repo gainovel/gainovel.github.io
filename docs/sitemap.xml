@@ -2,331 +2,331 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.gainovel.com/categories/life/</loc>
+    <loc>https://gainovel.github.io/categories/life/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/study/</loc>
+    <loc>https://gainovel.github.io/categories/study/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/work/</loc>
+    <loc>https://gainovel.github.io/categories/work/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/interview/</loc>
+    <loc>https://gainovel.github.io/categories/interview/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/geektime/</loc>
+    <loc>https://gainovel.github.io/categories/geektime/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/go/</loc>
+    <loc>https://gainovel.github.io/categories/go/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/gin/</loc>
+    <loc>https://gainovel.github.io/categories/gin/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/gorm/</loc>
+    <loc>https://gainovel.github.io/categories/gorm/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/linux/</loc>
+    <loc>https://gainovel.github.io/categories/linux/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/operating-system/</loc>
+    <loc>https://gainovel.github.io/categories/operating-system/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/reading-notes/</loc>
+    <loc>https://gainovel.github.io/categories/reading-notes/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/jetbrains-ide-usage/</loc>
+    <loc>https://gainovel.github.io/categories/jetbrains-ide-usage/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/</loc>
+    <loc>https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/creation/write/general/original_article/memory/001/</loc>
+    <loc>https://gainovel.github.io/p/creation/write/general/original_article/memory/001/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</loc>
+    <loc>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</loc>
+    <loc>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</loc>
+    <loc>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/cloud-native/</loc>
+    <loc>https://gainovel.github.io/categories/cloud-native/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/</loc>
+    <loc>https://gainovel.github.io/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</loc>
+    <loc>https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/</loc>
+    <loc>https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/original-article/</loc>
+    <loc>https://gainovel.github.io/categories/original-article/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/web-article-notes/</loc>
+    <loc>https://gainovel.github.io/categories/web-article-notes/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/study/computer/resource/colors-code/</loc>
+    <loc>https://gainovel.github.io/p/study/computer/resource/colors-code/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/kubernetes/</loc>
+    <loc>https://gainovel.github.io/categories/kubernetes/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/docker/</loc>
+    <loc>https://gainovel.github.io/categories/docker/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/leetcode/</loc>
+    <loc>https://gainovel.github.io/categories/leetcode/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/computer-network/</loc>
+    <loc>https://gainovel.github.io/categories/computer-network/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/mysql/</loc>
+    <loc>https://gainovel.github.io/categories/mysql/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/mongodb/</loc>
+    <loc>https://gainovel.github.io/categories/mongodb/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/redis/</loc>
+    <loc>https://gainovel.github.io/categories/redis/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/cache/</loc>
+    <loc>https://gainovel.github.io/categories/cache/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/rabbitmq/</loc>
+    <loc>https://gainovel.github.io/categories/rabbitmq/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/reprint-article/</loc>
+    <loc>https://gainovel.github.io/categories/reprint-article/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/common/</loc>
+    <loc>https://gainovel.github.io/categories/common/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/brief/</loc>
+    <loc>https://gainovel.github.io/categories/brief/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/compare/</loc>
+    <loc>https://gainovel.github.io/categories/compare/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/process/</loc>
+    <loc>https://gainovel.github.io/categories/process/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/what/</loc>
+    <loc>https://gainovel.github.io/categories/what/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/who/</loc>
+    <loc>https://gainovel.github.io/categories/who/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/how/</loc>
+    <loc>https://gainovel.github.io/categories/how/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/why/</loc>
+    <loc>https://gainovel.github.io/categories/why/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/design-pattern/</loc>
+    <loc>https://gainovel.github.io/categories/design-pattern/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/microservice/</loc>
+    <loc>https://gainovel.github.io/categories/microservice/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/system-design/</loc>
+    <loc>https://gainovel.github.io/categories/system-design/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/cmake/</loc>
+    <loc>https://gainovel.github.io/categories/cmake/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/ores/</loc>
+    <loc>https://gainovel.github.io/categories/ores/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/narrative/</loc>
+    <loc>https://gainovel.github.io/categories/narrative/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/brainstorm/</loc>
+    <loc>https://gainovel.github.io/categories/brainstorm/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/comprehensive/</loc>
+    <loc>https://gainovel.github.io/categories/comprehensive/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/memory/</loc>
+    <loc>https://gainovel.github.io/categories/memory/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/linux/r_n/linux_command_line_and_shell_scripting/</loc>
+    <loc>https://gainovel.github.io/p/linux/r_n/linux_command_line_and_shell_scripting/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/study/computer/daily/2024/</loc>
+    <loc>https://gainovel.github.io/p/study/computer/daily/2024/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/life/common_sense/daily/2024/</loc>
+    <loc>https://gainovel.github.io/p/life/common_sense/daily/2024/</loc>
     <lastmod>2024-03-07T19:36:58+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/work/nodel/</loc>
+    <loc>https://gainovel.github.io/p/work/nodel/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/p/jetbrains/common/</loc>
+    <loc>https://gainovel.github.io/p/jetbrains/common/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/go/</loc>
+    <loc>https://gainovel.github.io/tags/go/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/post/</loc>
+    <loc>https://gainovel.github.io/post/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/select/</loc>
+    <loc>https://gainovel.github.io/tags/select/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/write/</loc>
+    <loc>https://gainovel.github.io/categories/write/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/%E5%BA%8F%E6%AC%A1%E8%AF%AD/</loc>
+    <loc>https://gainovel.github.io/tags/%E5%BA%8F%E6%AC%A1%E8%AF%AD/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/%E6%AF%8F%E5%A4%A95%E5%88%86%E9%92%9F%E7%8E%A9%E8%BD%ACdocker%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://gainovel.github.io/tags/%E6%AF%8F%E5%A4%A95%E5%88%86%E9%92%9F%E7%8E%A9%E8%BD%ACdocker%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/docker/</loc>
+    <loc>https://gainovel.github.io/tags/docker/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/how-%E5%AE%B9%E5%99%A8%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%E7%9A%84/</loc>
+    <loc>https://gainovel.github.io/tags/how-%E5%AE%B9%E5%99%A8%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%E7%9A%84/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/why-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E5%AE%B9%E5%99%A8/</loc>
+    <loc>https://gainovel.github.io/tags/why-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E5%AE%B9%E5%99%A8/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/what-%E4%BB%80%E4%B9%88%E6%98%AF%E5%AE%B9%E5%99%A8/</loc>
+    <loc>https://gainovel.github.io/tags/what-%E4%BB%80%E4%B9%88%E6%98%AF%E5%AE%B9%E5%99%A8/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/%E5%AE%B9%E5%99%A8%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://gainovel.github.io/tags/%E5%AE%B9%E5%99%A8%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/%E5%AE%B9%E5%99%A8%E5%B9%B3%E5%8F%B0%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://gainovel.github.io/tags/%E5%AE%B9%E5%99%A8%E5%B9%B3%E5%8F%B0%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/%E5%AE%B9%E5%99%A8%E6%94%AF%E6%8C%81%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://gainovel.github.io/tags/%E5%AE%B9%E5%99%A8%E6%94%AF%E6%8C%81%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/rabbitmq/</loc>
+    <loc>https://gainovel.github.io/tags/rabbitmq/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/go%E4%B8%93%E5%AE%B6%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://gainovel.github.io/tags/go%E4%B8%93%E5%AE%B6%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/for-range/</loc>
+    <loc>https://gainovel.github.io/tags/for-range/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/chan/</loc>
+    <loc>https://gainovel.github.io/tags/chan/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/iota/</loc>
+    <loc>https://gainovel.github.io/tags/iota/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/map/</loc>
+    <loc>https://gainovel.github.io/tags/map/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/slice/</loc>
+    <loc>https://gainovel.github.io/tags/slice/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/string/</loc>
+    <loc>https://gainovel.github.io/tags/string/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/struct/</loc>
+    <loc>https://gainovel.github.io/tags/struct/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/sync.map/</loc>
+    <loc>https://gainovel.github.io/tags/sync.map/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/colors-code/</loc>
+    <loc>https://gainovel.github.io/tags/colors-code/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/computer/</loc>
+    <loc>https://gainovel.github.io/tags/computer/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/chrome/</loc>
+    <loc>https://gainovel.github.io/tags/chrome/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/command-line/</loc>
+    <loc>https://gainovel.github.io/tags/command-line/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/hugo-stack/</loc>
+    <loc>https://gainovel.github.io/tags/hugo-stack/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/linux/</loc>
+    <loc>https://gainovel.github.io/tags/linux/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/linux%E5%91%BD%E4%BB%A4%E8%A1%8C/</loc>
+    <loc>https://gainovel.github.io/tags/linux%E5%91%BD%E4%BB%A4%E8%A1%8C/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/makefile/</loc>
+    <loc>https://gainovel.github.io/tags/makefile/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/shell/</loc>
+    <loc>https://gainovel.github.io/tags/shell/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/shell-script/</loc>
+    <loc>https://gainovel.github.io/tags/shell-script/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/website/</loc>
+    <loc>https://gainovel.github.io/tags/website/</loc>
     <lastmod>2024-03-07T19:36:58+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/xxx/</loc>
+    <loc>https://gainovel.github.io/tags/xxx/</loc>
     <lastmod>2024-03-07T19:36:58+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/%E7%94%9F%E6%B4%BB%E5%B8%B8%E8%AF%86/</loc>
+    <loc>https://gainovel.github.io/tags/%E7%94%9F%E6%B4%BB%E5%B8%B8%E8%AF%86/</loc>
     <lastmod>2024-03-07T19:36:58+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/noving/</loc>
+    <loc>https://gainovel.github.io/tags/noving/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/writing/</loc>
+    <loc>https://gainovel.github.io/tags/writing/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/writing-novel/</loc>
+    <loc>https://gainovel.github.io/categories/writing-novel/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/settings/</loc>
+    <loc>https://gainovel.github.io/tags/settings/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/usages/</loc>
+    <loc>https://gainovel.github.io/tags/usages/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/when/</loc>
+    <loc>https://gainovel.github.io/categories/when/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/page/</loc>
+    <loc>https://gainovel.github.io/page/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/</loc>
+    <loc>https://gainovel.github.io/tags/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/</loc>
+    <loc>https://gainovel.github.io/categories/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/archives/</loc>
+    <loc>https://gainovel.github.io/archives/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/history/</loc>
+    <loc>https://gainovel.github.io/history/</loc>
     <lastmod>2024-03-08T11:17:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/about/</loc>
+    <loc>https://gainovel.github.io/about/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/</loc>
+    <loc>https://gainovel.github.io/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/tags/</loc>
+    <loc>https://gainovel.github.io/tags/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/categories/</loc>
+    <loc>https://gainovel.github.io/categories/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/links/</loc>
+    <loc>https://gainovel.github.io/links/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url><url>
-    <loc>https://www.gainovel.com/search/</loc>
+    <loc>https://gainovel.github.io/search/</loc>
     <lastmod>2024-03-01T15:49:28+08:00</lastmod>
   </url>
 </urlset>

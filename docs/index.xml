@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>玽琅实践家</title>
-        <link>https://www.gainovel.com/</link>
+        <link>https://gainovel.github.io/</link>
         <description>Recent content on 玽琅实践家</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language><atom:link href="https://www.gainovel.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>zh-cn</language><atom:link href="https://gainovel.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇</title>
-        <link>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/</link>
+        <link>https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/</link>
         <pubDate>Tue, 05 Mar 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/088.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/088.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
 &lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #fbc82f;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
@@ -20,7 +20,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -28,7 +28,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -36,7 +36,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -144,7 +144,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -152,7 +152,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -160,7 +160,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -177,11 +177,11 @@
         </item>
         <item>
         <title>写作/表达常见知识点</title>
-        <link>https://www.gainovel.com/p/creation/write/general/original_article/memory/001/</link>
+        <link>https://gainovel.github.io/p/creation/write/general/original_article/memory/001/</link>
         <pubDate>Mon, 04 Mar 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/creation/write/general/original_article/memory/001/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/108.jpg" alt="Featured image of post 写作/表达常见知识点" /&gt;&lt;h2 id=&#34;全部问题&#34;&gt;全部问题&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/creation/write/general/original_article/memory/001/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/108.jpg" alt="Featured image of post 写作/表达常见知识点" /&gt;&lt;h2 id=&#34;全部问题&#34;&gt;全部问题&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -274,11 +274,11 @@
         </item>
         <item>
         <title>《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题</title>
-        <link>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</link>
+        <link>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</link>
         <pubDate>Sat, 02 Mar 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/035.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/035.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
 &lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #fcb70a;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
@@ -287,7 +287,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -295,7 +295,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -303,7 +303,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -375,7 +375,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -383,7 +383,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -391,7 +391,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -408,11 +408,11 @@
         </item>
         <item>
         <title>《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题</title>
-        <link>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</link>
+        <link>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</link>
         <pubDate>Thu, 29 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/119.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/119.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
 &lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #eef7f2;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
@@ -421,7 +421,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -429,7 +429,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -437,7 +437,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -795,7 +795,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -803,7 +803,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -811,7 +811,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -828,11 +828,11 @@
         </item>
         <item>
         <title>《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题</title>
-        <link>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</link>
+        <link>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</link>
         <pubDate>Thu, 29 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/110.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/110.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
 &lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #ffd111;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
@@ -841,7 +841,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -849,7 +849,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -857,7 +857,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -934,7 +934,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -942,7 +942,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -950,7 +950,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -967,11 +967,11 @@
         </item>
         <item>
         <title>RabbitMQ实战指南读书笔记 | 第1章 RabbitMQ简介 | 第2章 RabbitMQ入门</title>
-        <link>https://www.gainovel.com/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/</link>
+        <link>https://gainovel.github.io/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/</link>
         <pubDate>Wed, 21 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/086.jpg" alt="Featured image of post RabbitMQ实战指南读书笔记 | 第1章 RabbitMQ简介 | 第2章 RabbitMQ入门" /&gt;&lt;h2 id=&#34;近期更新问题&#34;&gt;近期更新问题&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/middleware/rabbitmq/general/introduction/reading_notes/rabbitmq_action_guide/memory/001/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/086.jpg" alt="Featured image of post RabbitMQ实战指南读书笔记 | 第1章 RabbitMQ简介 | 第2章 RabbitMQ入门" /&gt;&lt;h2 id=&#34;近期更新问题&#34;&gt;近期更新问题&lt;/h2&gt;
 &lt;p&gt;无。&lt;/p&gt;
 &lt;h2 id=&#34;全部问题&#34;&gt;全部问题&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1119,11 +1119,11 @@
         </item>
         <item>
         <title>《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇</title>
-        <link>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</link>
+        <link>https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</link>
         <pubDate>Tue, 20 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/021.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/021.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
 &lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #dfecd5;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
@@ -1132,7 +1132,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -1140,7 +1140,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -1148,7 +1148,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -1295,7 +1295,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -1303,7 +1303,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -1311,7 +1311,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -1328,11 +1328,11 @@
         </item>
         <item>
         <title>《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇</title>
-        <link>https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/</link>
+        <link>https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/</link>
         <pubDate>Sun, 18 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/071.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/071.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
 &lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #1177b0;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
@@ -1341,7 +1341,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -1349,7 +1349,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -1357,7 +1357,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -2046,7 +2046,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;1
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -2054,7 +2054,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;2
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -2062,7 +2062,7 @@
 			&lt;td class=&#34;qmemoSeriesTrTdLeft&#34;&gt;3
 			&lt;/td&gt;
 			&lt;td class=&#34;qmemoSeriesTrTdRight&#34;&gt;
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/&#34;&gt;【《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇】
 						&lt;/a&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -2079,11 +2079,11 @@
         </item>
         <item>
         <title>好看的颜色代码</title>
-        <link>https://www.gainovel.com/p/study/computer/resource/colors-code/</link>
+        <link>https://gainovel.github.io/p/study/computer/resource/colors-code/</link>
         <pubDate>Mon, 05 Feb 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/study/computer/resource/colors-code/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/colors_code.webp" alt="Featured image of post 好看的颜色代码" /&gt;&lt;h2 id=&#34;好看的颜色代码&#34;&gt;好看的颜色代码&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/study/computer/resource/colors-code/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/colors_code.webp" alt="Featured image of post 好看的颜色代码" /&gt;&lt;h2 id=&#34;好看的颜色代码&#34;&gt;好看的颜色代码&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;☀️︎阳历 2024年02月05日 星期一 | 🌙农历 兔年(2023)腊月廿六 | 🕛晚上 7点36分22秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -5253,11 +5253,11 @@
         </item>
         <item>
         <title>Linux | Linux命令行</title>
-        <link>https://www.gainovel.com/p/linux/r_n/linux_command_line_and_shell_scripting/</link>
+        <link>https://gainovel.github.io/p/linux/r_n/linux_command_line_and_shell_scripting/</link>
         <pubDate>Wed, 31 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/linux/r_n/linux_command_line_and_shell_scripting/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/067.jpg" alt="Featured image of post Linux | Linux命令行" /&gt;&lt;h2 id=&#34;全部问题列表&#34;&gt;全部问题列表&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/linux/r_n/linux_command_line_and_shell_scripting/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/067.jpg" alt="Featured image of post Linux | Linux命令行" /&gt;&lt;h2 id=&#34;全部问题列表&#34;&gt;全部问题列表&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -6039,11 +6039,11 @@
         </item>
         <item>
         <title>Study | 记录日常学习中碰到的问题及解决方案</title>
-        <link>https://www.gainovel.com/p/study/computer/daily/2024/</link>
+        <link>https://gainovel.github.io/p/study/computer/daily/2024/</link>
         <pubDate>Wed, 31 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/study/computer/daily/2024/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/102.jpg" alt="Featured image of post Study | 记录日常学习中碰到的问题及解决方案" /&gt;&lt;h2 id=&#34;全部问题列表&#34;&gt;全部问题列表&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/study/computer/daily/2024/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/102.jpg" alt="Featured image of post Study | 记录日常学习中碰到的问题及解决方案" /&gt;&lt;h2 id=&#34;全部问题列表&#34;&gt;全部问题列表&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -6229,11 +6229,11 @@
         </item>
         <item>
         <title>生活 | 生活常识 | 生存小技巧 | 个人生活体会</title>
-        <link>https://www.gainovel.com/p/life/common_sense/daily/2024/</link>
+        <link>https://gainovel.github.io/p/life/common_sense/daily/2024/</link>
         <pubDate>Tue, 16 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/life/common_sense/daily/2024/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/015.jpg" alt="Featured image of post 生活 | 生活常识 | 生存小技巧 | 个人生活体会" /&gt;&lt;h2 id=&#34;问题列表&#34;&gt;问题列表&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/life/common_sense/daily/2024/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/015.jpg" alt="Featured image of post 生活 | 生活常识 | 生存小技巧 | 个人生活体会" /&gt;&lt;h2 id=&#34;问题列表&#34;&gt;问题列表&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -7204,11 +7204,11 @@
         </item>
         <item>
         <title>小说 | 凡人修仙传</title>
-        <link>https://www.gainovel.com/p/work/nodel/</link>
+        <link>https://gainovel.github.io/p/work/nodel/</link>
         <pubDate>Thu, 11 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/work/nodel/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/035.jpg" alt="Featured image of post 小说 | 凡人修仙传" /&gt;&lt;h2 id=&#34;第一章-山边小村&#34;&gt;第一章 山边小村&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/work/nodel/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/035.jpg" alt="Featured image of post 小说 | 凡人修仙传" /&gt;&lt;h2 id=&#34;第一章-山边小村&#34;&gt;第一章 山边小村&lt;/h2&gt;
 &lt;p&gt;  二愣子睁大着双眼，直直望着茅草和烂泥糊成的黑屋顶，身上盖着的旧棉被，已呈深黄色，看不出原来的本来面目，还若有若无的散发着淡淡的霉味。&lt;/p&gt;
 &lt;p&gt;  在他身边紧挨着的另一人，是二哥韩铸，酣睡的十分香甜，从他身上不时传来轻重不一的阵阵打呼声。&lt;/p&gt;
 &lt;p&gt;  离床大约半丈远的地方，是一堵黄泥糊成的土墙，因为时间过久，墙壁上裂开了几丝不起眼的细长口子，从这些裂纹中，隐隐约约的传来韩母唠唠叨叨的埋怨声，偶尔还掺杂着韩父，抽旱烟杆的“啪嗒”“啪嗒”吸允声。&lt;/p&gt;
@@ -7385,11 +7385,11 @@
         </item>
         <item>
         <title>Jetbrains | Jetbrains系列IDE的一些使用、设置个人心得</title>
-        <link>https://www.gainovel.com/p/jetbrains/common/</link>
+        <link>https://gainovel.github.io/p/jetbrains/common/</link>
         <pubDate>Tue, 09 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/p/jetbrains/common/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/073.jpg" alt="Featured image of post Jetbrains | Jetbrains系列IDE的一些使用、设置个人心得" /&gt;&lt;h2 id=&#34;问题列表&#34;&gt;问题列表&lt;/h2&gt;
+        <guid>https://gainovel.github.io/p/jetbrains/common/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/073.jpg" alt="Featured image of post Jetbrains | Jetbrains系列IDE的一些使用、设置个人心得" /&gt;&lt;h2 id=&#34;问题列表&#34;&gt;问题列表&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -7478,35 +7478,35 @@
         </item>
         <item>
         <title>标签</title>
-        <link>https://www.gainovel.com/tags/</link>
+        <link>https://gainovel.github.io/tags/</link>
         <pubDate>Wed, 03 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/tags/</guid>
+        <guid>https://gainovel.github.io/tags/</guid>
         <description></description>
         </item>
         <item>
         <title>分类</title>
-        <link>https://www.gainovel.com/categories/</link>
+        <link>https://gainovel.github.io/categories/</link>
         <pubDate>Wed, 03 Jan 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/categories/</guid>
+        <guid>https://gainovel.github.io/categories/</guid>
         <description></description>
         </item>
         <item>
         <title>存档</title>
-        <link>https://www.gainovel.com/archives/</link>
+        <link>https://gainovel.github.io/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/archives/</guid>
+        <guid>https://gainovel.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>历史</title>
-        <link>https://www.gainovel.com/history/</link>
+        <link>https://gainovel.github.io/history/</link>
         <pubDate>Sat, 28 Apr 2018 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/history/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/clock.jpg" alt="Featured image of post 历史" /&gt;&lt;h2 id=&#34;2024年&#34;&gt;2024年&lt;/h2&gt;
+        <guid>https://gainovel.github.io/history/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/clock.jpg" alt="Featured image of post 历史" /&gt;&lt;h2 id=&#34;2024年&#34;&gt;2024年&lt;/h2&gt;
 &lt;h3 id=&#34;3月&#34;&gt;3月&lt;/h3&gt;
 &lt;div class=&#34;qmemoDir&#34; style=&#34;background-color: #83cbac;&#34;&gt;2024年 3月 新增/更新 文章
 &lt;/div&gt;
@@ -7520,7 +7520,7 @@
 			&lt;td class=&#34;qmemoHistoryTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;新增文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题】
 						&lt;/a&gt;。
 						主要内容：Why-为什么需要容器？How-容器是如何工作的？。
 					&lt;/li&gt;
@@ -7543,12 +7543,12 @@
 			&lt;td class=&#34;qmemoHistoryTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;新增文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题】
 						&lt;/a&gt;。
 						主要内容：容器核心技术、容器平台技术、容器支持技术。
 					&lt;/li&gt;
 					&lt;li&gt;新增文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/&#34;&gt;【《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题】
 						&lt;/a&gt;。
 						主要内容：What-什么是容器？。
 					&lt;/li&gt;
@@ -7571,7 +7571,7 @@
 			&lt;td class=&#34;qmemoHistoryTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;新增文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7584,7 +7584,7 @@
 			&lt;td class=&#34;qmemoHistoryTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;更新文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						新增内容：xxx。修改内容：xxx。
 					&lt;/li&gt;
@@ -7607,7 +7607,7 @@
 			&lt;td class=&#34;qmemoHistoryTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;新增文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7620,7 +7620,7 @@
 			&lt;td class=&#34;qmemoHistoryTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;更新文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						新增内容：xxx。修改内容：xxx。
 					&lt;/li&gt;
@@ -7643,7 +7643,7 @@
 			&lt;td class=&#34;qmemoHistoryTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;新增文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7656,7 +7656,7 @@
 			&lt;td class=&#34;qmemoHistoryTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;更新文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						新增内容：xxx。修改内容：xxx。
 					&lt;/li&gt;
@@ -7671,7 +7671,7 @@
 			&lt;td class=&#34;qmemoHistoryTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;更新文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						新增内容：xxx。修改内容：xxx。
 					&lt;/li&gt;
@@ -7687,7 +7687,7 @@
 			&lt;td class=&#34;qmemoHistoryTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;新增文章
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7701,11 +7701,11 @@
         </item>
         <item>
         <title>关于</title>
-        <link>https://www.gainovel.com/about/</link>
+        <link>https://gainovel.github.io/about/</link>
         <pubDate>Fri, 28 Apr 1995 00:00:00 +0800</pubDate>
         
-        <guid>https://www.gainovel.com/about/</guid>
-        <description>&lt;img src="https://www.gainovel.com/pic/common/content/post/cover/tom_and_jerry.jpg" alt="Featured image of post 关于" /&gt;&lt;blockquote&gt;
+        <guid>https://gainovel.github.io/about/</guid>
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/tom_and_jerry.jpg" alt="Featured image of post 关于" /&gt;&lt;blockquote&gt;
 &lt;p&gt;衣带渐宽终不悔，为伊消得人憔悴&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;  从记事开始，那些平凡的理想，如海市蜃楼在眼前闪烁；很多东西都是看的见，摸不着，或者要付出巨大的努力去获得；不甘平凡也不得不承认自己的平凡，普通人的一生该如何渡过，吾将上下而求索……&lt;/p&gt;
@@ -7727,12 +7727,12 @@
 			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7745,12 +7745,12 @@
 			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7765,12 +7765,12 @@
 			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7783,12 +7783,12 @@
 			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7803,12 +7803,12 @@
 			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7821,12 +7821,12 @@
 			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7848,7 +7848,7 @@
 			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7872,7 +7872,7 @@
 			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7896,7 +7896,7 @@
 			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7920,7 +7920,7 @@
 			&lt;td class=&#34;qmemoAboutTrTdRight&#34;&gt;
 				&lt;ol&gt;
 					&lt;li&gt;xxx
-						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://www.gainovel.com/p/jetbrains/common/&#34;&gt;【xxx】
+						&lt;a class=&#34;link&#34; target=&#34;_blank&#34; href=&#34;https://gainovel.github.io/p/jetbrains/common/&#34;&gt;【xxx】
 						&lt;/a&gt;。
 						主要内容：xxx。
 					&lt;/li&gt;
@@ -7933,20 +7933,20 @@
         </item>
         <item>
         <title>链接</title>
-        <link>https://www.gainovel.com/links/</link>
+        <link>https://gainovel.github.io/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://www.gainovel.com/links/</guid>
+        <guid>https://gainovel.github.io/links/</guid>
         <description>&lt;h1 id=&#34;常用资源站点链接&#34;&gt;常用资源站点链接&lt;/h1&gt;
 &lt;h2 id=&#34;go优质资源&#34;&gt;Go优质资源&lt;/h2&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://www.gainovel.com/search/</link>
+        <link>https://gainovel.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://www.gainovel.com/search/</guid>
+        <guid>https://gainovel.github.io/search/</guid>
         <description></description>
         </item>
         

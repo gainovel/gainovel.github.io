@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Cloud Native on 玽琅实践家</title>
-        <link>https://www.gainovel.com/categories/cloud-native/</link>
+        <link>https://gainovel.github.io/categories/cloud-native/</link>
         <description>Recent content in Cloud Native on 玽琅实践家</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://www.gainovel.com/categories/cloud-native/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://gainovel.github.io/categories/cloud-native/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
