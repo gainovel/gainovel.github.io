@@ -2,7 +2,7 @@ var now = new Date();
 function createtime() {
     // 当前时间
     now.setTime(now.getTime() + 250);
-    var grt = new Date("2018/05/27 00:00:00"); //网站诞生时间
+    var grt = new Date("2024/03/13 00:00:00"); //网站诞生时间
     years = (now - grt) / 1000 / 60 / 60 / 24 / 365;
     ynum = Math.floor(years);
     days = (now - grt) / 1000 / 60 / 60 / 24 - (365 * ynum);

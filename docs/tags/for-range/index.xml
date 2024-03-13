@@ -12,8 +12,8 @@
         <pubDate>Tue, 20 Feb 2024 00:00:00 +0800</pubDate>
         
         <guid>https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/</guid>
-        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/021.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
-&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #dfecd5;&#34;&gt;同系列其它文章
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/080.jpg" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #f4ce69;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;
@@ -53,11 +53,11 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| ID | UpdateTime          | Question
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1  | 2024-02-20 18:23:44 | select
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;select&#34;&gt;select&lt;/h2&gt;
@@ -78,7 +78,7 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 1.select简介
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 2.select的case返回值
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 3.xxx
@@ -86,12 +86,12 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 5.xxx
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 6.xxx
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 7.xxx
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ec9bad;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryOddTr qmemoFont20&#34; &gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;select简介&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -101,7 +101,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #d2d97a;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryOddTr qmemoFont20&#34; &gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;select的case返回值&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -113,7 +113,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #fffef8;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryOddTr qmemoFont20&#34; &gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;xxx&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -125,7 +125,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f8f4ed;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryOddTr qmemoFont20&#34; &gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;xxx&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -137,7 +137,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #3b818c;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryOddTr qmemoFont20&#34; &gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;xxx&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -149,7 +149,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #e4bf11;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryOddTr qmemoFont20&#34; &gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;xxx&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -161,7 +161,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #101f30;&#34;&gt;
+		&lt;tr class=&#34;qmemoMemoryOddTr qmemoFont20&#34; &gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;xxx&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -176,7 +176,7 @@
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;系列文章-1&#34;&gt;系列文章&lt;/h2&gt;
-&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #132c33;&#34;&gt;同系列其它文章
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #6e8b74;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;
@@ -213,6 +213,32 @@
     &gt;https://book.douban.com/subject/36356905/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  &lt;div class=&#34;db-card&#34;&gt;
+        &lt;div class=&#34;db-card-subject&#34;&gt;
+          &lt;div class=&#34;db-card-post&#34;&gt;&lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://neodb.social/m/item/doubanbook/2023/08/13/97bccd19-a15d-41bd-813d-639f50ea118e.jpg&#34;&gt;&lt;/div&gt;
+          &lt;div class=&#34;db-card-content&#34;&gt;
+            &lt;div class=&#34;db-card-title&#34;&gt;&lt;a href=&#34;https://book.douban.com/subject/36356905/&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Go专家编程（第2版）&lt;/a&gt;&lt;/div&gt;
+            &lt;div class=&#34;rating&#34;&gt;&lt;span class=&#34;allstardark&#34;&gt;&lt;span class=&#34;allstarlight&#34; style=&#34;width:0%&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;rating_nums&#34;&gt;0&lt;/span&gt;&lt;/div&gt;
+            &lt;div class=&#34;db-card-abstract&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&#34;db-card-cate&#34;&gt;book&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+
 </description>
         </item>
         

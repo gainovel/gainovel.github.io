@@ -12,8 +12,8 @@
         <pubDate>Sat, 02 Mar 2024 00:00:00 +0800</pubDate>
         
         <guid>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/</guid>
-        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/035.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
-&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #fcb70a;&#34;&gt;同系列其它文章
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/057.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #61649f;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;
@@ -53,18 +53,18 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| ID | UpdateTime          | Question
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1  | 2024-03-02 22:15:13 | Why-为什么需要容器？
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;why-为什么需要容器&#34;&gt;Why-为什么需要容器？&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;🌞 ︎阳历 2024年03月02日 星期六 | 🌙农历 龙年(2024)正月廿二 | 🕛晚上 10点15分13秒 | 更新 🏳️‍🌈&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;div class=&#34;qmemoDir qmemoFont20&#34; style=&#34;background-color: #4d1018;&#34;&gt;Why-为什么需要容器？
+&lt;div class=&#34;qmemoDir qmemoFont20&#34; style=&#34;background-color: #8cc269;&#34;&gt;Why-为什么需要容器？
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;
@@ -101,7 +101,7 @@
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;系列文章-1&#34;&gt;系列文章&lt;/h2&gt;
-&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #c3d7df;&#34;&gt;同系列其它文章
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #1f2040;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;
@@ -146,8 +146,8 @@
         <pubDate>Thu, 29 Feb 2024 00:00:00 +0800</pubDate>
         
         <guid>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/</guid>
-        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/119.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
-&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #eef7f2;&#34;&gt;同系列其它文章
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/123.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #1f2623;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;
@@ -189,13 +189,13 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| ID | UpdateTime          | Question
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1  | 2024-02-26 19:37:35 | 容器核心技术
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 2  | 2024-02-27 13:55:01 | 容器平台技术
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 3  | 2024-02-27 17:53:33 | 容器支持技术
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;容器核心技术&#34;&gt;容器核心技术&lt;/h2&gt;
@@ -217,7 +217,7 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 1.什么是容器核心技术？
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 2.容器核心技术包含哪些内容
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 3.OCI容器规范是什么？
@@ -226,12 +226,12 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 6.容器定义工具是什么？
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 7.Registry
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 8.容器OS
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #efafad;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ed4845;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;什么是容器核心技术？&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -241,7 +241,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #e77c8e;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #2474b5;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器核心技术包含哪些内容&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -256,7 +256,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #964d22;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #15231b;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;OCI容器规范是什么？&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -267,7 +267,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #41b349;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #773d31;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器runtime是什么?&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -279,7 +279,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #62102e;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f4ce69;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器管理工具是什么？&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -290,7 +290,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ef6f48;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #753117;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器定义工具是什么？&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -302,7 +302,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #eeaa9c;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #310f1b;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;Registry&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -313,7 +313,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #fcc307;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #fba414;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器OS&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -342,18 +342,18 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 1.什么是容器平台技术？
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 2.容器平台技术包括哪些？
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 3.容器编排引擎
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 4.容器管理平台
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 5.基于容器的PaaS
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #5d3131;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ccccd6;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;什么是容器平台技术？&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -363,7 +363,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #dad4cb;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #82111f;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器平台技术包括哪些？&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -373,7 +373,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #fbcd31;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #eb507e;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器编排引擎&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -386,7 +386,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #862617;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ec8aa4;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器管理平台&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -396,7 +396,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f2b9b2;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f15642;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;基于容器的PaaS&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -426,7 +426,7 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 1.容器支持技术（用于支持基于容器的基础设施）有哪些？
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 2.容器网络
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 3.服务发现
@@ -434,12 +434,12 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 5.数据管理
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 6.日志管理
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 7.安全性
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #eed045;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #3170a7;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器支持技术（用于支持基于容器的基础设施）有哪些？&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -454,7 +454,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ed4845;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #fc8c23;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器网络&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -465,7 +465,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ef632b;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f1441d;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;服务发现&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -476,7 +476,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #132c33;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #fc6315;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;监控&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -488,7 +488,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #c1651a;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #e2d849;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;数据管理&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -498,7 +498,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f03f24;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f23e23;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;日志管理&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -508,7 +508,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #482936;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #207f4c;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;安全性&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -521,7 +521,7 @@
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;系列文章-1&#34;&gt;系列文章&lt;/h2&gt;
-&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #ffc90c;&#34;&gt;同系列其它文章
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #fffef8;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;
@@ -566,8 +566,8 @@
         <pubDate>Thu, 29 Feb 2024 00:00:00 +0800</pubDate>
         
         <guid>https://gainovel.github.io/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/002/</guid>
-        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/110.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
-&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #ffd111;&#34;&gt;同系列其它文章
+        <description>&lt;img src="https://gainovel.github.io/pic/common/content/post/cover/043.jpg" alt="Featured image of post 《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 记忆类问题" /&gt;&lt;h2 id=&#34;系列文章&#34;&gt;系列文章&lt;/h2&gt;
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #131124;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;
@@ -607,11 +607,11 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| ID | UpdateTime          | Question
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1  | 2024-02-29 22:41:33 | What-什么是容器？
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;what-什么是容器&#34;&gt;What-什么是容器？&lt;/h2&gt;
@@ -627,15 +627,15 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 1.容器简介
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── 2.容器与虚拟机简单对比
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;----------------------------------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------------------------------------------------------------------
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
 	&lt;tbody&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f9e9cd;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #ed3b2f;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器简介&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -645,7 +645,7 @@
 				&lt;/ol&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
-		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #533c1b;&#34;&gt;
+		&lt;tr class=&#34;qmemoFont20&#34; style=&#34;background-color: #f6c430;&#34;&gt;
 			&lt;td class=&#34;qmemoMemoryOddTrTd&#34;&gt;容器与虚拟机简单对比&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr class=&#34;qmemoMemoryEvenTr&#34;&gt;
@@ -660,7 +660,7 @@
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;系列文章-1&#34;&gt;系列文章&lt;/h2&gt;
-&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #617172;&#34;&gt;同系列其它文章
+&lt;div class=&#34;qmemoFont20 qmemoDir&#34; style=&#34;background-color: #1a94bc;&#34;&gt;同系列其它文章
 &lt;/div&gt;
 &lt;table&gt;
 	&lt;tbody&gt;

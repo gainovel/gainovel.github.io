@@ -6,14 +6,14 @@
 
 <link rel='canonical' href='https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/'>
 
-<link rel="stylesheet" href="/scss/style.min.e41850ad96eae8bb6d1c8dbd9ccf823a7f37305f0e261fece65c37228aca560e.css"><meta property='og:title' content='《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇'>
+<link rel="stylesheet" href="/scss/style.min.ce4c64cd675ee5cd733cb2d26565a9181a8d57df6e89497c2b05c268f477b616.css"><meta property='og:title' content='《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇'>
 <meta property='og:description' content='select特性综述🟠'>
 <meta property='og:url' content='https://gainovel.github.io/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/'>
 <meta property='og:site_name' content='玽琅实践家'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Go' /><meta property='article:tag' content='select' /><meta property='article:published_time' content='2024-03-05T00:00:00&#43;08:00'/><meta property='article:modified_time' content='2024-03-08T11:17:26&#43;08:00'/><meta property='og:image' content='https://gainovel.github.io/pic/common/content/post/cover/088.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Go' /><meta property='article:tag' content='select' /><meta property='article:published_time' content='2024-03-05T00:00:00&#43;08:00'/><meta property='article:modified_time' content='2024-03-08T11:17:26&#43;08:00'/><meta property='og:image' content='https://gainovel.github.io/pic/common/content/post/cover/043.jpg' />
 <meta name="twitter:title" content="《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇">
 <meta name="twitter:description" content="select特性综述🟠"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://gainovel.github.io/pic/common/content/post/cover/088.jpg' />
+    <meta name="twitter:image" content='https://gainovel.github.io/pic/common/content/post/cover/043.jpg' />
     <link rel="shortcut icon" href="/pic/common/config/default/params/ico/favicon.ico" />
 
 
@@ -363,7 +363,6 @@
     <li><a href="#系列文章">系列文章</a></li>
     <li><a href="#全部问题">全部问题</a></li>
     <li><a href="#select特性综述">select特性综述</a></li>
-    <li><a href="#select特性综述-1">select特性综述</a></li>
     <li><a href="#系列文章-1">系列文章</a></li>
     <li><a href="#参考">参考</a></li>
   </ol>
@@ -382,7 +381,7 @@
         <div class="article-image">
             <a href="/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/comprehensive/001/">
                 
-                    <img src="/pic/common/content/post/cover/088.jpg" loading="lazy" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇" />
+                    <img src="/pic/common/content/post/cover/043.jpg" loading="lazy" alt="Featured image of post 《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇" />
                 
             </a>
         </div>
@@ -450,7 +449,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 4 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -461,7 +460,7 @@
     <path d="M13.5 6.5l4 4" />
 </svg>
             <time class="article-time--words">
-                字数: 1632字
+                字数: 1148字
             </time>
         </div>
     </footer>
@@ -476,7 +475,7 @@
     
     
     <h2 id="系列文章">系列文章</h2>
-<div class="qmemoFont20 qmemoDir" style="background-color: #fbc82f;">同系列其它文章
+<div class="qmemoFont20 qmemoDir" style="background-color: #894276;">同系列其它文章
 </div>
 <div class="table-wrapper"><table>
 	<tbody>
@@ -514,22 +513,20 @@
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
-</span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">--------------------------------------------------------------------------------------
 </span></span><span class="line"><span class="cl">| ID | UpdateTime          | Question
-</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">--------------------------------------------------------------------------------------
 </span></span><span class="line"><span class="cl">| 1  | 2024-03-05 18:40:25 | select特性综述
-</span></span><span class="line"><span class="cl">| 2  | 2024-03-05 18:40:25 | select特性综述
-</span></span><span class="line"><span class="cl">----------------------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">--------------------------------------------------------------------------------------
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="select特性综述">select特性综述</h2>
 <blockquote>
 <p>🌞 ︎阳历 2024年03月05日 星期二 | 🌙农历 龙年(2024)正月廿五 | 🕛晚上 6点40分25秒 | 更新 🏳️‍🌈</p>
 </blockquote>
-<div class="qmemoDir qmemoFont20" style="background-color: #134857;">select特性综述
+<div class="qmemoDir qmemoFont20" style="background-color: #eb3c70;">select特性综述
 </div>
 <div class="table-wrapper"><table>
 	<tbody>
@@ -540,13 +537,13 @@
 			</td>
 			<td class="qmemoComprehensiveTrTdRight">
 				<ol>
-					<li>						<span style="color: #ffc90c;">select的case语句基本特点</span>。<span>select的case语句每次只能操作一个管道，要么写入数据，要么读取数据</span>
+					<li>						<span style="color: #a4cab6;">select的case语句基本特点</span>。<span>select的case语句每次只能操作一个管道，要么写入数据，要么读取数据</span>
 					</li>
-					<li>						<span style="color: #c8adc4;">select的case阻塞的条件</span>。<span>鉴于管道的特性，如果管道中没有数据读取操作则会阻塞，如果管道中没有空余的缓冲区则写入操作会阻塞</span>
+					<li>						<span style="color: #132c33;">select的case阻塞的条件</span>。<span>鉴于管道的特性，如果管道中没有数据读取操作则会阻塞，如果管道中没有空余的缓冲区则写入操作会阻塞</span>
 					</li>
-					<li>						<span style="color: #9abeaf;">select的全部case阻塞后会怎么样</span>。<span>当select的多个case语句中的管道均阻塞时，整个select语句也会陷入阻塞（没有default的情况下），直到任意一个管道解除阻塞。</span>
+					<li>						<span style="color: #8fb2c9;">select的全部case阻塞后会怎么样</span>。<span>当select的多个case语句中的管道均阻塞时，整个select语句也会陷入阻塞（没有default的情况下），直到任意一个管道解除阻塞。</span>
 					</li>
-					<li>						<span style="color: #eb3c70;">select的多个case都没有阻塞会怎么样</span>。<span>如果多个case语句均没有阻塞，那么select将随机挑选一个case执行</span>
+					<li>						<span style="color: #20894d;">select的多个case都没有阻塞会怎么样</span>。<span>如果多个case语句均没有阻塞，那么select将随机挑选一个case执行</span>
 					</li>
 				</ol>
 			</td>
@@ -558,41 +555,13 @@
 			</td>
 			<td class="qmemoComprehensiveTrTdRight">
 				<ol>
-					<li>						<span style="color: #131124;">select的case语句基本特点</span>。<span>select的case语句每次只能操作一个管道，要么写入数据，要么读取数据</span>
+					<li>						<span style="color: #617172;">select的case语句基本特点</span>。<span>select的case语句每次只能操作一个管道，要么写入数据，要么读取数据</span>
 					</li>
-					<li>						<span style="color: #f8e0b0;">select的case阻塞的条件</span>。<span>鉴于管道的特性，如果管道中没有数据读取操作则会阻塞，如果管道中没有空余的缓冲区则写入操作会阻塞</span>
+					<li>						<span style="color: #a4aca7;">select的case阻塞的条件</span>。<span>鉴于管道的特性，如果管道中没有数据读取操作则会阻塞，如果管道中没有空余的缓冲区则写入操作会阻塞</span>
 					</li>
-					<li>						<span style="color: #ed5126;">select的全部case阻塞后会怎么样</span>。<span>当select的多个case语句中的管道均阻塞时，整个select语句也会陷入阻塞（没有default的情况下），直到任意一个管道解除阻塞。</span>
+					<li>						<span style="color: #f09c5a;">select的全部case阻塞后会怎么样</span>。<span>当select的多个case语句中的管道均阻塞时，整个select语句也会陷入阻塞（没有default的情况下），直到任意一个管道解除阻塞。</span>
 					</li>
-					<li>						<span style="color: #ed3333;">select的多个case都没有阻塞会怎么样</span>。<span>如果多个case语句均没有阻塞，那么select将随机挑选一个case执行</span>
-					</li>
-				</ol>
-			</td>
-		</tr>
-	</tbody>
-</table></div>
-<h2 id="select特性综述-1">select特性综述</h2>
-<blockquote>
-<p>🌞 ︎阳历 2024年03月05日 星期二 | 🌙农历 龙年(2024)正月廿五 | 🕛晚上 6点40分25秒 | 更新 🏳️‍🌈</p>
-</blockquote>
-<div class="qmemoDir qmemoFont20" style="background-color: #f26b1f;">select特性综述
-</div>
-<div class="table-wrapper"><table>
-	<tbody>
-		<tr class="qmemoOddTr">
-			<td class="qmemoComprehensiveTrTdLeft">1
-			</td>
-			<td class="qmemoComprehensiveTrTdCenter">&emsp;&emsp;先介绍一下select的case语句。<br>&emsp;&emsp;说一下select的case阻塞条件。<br>&emsp;&emsp;说一下select的全部case阻塞后会怎么样。<br>&emsp;&emsp;说一下select的多个case都没有阻塞会怎么样。<br>
-			</td>
-			<td class="qmemoComprehensiveTrTdRight">
-				<ol>
-					<li>						<span style="color: #5b423a;">select的case语句基本特点</span>。<span>select的case语句每次只能操作一个管道，要么写入数据，要么读取数据</span>
-					</li>
-					<li>						<span style="color: #381924;">select的case阻塞的条件</span>。<span>鉴于管道的特性，如果管道中没有数据读取操作则会阻塞，如果管道中没有空余的缓冲区则写入操作会阻塞</span>
-					</li>
-					<li>						<span style="color: #2b73af;">select的全部case阻塞后会怎么样</span>。<span>当select的多个case语句中的管道均阻塞时，整个select语句也会陷入阻塞（没有default的情况下），直到任意一个管道解除阻塞。</span>
-					</li>
-					<li>						<span style="color: #cc5595;">select的多个case都没有阻塞会怎么样</span>。<span>如果多个case语句均没有阻塞，那么select将随机挑选一个case执行</span>
+					<li>						<span style="color: #ad9e5f;">select的多个case都没有阻塞会怎么样</span>。<span>如果多个case语句均没有阻塞，那么select将随机挑选一个case执行</span>
 					</li>
 				</ol>
 			</td>
@@ -600,7 +569,7 @@
 	</tbody>
 </table></div>
 <h2 id="系列文章-1">系列文章</h2>
-<div class="qmemoFont20 qmemoDir" style="background-color: #f8c387;">同系列其它文章
+<div class="qmemoFont20 qmemoDir" style="background-color: #c1651a;">同系列其它文章
 </div>
 <div class="table-wrapper"><table>
 	<tbody>
@@ -637,6 +606,32 @@
     >https://book.douban.com/subject/36356905/</a></li>
 </ul>
 </blockquote>
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  <div class="db-card">
+        <div class="db-card-subject">
+          <div class="db-card-post"><img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/m/item/doubanbook/2023/08/13/97bccd19-a15d-41bd-813d-639f50ea118e.jpg"></div>
+          <div class="db-card-content">
+            <div class="db-card-title"><a href="https://book.douban.com/subject/36356905/" class="cute" target="_blank" rel="noreferrer">Go专家编程（第2版）</a></div>
+            <div class="rating"><span class="allstardark"><span class="allstarlight" style="width:0%"></span></span><span class="rating_nums">0</span></div>
+            <div class="db-card-abstract"></div>
+          </div>
+          <div class="db-card-cate">book</div>
+        </div>
+      </div>
+
+
 
 </section>
 
@@ -717,18 +712,75 @@
             
                 
 <article class="has-image">
-    <a href="/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/">
+    <a href="/p/programming_language/go/reading_notes/go_expert_renhongcai/control_structure/comprehensive/001/">
         
         
             <div class="article-image">
                 
-                    <img src="/pic/common/content/post/cover/021.jpg" loading="lazy" data-key="programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001" data-hash="/pic/common/content/post/cover/021.jpg"/>
+                    <img src="/pic/common/content/post/cover/016.jpg" loading="lazy" data-key="programming_language/go/reading_notes/go_expert_renhongcai/control_structure/comprehensive/001" data-hash="/pic/common/content/post/cover/016.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">《Go专家编程》读书笔记 | 第2章 控制结构 | 综合篇</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/data/programming_language/go/reading_notes/go_expert_renhongcai/control_structure/memory/001/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/pic/common/content/post/cover/118.jpg" loading="lazy" data-key="data/programming_language/go/reading_notes/go_expert_renhongcai/control_structure/memory/001" data-hash="/pic/common/content/post/cover/118.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
             <h2 class="article-title">《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/pic/common/content/post/cover/080.jpg" loading="lazy" data-key="programming_language/go/control_structure/reading_notes/go_expert_renhongcai/memory/001" data-hash="/pic/common/content/post/cover/080.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">《Go专家编程》读书笔记 | 第2章 控制结构 | 记忆篇</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/programming_language/go/reading_notes/go_expert_renhongcai/data_structure/memory/001/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/pic/common/content/post/cover/056.jpg" loading="lazy" data-key="programming_language/go/reading_notes/go_expert_renhongcai/data_structure/memory/001" data-hash="/pic/common/content/post/cover/056.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇</h2>
         </div>
     </a>
 </article>
@@ -753,63 +805,6 @@
 </article>
 
             
-                
-<article class="has-image">
-    <a href="/p/programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/pic/common/content/post/cover/071.jpg" loading="lazy" data-key="programming_language/go/data_structure/reading_notes/go_expert_renhongcai/memory/001" data-hash="/pic/common/content/post/cover/071.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">《Go专家编程》读书笔记 | 第1章 常见数据结构的实现原理 | 记忆篇</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/pic/common/content/post/cover/035.jpg" loading="lazy" data-key="cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/comprehensive/002" data-hash="/pic/common/content/post/cover/035.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第2章 容器核心知识概述 | 综合类问题</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/pic/common/content/post/cover/119.jpg" loading="lazy" data-key="cloud_native/general/reading_notes/play_with_docker_container_technology_for_5_minutes_every_day_cloudman/memory/001" data-hash="/pic/common/content/post/cover/119.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">《每天5分钟玩转Docker容器技术》读书笔记 | 第一篇 启程 | 第1章 鸟瞰容器生态系统 | 记忆类问题</h2>
-        </div>
-    </a>
-</article>
-
-            
         </div>
     </div>
 </aside>
@@ -821,11 +816,9 @@
     <section class="copyright">
         Copyright ©️
         
-        2018 -
-        
         2024 玽琅实践家
         <br>
-        <a class="link" href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2024xxxxxx-1号</a><br>
+
         <span id="timeYear">载入年数...</span><span id="timeDate">载入天数...</span><span
             id="times">载入时分秒...</span>
         <br>
@@ -1052,7 +1045,13 @@
         
         
         
-        📚 本站共 4.42 万字 · 共 21 篇文章
+        
+        
+        
+        
+        
+        
+        📚 本站共 8.19 万字 · 共 24 篇文章
     </section>
 
     <section class="powerby">
