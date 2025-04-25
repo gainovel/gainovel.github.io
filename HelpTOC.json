@@ -1,1 +1,1 @@
-{"entities":{"pages":{"home":{"id":"home","title":"主页","url":"home.html","level":0,"tabIndex":0}}},"topLevelIds":["home"]}
+{"entities":{"pages":{"home":{"id":"home","title":"主页","url":"home.html","level":0,"tabIndex":0},"basics":{"id":"basics","title":"基础知识","url":"basics.html","level":0,"tabIndex":1}}},"topLevelIds":["home","basics"]}
